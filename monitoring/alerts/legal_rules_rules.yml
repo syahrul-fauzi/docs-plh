@@ -1,0 +1,29 @@
+groups:
+  - name: legal_rules_alerts
+    rules:
+      - alert: HighRuleViolationRate
+        expr: rate(legal_rule_violations_total[5m]) / rate(legal_rule_executions_total[5m]) > 0.1
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Tingkat pelanggaran aturan hukum tinggi pada {{ $labels.rule_id }}"
+          description: "Lebih dari 10% eksekusi aturan {{ $labels.rule_id }} menghasilkan pemblokiran dalam 5 menit terakhir."
+
+      - alert: SlowRuleExecution
+        expr: legal_rule_duration_average_ms > 1000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Eksekusi aturan hukum lambat"
+          description: "Rata-rata waktu eksekusi untuk {{ $labels.rule_id }} melebihi 1 detik."
+
+      - alert: PrivacyRuleAnomaly
+        expr: rate(legal_rule_violations_total{rule_id="PRIV-RET-005"}[10m]) > 0.5
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Anomali pada Aturan Privasi (Retensi)"
+          description: "Terdeteksi lonjakan pemblokiran akses data yang melewati masa retensi. Kemungkinan ada upaya akses massal pada data lama."
