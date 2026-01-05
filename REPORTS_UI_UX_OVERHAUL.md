@@ -16,13 +16,15 @@ Laporan ini merangkum perbaikan menyeluruh yang telah dilakukan pada monorepo `l
 ### Prinsip Desain yang Diterapkan:
 - **Performance-First UI**: Implementasi Lazy Loading menggunakan `next/dynamic` untuk komponen berat (Editor, Modals) dan penggunaan Skeleton Screens (`Skeleton.tsx`) untuk meningkatkan *perceived performance*.
 - **Motion & Feedback**: Integrasi `framer-motion` untuk transisi halaman, efek hover pada kartu, dan feedback visual saat interaksi (seperti loading state pada tombol).
-- **Professional Tooling**: Implementasi `TemplateEditor` berbasis Tiptap dengan dukungan variabel dinamis dan `DocumentViewer` dengan visualisasi status hukum yang premium (Watermark, Fingerprint, Compliance Badge).
+- **Professional Tooling**: Implementasi `TemplateEditor` berbasis Tiptap dengan dukungan variabel dinamis, `DocumentViewer` dengan visualisasi status hukum premium, serta `ActivityFeed` dan `NotificationCenter` untuk monitoring aktivitas dan notifikasi sistem yang terintegrasi.
 - **Global Error Handling**: Implementasi `ErrorBoundary` tingkat aplikasi dengan fallback UI yang ramah pengguna dalam Bahasa Indonesia.
+- **Advanced Filtering & Sorting**: Penambahan kontrol pencarian, penyaringan status, dan pengurutan (Recent vs A-Z) pada daftar dokumen untuk efisiensi manajemen data.
 - **Hierarki Visual**: Penggunaan tipografi yang lebih berani (font black/extra-bold), sistem warna yang lebih kohesif (Indigo sebagai warna utama), dan penggunaan whitespace yang lebih luas untuk mengurangi beban kognitif.
 
 ### Detail Perubahan per Halaman:
 - **Landing Page**: Desain hero section yang lebih dinamis, grid fitur yang menarik, dan statistik kepercayaan yang menonjol.
-- **Dashboard Overview**: Penambahan visualisasi data (charts) yang lebih bersih dan kartu statistik yang interaktif.
+- **Dashboard Overview**: Penambahan visualisasi data (charts) yang lebih bersih, kartu statistik yang interaktif, integrasi feed aktivitas real-time, dan pusat notifikasi terpusat untuk pengalaman pengguna yang lebih responsif.
+- **Advanced Analytics**: Implementasi halaman analitik khusus yang menggunakan Recharts untuk visualisasi tren pembuatan dokumen, distribusi fitur AI, dan statistik kategori kasus secara mendalam.
 - **Case Management**: Peningkatan navigasi antar dokumen, penambahan fitur "Multi-Merge", dan detail kasus yang lebih terstruktur dengan peringatan AI Compliance.
 - **AI Chat & Compliance**: Interface chat yang lebih premium dengan bubble pesan yang lebih terbaca dan dashboard kepatuhan yang memberikan insight instan.
 - **Templates & Batch**: Sistem manajemen template dengan kontrol versi yang intuitif dan proses batch yang informatif.
