@@ -1,3 +1,59 @@
+# Technical Specification: Lawyers Hub
+
+## 1. Introduction
+Lawyers Hub is a multi-tenant legal management platform integrated with AI agents and deterministic legal logic. This document outlines the technical requirements, constraints, and dependencies for the project.
+
+## 2. System Requirements
+- **Node.js**: >= 18.0.0
+- **Package Manager**: npm >= 9.0.0
+- **Database**: PostgreSQL >= 15 with RLS support
+- **Vector Database**: pgvector or Pinecone
+- **AI Engine**: OpenAI GPT-4o / Claude 3.5 Sonnet
+
+## 3. Core Components & Dependencies
+### apps/web (Frontend)
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **State Management**: React Query
+- **Auth**: Clerk
+
+### apps/api (Backend)
+- **Framework**: NestJS
+- **ORM**: Prisma
+- **Communication**: REST, Socket.io
+- **Security**: Passport, Clerk-SDK
+
+### apps/worker (Background Jobs)
+- **Queue**: BullMQ
+- **Tasks**: OCR Processing, PII Scanning, Document Summarization
+
+### packages/security (PII & Encryption)
+- **Masking**: Hybrid Regex + Microsoft Presidio (planned)
+- **Encryption**: AES-256-GCM for sensitive documents
+
+## 4. Multi-tenancy Architecture
+- **Isolation Strategy**: Shared Database, Shared Schema, Row Level Security (RLS).
+- **Tenant Context**: Injected via Prisma Client Extensions using `current_setting('app.current_tenant_id')`.
+- **Policy**: `CREATE POLICY tenant_isolation_policy ON "Table" USING ("tenantId" = current_setting('app.current_tenant_id')::text);`
+
+## 5. Compliance: UU PDP No. 27/2022
+- **Data Protection**: Mandatory PII masking before sending data to LLM providers.
+- **Data Subject Rights**: APIs for "Right to be Forgotten" and "Data Portability".
+- **Audit Trail**: Detailed logging of PII access and de-masking actions.
+
+## 6. RAG (Retrieval-Augmented Generation)
+- **Pipeline**:
+    1. Document Upload -> OCR -> PII Masking -> Storage.
+    2. Chunking -> Embedding -> Vector Store.
+    3. Query -> PII Masking -> Embedding -> Similarity Search.
+    4. Contextual Prompt -> LLM -> Response -> Unmasking (if authorized).
+
+## 7. Acceptance Criteria
+- [ ] **Security**: 0 PII leakage to external logs.
+- [ ] **Performance**: AI response latency < 3s.
+- [ ] **Scalability**: Support for 100+ concurrent tenants.
+- [ ] **Compliance**: Automated PII detection with >95% accuracy.
+
 # Technical Specification: AI Canary Monitoring & Compliance System
 
 ## 1. Overview
