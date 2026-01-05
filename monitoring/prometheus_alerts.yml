@@ -1,0 +1,29 @@
+groups:
+  - name: legal_compliance_alerts
+    rules:
+      - alert: HighComplianceViolationRate
+        expr: legal_compliance_rate_ratio < 0.85
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High compliance violation rate detected for rule {{ $labels.rule_id }}"
+          description: "Compliance rate has dropped below 85% for the last 5 minutes. Current rate: {{ $value }}"
+
+      - alert: RuleExecutionLatencyHigh
+        expr: legal_rule_duration_average_ms > 500
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High latency in legal rule execution for {{ $labels.rule_id }}"
+          description: "Average rule execution time is over 500ms. Current average: {{ $value }}ms"
+
+      - alert: ZeroRuleExecutions
+        expr: rate(legal_rule_executions_total[1h]) == 0
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "No legal rule executions detected for 1 hour"
+          description: "The legal rules engine has not processed any actions for the last hour. Check system health."
