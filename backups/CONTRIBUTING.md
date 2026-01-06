@@ -1,23 +1,30 @@
 # Panduan Kontribusi 🤝
 
-Terima kasih telah tertarik untuk berkontribusi pada **Lawyers Hub**! Sebagai proyek dokumentasi hukum, akurasi dan kerapian adalah prioritas utama kami.
+Terima kasih telah tertarik untuk berkontribusi pada **Lawyers Hub**! Sebagai
+proyek dokumentasi hukum, akurasi dan kerapian adalah prioritas utama kami.
 
 ## 🛠 Cara Berkontribusi
 
-1.  **Fork** repositori ini.
-2.  Buat **Branch** baru untuk fitur atau perbaikan Anda:
-    ```bash
-    git checkout -b fitur/nama-fitur
-    ```
-3.  Lakukan **Commit** dengan pesan yang jelas:
-    ```bash
-    git commit -m "Tambah: Dokumentasi kepatuhan privasi data"
-    ```
-4.  **Push** ke branch Anda:
-    ```bash
-    git push origin fitur/nama-fitur
-    ```
-5.  Buat **Pull Request**.
+1. **Fork** repositori ini.
+2. **Branch** baru untuk fitur atau perbaikan Anda:
+
+   ```bash
+   git checkout -b fitur/nama-fitur
+   ```
+
+3. **Commit** dengan pesan yang jelas:
+
+   ```bash
+   git commit -m "Tambah: Dokumentasi kepatuhan privasi data"
+   ```
+
+4. **Push** ke branch Anda:
+
+   ```bash
+   git push origin fitur/nama-fitur
+   ```
+
+5. **Pull Request**.
 
 ## 📝 Aturan Penulisan
 
@@ -29,6 +36,7 @@ Terima kasih telah tertarik untuk berkontribusi pada **Lawyers Hub**! Sebagai pr
 ## 🏗 Struktur Dokumentasi
 
 Tambahkan dokumen baru ke subfolder yang sesuai di dalam `docs/`:
+
 - `docs/api/`: Dokumentasi teknis integrasi API.
 - `docs/legal/`: Dokumen terkait peraturan dan hukum (GDPR, Privacy).
 - `docs/guides/`: Panduan operasional dan tutorial langkah-demi-langkah.
@@ -38,14 +46,16 @@ Tambahkan dokumen baru ke subfolder yang sesuai di dalam `docs/`:
 
 ## ✅ Validasi Otomatis (CI/CD)
 
-Setiap Pull Request (PR) akan melalui proses validasi otomatis menggunakan **GitHub Actions**:
-1. **Markdown Lint**: Memastikan format dokumen sesuai dengan standar `markdownlint`.
-2. **Link Check**: Memverifikasi bahwa tidak ada link internal atau eksternal yang rusak (*broken links*).
+Setiap Pull Request (PR) akan melalui proses validasi otomatis menggunakan
+**GitHub Actions**:
+
+1. **Markdown Lint**: Memastikan format dokumen sesuai dengan standar.
+2. **Link Check**: Memverifikasi bahwa tidak ada link yang rusak.
 3. **Prettier**: Memastikan kode/dokumen telah diformat dengan rapi.
 
 ### Menjalankan Format Secara Lokal
 
-Sebelum melakukan commit, Anda disarankan untuk menjalankan formatting secara otomatis:
+Sebelum melakukan commit, Anda disarankan untuk menjalankan formatting:
 
 ```bash
 # Jika Anda berada di root proyek
@@ -57,28 +67,35 @@ npx prettier --write "docs/**/*.md"
 
 ### Git Hooks (Husky & lint-staged)
 
-Untuk memastikan konsistensi format sebelum kode masuk ke repositori, kami menggunakan **Husky** dan **lint-staged**. Jika Anda belum mengaturnya, ikuti langkah berikut:
+Untuk memastikan konsistensi format sebelum kode masuk ke repositori, kami
+menggunakan **Husky** dan **lint-staged**.
 
-1.  **Instalasi**:
-    ```bash
-    npm install --save-dev husky lint-staged
-    npx husky install
-    ```
-2.  **Konfigurasi lint-staged**: Pastikan ada bagian berikut di `package.json` Anda:
-    ```json
-    "lint-staged": {
-      "**/*.{js,ts,tsx,md,json}": [
-        "prettier --write"
-      ]
-    }
-    ```
-3.  **Tambah Hook**:
-    ```bash
-    npx husky add .husky/pre-commit "npx lint-staged"
-    ```
+1. **Instalasi**:
+
+   ```bash
+   npm install --save-dev husky lint-staged
+   npx husky install
+   ```
+
+2. **Konfigurasi lint-staged**: Pastikan ada bagian berikut di `package.json`:
+
+   ```json
+   "lint-staged": {
+     "**/*.{js,ts,tsx,md,json}": [
+       "prettier --write"
+     ]
+   }
+   ```
+
+3. **Tambah Hook**:
+
+   ```bash
+   npx husky add .husky/pre-commit "npx lint-staged"
+   ```
 
 Harap pastikan semua cek validasi ini lulus sebelum meminta review dari tim.
 
 ## 🚨 Pelaporan Masalah
 
-Jika Anda menemukan kesalahan atau memiliki saran, silakan buka **Issue** baru di GitHub.
+Jika Anda menemukan kesalahan atau memiliki saran, silakan buka **Issue** baru
+di GitHub.

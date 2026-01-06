@@ -1,6 +1,7 @@
 # 📄 Template Laporan Deployment - STAGING
 
-Gunakan format ini untuk setiap deployment ke lingkungan staging di Ticketing System.
+Gunakan format ini untuk setiap deployment ke lingkungan staging di Ticketing
+System.
 
 ---
 
@@ -15,9 +16,9 @@ Gunakan format ini untuk setiap deployment ke lingkungan staging di Ticketing Sy
 - **Start Time** : YYYY-MM-DD HH:mm:ss (WIB)
 - **Observation** :
   - **CI/CD Status**: [Success/Error] - Detail error (jika ada)
-  - **Smoke Test Result**: [Passed/Failed] - Deskripsi temuan utama (Referensi: `scripts/smoke-test.sh`)
-  - **Monitoring Alert**: [Yes/No] - Jenis alert yang muncul (CPU spike, memory leak, dll)
-  - **New Metrics (Feedback Loop)**: [Nama Metrik] - Nilai/Observasi (Gunakan bagian ini jika ada metrik baru di Grafana yang relevan untuk dilacak).
+  - **Smoke Test Result**: [Passed/Failed] - Deskripsi temuan utama
+  - **Monitoring Alert**: [Yes/No] - Jenis alert yang muncul
+  - **New Metrics (Feedback Loop)**: [Nama Metrik] - Nilai/Observasi
 - **Follow-up** : [None / Critical Fix / Scaling Needed]
   - **None**: Tidak ada tindakan lebih lanjut
   - **Critical Fix**: Perlu perbaikan segera
@@ -25,7 +26,11 @@ Gunakan format ini untuk setiap deployment ke lingkungan staging di Ticketing Sy
 
 ---
 
-### **Instruksi Tambahan:**
-1. **Lampiran**: Wajib menyertakan screenshot dashboard GitHub Actions atau log terminal jika status **FAILED**.
-2. **Kepatuhan**: Update status tiket secara real-time untuk visibilitas tim pengembang dan legal.
-3. **Smoke Test**: Jalankan `./scripts/smoke-test.sh` sebelum menyatakan status **SUCCESS**.
+## **Instruksi Tambahan**
+
+1. **Lampiran**: Wajib menyertakan screenshot dashboard GitHub Actions atau log
+   terminal jika status **FAILED**.
+2. **Kepatuhan**: Update status tiket secara real-time untuk visibilitas tim
+   pengembang dan legal.
+3. **Smoke Test**: Jalankan `./scripts/smoke-test.sh` sebelum menyatakan status
+   **SUCCESS**.

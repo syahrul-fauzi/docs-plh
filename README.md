@@ -1,52 +1,26 @@
-# Lawyers Hub ⚖️
+# Lawyers Hub Documentation Hub
 
-Pusat dokumentasi hukum terpadu untuk kolaborasi tim developer dan praktisi hukum. Proyek ini bertujuan untuk menyediakan referensi teknis dan hukum yang terstruktur, aman, dan mudah diakses.
+Selamat datang di pusat dokumentasi **Lawyers Hub**. Dokumentasi ini telah dirancang ulang menggunakan arsitektur enterprise untuk mendukung skalabilitas dan kepatuhan hukum.
 
-## 📁 Struktur Proyek
+## Struktur Direktori
+- [**00_foundation**](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation): Visi, Misi, Blueprint, dan Style Guide.
+- [**01_architecture**](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture): Arsitektur sistem dan peta layanan.
+- [**02_business_process**](file:///home/inbox/smart-ai/lawyers-hub/docs/02_business_process): Proses bisnis dan panduan aturan hukum.
+- [**03_product_features**](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features): Fitur produk dan user journey.
+- [**04_gtm_strategy**](file:///home/inbox/smart-ai/lawyers-hub/docs/04_gtm_strategy): Strategi pasar dan GTM.
+- [**05_delivery_and_ops**](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops): Manajemen proyek, CI/CD, roadmap, dan KPI.
+- [**06_engineering_execution**](file:///home/inbox/smart-ai/lawyers-hub/docs/06_engineering_execution): Panduan dev dan strategi QA.
+- [**07_compliance_and_audit**](file:///home/inbox/smart-ai/lawyers-hub/docs/07_compliance_and_audit): Regulasi dan laporan audit.
+- [**08_archives**](file:///home/inbox/smart-ai/lawyers-hub/docs/08_archives): Arsip fase lama dan laporan audit sebelumnya.
+- [**09_socialization**](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization): Materi workshop dan roadmap sosialisasi.
 
-```text
-lawyers-hub/
-├── docs/                # Dokumentasi teknis dan hukum utama
-│   ├── api/             # Dokumentasi teknis integrasi API
-│   ├── legal/           # Dokumen hukum dan kepatuhan (GDPR, Privacy)
-│   ├── guides/          # Panduan operasional dan tutorial
-│   ├── deployment/      # Panduan deployment dan infrastruktur
-│   ├── qa/              # Laporan kualitas dan pengujian
-│   ├── rules/           # Aturan dan etika AI Agents
-│   ├── onboarding/      # Materi untuk anggota tim baru
-│   └── pilot/           # Dokumentasi proyek percontohan
-├── .gitignore           # Daftar file yang diabaikan Git
-├── .prettierrc          # Konfigurasi format kode
-├── CONTRIBUTING.md      # Panduan kontribusi tim
-└── README.md            # Informasi umum proyek
-```
+## Dokumen Penting
+- [Enterprise Blueprint](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/ENTERPRISE_BLUEPRINT.md)
+- [Rule Template Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/02_business_process/RULE_TEMPLATE_GUIDE.md)
+- [CI/CD Monitoring Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/CI_CD_MONITORING_GUIDE.md)
+- [Workshop Facilitator Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/WORKSHOP_FACILITATOR_GUIDE.md)
+- [Implementation Roadmap](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/IMPLEMENTATION_ROADMAP.md)
+- [KPI Framework](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/KPI_METRICS_FRAMEWORK.md)
 
-## 🚀 Memulai
-
-1.  **Clone repositori:**
-    ```bash
-    git clone https://github.com/username/lawyers-hub.git
-    ```
-2.  **Instalasi dependensi (opsional):**
-    ```bash
-    npm install
-    ```
-3.  **Mulai menulis dokumentasi:**
-    Buka folder `docs/` dan tambahkan file `.md` baru.
-4.  **Format dokumen:**
-    Jalankan perintah berikut untuk merapikan format secara otomatis guna menjaga konsistensi dan profesionalitas dokumen hukum:
-    ```bash
-    npm run format
-    ```
-
-## 🤝 Kontribusi
-
-Kami sangat menghargai kontribusi Anda! Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detail lebih lanjut mengenai alur kerja kami.
-
-## 🔒 Keamanan
-
-Pastikan untuk tidak menyertakan data sensitif seperti API key atau informasi pribadi klien dalam repositori ini. Gunakan file `.env` untuk konfigurasi sensitif.
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+---
+*Terakhir diupdate: 2026-01-06*

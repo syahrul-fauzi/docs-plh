@@ -16,8 +16,8 @@ graph TD
     end
     
     subgraph Shared_Packages
-        Security[@lawyers-hub/security - PII Masking]
-        AI[@lawyers-hub/ai - RAG Engine]
+        Security[@lawyers-hub/auth - PII Masking]
+        AI[@lawyers-hub/copilot - RAG Engine]
         DB[@lawyers-hub/database - Prisma RLS]
     end
     

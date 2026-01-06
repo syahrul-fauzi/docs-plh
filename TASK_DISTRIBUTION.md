@@ -5,7 +5,7 @@
 
 ### Immediate Tasks:
 1.  **PII Masking Service**:
-    *   Implement `PresidioMaskingService` in `packages/security`.
+    *   Implement `PresidioMaskingService` in `packages/auth`.
     *   Add custom regex for Indonesian-specific PII (NIK, NPWP, No. Telp Indonesia).
     *   Integrate masking into the AI Gateway.
 2.  **RAG Pipeline Refactor**:

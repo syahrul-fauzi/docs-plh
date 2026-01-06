@@ -1,6 +1,8 @@
 # Lawyers Hub ⚖️
 
-Pusat dokumentasi hukum terpadu untuk kolaborasi tim developer dan praktisi hukum. Proyek ini bertujuan untuk menyediakan referensi teknis dan hukum yang terstruktur, aman, dan mudah diakses.
+Pusat dokumentasi hukum terpadu untuk kolaborasi tim developer dan praktisi
+hukum. Proyek ini bertujuan untuk menyediakan referensi teknis dan hukum yang
+terstruktur, aman, dan mudah diakses.
 
 ## 📁 Struktur Proyek
 
@@ -23,29 +25,37 @@ lawyers-hub/
 
 ## 🚀 Memulai
 
-1.  **Clone repositori:**
-    ```bash
-    git clone https://github.com/username/lawyers-hub.git
-    ```
-2.  **Instalasi dependensi (opsional):**
-    ```bash
-    npm install
-    ```
-3.  **Mulai menulis dokumentasi:**
-    Buka folder `docs/` dan tambahkan file `.md` baru.
-4.  **Format dokumen:**
-    Jalankan perintah berikut untuk merapikan format:
-    ```bash
-    npm run format
-    ```
+1. **Clone repositori:**
+
+   ```bash
+   git clone https://github.com/username/lawyers-hub.git
+   ```
+
+2. **Instalasi dependensi (opsional):**
+
+   ```bash
+   npm install
+   ```
+
+3. **Mulai menulis dokumentasi:**
+   Buka folder `docs/` dan tambahkan file `.md` baru.
+
+4. **Format dokumen:**
+   Jalankan perintah berikut untuk merapikan format:
+
+   ```bash
+   npm run format
+   ```
 
 ## 🤝 Kontribusi
 
-Kami sangat menghargai kontribusi Anda! Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detail lebih lanjut mengenai alur kerja kami.
+Kami sangat menghargai kontribusi Anda! Silakan baca [CONTRIBUTING.md](CONTRIBUTING.md)
+untuk detail lebih lanjut mengenai alur kerja kami.
 
 ## 🔒 Keamanan
 
-Pastikan untuk tidak menyertakan data sensitif seperti API key atau informasi pribadi klien dalam repositori ini. Gunakan file `.env` untuk konfigurasi sensitif.
+Pastikan untuk tidak menyertakan data sensitif seperti API key atau informasi
+pribadi klien dalam repositori ini. Gunakan file `.env` untuk konfigurasi.
 
 ## 📄 Lisensi
 
