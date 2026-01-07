@@ -2,7 +2,8 @@
 
 ## 🤖 @SOLOCoder (Technical Implementation)
 
-**Focus**: Core logic, AI integration, Frontend/Backend features, Stripe, Workers.
+**Focus**: Core logic, AI integration, Frontend/Backend features, Stripe,
+Workers.
 
 ### @SOLOCoder Tasks
 
@@ -21,7 +22,8 @@
 
 ## 🏗️ @SOLOBuilder (System Architecture)
 
-**Focus**: Monorepo structure, Database Schema (RLS), AI Gateway, Infrastructure.
+**Focus**: Monorepo structure, Database Schema (RLS), AI Gateway,
+Infrastructure.
 
 ### @SOLOBuilder Tasks
 

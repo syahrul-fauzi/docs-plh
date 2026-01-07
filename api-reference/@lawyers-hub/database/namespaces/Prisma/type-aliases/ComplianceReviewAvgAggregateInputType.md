@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewAvgAggregateInputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewAvgAggregateInputType
 
 # Type Alias: ComplianceReviewAvgAggregateInputType
 
 > **ComplianceReviewAvgAggregateInputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15774
+Defined in: node_modules/.prisma/client/index.d.ts:15774
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:15774
 
 > `optional` **confidenceScore**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15775
+Defined in: node_modules/.prisma/client/index.d.ts:15775

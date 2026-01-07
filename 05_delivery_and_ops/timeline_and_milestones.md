@@ -21,7 +21,8 @@ fungsionalitas inti, dan skalabilitas.
 
 - [ ] **Milestone 3.1**: Dashboard Pengacara & Manajemen Dokumen (Next.js)
 - [ ] **Milestone 3.2**: Chat Interface dengan PII Masking Visual
-- [ ] **Milestone 3.3**: Integrasi Background Worker untuk OCR & Batch Processing
+- [ ] **Milestone 3.3**: Integrasi Background Worker untuk OCR & Batch
+      Processing
 - [ ] **Milestone 3.4**: Setup CI/CD & Automated Testing Gate
 
 ## Fase 4: Finalisasi & QC (Minggu 7-8)
@@ -40,11 +41,12 @@ fungsionalitas inti, dan skalabilitas.
 
 ## Milestone Terkini (Januari 2026)
 
-- [x] **Audit Kode & Perbaikan Type Safety**: Membersihkan 'any' types dan unused
-  variables di seluruh monorepo.
+- [x] **Audit Kode & Perbaikan Type Safety**: Membersihkan 'any' types dan
+      unused variables di seluruh monorepo.
 - [x] **Verifikasi Build**: Memastikan apps/api dan apps/web dapat di-build
-  dengan sukses.
-- [x] **Sosialisasi & Workshop**: Penjadwalan Sesi 1 Transformasi Dokumentasi (13 Jan 2026).
+      dengan sukses.
+- [x] **Sosialisasi & Workshop**: Penjadwalan Sesi 1 Transformasi Dokumentasi
+      (13 Jan 2026).
 - [ ] **Deployment Plan**: Menyusun strategi CI/CD dan monitoring.
 - [ ] **Dokumentasi Teknis**: Melengkapi README dan panduan arsitektur.
 - [ ] **Final Security Audit**: Melakukan review OWASP Top 10.

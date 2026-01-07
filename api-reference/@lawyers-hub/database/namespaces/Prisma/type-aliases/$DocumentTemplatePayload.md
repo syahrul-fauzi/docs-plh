@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $DocumentTemplatePayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$DocumentTemplatePayload
 
 # Type Alias: $DocumentTemplatePayload\<ExtArgs\>
 
 > **$DocumentTemplatePayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12946
+Defined in: node_modules/.prisma/client/index.d.ts:12946
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:12946
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12961
+Defined in: node_modules/.prisma/client/index.d.ts:12961
 
-***
+---
 
 ### name
 
 > **name**: `"DocumentTemplate"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12947
+Defined in: node_modules/.prisma/client/index.d.ts:12947
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12948
+Defined in: node_modules/.prisma/client/index.d.ts:12948
 
 #### tenant
 
@@ -46,12 +48,16 @@ Defined in: node\_modules/.prisma/client/index.d.ts:12948
 
 #### versions
 
-> **versions**: [`$TemplateVersionPayload`]($TemplateVersionPayload.md)\<`ExtArgs`\>[]
+> **versions**:
+> [`$TemplateVersionPayload`]($TemplateVersionPayload.md)\<`ExtArgs`\>[]
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `category`: `string` \| `null`; `content`: `string`; `createdAt`: `Date`; `id`: `string`; `name`: `string`; `tenantId`: `string`; `updatedAt`: `Date`; \}, `ExtArgs`\[`"result"`\]\[`"documentTemplate"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `category`: `string` \|
+> `null`; `content`: `string`; `createdAt`: `Date`; `id`: `string`; `name`:
+> `string`; `tenantId`: `string`; `updatedAt`: `Date`; \},
+> `ExtArgs`\[`"result"`\]\[`"documentTemplate"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12952
+Defined in: node_modules/.prisma/client/index.d.ts:12952

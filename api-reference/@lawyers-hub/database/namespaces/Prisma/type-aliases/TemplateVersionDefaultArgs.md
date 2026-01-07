@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionDefaultArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionDefaultArgs
 
 # Type Alias: TemplateVersionDefaultArgs\<ExtArgs\>
 
 > **TemplateVersionDefaultArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14699
+Defined in: node_modules/.prisma/client/index.d.ts:14699
 
 TemplateVersion without action
 
@@ -16,24 +18,26 @@ TemplateVersion without action
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14707
+Defined in: node_modules/.prisma/client/index.d.ts:14707
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14703
+Defined in: node_modules/.prisma/client/index.d.ts:14703
 
 Select specific fields to fetch from the TemplateVersion

@@ -8,12 +8,12 @@ Arsitektur Dokumentasi Enterprise dan bagaimana kita mengukur keberhasilannya.
 1. **Alignment (Penyelarasan)**: Memastikan seluruh departemen (Legal,
    Engineering, Product) memiliki pemahaman yang sama tentang struktur folder
    dokumentasi yang baru.
-2. **Adopsi Standar**: Memperkenalkan dan melatih penggunaan template baru
-   (Rule PRD) untuk standarisasi penulisan aturan hukum.
+2. **Adopsi Standar**: Memperkenalkan dan melatih penggunaan template baru (Rule
+   PRD) untuk standarisasi penulisan aturan hukum.
 3. **Kualitas & Kepatuhan**: Memastikan dokumentasi teknis dan hukum memenuhi
    standar kualitas (linting) dan kepatuhan data sejak awal.
-4. **Efisiensi Operasional**: Mengurangi waktu pencarian dokumen dengan
-   navigasi yang terstruktur.
+4. **Efisiensi Operasional**: Mengurangi waktu pencarian dokumen dengan navigasi
+   yang terstruktur.
 
 ## 2. Metrik Keberhasilan (Success Metrics)
 
@@ -27,7 +27,8 @@ Kami akan mengukur keberhasilan workshop berdasarkan kategori berikut:
 
 ### B. Pemahaman Materi (Post-Workshop Survey)
 
-- **Metrik**: Skor rata-rata pemahaman dari [Formulir Feedback](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/FEEDBACK_FORM.md).
+- **Metrik**: Skor rata-rata pemahaman dari
+  [Formulir Feedback](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/FEEDBACK_FORM.md).
 - **Target**: Rata-rata skor > 4.0 dari skala 5.0 untuk pertanyaan "Kejelasan
   Materi".
 
@@ -42,8 +43,10 @@ Kami akan mengukur keberhasilan workshop berdasarkan kategori berikut:
 
 ### D. Adopsi Berkelanjutan (30 Hari Pasca-Workshop)
 
-- **Metrik**: Jumlah aturan baru yang menggunakan template `RULE_PRD_TEMPLATE.md`.
-- **Target**: 100% dari aturan hukum baru yang didaftarkan dalam 30 hari pertama.
+- **Metrik**: Jumlah aturan baru yang menggunakan template
+  `RULE_PRD_TEMPLATE.md`.
+- **Target**: 100% dari aturan hukum baru yang didaftarkan dalam 30 hari
+  pertama.
 
 ## 3. Rencana Tindak Lanjut (Follow-up Plan)
 

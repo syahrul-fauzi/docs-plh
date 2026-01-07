@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserCreateManyTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserCreateManyTenantInput
 
 # Type Alias: UserCreateManyTenantInput
 
 > **UserCreateManyTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26491
+Defined in: node_modules/.prisma/client/index.d.ts:26491
 
 ## Properties
 
@@ -16,44 +18,44 @@ Defined in: node\_modules/.prisma/client/index.d.ts:26491
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26496
+Defined in: node_modules/.prisma/client/index.d.ts:26496
 
-***
+---
 
 ### email
 
 > **email**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26493
+Defined in: node_modules/.prisma/client/index.d.ts:26493
 
-***
+---
 
 ### fullName
 
 > **fullName**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26494
+Defined in: node_modules/.prisma/client/index.d.ts:26494
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26492
+Defined in: node_modules/.prisma/client/index.d.ts:26492
 
-***
+---
 
 ### role
 
 > **role**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26495
+Defined in: node_modules/.prisma/client/index.d.ts:26495
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26497
+Defined in: node_modules/.prisma/client/index.d.ts:26497

@@ -1,20 +1,23 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogArgs
 
 # ~~Type Alias: PIIAuditLogArgs\<ExtArgs\>~~
 
-> **PIIAuditLogArgs**\<`ExtArgs`\> = [`PIIAuditLogDefaultArgs`](PIIAuditLogDefaultArgs.md)\<`ExtArgs`\>
+> **PIIAuditLogArgs**\<`ExtArgs`\> =
+> [`PIIAuditLogDefaultArgs`](PIIAuditLogDefaultArgs.md)\<`ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27453
+Defined in: node_modules/.prisma/client/index.d.ts:27453
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Deprecated
 

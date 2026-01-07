@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentListRelationFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentListRelationFilter
 
 # Type Alias: CommentListRelationFilter
 
 > **CommentListRelationFilter** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20737
+Defined in: node_modules/.prisma/client/index.d.ts:20737
 
 ## Properties
 
@@ -16,20 +18,20 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20737
 
 > `optional` **every**: [`CommentWhereInput`](CommentWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20738
+Defined in: node_modules/.prisma/client/index.d.ts:20738
 
-***
+---
 
 ### none?
 
 > `optional` **none**: [`CommentWhereInput`](CommentWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20740
+Defined in: node_modules/.prisma/client/index.d.ts:20740
 
-***
+---
 
 ### some?
 
 > `optional` **some**: [`CommentWhereInput`](CommentWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20739
+Defined in: node_modules/.prisma/client/index.d.ts:20739

@@ -1,25 +1,27 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / JsonNullValueFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+JsonNullValueFilter
 
 # Variable: JsonNullValueFilter
 
 > `const` **JsonNullValueFilter**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18108
+Defined in: node_modules/.prisma/client/index.d.ts:18108
 
 ## Type Declaration
 
 ### AnyNull
 
-> **AnyNull**: *typeof* [`AnyNull`](AnyNull.md)
+> **AnyNull**: _typeof_ [`AnyNull`](AnyNull.md)
 
 ### DbNull
 
-> **DbNull**: *typeof* [`DbNull`](DbNull.md)
+> **DbNull**: _typeof_ [`DbNull`](DbNull.md)
 
 ### JsonNull
 
-> **JsonNull**: *typeof* [`JsonNull`](JsonNull.md)
+> **JsonNull**: _typeof_ [`JsonNull`](JsonNull.md)

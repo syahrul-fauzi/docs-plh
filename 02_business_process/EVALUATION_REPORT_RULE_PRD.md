@@ -1,7 +1,7 @@
 # Laporan Evaluasi Uji Coba: Rule PRD Template v1.0
 
-Laporan ini merangkum hasil pengujian template Rule PRD menggunakan aturan nyata:
-`ADV-COMPLEX-001 - Access Control`.
+Laporan ini merangkum hasil pengujian template Rule PRD menggunakan aturan
+nyata: `ADV-COMPLEX-001 - Access Control`.
 
 ## 1. Ringkasan Pengujian
 
@@ -17,24 +17,24 @@ Laporan ini merangkum hasil pengujian template Rule PRD menggunakan aturan nyata
    yang mudah dibaca oleh manajer proyek dan pengembang.
 2. **Konteks Regulasi Terintegrasi**: Memaksa tim hukum untuk mencantumkan dasar
    hukum (misal: Kode Etik Advokat), yang sangat berguna untuk audit kepatuhan.
-3. **Logika YAML yang Jelas**: Bagian logika memberikan jembatan yang kuat antara
-   kebutuhan hukum dan implementasi kode teknis, mengurangi miskomunikasi antara
-   pengacara dan insinyur.
-4. **Skenario Penggunaan**: Membantu tim QA dalam merancang test case yang akurat
-   berdasarkan ekspektasi perilaku sistem.
+3. **Logika YAML yang Jelas**: Bagian logika memberikan jembatan yang kuat
+   antara kebutuhan hukum dan implementasi kode teknis, mengurangi miskomunikasi
+   antara pengacara dan insinyur.
+4. **Skenario Penggunaan**: Membantu tim QA dalam merancang test case yang
+   akurat berdasarkan ekspektasi perilaku sistem.
 
 ## 3. Area Perbaikan (Area for Improvement)
 
 1. **Pesan Kesalahan (Error Messages)**: Template saat ini belum memiliki bagian
    khusus untuk mendefinisikan pesan kesalahan yang harus ditampilkan kepada
    pengguna akhir saat akses ditolak.
-   - *Rekomendasi*: Tambahkan section `3.3 Pesan Respon` di template utama.
+   - _Rekomendasi_: Tambahkan section `3.3 Pesan Respon` di template utama.
 2. **Visualisasi Alur**: Untuk logika yang sangat kompleks, teks YAML mungkin
    sulit dipahami oleh tim non-teknis.
-   - *Rekomendasi*: Tambahkan opsi untuk menyertakan diagram Mermaid sederhana.
+   - _Rekomendasi_: Tambahkan opsi untuk menyertakan diagram Mermaid sederhana.
 3. **Audit Trail**: Belum ada panduan tentang data apa saja yang harus dicatat
    (logged) setiap kali aturan ini dijalankan.
-   - *Rekomendasi*: Tambahkan field `Audit Logging Requirement` di bagian
+   - _Rekomendasi_: Tambahkan field `Audit Logging Requirement` di bagian
      implementasi teknis.
 
 ## 4. Feedback Tim (Simulasi)

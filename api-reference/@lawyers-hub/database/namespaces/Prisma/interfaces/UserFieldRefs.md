@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserFieldRefs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserFieldRefs
 
 # Interface: UserFieldRefs
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5264
+Defined in: node_modules/.prisma/client/index.d.ts:5264
 
 Fields of the User model
 
@@ -14,54 +16,61 @@ Fields of the User model
 
 ### createdAt
 
-> `readonly` **createdAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"DateTime"`\>
+> `readonly` **createdAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5270
+Defined in: node_modules/.prisma/client/index.d.ts:5270
 
-***
+---
 
 ### email
 
-> `readonly` **email**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"String"`\>
+> `readonly` **email**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5266
+Defined in: node_modules/.prisma/client/index.d.ts:5266
 
-***
+---
 
 ### fullName
 
-> `readonly` **fullName**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"String"`\>
+> `readonly` **fullName**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5267
+Defined in: node_modules/.prisma/client/index.d.ts:5267
 
-***
+---
 
 ### id
 
-> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"String"`\>
+> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5265
+Defined in: node_modules/.prisma/client/index.d.ts:5265
 
-***
+---
 
 ### role
 
-> `readonly` **role**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"String"`\>
+> `readonly` **role**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5268
+Defined in: node_modules/.prisma/client/index.d.ts:5268
 
-***
+---
 
 ### tenantId
 
-> `readonly` **tenantId**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"String"`\>
+> `readonly` **tenantId**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5269
+Defined in: node_modules/.prisma/client/index.d.ts:5269
 
-***
+---
 
 ### updatedAt
 
-> `readonly` **updatedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`, `"DateTime"`\>
+> `readonly` **updatedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"User"`,
+> `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5271
+Defined in: node_modules/.prisma/client/index.d.ts:5271

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentTemplateCreateManyTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentTemplateCreateManyTenantInput
 
 # Type Alias: DocumentTemplateCreateManyTenantInput
 
 > **DocumentTemplateCreateManyTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26428
+Defined in: node_modules/.prisma/client/index.d.ts:26428
 
 ## Properties
 
@@ -16,44 +18,44 @@ Defined in: node\_modules/.prisma/client/index.d.ts:26428
 
 > `optional` **category**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26432
+Defined in: node_modules/.prisma/client/index.d.ts:26432
 
-***
+---
 
 ### content
 
 > **content**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26431
+Defined in: node_modules/.prisma/client/index.d.ts:26431
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26433
+Defined in: node_modules/.prisma/client/index.d.ts:26433
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26429
+Defined in: node_modules/.prisma/client/index.d.ts:26429
 
-***
+---
 
 ### name
 
 > **name**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26430
+Defined in: node_modules/.prisma/client/index.d.ts:26430
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26434
+Defined in: node_modules/.prisma/client/index.d.ts:26434

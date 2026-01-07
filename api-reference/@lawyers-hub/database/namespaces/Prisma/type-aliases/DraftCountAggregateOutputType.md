@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftCountAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftCountAggregateOutputType
 
 # Type Alias: DraftCountAggregateOutputType
 
 > **DraftCountAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7785
+Defined in: node_modules/.prisma/client/index.d.ts:7785
 
 ## Properties
 
@@ -16,84 +18,84 @@ Defined in: node\_modules/.prisma/client/index.d.ts:7785
 
 > **\_all**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7796
+Defined in: node_modules/.prisma/client/index.d.ts:7796
 
-***
+---
 
 ### caseId
 
 > **caseId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7792
+Defined in: node_modules/.prisma/client/index.d.ts:7792
 
-***
+---
 
 ### content
 
 > **content**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7788
+Defined in: node_modules/.prisma/client/index.d.ts:7788
 
-***
+---
 
 ### createdAt
 
 > **createdAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7794
+Defined in: node_modules/.prisma/client/index.d.ts:7794
 
-***
+---
 
 ### id
 
 > **id**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7786
+Defined in: node_modules/.prisma/client/index.d.ts:7786
 
-***
+---
 
 ### metadata
 
 > **metadata**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7793
+Defined in: node_modules/.prisma/client/index.d.ts:7793
 
-***
+---
 
 ### status
 
 > **status**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7789
+Defined in: node_modules/.prisma/client/index.d.ts:7789
 
-***
+---
 
 ### templateType
 
 > **templateType**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7790
+Defined in: node_modules/.prisma/client/index.d.ts:7790
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7791
+Defined in: node_modules/.prisma/client/index.d.ts:7791
 
-***
+---
 
 ### title
 
 > **title**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7787
+Defined in: node_modules/.prisma/client/index.d.ts:7787
 
-***
+---
 
 ### updatedAt
 
 > **updatedAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7795
+Defined in: node_modules/.prisma/client/index.d.ts:7795

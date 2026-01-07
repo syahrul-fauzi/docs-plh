@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $AIModelConfigPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$AIModelConfigPayload
 
 # Type Alias: $AIModelConfigPayload\<ExtArgs\>
 
 > **$AIModelConfigPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14994
+Defined in: node_modules/.prisma/client/index.d.ts:14994
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,28 +24,33 @@ Defined in: node\_modules/.prisma/client/index.d.ts:14994
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15011
+Defined in: node_modules/.prisma/client/index.d.ts:15011
 
-***
+---
 
 ### name
 
 > **name**: `"AIModelConfig"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14995
+Defined in: node_modules/.prisma/client/index.d.ts:14995
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14996
+Defined in: node_modules/.prisma/client/index.d.ts:14996
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `apiKey`: `string` \| `null`; `canaryStartedAt`: `Date` \| `null`; `createdAt`: `Date`; `endpoint`: `string`; `id`: `string`; `isDefault`: `boolean`; `lastPromotedAt`: `Date` \| `null`; `metrics`: [`JsonValue`](JsonValue.md) \| `null`; `status`: `string`; `trafficWeight`: `number`; `updatedAt`: `Date`; `version`: `string`; \}, `ExtArgs`\[`"result"`\]\[`"aIModelConfig"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `apiKey`: `string` \| `null`;
+> `canaryStartedAt`: `Date` \| `null`; `createdAt`: `Date`; `endpoint`:
+> `string`; `id`: `string`; `isDefault`: `boolean`; `lastPromotedAt`: `Date` \|
+> `null`; `metrics`: [`JsonValue`](JsonValue.md) \| `null`; `status`: `string`;
+> `trafficWeight`: `number`; `updatedAt`: `Date`; `version`: `string`; \},
+> `ExtArgs`\[`"result"`\]\[`"aIModelConfig"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14997
+Defined in: node_modules/.prisma/client/index.d.ts:14997

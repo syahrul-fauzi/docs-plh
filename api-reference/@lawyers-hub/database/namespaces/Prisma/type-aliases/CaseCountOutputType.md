@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseCountOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseCountOutputType
 
 # Type Alias: CaseCountOutputType
 
 > **CaseCountOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2237
+Defined in: node_modules/.prisma/client/index.d.ts:2237
 
 Count Type CaseCountOutputType
 
@@ -18,20 +20,20 @@ Count Type CaseCountOutputType
 
 > **comments**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2238
+Defined in: node_modules/.prisma/client/index.d.ts:2238
 
-***
+---
 
 ### documents
 
 > **documents**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2239
+Defined in: node_modules/.prisma/client/index.d.ts:2239
 
-***
+---
 
 ### drafts
 
 > **drafts**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2240
+Defined in: node_modules/.prisma/client/index.d.ts:2240

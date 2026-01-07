@@ -1,11 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentScalarFieldEnum
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentScalarFieldEnum
 
 # Type Alias: DocumentScalarFieldEnum
 
-> **DocumentScalarFieldEnum** = *typeof* [`DocumentScalarFieldEnum`](../variables/DocumentScalarFieldEnum.md)\[keyof *typeof* [`DocumentScalarFieldEnum`](../variables/DocumentScalarFieldEnum.md)\]
+> **DocumentScalarFieldEnum** = _typeof_
+> [`DocumentScalarFieldEnum`](../variables/DocumentScalarFieldEnum.md)\[keyof
+> _typeof_
+> [`DocumentScalarFieldEnum`](../variables/DocumentScalarFieldEnum.md)\]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17910
+Defined in: node_modules/.prisma/client/index.d.ts:17910

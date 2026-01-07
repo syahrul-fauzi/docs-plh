@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserWhereInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserWhereInput
 
 # Type Alias: UserWhereInput
 
 > **UserWhereInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18370
+Defined in: node_modules/.prisma/client/index.d.ts:18370
 
 ## Properties
 
@@ -16,124 +18,136 @@ Defined in: node\_modules/.prisma/client/index.d.ts:18370
 
 > `optional` **AND**: `UserWhereInput` \| `UserWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18371
+Defined in: node_modules/.prisma/client/index.d.ts:18371
 
-***
+---
 
 ### auditLogs?
 
-> `optional` **auditLogs**: [`AuditLogListRelationFilter`](AuditLogListRelationFilter.md)
+> `optional` **auditLogs**:
+> [`AuditLogListRelationFilter`](AuditLogListRelationFilter.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18381
+Defined in: node_modules/.prisma/client/index.d.ts:18381
 
-***
+---
 
 ### comments?
 
-> `optional` **comments**: [`CommentListRelationFilter`](CommentListRelationFilter.md)
+> `optional` **comments**:
+> [`CommentListRelationFilter`](CommentListRelationFilter.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18382
+Defined in: node_modules/.prisma/client/index.d.ts:18382
 
-***
+---
 
 ### complianceReviews?
 
-> `optional` **complianceReviews**: [`ComplianceReviewListRelationFilter`](ComplianceReviewListRelationFilter.md)
+> `optional` **complianceReviews**:
+> [`ComplianceReviewListRelationFilter`](ComplianceReviewListRelationFilter.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18383
+Defined in: node_modules/.prisma/client/index.d.ts:18383
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"User"`\> \| `Date` \| `string`
+> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"User"`\> \|
+> `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18379
+Defined in: node_modules/.prisma/client/index.d.ts:18379
 
-***
+---
 
 ### email?
 
-> `optional` **email**: [`StringFilter`](StringFilter.md)\<`"User"`\> \| `string`
+> `optional` **email**: [`StringFilter`](StringFilter.md)\<`"User"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18375
+Defined in: node_modules/.prisma/client/index.d.ts:18375
 
-***
+---
 
 ### fullName?
 
-> `optional` **fullName**: [`StringFilter`](StringFilter.md)\<`"User"`\> \| `string`
+> `optional` **fullName**: [`StringFilter`](StringFilter.md)\<`"User"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18376
+Defined in: node_modules/.prisma/client/index.d.ts:18376
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`StringFilter`](StringFilter.md)\<`"User"`\> \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18374
+Defined in: node_modules/.prisma/client/index.d.ts:18374
 
-***
+---
 
 ### NOT?
 
 > `optional` **NOT**: `UserWhereInput` \| `UserWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18373
+Defined in: node_modules/.prisma/client/index.d.ts:18373
 
-***
+---
 
 ### OR?
 
 > `optional` **OR**: `UserWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18372
+Defined in: node_modules/.prisma/client/index.d.ts:18372
 
-***
+---
 
 ### piiAuditLogs?
 
-> `optional` **piiAuditLogs**: [`PIIAuditLogListRelationFilter`](PIIAuditLogListRelationFilter.md)
+> `optional` **piiAuditLogs**:
+> [`PIIAuditLogListRelationFilter`](PIIAuditLogListRelationFilter.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18384
+Defined in: node_modules/.prisma/client/index.d.ts:18384
 
-***
+---
 
 ### role?
 
 > `optional` **role**: [`StringFilter`](StringFilter.md)\<`"User"`\> \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18377
+Defined in: node_modules/.prisma/client/index.d.ts:18377
 
-***
+---
 
 ### templateVersions?
 
-> `optional` **templateVersions**: [`TemplateVersionListRelationFilter`](TemplateVersionListRelationFilter.md)
+> `optional` **templateVersions**:
+> [`TemplateVersionListRelationFilter`](TemplateVersionListRelationFilter.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18385
+Defined in: node_modules/.prisma/client/index.d.ts:18385
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md), [`TenantWhereInput`](TenantWhereInput.md)\>
+> `optional` **tenant**:
+> [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md),
+> [`TenantWhereInput`](TenantWhereInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18386
+Defined in: node_modules/.prisma/client/index.d.ts:18386
 
-***
+---
 
 ### tenantId?
 
-> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"User"`\> \| `string`
+> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"User"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18378
+Defined in: node_modules/.prisma/client/index.d.ts:18378
 
-***
+---
 
 ### updatedAt?
 
-> `optional` **updatedAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"User"`\> \| `Date` \| `string`
+> `optional` **updatedAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"User"`\> \|
+> `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18380
+Defined in: node_modules/.prisma/client/index.d.ts:18380

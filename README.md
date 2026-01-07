@@ -1,26 +1,26 @@
 # Lawyers Hub Documentation Hub
 
-Selamat datang di pusat dokumentasi **Lawyers Hub**. Dokumentasi ini telah dirancang ulang menggunakan arsitektur enterprise untuk mendukung skalabilitas dan kepatuhan hukum.
+Selamat datang di pusat dokumentasi **Lawyers Hub**. Dokumentasi ini dirancang menggunakan arsitektur enterprise untuk mendukung skalabilitas, kepatuhan hukum, dan integrasi AI yang aman.
 
-## Struktur Direktori
-- [**00_foundation**](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation): Visi, Misi, Blueprint, dan Style Guide.
-- [**01_architecture**](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture): Arsitektur sistem dan peta layanan.
-- [**02_business_process**](file:///home/inbox/smart-ai/lawyers-hub/docs/02_business_process): Proses bisnis dan panduan aturan hukum.
-- [**03_product_features**](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features): Fitur produk dan user journey.
-- [**04_gtm_strategy**](file:///home/inbox/smart-ai/lawyers-hub/docs/04_gtm_strategy): Strategi pasar dan GTM.
-- [**05_delivery_and_ops**](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops): Manajemen proyek, CI/CD, roadmap, dan KPI.
-- [**06_engineering_execution**](file:///home/inbox/smart-ai/lawyers-hub/docs/06_engineering_execution): Panduan dev dan strategi QA.
-- [**07_compliance_and_audit**](file:///home/inbox/smart-ai/lawyers-hub/docs/07_compliance_and_audit): Regulasi dan laporan audit.
-- [**08_archives**](file:///home/inbox/smart-ai/lawyers-hub/docs/08_archives): Arsip fase lama dan laporan audit sebelumnya.
-- [**09_socialization**](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization): Materi workshop dan roadmap sosialisasi.
+## 📂 Struktur Direktori
 
-## Dokumen Penting
-- [Enterprise Blueprint](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/ENTERPRISE_BLUEPRINT.md)
-- [Rule Template Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/02_business_process/RULE_TEMPLATE_GUIDE.md)
-- [CI/CD Monitoring Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/CI_CD_MONITORING_GUIDE.md)
-- [Workshop Facilitator Guide](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/WORKSHOP_FACILITATOR_GUIDE.md)
-- [Implementation Roadmap](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/IMPLEMENTATION_ROADMAP.md)
-- [KPI Framework](file:///home/inbox/smart-ai/lawyers-hub/docs/05_delivery_and_ops/KPI_METRICS_FRAMEWORK.md)
+- [**00_foundation**](00_foundation/README.md): Visi, Misi, dan Dasar Hukum.
+- [**01_architecture**](01_architecture/README.md): Arsitektur Sistem, Multi-tenancy, dan AI Pipeline.
+- [**02_onboarding**](02_onboarding/README.md): Panduan Setup Developer dan Workflow.
+- [**06_engineering_execution**](06_engineering_execution/README.md): Standar Koding, Best Practices, Implementation Patterns, dan Troubleshooting.
+- [**07_compliance_and_audit**](07_compliance_and_audit/README.md): Keamanan Data (UU PDP) dan Log Audit.
+- [**api-reference**](api-reference/README.md): Dokumentasi API Teknis (Generated).
+
+## 💡 Engineering Highlights
+- **Strategic Agent Oversight**: Implementasi [Implementation Patterns](06_engineering_execution/implementation_patterns.md) untuk pengawasan AI yang cerdas.
+- **Legal-First Security**: Panduan enkripsi dan PII masking di [Best Practices](06_engineering_execution/best_practices.md).
+
+## 🚀 Quick Links
+- [Architecture Overview](01_architecture/README.md)
+- [Technical Specification](01_architecture/technical_spec.md)
+- [Developer Setup](02_onboarding/README.md)
+- [Engineering Best Practices](06_engineering_execution/best_practices.md)
+- [Troubleshooting Guide](06_engineering_execution/troubleshooting.md)
 
 ---
-*Terakhir diupdate: 2026-01-06*
+*Terakhir diupdate: 2026-01-07 oleh World-Class Super Agent*

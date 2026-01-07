@@ -1,27 +1,32 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionCreateOrConnectWithoutUserInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionCreateOrConnectWithoutUserInput
 
 # Type Alias: TemplateVersionCreateOrConnectWithoutUserInput
 
 > **TemplateVersionCreateOrConnectWithoutUserInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24200
+Defined in: node_modules/.prisma/client/index.d.ts:24200
 
 ## Properties
 
 ### create
 
-> **create**: [`XOR`](XOR.md)\<[`TemplateVersionCreateWithoutUserInput`](TemplateVersionCreateWithoutUserInput.md), [`TemplateVersionUncheckedCreateWithoutUserInput`](TemplateVersionUncheckedCreateWithoutUserInput.md)\>
+> **create**:
+> [`XOR`](XOR.md)\<[`TemplateVersionCreateWithoutUserInput`](TemplateVersionCreateWithoutUserInput.md),
+> [`TemplateVersionUncheckedCreateWithoutUserInput`](TemplateVersionUncheckedCreateWithoutUserInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24202
+Defined in: node_modules/.prisma/client/index.d.ts:24202
 
-***
+---
 
 ### where
 
-> **where**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
+> **where**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24201
+Defined in: node_modules/.prisma/client/index.d.ts:24201

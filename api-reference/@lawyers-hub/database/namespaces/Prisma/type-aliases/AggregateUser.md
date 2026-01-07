@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AggregateUser
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AggregateUser
 
 # Type Alias: AggregateUser
 
 > **AggregateUser** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4629
+Defined in: node_modules/.prisma/client/index.d.ts:4629
 
 Model User
 
@@ -16,22 +18,25 @@ Model User
 
 ### \_count
 
-> **\_count**: [`UserCountAggregateOutputType`](UserCountAggregateOutputType.md) \| `null`
+> **\_count**: [`UserCountAggregateOutputType`](UserCountAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4630
+Defined in: node_modules/.prisma/client/index.d.ts:4630
 
-***
+---
 
 ### \_max
 
-> **\_max**: [`UserMaxAggregateOutputType`](UserMaxAggregateOutputType.md) \| `null`
+> **\_max**: [`UserMaxAggregateOutputType`](UserMaxAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4632
+Defined in: node_modules/.prisma/client/index.d.ts:4632
 
-***
+---
 
 ### \_min
 
-> **\_min**: [`UserMinAggregateOutputType`](UserMinAggregateOutputType.md) \| `null`
+> **\_min**: [`UserMinAggregateOutputType`](UserMinAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4631
+Defined in: node_modules/.prisma/client/index.d.ts:4631

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantCountOrderByAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantCountOrderByAggregateInput
 
 # Type Alias: TenantCountOrderByAggregateInput
 
 > **TenantCountOrderByAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20840
+Defined in: node_modules/.prisma/client/index.d.ts:20840
 
 ## Properties
 
@@ -16,44 +18,44 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20840
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20845
+Defined in: node_modules/.prisma/client/index.d.ts:20845
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20841
+Defined in: node_modules/.prisma/client/index.d.ts:20841
 
-***
+---
 
 ### isActive?
 
 > `optional` **isActive**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20844
+Defined in: node_modules/.prisma/client/index.d.ts:20844
 
-***
+---
 
 ### name?
 
 > `optional` **name**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20842
+Defined in: node_modules/.prisma/client/index.d.ts:20842
 
-***
+---
 
 ### slug?
 
 > `optional` **slug**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20843
+Defined in: node_modules/.prisma/client/index.d.ts:20843
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20846
+Defined in: node_modules/.prisma/client/index.d.ts:20846

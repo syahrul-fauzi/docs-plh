@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UsageDefaultArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UsageDefaultArgs
 
 # Type Alias: UsageDefaultArgs\<ExtArgs\>
 
 > **UsageDefaultArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11738
+Defined in: node_modules/.prisma/client/index.d.ts:11738
 
 Usage without action
 
@@ -16,24 +18,25 @@ Usage without action
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`UsageInclude`](UsageInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**: [`UsageInclude`](UsageInclude.md)\<`ExtArgs`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11746
+Defined in: node_modules/.prisma/client/index.d.ts:11746
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
 > `optional` **select**: [`UsageSelect`](UsageSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11742
+Defined in: node_modules/.prisma/client/index.d.ts:11742
 
 Select specific fields to fetch from the Usage

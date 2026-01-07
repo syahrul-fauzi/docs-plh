@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UsageAvgAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UsageAvgAggregateOutputType
 
 # Type Alias: UsageAvgAggregateOutputType
 
 > **UsageAvgAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10787
+Defined in: node_modules/.prisma/client/index.d.ts:10787
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:10787
 
 > **amount**: `number` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10788
+Defined in: node_modules/.prisma/client/index.d.ts:10788

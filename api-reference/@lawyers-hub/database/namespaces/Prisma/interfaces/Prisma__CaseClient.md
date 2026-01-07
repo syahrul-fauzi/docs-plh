@@ -1,17 +1,18 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Prisma\_\_CaseClient
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+Prisma\_\_CaseClient
 
 # Interface: Prisma\_\_CaseClient\<T, Null, ExtArgs\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6301
+Defined in: node_modules/.prisma/client/index.d.ts:6301
 
-The delegate class that acts as a "Promise-like" for Case.
-Why is this prefixed with `Prisma__`?
-Because we want to prevent naming conflicts as mentioned in
-https://github.com/prisma/prisma-client-js/issues/707
+The delegate class that acts as a "Promise-like" for Case. Why is this prefixed
+with `Prisma__`? Because we want to prevent naming conflicts as mentioned in
+<https://github.com/prisma/prisma-client-js/issues/707>
 
 ## Extends
 
@@ -29,7 +30,7 @@ https://github.com/prisma/prisma-client-js/issues/707
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -37,7 +38,7 @@ https://github.com/prisma/prisma-client-js/issues/707
 
 > `readonly` **\[toStringTag\]**: `"PrismaPromise"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6302
+Defined in: node_modules/.prisma/client/index.d.ts:6302
 
 #### Overrides
 
@@ -49,7 +50,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:6302
 
 > **catch**\<`TResult`\>(`onrejected?`): `Promise`\<`T` \| `TResult`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6319
+Defined in: node_modules/.prisma/client/index.d.ts:6319
 
 Attaches a callback for only the rejection of the Promise.
 
@@ -77,88 +78,110 @@ A Promise for the completion of the callback.
 
 `Prisma.PrismaPromise.catch`
 
-***
+---
 
 ### comments()
 
-> **comments**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **comments**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+> `GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6304
+Defined in: node_modules/.prisma/client/index.d.ts:6304
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`Case$commentsArgs`](../type-aliases/Case$commentsArgs.md)\<`ExtArgs`\> = \{ \}
+`T` _extends_
+[`Case$commentsArgs`](../type-aliases/Case$commentsArgs.md)\<`ExtArgs`\> = \{ \}
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`Case$commentsArgs`](../type-aliases/Case$commentsArgs.md)\<`ExtArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`Case$commentsArgs`](../type-aliases/Case$commentsArgs.md)\<`ExtArgs`\>\>
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
-***
+---
 
 ### documents()
 
-> **documents**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **documents**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+> `GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6305
+Defined in: node_modules/.prisma/client/index.d.ts:6305
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`Case$documentsArgs`](../type-aliases/Case$documentsArgs.md)\<`ExtArgs`\> = \{ \}
+`T` _extends_
+[`Case$documentsArgs`](../type-aliases/Case$documentsArgs.md)\<`ExtArgs`\> = \{
+\}
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`Case$documentsArgs`](../type-aliases/Case$documentsArgs.md)\<`ExtArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`Case$documentsArgs`](../type-aliases/Case$documentsArgs.md)\<`ExtArgs`\>\>
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
-***
+---
 
 ### drafts()
 
-> **drafts**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$DraftPayload`](../type-aliases/$DraftPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **drafts**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+> `GetFindResult`\<[`$DraftPayload`](../type-aliases/$DraftPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6306
+Defined in: node_modules/.prisma/client/index.d.ts:6306
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`Case$draftsArgs`](../type-aliases/Case$draftsArgs.md)\<`ExtArgs`\> = \{ \}
+`T` _extends_
+[`Case$draftsArgs`](../type-aliases/Case$draftsArgs.md)\<`ExtArgs`\> = \{ \}
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`Case$draftsArgs`](../type-aliases/Case$draftsArgs.md)\<`ExtArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`Case$draftsArgs`](../type-aliases/Case$draftsArgs.md)\<`ExtArgs`\>\>
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \| `GetFindResult`\<[`$DraftPayload`](../type-aliases/$DraftPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`Null` \|
+`GetFindResult`\<[`$DraftPayload`](../type-aliases/$DraftPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
-***
+---
 
 ### finally()
 
 > **finally**(`onfinally?`): `Promise`\<`T`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6326
+Defined in: node_modules/.prisma/client/index.d.ts:6326
 
-Attaches a callback that is invoked when the Promise is settled (fulfilled or rejected). The
-resolved value cannot be modified from the callback.
+Attaches a callback that is invoked when the Promise is settled (fulfilled or
+rejected). The resolved value cannot be modified from the callback.
 
 #### Parameters
 
@@ -178,37 +201,45 @@ A Promise for the completion of the callback.
 
 `Prisma.PrismaPromise.finally`
 
-***
+---
 
 ### tenant()
 
-> **tenant**\<`T`\>(`args?`): [`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \| `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `Null`, `ExtArgs`\>
+> **tenant**\<`T`\>(`args?`):
+> [`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \|
+> `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `Null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6303
+Defined in: node_modules/.prisma/client/index.d.ts:6303
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\> = \{ \}
+`T` _extends_
+[`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\> = \{ \}
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\>\>
 
 #### Returns
 
-[`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \| `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `Null`, `ExtArgs`\>
+[`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \|
+`GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `Null`, `ExtArgs`\>
 
-***
+---
 
 ### then()
 
-> **then**\<`TResult1`, `TResult2`\>(`onfulfilled?`, `onrejected?`): `Promise`\<`TResult1` \| `TResult2`\>
+> **then**\<`TResult1`, `TResult2`\>(`onfulfilled?`, `onrejected?`):
+> `Promise`\<`TResult1` \| `TResult2`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6313
+Defined in: node_modules/.prisma/client/index.d.ts:6313
 
 Attaches callbacks for the resolution and/or rejection of the Promise.
 

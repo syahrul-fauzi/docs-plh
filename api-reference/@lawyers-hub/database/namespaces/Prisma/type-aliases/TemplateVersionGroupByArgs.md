@@ -1,105 +1,120 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionGroupByArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionGroupByArgs
 
 # Type Alias: TemplateVersionGroupByArgs\<ExtArgs\>
 
 > **TemplateVersionGroupByArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13877
+Defined in: node_modules/.prisma/client/index.d.ts:13877
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### \_avg?
 
-> `optional` **\_avg**: [`TemplateVersionAvgAggregateInputType`](TemplateVersionAvgAggregateInputType.md)
+> `optional` **\_avg**:
+> [`TemplateVersionAvgAggregateInputType`](TemplateVersionAvgAggregateInputType.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13885
+Defined in: node_modules/.prisma/client/index.d.ts:13885
 
-***
+---
 
 ### \_count?
 
-> `optional` **\_count**: [`TemplateVersionCountAggregateInputType`](TemplateVersionCountAggregateInputType.md) \| `true`
+> `optional` **\_count**:
+> [`TemplateVersionCountAggregateInputType`](TemplateVersionCountAggregateInputType.md)
+> \| `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13884
+Defined in: node_modules/.prisma/client/index.d.ts:13884
 
-***
+---
 
 ### \_max?
 
-> `optional` **\_max**: [`TemplateVersionMaxAggregateInputType`](TemplateVersionMaxAggregateInputType.md)
+> `optional` **\_max**:
+> [`TemplateVersionMaxAggregateInputType`](TemplateVersionMaxAggregateInputType.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13888
+Defined in: node_modules/.prisma/client/index.d.ts:13888
 
-***
+---
 
 ### \_min?
 
-> `optional` **\_min**: [`TemplateVersionMinAggregateInputType`](TemplateVersionMinAggregateInputType.md)
+> `optional` **\_min**:
+> [`TemplateVersionMinAggregateInputType`](TemplateVersionMinAggregateInputType.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13887
+Defined in: node_modules/.prisma/client/index.d.ts:13887
 
-***
+---
 
 ### \_sum?
 
-> `optional` **\_sum**: [`TemplateVersionSumAggregateInputType`](TemplateVersionSumAggregateInputType.md)
+> `optional` **\_sum**:
+> [`TemplateVersionSumAggregateInputType`](TemplateVersionSumAggregateInputType.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13886
+Defined in: node_modules/.prisma/client/index.d.ts:13886
 
-***
+---
 
 ### by
 
-> **by**: [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)[] \| [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)
+> **by**:
+> [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)[] \|
+> [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13880
+Defined in: node_modules/.prisma/client/index.d.ts:13880
 
-***
+---
 
 ### having?
 
-> `optional` **having**: [`TemplateVersionScalarWhereWithAggregatesInput`](TemplateVersionScalarWhereWithAggregatesInput.md)
+> `optional` **having**:
+> [`TemplateVersionScalarWhereWithAggregatesInput`](TemplateVersionScalarWhereWithAggregatesInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13881
+Defined in: node_modules/.prisma/client/index.d.ts:13881
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`TemplateVersionOrderByWithAggregationInput`](TemplateVersionOrderByWithAggregationInput.md) \| [`TemplateVersionOrderByWithAggregationInput`](TemplateVersionOrderByWithAggregationInput.md)[]
+> `optional` **orderBy**:
+> [`TemplateVersionOrderByWithAggregationInput`](TemplateVersionOrderByWithAggregationInput.md)
+> \|
+> [`TemplateVersionOrderByWithAggregationInput`](TemplateVersionOrderByWithAggregationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13879
+Defined in: node_modules/.prisma/client/index.d.ts:13879
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13883
+Defined in: node_modules/.prisma/client/index.d.ts:13883
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13882
+Defined in: node_modules/.prisma/client/index.d.ts:13882
 
-***
+---
 
 ### where?
 
-> `optional` **where**: [`TemplateVersionWhereInput`](TemplateVersionWhereInput.md)
+> `optional` **where**:
+> [`TemplateVersionWhereInput`](TemplateVersionWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13878
+Defined in: node_modules/.prisma/client/index.d.ts:13878

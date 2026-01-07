@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $CommentPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$CommentPayload
 
 # Type Alias: $CommentPayload\<ExtArgs\>
 
 > **$CommentPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9020
+Defined in: node_modules/.prisma/client/index.d.ts:9020
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:9020
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9038
+Defined in: node_modules/.prisma/client/index.d.ts:9038
 
-***
+---
 
 ### name
 
 > **name**: `"Comment"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9021
+Defined in: node_modules/.prisma/client/index.d.ts:9021
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9022
+Defined in: node_modules/.prisma/client/index.d.ts:9022
 
 #### case
 
@@ -56,10 +58,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:9022
 
 > **user**: [`$UserPayload`]($UserPayload.md)\<`ExtArgs`\>
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `caseId`: `string` \| `null`; `content`: `string`; `createdAt`: `Date`; `draftId`: `string` \| `null`; `id`: `string`; `tenantId`: `string`; `updatedAt`: `Date`; `userId`: `string`; \}, `ExtArgs`\[`"result"`\]\[`"comment"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `caseId`: `string` \| `null`;
+> `content`: `string`; `createdAt`: `Date`; `draftId`: `string` \| `null`; `id`:
+> `string`; `tenantId`: `string`; `updatedAt`: `Date`; `userId`: `string`; \},
+> `ExtArgs`\[`"result"`\]\[`"comment"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9028
+Defined in: node_modules/.prisma/client/index.d.ts:9028

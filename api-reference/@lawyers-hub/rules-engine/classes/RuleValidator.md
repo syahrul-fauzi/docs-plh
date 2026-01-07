@@ -1,15 +1,18 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/rules-engine](../README.md) / RuleValidator
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/rules-engine](../README.md) / RuleValidator
 
 # Class: RuleValidator
 
-Defined in: [validator.ts:10](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/validator.ts#L10)
+Defined in:
+[validator.ts:10](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/validator.ts#L10)
 
-Core utility for validating and linting Legal Rules in the Lawyers Hub ecosystem.
-Supports YAML strings and pre-parsed objects against the standard documentation framework.
+Core utility for validating and linting Legal Rules in the Lawyers Hub
+ecosystem. Supports YAML strings and pre-parsed objects against the standard
+documentation framework.
 
 ## Constructors
 
@@ -27,9 +30,11 @@ Supports YAML strings and pre-parsed objects against the standard documentation 
 
 > `static` **validate**(`ruleInput`): `object`
 
-Defined in: [validator.ts:23](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/validator.ts#L23)
+Defined in:
+[validator.ts:23](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/validator.ts#L23)
 
-Validates a rule object or YAML string against the LH-DOC-RULES-FRAMEWORK schema.
+Validates a rule object or YAML string against the LH-DOC-RULES-FRAMEWORK
+schema.
 
 #### Parameters
 

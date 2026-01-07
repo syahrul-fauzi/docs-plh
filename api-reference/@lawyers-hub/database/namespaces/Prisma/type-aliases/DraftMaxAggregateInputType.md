@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftMaxAggregateInputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftMaxAggregateInputType
 
 # Type Alias: DraftMaxAggregateInputType
 
 > **DraftMaxAggregateInputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7812
+Defined in: node_modules/.prisma/client/index.d.ts:7812
 
 ## Properties
 
@@ -16,68 +18,68 @@ Defined in: node\_modules/.prisma/client/index.d.ts:7812
 
 > `optional` **caseId**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7819
+Defined in: node_modules/.prisma/client/index.d.ts:7819
 
-***
+---
 
 ### content?
 
 > `optional` **content**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7815
+Defined in: node_modules/.prisma/client/index.d.ts:7815
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7820
+Defined in: node_modules/.prisma/client/index.d.ts:7820
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7813
+Defined in: node_modules/.prisma/client/index.d.ts:7813
 
-***
+---
 
 ### status?
 
 > `optional` **status**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7816
+Defined in: node_modules/.prisma/client/index.d.ts:7816
 
-***
+---
 
 ### templateType?
 
 > `optional` **templateType**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7817
+Defined in: node_modules/.prisma/client/index.d.ts:7817
 
-***
+---
 
 ### tenantId?
 
 > `optional` **tenantId**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7818
+Defined in: node_modules/.prisma/client/index.d.ts:7818
 
-***
+---
 
 ### title?
 
 > `optional` **title**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7814
+Defined in: node_modules/.prisma/client/index.d.ts:7814
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7821
+Defined in: node_modules/.prisma/client/index.d.ts:7821

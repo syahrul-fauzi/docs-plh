@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionCountAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionCountAggregateOutputType
 
 # Type Alias: TemplateVersionCountAggregateOutputType
 
 > **TemplateVersionCountAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13754
+Defined in: node_modules/.prisma/client/index.d.ts:13754
 
 ## Properties
 
@@ -16,60 +18,60 @@ Defined in: node\_modules/.prisma/client/index.d.ts:13754
 
 > **\_all**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13762
+Defined in: node_modules/.prisma/client/index.d.ts:13762
 
-***
+---
 
 ### changeLog
 
 > **changeLog**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13759
+Defined in: node_modules/.prisma/client/index.d.ts:13759
 
-***
+---
 
 ### content
 
 > **content**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13757
+Defined in: node_modules/.prisma/client/index.d.ts:13757
 
-***
+---
 
 ### createdAt
 
 > **createdAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13761
+Defined in: node_modules/.prisma/client/index.d.ts:13761
 
-***
+---
 
 ### id
 
 > **id**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13755
+Defined in: node_modules/.prisma/client/index.d.ts:13755
 
-***
+---
 
 ### templateId
 
 > **templateId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13756
+Defined in: node_modules/.prisma/client/index.d.ts:13756
 
-***
+---
 
 ### userId
 
 > **userId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13760
+Defined in: node_modules/.prisma/client/index.d.ts:13760
 
-***
+---
 
 ### version
 
 > **version**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13758
+Defined in: node_modules/.prisma/client/index.d.ts:13758

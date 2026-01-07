@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionAvgAggregateInputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionAvgAggregateInputType
 
 # Type Alias: TemplateVersionAvgAggregateInputType
 
 > **TemplateVersionAvgAggregateInputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13766
+Defined in: node_modules/.prisma/client/index.d.ts:13766
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:13766
 
 > `optional` **version**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13767
+Defined in: node_modules/.prisma/client/index.d.ts:13767

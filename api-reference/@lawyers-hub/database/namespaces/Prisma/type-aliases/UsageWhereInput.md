@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UsageWhereInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UsageWhereInput
 
 # Type Alias: UsageWhereInput
 
 > **UsageWhereInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18838
+Defined in: node_modules/.prisma/client/index.d.ts:18838
 
 ## Properties
 
@@ -16,76 +18,82 @@ Defined in: node\_modules/.prisma/client/index.d.ts:18838
 
 > `optional` **amount**: [`IntFilter`](IntFilter.md)\<`"Usage"`\> \| `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18844
+Defined in: node_modules/.prisma/client/index.d.ts:18844
 
-***
+---
 
 ### AND?
 
 > `optional` **AND**: `UsageWhereInput` \| `UsageWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18839
+Defined in: node_modules/.prisma/client/index.d.ts:18839
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Usage"`\> \| `Date` \| `string`
+> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Usage"`\>
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18847
+Defined in: node_modules/.prisma/client/index.d.ts:18847
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`StringFilter`](StringFilter.md)\<`"Usage"`\> \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18842
+Defined in: node_modules/.prisma/client/index.d.ts:18842
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`JsonNullableFilter`](JsonNullableFilter.md)\<`"Usage"`\>
+> `optional` **metadata**:
+> [`JsonNullableFilter`](JsonNullableFilter.md)\<`"Usage"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18846
+Defined in: node_modules/.prisma/client/index.d.ts:18846
 
-***
+---
 
 ### NOT?
 
 > `optional` **NOT**: `UsageWhereInput` \| `UsageWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18841
+Defined in: node_modules/.prisma/client/index.d.ts:18841
 
-***
+---
 
 ### OR?
 
 > `optional` **OR**: `UsageWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18840
+Defined in: node_modules/.prisma/client/index.d.ts:18840
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md), [`TenantWhereInput`](TenantWhereInput.md)\>
+> `optional` **tenant**:
+> [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md),
+> [`TenantWhereInput`](TenantWhereInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18848
+Defined in: node_modules/.prisma/client/index.d.ts:18848
 
-***
+---
 
 ### tenantId?
 
-> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"Usage"`\> \| `string`
+> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"Usage"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18845
+Defined in: node_modules/.prisma/client/index.d.ts:18845
 
-***
+---
 
 ### type?
 
-> `optional` **type**: [`StringFilter`](StringFilter.md)\<`"Usage"`\> \| `string`
+> `optional` **type**: [`StringFilter`](StringFilter.md)\<`"Usage"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18843
+Defined in: node_modules/.prisma/client/index.d.ts:18843

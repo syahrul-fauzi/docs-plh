@@ -1,107 +1,133 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigUncheckedUpdateManyInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigUncheckedUpdateManyInput
 
 # Type Alias: AIModelConfigUncheckedUpdateManyInput
 
 > **AIModelConfigUncheckedUpdateManyInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20467
+Defined in: node_modules/.prisma/client/index.d.ts:20467
 
 ## Properties
 
 ### apiKey?
 
-> `optional` **apiKey**: [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md) \| `string` \| `null`
+> `optional` **apiKey**:
+> [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md)
+> \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20471
+Defined in: node_modules/.prisma/client/index.d.ts:20471
 
-***
+---
 
 ### canaryStartedAt?
 
-> `optional` **canaryStartedAt**: [`NullableDateTimeFieldUpdateOperationsInput`](NullableDateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string` \| `null`
+> `optional` **canaryStartedAt**:
+> [`NullableDateTimeFieldUpdateOperationsInput`](NullableDateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20476
+Defined in: node_modules/.prisma/client/index.d.ts:20476
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **createdAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20478
+Defined in: node_modules/.prisma/client/index.d.ts:20478
 
-***
+---
 
 ### endpoint?
 
-> `optional` **endpoint**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **endpoint**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20470
+Defined in: node_modules/.prisma/client/index.d.ts:20470
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **id**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20468
+Defined in: node_modules/.prisma/client/index.d.ts:20468
 
-***
+---
 
 ### isDefault?
 
-> `optional` **isDefault**: [`BoolFieldUpdateOperationsInput`](BoolFieldUpdateOperationsInput.md) \| `boolean`
+> `optional` **isDefault**:
+> [`BoolFieldUpdateOperationsInput`](BoolFieldUpdateOperationsInput.md) \|
+> `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20472
+Defined in: node_modules/.prisma/client/index.d.ts:20472
 
-***
+---
 
 ### lastPromotedAt?
 
-> `optional` **lastPromotedAt**: [`NullableDateTimeFieldUpdateOperationsInput`](NullableDateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string` \| `null`
+> `optional` **lastPromotedAt**:
+> [`NullableDateTimeFieldUpdateOperationsInput`](NullableDateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20477
+Defined in: node_modules/.prisma/client/index.d.ts:20477
 
-***
+---
 
 ### metrics?
 
-> `optional` **metrics**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metrics**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20475
+Defined in: node_modules/.prisma/client/index.d.ts:20475
 
-***
+---
 
 ### status?
 
-> `optional` **status**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **status**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20474
+Defined in: node_modules/.prisma/client/index.d.ts:20474
 
-***
+---
 
 ### trafficWeight?
 
-> `optional` **trafficWeight**: [`IntFieldUpdateOperationsInput`](IntFieldUpdateOperationsInput.md) \| `number`
+> `optional` **trafficWeight**:
+> [`IntFieldUpdateOperationsInput`](IntFieldUpdateOperationsInput.md) \|
+> `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20473
+Defined in: node_modules/.prisma/client/index.d.ts:20473
 
-***
+---
 
 ### updatedAt?
 
-> `optional` **updatedAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **updatedAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20479
+Defined in: node_modules/.prisma/client/index.d.ts:20479
 
-***
+---
 
 ### version?
 
-> `optional` **version**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **version**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20469
+Defined in: node_modules/.prisma/client/index.d.ts:20469

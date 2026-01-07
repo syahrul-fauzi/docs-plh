@@ -1,59 +1,73 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AuditLogUpdateManyMutationInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AuditLogUpdateManyMutationInput
 
 # Type Alias: AuditLogUpdateManyMutationInput
 
 > **AuditLogUpdateManyMutationInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20071
+Defined in: node_modules/.prisma/client/index.d.ts:20071
 
 ## Properties
 
 ### action?
 
-> `optional` **action**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **action**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20073
+Defined in: node_modules/.prisma/client/index.d.ts:20073
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **createdAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20077
+Defined in: node_modules/.prisma/client/index.d.ts:20077
 
-***
+---
 
 ### entityId?
 
-> `optional` **entityId**: [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md) \| `string` \| `null`
+> `optional` **entityId**:
+> [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md)
+> \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20074
+Defined in: node_modules/.prisma/client/index.d.ts:20074
 
-***
+---
 
 ### entityType?
 
-> `optional` **entityType**: [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md) \| `string` \| `null`
+> `optional` **entityType**:
+> [`NullableStringFieldUpdateOperationsInput`](NullableStringFieldUpdateOperationsInput.md)
+> \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20075
+Defined in: node_modules/.prisma/client/index.d.ts:20075
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **id**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20072
+Defined in: node_modules/.prisma/client/index.d.ts:20072
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20076
+Defined in: node_modules/.prisma/client/index.d.ts:20076

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Tenant$documentTemplatesArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+Tenant$documentTemplatesArgs
 
 # Type Alias: Tenant$documentTemplatesArgs\<ExtArgs\>
 
 > **Tenant$documentTemplatesArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3431
+Defined in: node_modules/.prisma/client/index.d.ts:3431
 
 Tenant.documentTemplates
 
@@ -16,72 +18,81 @@ Tenant.documentTemplates
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### cursor?
 
-> `optional` **cursor**: [`DocumentTemplateWhereUniqueInput`](DocumentTemplateWhereUniqueInput.md)
+> `optional` **cursor**:
+> [`DocumentTemplateWhereUniqueInput`](DocumentTemplateWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3442
+Defined in: node_modules/.prisma/client/index.d.ts:3442
 
-***
+---
 
 ### distinct?
 
-> `optional` **distinct**: [`DocumentTemplateScalarFieldEnum`](DocumentTemplateScalarFieldEnum.md) \| [`DocumentTemplateScalarFieldEnum`](DocumentTemplateScalarFieldEnum.md)[]
+> `optional` **distinct**:
+> [`DocumentTemplateScalarFieldEnum`](DocumentTemplateScalarFieldEnum.md) \|
+> [`DocumentTemplateScalarFieldEnum`](DocumentTemplateScalarFieldEnum.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3445
+Defined in: node_modules/.prisma/client/index.d.ts:3445
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`DocumentTemplateInclude`](DocumentTemplateInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`DocumentTemplateInclude`](DocumentTemplateInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3439
+Defined in: node_modules/.prisma/client/index.d.ts:3439
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`DocumentTemplateOrderByWithRelationInput`](DocumentTemplateOrderByWithRelationInput.md) \| [`DocumentTemplateOrderByWithRelationInput`](DocumentTemplateOrderByWithRelationInput.md)[]
+> `optional` **orderBy**:
+> [`DocumentTemplateOrderByWithRelationInput`](DocumentTemplateOrderByWithRelationInput.md)
+> \|
+> [`DocumentTemplateOrderByWithRelationInput`](DocumentTemplateOrderByWithRelationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3441
+Defined in: node_modules/.prisma/client/index.d.ts:3441
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`DocumentTemplateSelect`](DocumentTemplateSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`DocumentTemplateSelect`](DocumentTemplateSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3435
+Defined in: node_modules/.prisma/client/index.d.ts:3435
 
 Select specific fields to fetch from the DocumentTemplate
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3444
+Defined in: node_modules/.prisma/client/index.d.ts:3444
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3443
+Defined in: node_modules/.prisma/client/index.d.ts:3443
 
-***
+---
 
 ### where?
 
-> `optional` **where**: [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
+> `optional` **where**:
+> [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3440
+Defined in: node_modules/.prisma/client/index.d.ts:3440

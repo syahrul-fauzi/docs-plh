@@ -1,14 +1,17 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ExcludeUnderscoreKeys
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ExcludeUnderscoreKeys
 
 # Type Alias: ExcludeUnderscoreKeys\<T\>
 
-> **ExcludeUnderscoreKeys**\<`T`\> = `T` *extends* `` `_${string}` `` ? `never` : `T`
+> **ExcludeUnderscoreKeys**\<`T`\> = `T` _extends_ `` `_${string}` `` ? `never`
+> : `T`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:796
+Defined in: node_modules/.prisma/client/index.d.ts:796
 
 Exclude all keys with underscores
 
@@ -16,4 +19,4 @@ Exclude all keys with underscores
 
 ### T
 
-`T` *extends* `string`
+`T` _extends_ `string`

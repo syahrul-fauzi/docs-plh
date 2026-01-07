@@ -2,22 +2,29 @@
 
 ## Metadata
 
-* **Document ID**: LH-IMPL-MAP-001
-* **Status**: Execution Phase - AI Gateway & RAG Implemented (v0.2)
-* **Owner**: System Architect / Tech Lead
-* **Stakeholders**: Backend, Frontend, AI, DevOps, Security
-* **Derived From**: [README.md](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/README.md), [system_overview.md](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md), [core_features_spec.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md), [prompt_governance.md](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md), [user_journey_and_flows.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md), [GTM & Pilot Conversion Architecture.md](file:///home/inbox/smart-ai/lawyers-hub/docs/04_gtm_strategy/GTM%20&%20Pilot%20Conversion%20Architecture.md)
+- **Document ID**: LH-IMPL-MAP-001
+- **Status**: Execution Phase - AI Gateway & RAG Implemented (v0.2)
+- **Owner**: System Architect / Tech Lead
+- **Stakeholders**: Backend, Frontend, AI, DevOps, Security
+- **Derived From**:
+  [README.md](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/README.md),
+  [system_overview.md](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md),
+  [core_features_spec.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md),
+  [prompt_governance.md](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md),
+  [user_journey_and_flows.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md),
+  [GTM & Pilot Conversion Architecture.md](file:///home/inbox/smart-ai/lawyers-hub/docs/04_gtm_strategy/GTM%20&%20Pilot%20Conversion%20Architecture.md)
 
 ---
 
 ## 1. Tujuan Dokumen
 
-Menerjemahkan seluruh dokumen terkunci Lawyers Hub ke dalam **struktur implementasi nyata** berbasis:
+Menerjemahkan seluruh dokumen terkunci Lawyers Hub ke dalam **struktur
+implementasi nyata** berbasis:
 
-* **Turborepo (monorepo)**
-* **Next.js + AG-UI (frontend)**
-* **NestJS (core API & services)**
-* **CopilotKit (AI runtime)**
+- **Turborepo (monorepo)**
+- **Next.js + AG-UI (frontend)**
+- **NestJS (core API & services)**
+- **CopilotKit (AI runtime)**
 
 Dokumen ini menjadi **blueprint eksekusi teknis**.
 
@@ -60,22 +67,22 @@ lawyers-hub/
 
 **Responsibilities**:
 
-* Lawyer UI
-* Client UI
-* Demo / Pilot UI
+- Lawyer UI
+- Client UI
+- Demo / Pilot UI
 
 **Key Layers**:
 
-* `app/(workspace)` → firm & case context
-* `app/(demo)` → sandbox mode
-* `components/` → AG-UI primitives
-* `state/` → AG-UI state machines
+- `app/(workspace)` → firm & case context
+- `app/(demo)` → sandbox mode
+- `components/` → AG-UI primitives
+- `state/` → AG-UI state machines
 
 **AG-UI States** (from locked docs):
 
-* `workspace.demo | active | pilot`
-* `case.draft | active | closed`
-* `document.editing | review | final`
+- `workspace.demo | active | pilot`
+- `case.draft | active | closed`
+- `document.editing | review | final`
 
 ---
 
@@ -85,18 +92,18 @@ lawyers-hub/
 
 **Bounded Contexts**:
 
-* Auth & Tenant
-* Case Service
-* Document Service
-* Client Communication
-* Billing
-* Audit
+- Auth & Tenant
+- Case Service
+- Document Service
+- Client Communication
+- Billing
+- Audit
 
 **Key Patterns**:
 
-* DDD-lite modules
-* Explicit tenant resolver
-* Event-driven (domain events)
+- DDD-lite modules
+- Explicit tenant resolver
+- Event-driven (domain events)
 
 ---
 
@@ -106,10 +113,10 @@ lawyers-hub/
 
 **Responsibilities**:
 
-* Prompt assembly
-* Validation (Green / Yellow / Red)
-* Context injection
-* Execution via CopilotKit
+- Prompt assembly
+- Validation (Green / Yellow / Red)
+- Context injection
+- Execution via CopilotKit
 
 **Flow**:
 
@@ -126,14 +133,14 @@ lawyers-hub/
 
 **Rules Types**:
 
-* AI prompt rules
-* Feature access rules
-* GTM gating rules
+- AI prompt rules
+- Feature access rules
+- GTM gating rules
 
 **Sources**:
 
-* YAML / JSON DSL
-* Derived from docs/rules
+- YAML / JSON DSL
+- Derived from docs/rules
 
 ---
 
@@ -143,13 +150,13 @@ lawyers-hub/
 
 **Logged Events**:
 
-* AI interactions
-* Document lifecycle
-* Client communication
+- AI interactions
+- Document lifecycle
+- Client communication
 
 **Storage**:
 
-* Append-only DB / object storage
+- Append-only DB / object storage
 
 ---
 
@@ -157,9 +164,9 @@ lawyers-hub/
 
 ### packages/auth
 
-* RBAC
-* Tenant isolation
-* Role-aware claims
+- RBAC
+- Tenant isolation
+- Role-aware claims
 
 ---
 
@@ -167,9 +174,9 @@ lawyers-hub/
 
 ### packages/config
 
-* Demo vs Pilot vs Production
-* AI quota
-* Feature availability
+- Demo vs Pilot vs Production
+- AI quota
+- Feature availability
 
 ---
 
@@ -177,31 +184,28 @@ lawyers-hub/
 
 ### infra/
 
-* CI/CD via Turborepo pipelines
-* Blue/green deploy
-* Rollback support
+- CI/CD via Turborepo pipelines
+- Blue/green deploy
+- Rollback support
 
 ---
 
 ## 11. Traceability Matrix
 
-| Doc              | Code Area                |
-| ---------------- | ------------------------ |
+| Doc              | Code Area                                                                                                        |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------- |
 | Core Features    | [web](file:///home/inbox/smart-ai/lawyers-hub/apps/web), [api](file:///home/inbox/smart-ai/lawyers-hub/apps/api) |
-| AI Governance    | ai-gateway, rules-engine |
-| User Journey     | ag-ui, web state         |
-| GTM Architecture | config, web, api         |
+| AI Governance    | ai-gateway, rules-engine                                                                                         |
+| User Journey     | ag-ui, web state                                                                                                 |
+| GTM Architecture | config, web, api                                                                                                 |
 
 ---
 
 ## 12. Status
 
-✅ **Monorepo structure aligned**
-✅ **AI Gateway initialized & Orchestration implemented**
-✅ **Prompt Guard (Green/Yellow/Red) active**
-✅ **Persistent RAG with Prisma implemented**
-✅ **Frontend-Gateway integration active**
-✅ **Automated RAG ingestion on document creation**
-✅ **Packages renamed and cross-referenced**
-✅ **Build integrity verified (Turbo)**
-🚀 **Ready for pilot feature rollout**
+✅ **Monorepo structure aligned** ✅ **AI Gateway initialized & Orchestration
+implemented** ✅ **Prompt Guard (Green/Yellow/Red) active** ✅ **Persistent RAG
+with Prisma implemented** ✅ **Frontend-Gateway integration active** ✅
+**Automated RAG ingestion on document creation** ✅ **Packages renamed and
+cross-referenced** ✅ **Build integrity verified (Turbo)** 🚀 **Ready for pilot
+feature rollout**

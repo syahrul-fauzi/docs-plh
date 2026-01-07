@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AggregateDocument
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AggregateDocument
 
 # Type Alias: AggregateDocument
 
 > **AggregateDocument** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6739
+Defined in: node_modules/.prisma/client/index.d.ts:6739
 
 Model Document
 
@@ -16,22 +18,28 @@ Model Document
 
 ### \_count
 
-> **\_count**: [`DocumentCountAggregateOutputType`](DocumentCountAggregateOutputType.md) \| `null`
+> **\_count**:
+> [`DocumentCountAggregateOutputType`](DocumentCountAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6740
+Defined in: node_modules/.prisma/client/index.d.ts:6740
 
-***
+---
 
 ### \_max
 
-> **\_max**: [`DocumentMaxAggregateOutputType`](DocumentMaxAggregateOutputType.md) \| `null`
+> **\_max**:
+> [`DocumentMaxAggregateOutputType`](DocumentMaxAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6742
+Defined in: node_modules/.prisma/client/index.d.ts:6742
 
-***
+---
 
 ### \_min
 
-> **\_min**: [`DocumentMinAggregateOutputType`](DocumentMinAggregateOutputType.md) \| `null`
+> **\_min**:
+> [`DocumentMinAggregateOutputType`](DocumentMinAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6741
+Defined in: node_modules/.prisma/client/index.d.ts:6741

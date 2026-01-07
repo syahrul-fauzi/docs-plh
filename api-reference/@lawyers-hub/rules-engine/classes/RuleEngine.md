@@ -1,12 +1,13 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/rules-engine](../README.md) / RuleEngine
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/rules-engine](../README.md) / RuleEngine
 
 # Class: RuleEngine
 
-Defined in: enforcement/runtime\_enforcer.ts:29
+Defined in: enforcement/runtime_enforcer.ts:29
 
 ## Constructors
 
@@ -14,7 +15,7 @@ Defined in: enforcement/runtime\_enforcer.ts:29
 
 > **new RuleEngine**(`customPath?`): `RuleEngine`
 
-Defined in: enforcement/runtime\_enforcer.ts:33
+Defined in: enforcement/runtime_enforcer.ts:33
 
 #### Parameters
 
@@ -30,9 +31,10 @@ Defined in: enforcement/runtime\_enforcer.ts:33
 
 ### evaluate()
 
-> **evaluate**(`action`, `context`, `taskRules`): `Promise`\<\{ `allowed`: `boolean`; `message?`: `string`; `triggeredRule?`: `string`; \}\>
+> **evaluate**(`action`, `context`, `taskRules`): `Promise`\<\{ `allowed`:
+> `boolean`; `message?`: `string`; `triggeredRule?`: `string`; \}\>
 
-Defined in: enforcement/runtime\_enforcer.ts:83
+Defined in: enforcement/runtime_enforcer.ts:83
 
 #### Parameters
 
@@ -50,4 +52,5 @@ Defined in: enforcement/runtime\_enforcer.ts:83
 
 #### Returns
 
-`Promise`\<\{ `allowed`: `boolean`; `message?`: `string`; `triggeredRule?`: `string`; \}\>
+`Promise`\<\{ `allowed`: `boolean`; `message?`: `string`; `triggeredRule?`:
+`string`; \}\>

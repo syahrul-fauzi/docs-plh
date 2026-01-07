@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationDeleteManyArgs
 
 # Type Alias: InvitationDeleteManyArgs\<ExtArgs\>
 
 > **InvitationDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12709
+Defined in: node_modules/.prisma/client/index.d.ts:12709
 
 Invitation deleteMany
 
@@ -16,7 +18,7 @@ Invitation deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,6 +26,6 @@ Invitation deleteMany
 
 > `optional` **where**: [`InvitationWhereInput`](InvitationWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12713
+Defined in: node_modules/.prisma/client/index.d.ts:12713
 
 Filter which Invitations to delete

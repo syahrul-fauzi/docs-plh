@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/rules-engine](../README.md) / RuleFeedback
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/rules-engine](../README.md) / RuleFeedback
 
 # Interface: RuleFeedback
 
-Defined in: [feedback.ts:4](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L4)
+Defined in:
+[feedback.ts:4](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L4)
 
 ## Properties
 
@@ -14,52 +16,59 @@ Defined in: [feedback.ts:4](https://github.com/syahrul-fauzi/lawyers-hub/blob/bb
 
 > **comment**: `string`
 
-Defined in: [feedback.ts:9](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L9)
+Defined in:
+[feedback.ts:9](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L9)
 
-***
+---
 
-### context\_snapshot?
+### context_snapshot?
 
-> `optional` **context\_snapshot**: `any`
+> `optional` **context_snapshot**: `any`
 
-Defined in: [feedback.ts:11](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L11)
+Defined in:
+[feedback.ts:11](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L11)
 
-***
+---
 
-### decision\_allowed
+### decision_allowed
 
-> **decision\_allowed**: `boolean`
+> **decision_allowed**: `boolean`
 
-Defined in: [feedback.ts:7](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L7)
+Defined in:
+[feedback.ts:7](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L7)
 
-***
+---
 
-### feedback\_type
+### feedback_type
 
-> **feedback\_type**: `"FALSE_POSITIVE"` \| `"FALSE_NEGATIVE"` \| `"SUGGESTION"`
+> **feedback_type**: `"FALSE_POSITIVE"` \| `"FALSE_NEGATIVE"` \| `"SUGGESTION"`
 
-Defined in: [feedback.ts:8](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L8)
+Defined in:
+[feedback.ts:8](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L8)
 
-***
+---
 
-### rule\_id
+### rule_id
 
-> **rule\_id**: `string`
+> **rule_id**: `string`
 
-Defined in: [feedback.ts:6](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L6)
+Defined in:
+[feedback.ts:6](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L6)
 
-***
+---
 
 ### timestamp
 
 > **timestamp**: `string`
 
-Defined in: [feedback.ts:5](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L5)
+Defined in:
+[feedback.ts:5](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L5)
 
-***
+---
 
-### user\_id?
+### user_id?
 
-> `optional` **user\_id**: `string`
+> `optional` **user_id**: `string`
 
-Defined in: [feedback.ts:10](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L10)
+Defined in:
+[feedback.ts:10](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/feedback.ts#L10)

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserDeleteManyArgs
 
 # Type Alias: UserDeleteManyArgs\<ExtArgs\>
 
 > **UserDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5582
+Defined in: node_modules/.prisma/client/index.d.ts:5582
 
 User deleteMany
 
@@ -16,7 +18,7 @@ User deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,6 +26,6 @@ User deleteMany
 
 > `optional` **where**: [`UserWhereInput`](UserWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5586
+Defined in: node_modules/.prisma/client/index.d.ts:5586
 
 Filter which Users to delete

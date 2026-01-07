@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserCountOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserCountOutputType
 
 # Type Alias: UserCountOutputType
 
 > **UserCountOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2170
+Defined in: node_modules/.prisma/client/index.d.ts:2170
 
 Count Type UserCountOutputType
 
@@ -18,36 +20,36 @@ Count Type UserCountOutputType
 
 > **auditLogs**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2171
+Defined in: node_modules/.prisma/client/index.d.ts:2171
 
-***
+---
 
 ### comments
 
 > **comments**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2172
+Defined in: node_modules/.prisma/client/index.d.ts:2172
 
-***
+---
 
 ### complianceReviews
 
 > **complianceReviews**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2173
+Defined in: node_modules/.prisma/client/index.d.ts:2173
 
-***
+---
 
 ### piiAuditLogs
 
 > **piiAuditLogs**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2174
+Defined in: node_modules/.prisma/client/index.d.ts:2174
 
-***
+---
 
 ### templateVersions
 
 > **templateVersions**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2175
+Defined in: node_modules/.prisma/client/index.d.ts:2175

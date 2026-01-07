@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationCreateManyAndReturnArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationCreateManyAndReturnArgs
 
 # Type Alias: InvitationCreateManyAndReturnArgs\<ExtArgs\>
 
 > **InvitationCreateManyAndReturnArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12610
+Defined in: node_modules/.prisma/client/index.d.ts:12610
 
 Invitation createManyAndReturn
 
@@ -16,42 +18,47 @@ Invitation createManyAndReturn
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`InvitationCreateManyInput`](InvitationCreateManyInput.md) \| [`InvitationCreateManyInput`](InvitationCreateManyInput.md)[]
+> **data**: [`InvitationCreateManyInput`](InvitationCreateManyInput.md) \|
+> [`InvitationCreateManyInput`](InvitationCreateManyInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12618
+Defined in: node_modules/.prisma/client/index.d.ts:12618
 
 The data used to create many Invitations.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`InvitationIncludeCreateManyAndReturn`](InvitationIncludeCreateManyAndReturn.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`InvitationIncludeCreateManyAndReturn`](InvitationIncludeCreateManyAndReturn.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12623
+Defined in: node_modules/.prisma/client/index.d.ts:12623
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`InvitationSelectCreateManyAndReturn`](InvitationSelectCreateManyAndReturn.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`InvitationSelectCreateManyAndReturn`](InvitationSelectCreateManyAndReturn.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12614
+Defined in: node_modules/.prisma/client/index.d.ts:12614
 
 Select specific fields to fetch from the Invitation
 
-***
+---
 
 ### skipDuplicates?
 
 > `optional` **skipDuplicates**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12619
+Defined in: node_modules/.prisma/client/index.d.ts:12619

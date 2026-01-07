@@ -1,24 +1,23 @@
 # Undangan Workshop Sesi 1: Transformasi Dokumentasi Enterprise
 
-**Status**: Siap Dikirim
-**Target Pelaksanaan**: Selasa, 13 Januari 2026
-**Waktu**: 10:00 - 12:00 WIB
-**Lokasi**: Ruang Meeting Utama (Lantai 5) / Link Zoom: [Link Placeholder]
+**Status**: Siap Dikirim **Target Pelaksanaan**: Selasa, 13 Januari 2026
+**Waktu**: 10:00 - 12:00 WIB **Lokasi**: Ruang Meeting Utama (Lantai 5) / Link
+Zoom: [Link Placeholder]
 
 ---
 
 ## 1. Peserta Undangan (Attendees)
 
-| Nama/Role | Status | Departemen |
-| :--- | :--- | :--- |
-| **Senior Developer (AI/Security)** | Wajib | Engineering |
-| **Frontend Lead (UI/UX)** | Wajib | Engineering |
-| **Backend Engineer (API)** | Wajib | Engineering |
-| **QA/DevOps Lead** | Wajib | Engineering |
-| **Legal Tech Lead** | Wajib | Legal |
-| **Senior Legal Associate** | Wajib | Legal |
-| **Product Manager** | Wajib | Product |
-| **CTO** | Opsional | Management |
+| Nama/Role                          | Status   | Departemen  |
+| :--------------------------------- | :------- | :---------- |
+| **Senior Developer (AI/Security)** | Wajib    | Engineering |
+| **Frontend Lead (UI/UX)**          | Wajib    | Engineering |
+| **Backend Engineer (API)**         | Wajib    | Engineering |
+| **QA/DevOps Lead**                 | Wajib    | Engineering |
+| **Legal Tech Lead**                | Wajib    | Legal       |
+| **Senior Legal Associate**         | Wajib    | Legal       |
+| **Product Manager**                | Wajib    | Product     |
+| **CTO**                            | Opsional | Management  |
 
 ---
 
@@ -32,8 +31,8 @@ Seiring dengan pertumbuhan Lawyers Hub menuju skala enterprise, kita mengadopsi
 standar dokumentasi baru yang dirancang untuk kecepatan, keamanan data, dan
 kepatuhan hukum.
 
-Workshop ini akan memberikan pemahaman mendalam tentang struktur dokumentasi baru
-dan bagaimana tim Anda dapat berkontribusi secara efisien.
+Workshop ini akan memberikan pemahaman mendalam tentang struktur dokumentasi
+baru dan bagaimana tim Anda dapat berkontribusi secara efisien.
 
 ### 📅 Detail Acara
 
@@ -45,8 +44,8 @@ dan bagaimana tim Anda dapat berkontribusi secara efisien.
 ### 📚 Persiapan Pra-Workshop
 
 Mohon luangkan waktu minimal 15 menit untuk meninjau paket materi berikut
-sebelum hari-H:
-👉 [Paket Materi Pra-Workshop](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
+sebelum hari-H: 👉
+[Paket Materi Pra-Workshop](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
 
 ### 🎯 Apa yang akan kita capai?
 
@@ -60,9 +59,7 @@ Kehadiran rekan-rekan sangat penting untuk kelancaran transisi sistem kita.
 
 Sampai jumpa di workshop!
 
-Salam,
-**Super Agent**
-(Fasilitator Dokumentasi)
+Salam, **Super Agent** (Fasilitator Dokumentasi)
 
 ---
 

@@ -1,17 +1,18 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Prisma\_\_UsageClient
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+Prisma\_\_UsageClient
 
 # Interface: Prisma\_\_UsageClient\<T, Null, ExtArgs\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11380
+Defined in: node_modules/.prisma/client/index.d.ts:11380
 
-The delegate class that acts as a "Promise-like" for Usage.
-Why is this prefixed with `Prisma__`?
-Because we want to prevent naming conflicts as mentioned in
-https://github.com/prisma/prisma-client-js/issues/707
+The delegate class that acts as a "Promise-like" for Usage. Why is this prefixed
+with `Prisma__`? Because we want to prevent naming conflicts as mentioned in
+<https://github.com/prisma/prisma-client-js/issues/707>
 
 ## Extends
 
@@ -29,7 +30,7 @@ https://github.com/prisma/prisma-client-js/issues/707
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -37,7 +38,7 @@ https://github.com/prisma/prisma-client-js/issues/707
 
 > `readonly` **\[toStringTag\]**: `"PrismaPromise"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11381
+Defined in: node_modules/.prisma/client/index.d.ts:11381
 
 #### Overrides
 
@@ -49,7 +50,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:11381
 
 > **catch**\<`TResult`\>(`onrejected?`): `Promise`\<`T` \| `TResult`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11395
+Defined in: node_modules/.prisma/client/index.d.ts:11395
 
 Attaches a callback for only the rejection of the Promise.
 
@@ -77,16 +78,16 @@ A Promise for the completion of the callback.
 
 `Prisma.PrismaPromise.catch`
 
-***
+---
 
 ### finally()
 
 > **finally**(`onfinally?`): `Promise`\<`T`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11402
+Defined in: node_modules/.prisma/client/index.d.ts:11402
 
-Attaches a callback that is invoked when the Promise is settled (fulfilled or rejected). The
-resolved value cannot be modified from the callback.
+Attaches a callback that is invoked when the Promise is settled (fulfilled or
+rejected). The resolved value cannot be modified from the callback.
 
 #### Parameters
 
@@ -106,37 +107,45 @@ A Promise for the completion of the callback.
 
 `Prisma.PrismaPromise.finally`
 
-***
+---
 
 ### tenant()
 
-> **tenant**\<`T`\>(`args?`): [`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \| `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `Null`, `ExtArgs`\>
+> **tenant**\<`T`\>(`args?`):
+> [`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \|
+> `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `Null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11382
+Defined in: node_modules/.prisma/client/index.d.ts:11382
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\> = \{ \}
+`T` _extends_
+[`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\> = \{ \}
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`TenantDefaultArgs`](../type-aliases/TenantDefaultArgs.md)\<`ExtArgs`\>\>
 
 #### Returns
 
-[`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \| `GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `Null`, `ExtArgs`\>
+[`Prisma__TenantClient`](Prisma__TenantClient.md)\<`Null` \|
+`GetFindResult`\<[`$TenantPayload`](../type-aliases/$TenantPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `Null`, `ExtArgs`\>
 
-***
+---
 
 ### then()
 
-> **then**\<`TResult1`, `TResult2`\>(`onfulfilled?`, `onrejected?`): `Promise`\<`TResult1` \| `TResult2`\>
+> **then**\<`TResult1`, `TResult2`\>(`onfulfilled?`, `onrejected?`):
+> `Promise`\<`TResult1` \| `TResult2`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11389
+Defined in: node_modules/.prisma/client/index.d.ts:11389
 
 Attaches callbacks for the resolution and/or rejection of the Promise.
 

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SubscriptionDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SubscriptionDeleteManyArgs
 
 # Type Alias: SubscriptionDeleteManyArgs\<ExtArgs\>
 
 > **SubscriptionDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4603
+Defined in: node_modules/.prisma/client/index.d.ts:4603
 
 Subscription deleteMany
 
@@ -16,7 +18,7 @@ Subscription deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,6 +26,6 @@ Subscription deleteMany
 
 > `optional` **where**: [`SubscriptionWhereInput`](SubscriptionWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:4607
+Defined in: node_modules/.prisma/client/index.d.ts:4607
 
 Filter which Subscriptions to delete

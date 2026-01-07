@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseCountOutputTypeCountDocumentsArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseCountOutputTypeCountDocumentsArgs
 
 # Type Alias: CaseCountOutputTypeCountDocumentsArgs\<ExtArgs\>
 
 > **CaseCountOutputTypeCountDocumentsArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2270
+Defined in: node_modules/.prisma/client/index.d.ts:2270
 
 CaseCountOutputType without action
 
@@ -16,7 +18,7 @@ CaseCountOutputType without action
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,4 +26,4 @@ CaseCountOutputType without action
 
 > `optional` **where**: [`DocumentWhereInput`](DocumentWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2271
+Defined in: node_modules/.prisma/client/index.d.ts:2271

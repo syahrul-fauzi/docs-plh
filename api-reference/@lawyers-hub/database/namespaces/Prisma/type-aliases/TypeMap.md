@@ -1,14 +1,15 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TypeMap
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TypeMap
 
 # Type Alias: TypeMap\<ExtArgs, ClientOptions\>
 
 > **TypeMap**\<`ExtArgs`, `ClientOptions`\> = `object` & `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:833
+Defined in: node_modules/.prisma/client/index.d.ts:833
 
 ## Type Declaration
 
@@ -18,11 +19,15 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### meta.modelProps
 
-> **modelProps**: `"tenant"` \| `"subscription"` \| `"user"` \| `"case"` \| `"document"` \| `"draft"` \| `"comment"` \| `"auditLog"` \| `"usage"` \| `"invitation"` \| `"documentTemplate"` \| `"templateVersion"` \| `"aIModelConfig"` \| `"complianceReview"` \| `"pIIAuditLog"`
+> **modelProps**: `"tenant"` \| `"subscription"` \| `"user"` \| `"case"` \|
+> `"document"` \| `"draft"` \| `"comment"` \| `"auditLog"` \| `"usage"` \|
+> `"invitation"` \| `"documentTemplate"` \| `"templateVersion"` \|
+> `"aIModelConfig"` \| `"complianceReview"` \| `"pIIAuditLog"`
 
 #### meta.txIsolationLevel
 
-> **txIsolationLevel**: [`TransactionIsolationLevel`](TransactionIsolationLevel.md)
+> **txIsolationLevel**:
+> [`TransactionIsolationLevel`](TransactionIsolationLevel.md)
 
 ### model
 
@@ -34,7 +39,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.fields
 
-> **fields**: [`AIModelConfigFieldRefs`](../interfaces/AIModelConfigFieldRefs.md)
+> **fields**:
+> [`AIModelConfigFieldRefs`](../interfaces/AIModelConfigFieldRefs.md)
 
 #### model.AIModelConfig.operations
 
@@ -46,11 +52,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.aggregate.args
 
-> **args**: [`AIModelConfigAggregateArgs`](AIModelConfigAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigAggregateArgs`](AIModelConfigAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateAIModelConfig`](AggregateAIModelConfig.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateAIModelConfig`](AggregateAIModelConfig.md)\>
 
 #### model.AIModelConfig.operations.count
 
@@ -62,7 +70,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`AIModelConfigCountAggregateOutputType`](AIModelConfigCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`AIModelConfigCountAggregateOutputType`](AIModelConfigCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.AIModelConfig.operations.create
 
@@ -74,7 +84,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.operations.createMany
 
@@ -82,7 +93,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.createMany.args
 
-> **args**: [`AIModelConfigCreateManyArgs`](AIModelConfigCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigCreateManyArgs`](AIModelConfigCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.createMany.result
 
@@ -94,11 +106,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.createManyAndReturn.args
 
-> **args**: [`AIModelConfigCreateManyAndReturnArgs`](AIModelConfigCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigCreateManyAndReturnArgs`](AIModelConfigCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>[]
 
 #### model.AIModelConfig.operations.delete
 
@@ -110,7 +124,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.operations.deleteMany
 
@@ -118,7 +133,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.deleteMany.args
 
-> **args**: [`AIModelConfigDeleteManyArgs`](AIModelConfigDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigDeleteManyArgs`](AIModelConfigDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.deleteMany.result
 
@@ -130,11 +146,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.findFirst.args
 
-> **args**: [`AIModelConfigFindFirstArgs`](AIModelConfigFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigFindFirstArgs`](AIModelConfigFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> \| `null`
 
 #### model.AIModelConfig.operations.findFirstOrThrow
 
@@ -142,11 +161,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.findFirstOrThrow.args
 
-> **args**: [`AIModelConfigFindFirstOrThrowArgs`](AIModelConfigFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigFindFirstOrThrowArgs`](AIModelConfigFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.operations.findMany
 
@@ -154,11 +175,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.findMany.args
 
-> **args**: [`AIModelConfigFindManyArgs`](AIModelConfigFindManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigFindManyArgs`](AIModelConfigFindManyArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>[]
 
 #### model.AIModelConfig.operations.findUnique
 
@@ -166,11 +189,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.findUnique.args
 
-> **args**: [`AIModelConfigFindUniqueArgs`](AIModelConfigFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigFindUniqueArgs`](AIModelConfigFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> \| `null`
 
 #### model.AIModelConfig.operations.findUniqueOrThrow
 
@@ -178,11 +204,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.findUniqueOrThrow.args
 
-> **args**: [`AIModelConfigFindUniqueOrThrowArgs`](AIModelConfigFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigFindUniqueOrThrowArgs`](AIModelConfigFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.operations.groupBy
 
@@ -190,11 +218,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.groupBy.args
 
-> **args**: [`AIModelConfigGroupByArgs`](AIModelConfigGroupByArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigGroupByArgs`](AIModelConfigGroupByArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`AIModelConfigGroupByOutputType`](AIModelConfigGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`AIModelConfigGroupByOutputType`](AIModelConfigGroupByOutputType.md)\>[]
 
 #### model.AIModelConfig.operations.update
 
@@ -206,7 +236,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.operations.updateMany
 
@@ -214,7 +245,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.updateMany.args
 
-> **args**: [`AIModelConfigUpdateManyArgs`](AIModelConfigUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AIModelConfigUpdateManyArgs`](AIModelConfigUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.AIModelConfig.operations.updateMany.result
 
@@ -230,7 +262,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AIModelConfig.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AIModelConfigPayload`]($AIModelConfigPayload.md)\>
 
 #### model.AIModelConfig.payload
 
@@ -270,7 +303,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`AuditLogCountAggregateOutputType`](AuditLogCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`AuditLogCountAggregateOutputType`](AuditLogCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.AuditLog.operations.create
 
@@ -282,7 +317,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.operations.createMany
 
@@ -302,11 +338,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.createManyAndReturn.args
 
-> **args**: [`AuditLogCreateManyAndReturnArgs`](AuditLogCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AuditLogCreateManyAndReturnArgs`](AuditLogCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.AuditLog.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>[]
 
 #### model.AuditLog.operations.delete
 
@@ -318,7 +356,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.operations.deleteMany
 
@@ -342,7 +381,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\> \|
+> `null`
 
 #### model.AuditLog.operations.findFirstOrThrow
 
@@ -350,11 +391,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.findFirstOrThrow.args
 
-> **args**: [`AuditLogFindFirstOrThrowArgs`](AuditLogFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AuditLogFindFirstOrThrowArgs`](AuditLogFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.AuditLog.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.operations.findMany
 
@@ -366,7 +409,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>[]
 
 #### model.AuditLog.operations.findUnique
 
@@ -378,7 +422,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\> \|
+> `null`
 
 #### model.AuditLog.operations.findUniqueOrThrow
 
@@ -386,11 +432,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.findUniqueOrThrow.args
 
-> **args**: [`AuditLogFindUniqueOrThrowArgs`](AuditLogFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`AuditLogFindUniqueOrThrowArgs`](AuditLogFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.AuditLog.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.operations.groupBy
 
@@ -402,7 +450,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`AuditLogGroupByOutputType`](AuditLogGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`AuditLogGroupByOutputType`](AuditLogGroupByOutputType.md)\>[]
 
 #### model.AuditLog.operations.update
 
@@ -414,7 +463,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.operations.updateMany
 
@@ -438,7 +488,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.AuditLog.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$AuditLogPayload`]($AuditLogPayload.md)\>
 
 #### model.AuditLog.payload
 
@@ -478,7 +529,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`CaseCountAggregateOutputType`](CaseCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`CaseCountAggregateOutputType`](CaseCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Case.operations.create
 
@@ -510,7 +563,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.createManyAndReturn.args
 
-> **args**: [`CaseCreateManyAndReturnArgs`](CaseCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CaseCreateManyAndReturnArgs`](CaseCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Case.operations.createManyAndReturn.result
 
@@ -550,7 +604,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CasePayload`]($CasePayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$CasePayload`]($CasePayload.md)\> \|
+> `null`
 
 #### model.Case.operations.findFirstOrThrow
 
@@ -558,7 +613,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.findFirstOrThrow.args
 
-> **args**: [`CaseFindFirstOrThrowArgs`](CaseFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CaseFindFirstOrThrowArgs`](CaseFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Case.operations.findFirstOrThrow.result
 
@@ -586,7 +642,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CasePayload`]($CasePayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$CasePayload`]($CasePayload.md)\> \|
+> `null`
 
 #### model.Case.operations.findUniqueOrThrow
 
@@ -594,7 +651,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.findUniqueOrThrow.args
 
-> **args**: [`CaseFindUniqueOrThrowArgs`](CaseFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CaseFindUniqueOrThrowArgs`](CaseFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Case.operations.findUniqueOrThrow.result
 
@@ -610,7 +668,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Case.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`CaseGroupByOutputType`](CaseGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`CaseGroupByOutputType`](CaseGroupByOutputType.md)\>[]
 
 #### model.Case.operations.update
 
@@ -686,7 +745,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`CommentCountAggregateOutputType`](CommentCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`CommentCountAggregateOutputType`](CommentCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Comment.operations.create
 
@@ -698,7 +759,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.operations.createMany
 
@@ -718,11 +780,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.createManyAndReturn.args
 
-> **args**: [`CommentCreateManyAndReturnArgs`](CommentCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CommentCreateManyAndReturnArgs`](CommentCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Comment.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>[]
 
 #### model.Comment.operations.delete
 
@@ -734,7 +798,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.operations.deleteMany
 
@@ -758,7 +823,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\> \| `null`
 
 #### model.Comment.operations.findFirstOrThrow
 
@@ -766,11 +832,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.findFirstOrThrow.args
 
-> **args**: [`CommentFindFirstOrThrowArgs`](CommentFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CommentFindFirstOrThrowArgs`](CommentFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Comment.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.operations.findMany
 
@@ -782,7 +850,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>[]
 
 #### model.Comment.operations.findUnique
 
@@ -794,7 +863,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\> \| `null`
 
 #### model.Comment.operations.findUniqueOrThrow
 
@@ -802,11 +872,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.findUniqueOrThrow.args
 
-> **args**: [`CommentFindUniqueOrThrowArgs`](CommentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`CommentFindUniqueOrThrowArgs`](CommentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Comment.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.operations.groupBy
 
@@ -818,7 +890,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`CommentGroupByOutputType`](CommentGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`CommentGroupByOutputType`](CommentGroupByOutputType.md)\>[]
 
 #### model.Comment.operations.update
 
@@ -830,7 +903,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.operations.updateMany
 
@@ -854,7 +928,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Comment.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$CommentPayload`]($CommentPayload.md)\>
 
 #### model.Comment.payload
 
@@ -866,7 +941,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.fields
 
-> **fields**: [`ComplianceReviewFieldRefs`](../interfaces/ComplianceReviewFieldRefs.md)
+> **fields**:
+> [`ComplianceReviewFieldRefs`](../interfaces/ComplianceReviewFieldRefs.md)
 
 #### model.ComplianceReview.operations
 
@@ -878,11 +954,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.aggregate.args
 
-> **args**: [`ComplianceReviewAggregateArgs`](ComplianceReviewAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewAggregateArgs`](ComplianceReviewAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateComplianceReview`](AggregateComplianceReview.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateComplianceReview`](AggregateComplianceReview.md)\>
 
 #### model.ComplianceReview.operations.count
 
@@ -890,11 +968,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.count.args
 
-> **args**: [`ComplianceReviewCountArgs`](ComplianceReviewCountArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewCountArgs`](ComplianceReviewCountArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`ComplianceReviewCountAggregateOutputType`](ComplianceReviewCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`ComplianceReviewCountAggregateOutputType`](ComplianceReviewCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.ComplianceReview.operations.create
 
@@ -902,11 +983,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.create.args
 
-> **args**: [`ComplianceReviewCreateArgs`](ComplianceReviewCreateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewCreateArgs`](ComplianceReviewCreateArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.operations.createMany
 
@@ -914,7 +997,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.createMany.args
 
-> **args**: [`ComplianceReviewCreateManyArgs`](ComplianceReviewCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewCreateManyArgs`](ComplianceReviewCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.createMany.result
 
@@ -926,11 +1010,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.createManyAndReturn.args
 
-> **args**: [`ComplianceReviewCreateManyAndReturnArgs`](ComplianceReviewCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewCreateManyAndReturnArgs`](ComplianceReviewCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>[]
 
 #### model.ComplianceReview.operations.delete
 
@@ -938,11 +1024,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.delete.args
 
-> **args**: [`ComplianceReviewDeleteArgs`](ComplianceReviewDeleteArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewDeleteArgs`](ComplianceReviewDeleteArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.operations.deleteMany
 
@@ -950,7 +1038,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.deleteMany.args
 
-> **args**: [`ComplianceReviewDeleteManyArgs`](ComplianceReviewDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewDeleteManyArgs`](ComplianceReviewDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.deleteMany.result
 
@@ -962,11 +1051,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.findFirst.args
 
-> **args**: [`ComplianceReviewFindFirstArgs`](ComplianceReviewFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewFindFirstArgs`](ComplianceReviewFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> \| `null`
 
 #### model.ComplianceReview.operations.findFirstOrThrow
 
@@ -974,11 +1066,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.findFirstOrThrow.args
 
-> **args**: [`ComplianceReviewFindFirstOrThrowArgs`](ComplianceReviewFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewFindFirstOrThrowArgs`](ComplianceReviewFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.operations.findMany
 
@@ -986,11 +1080,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.findMany.args
 
-> **args**: [`ComplianceReviewFindManyArgs`](ComplianceReviewFindManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewFindManyArgs`](ComplianceReviewFindManyArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>[]
 
 #### model.ComplianceReview.operations.findUnique
 
@@ -998,11 +1094,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.findUnique.args
 
-> **args**: [`ComplianceReviewFindUniqueArgs`](ComplianceReviewFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewFindUniqueArgs`](ComplianceReviewFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> \| `null`
 
 #### model.ComplianceReview.operations.findUniqueOrThrow
 
@@ -1010,11 +1109,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.findUniqueOrThrow.args
 
-> **args**: [`ComplianceReviewFindUniqueOrThrowArgs`](ComplianceReviewFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewFindUniqueOrThrowArgs`](ComplianceReviewFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.operations.groupBy
 
@@ -1022,11 +1123,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.groupBy.args
 
-> **args**: [`ComplianceReviewGroupByArgs`](ComplianceReviewGroupByArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewGroupByArgs`](ComplianceReviewGroupByArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`ComplianceReviewGroupByOutputType`](ComplianceReviewGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`ComplianceReviewGroupByOutputType`](ComplianceReviewGroupByOutputType.md)\>[]
 
 #### model.ComplianceReview.operations.update
 
@@ -1034,11 +1137,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.update.args
 
-> **args**: [`ComplianceReviewUpdateArgs`](ComplianceReviewUpdateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewUpdateArgs`](ComplianceReviewUpdateArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.operations.updateMany
 
@@ -1046,7 +1151,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.updateMany.args
 
-> **args**: [`ComplianceReviewUpdateManyArgs`](ComplianceReviewUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewUpdateManyArgs`](ComplianceReviewUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.updateMany.result
 
@@ -1058,15 +1164,18 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.ComplianceReview.operations.upsert.args
 
-> **args**: [`ComplianceReviewUpsertArgs`](ComplianceReviewUpsertArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`ComplianceReviewUpsertArgs`](ComplianceReviewUpsertArgs.md)\<`ExtArgs`\>
 
 #### model.ComplianceReview.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\>
 
 #### model.ComplianceReview.payload
 
-> **payload**: [`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\<`ExtArgs`\>
+> **payload**:
+> [`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\<`ExtArgs`\>
 
 #### model.Document
 
@@ -1102,7 +1211,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`DocumentCountAggregateOutputType`](DocumentCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`DocumentCountAggregateOutputType`](DocumentCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Document.operations.create
 
@@ -1114,7 +1225,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.operations.createMany
 
@@ -1134,11 +1246,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.createManyAndReturn.args
 
-> **args**: [`DocumentCreateManyAndReturnArgs`](DocumentCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentCreateManyAndReturnArgs`](DocumentCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Document.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>[]
 
 #### model.Document.operations.delete
 
@@ -1150,7 +1264,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.operations.deleteMany
 
@@ -1174,7 +1289,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\> \|
+> `null`
 
 #### model.Document.operations.findFirstOrThrow
 
@@ -1182,11 +1299,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.findFirstOrThrow.args
 
-> **args**: [`DocumentFindFirstOrThrowArgs`](DocumentFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentFindFirstOrThrowArgs`](DocumentFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Document.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.operations.findMany
 
@@ -1198,7 +1317,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>[]
 
 #### model.Document.operations.findUnique
 
@@ -1210,7 +1330,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\> \|
+> `null`
 
 #### model.Document.operations.findUniqueOrThrow
 
@@ -1218,11 +1340,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.findUniqueOrThrow.args
 
-> **args**: [`DocumentFindUniqueOrThrowArgs`](DocumentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentFindUniqueOrThrowArgs`](DocumentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Document.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.operations.groupBy
 
@@ -1234,7 +1358,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`DocumentGroupByOutputType`](DocumentGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`DocumentGroupByOutputType`](DocumentGroupByOutputType.md)\>[]
 
 #### model.Document.operations.update
 
@@ -1246,7 +1371,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.operations.updateMany
 
@@ -1270,7 +1396,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Document.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentPayload`]($DocumentPayload.md)\>
 
 #### model.Document.payload
 
@@ -1282,7 +1409,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.fields
 
-> **fields**: [`DocumentTemplateFieldRefs`](../interfaces/DocumentTemplateFieldRefs.md)
+> **fields**:
+> [`DocumentTemplateFieldRefs`](../interfaces/DocumentTemplateFieldRefs.md)
 
 #### model.DocumentTemplate.operations
 
@@ -1294,11 +1422,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.aggregate.args
 
-> **args**: [`DocumentTemplateAggregateArgs`](DocumentTemplateAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateAggregateArgs`](DocumentTemplateAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateDocumentTemplate`](AggregateDocumentTemplate.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateDocumentTemplate`](AggregateDocumentTemplate.md)\>
 
 #### model.DocumentTemplate.operations.count
 
@@ -1306,11 +1436,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.count.args
 
-> **args**: [`DocumentTemplateCountArgs`](DocumentTemplateCountArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateCountArgs`](DocumentTemplateCountArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`DocumentTemplateCountAggregateOutputType`](DocumentTemplateCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`DocumentTemplateCountAggregateOutputType`](DocumentTemplateCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.DocumentTemplate.operations.create
 
@@ -1318,11 +1451,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.create.args
 
-> **args**: [`DocumentTemplateCreateArgs`](DocumentTemplateCreateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateCreateArgs`](DocumentTemplateCreateArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.operations.createMany
 
@@ -1330,7 +1465,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.createMany.args
 
-> **args**: [`DocumentTemplateCreateManyArgs`](DocumentTemplateCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateCreateManyArgs`](DocumentTemplateCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.createMany.result
 
@@ -1342,11 +1478,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.createManyAndReturn.args
 
-> **args**: [`DocumentTemplateCreateManyAndReturnArgs`](DocumentTemplateCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateCreateManyAndReturnArgs`](DocumentTemplateCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>[]
 
 #### model.DocumentTemplate.operations.delete
 
@@ -1354,11 +1492,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.delete.args
 
-> **args**: [`DocumentTemplateDeleteArgs`](DocumentTemplateDeleteArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateDeleteArgs`](DocumentTemplateDeleteArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.operations.deleteMany
 
@@ -1366,7 +1506,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.deleteMany.args
 
-> **args**: [`DocumentTemplateDeleteManyArgs`](DocumentTemplateDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateDeleteManyArgs`](DocumentTemplateDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.deleteMany.result
 
@@ -1378,11 +1519,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.findFirst.args
 
-> **args**: [`DocumentTemplateFindFirstArgs`](DocumentTemplateFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateFindFirstArgs`](DocumentTemplateFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> \| `null`
 
 #### model.DocumentTemplate.operations.findFirstOrThrow
 
@@ -1390,11 +1534,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.findFirstOrThrow.args
 
-> **args**: [`DocumentTemplateFindFirstOrThrowArgs`](DocumentTemplateFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateFindFirstOrThrowArgs`](DocumentTemplateFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.operations.findMany
 
@@ -1402,11 +1548,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.findMany.args
 
-> **args**: [`DocumentTemplateFindManyArgs`](DocumentTemplateFindManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateFindManyArgs`](DocumentTemplateFindManyArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>[]
 
 #### model.DocumentTemplate.operations.findUnique
 
@@ -1414,11 +1562,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.findUnique.args
 
-> **args**: [`DocumentTemplateFindUniqueArgs`](DocumentTemplateFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateFindUniqueArgs`](DocumentTemplateFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> \| `null`
 
 #### model.DocumentTemplate.operations.findUniqueOrThrow
 
@@ -1426,11 +1577,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.findUniqueOrThrow.args
 
-> **args**: [`DocumentTemplateFindUniqueOrThrowArgs`](DocumentTemplateFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateFindUniqueOrThrowArgs`](DocumentTemplateFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.operations.groupBy
 
@@ -1438,11 +1591,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.groupBy.args
 
-> **args**: [`DocumentTemplateGroupByArgs`](DocumentTemplateGroupByArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateGroupByArgs`](DocumentTemplateGroupByArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`DocumentTemplateGroupByOutputType`](DocumentTemplateGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`DocumentTemplateGroupByOutputType`](DocumentTemplateGroupByOutputType.md)\>[]
 
 #### model.DocumentTemplate.operations.update
 
@@ -1450,11 +1605,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.update.args
 
-> **args**: [`DocumentTemplateUpdateArgs`](DocumentTemplateUpdateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateUpdateArgs`](DocumentTemplateUpdateArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.operations.updateMany
 
@@ -1462,7 +1619,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.updateMany.args
 
-> **args**: [`DocumentTemplateUpdateManyArgs`](DocumentTemplateUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateUpdateManyArgs`](DocumentTemplateUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.updateMany.result
 
@@ -1474,15 +1632,18 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.DocumentTemplate.operations.upsert.args
 
-> **args**: [`DocumentTemplateUpsertArgs`](DocumentTemplateUpsertArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DocumentTemplateUpsertArgs`](DocumentTemplateUpsertArgs.md)\<`ExtArgs`\>
 
 #### model.DocumentTemplate.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\>
 
 #### model.DocumentTemplate.payload
 
-> **payload**: [`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\<`ExtArgs`\>
+> **payload**:
+> [`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\<`ExtArgs`\>
 
 #### model.Draft
 
@@ -1518,7 +1679,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`DraftCountAggregateOutputType`](DraftCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`DraftCountAggregateOutputType`](DraftCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Draft.operations.create
 
@@ -1550,7 +1713,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.createManyAndReturn.args
 
-> **args**: [`DraftCreateManyAndReturnArgs`](DraftCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DraftCreateManyAndReturnArgs`](DraftCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Draft.operations.createManyAndReturn.result
 
@@ -1590,7 +1754,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DraftPayload`]($DraftPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$DraftPayload`]($DraftPayload.md)\> \|
+> `null`
 
 #### model.Draft.operations.findFirstOrThrow
 
@@ -1598,7 +1763,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.findFirstOrThrow.args
 
-> **args**: [`DraftFindFirstOrThrowArgs`](DraftFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DraftFindFirstOrThrowArgs`](DraftFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Draft.operations.findFirstOrThrow.result
 
@@ -1626,7 +1792,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$DraftPayload`]($DraftPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$DraftPayload`]($DraftPayload.md)\> \|
+> `null`
 
 #### model.Draft.operations.findUniqueOrThrow
 
@@ -1634,7 +1801,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.findUniqueOrThrow.args
 
-> **args**: [`DraftFindUniqueOrThrowArgs`](DraftFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`DraftFindUniqueOrThrowArgs`](DraftFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Draft.operations.findUniqueOrThrow.result
 
@@ -1650,7 +1818,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Draft.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`DraftGroupByOutputType`](DraftGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`DraftGroupByOutputType`](DraftGroupByOutputType.md)\>[]
 
 #### model.Draft.operations.update
 
@@ -1714,7 +1883,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateInvitation`](AggregateInvitation.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateInvitation`](AggregateInvitation.md)\>
 
 #### model.Invitation.operations.count
 
@@ -1726,7 +1896,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`InvitationCountAggregateOutputType`](InvitationCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`InvitationCountAggregateOutputType`](InvitationCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Invitation.operations.create
 
@@ -1738,7 +1910,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.operations.createMany
 
@@ -1746,7 +1919,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.createMany.args
 
-> **args**: [`InvitationCreateManyArgs`](InvitationCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationCreateManyArgs`](InvitationCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.createMany.result
 
@@ -1758,11 +1932,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.createManyAndReturn.args
 
-> **args**: [`InvitationCreateManyAndReturnArgs`](InvitationCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationCreateManyAndReturnArgs`](InvitationCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>[]
 
 #### model.Invitation.operations.delete
 
@@ -1774,7 +1950,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.operations.deleteMany
 
@@ -1782,7 +1959,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.deleteMany.args
 
-> **args**: [`InvitationDeleteManyArgs`](InvitationDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationDeleteManyArgs`](InvitationDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.deleteMany.result
 
@@ -1798,7 +1976,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\> \|
+> `null`
 
 #### model.Invitation.operations.findFirstOrThrow
 
@@ -1806,11 +1986,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.findFirstOrThrow.args
 
-> **args**: [`InvitationFindFirstOrThrowArgs`](InvitationFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationFindFirstOrThrowArgs`](InvitationFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.operations.findMany
 
@@ -1822,7 +2004,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>[]
 
 #### model.Invitation.operations.findUnique
 
@@ -1830,11 +2013,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.findUnique.args
 
-> **args**: [`InvitationFindUniqueArgs`](InvitationFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationFindUniqueArgs`](InvitationFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\> \|
+> `null`
 
 #### model.Invitation.operations.findUniqueOrThrow
 
@@ -1842,11 +2028,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.findUniqueOrThrow.args
 
-> **args**: [`InvitationFindUniqueOrThrowArgs`](InvitationFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationFindUniqueOrThrowArgs`](InvitationFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.operations.groupBy
 
@@ -1858,7 +2046,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`InvitationGroupByOutputType`](InvitationGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`InvitationGroupByOutputType`](InvitationGroupByOutputType.md)\>[]
 
 #### model.Invitation.operations.update
 
@@ -1870,7 +2059,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.operations.updateMany
 
@@ -1878,7 +2068,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.updateMany.args
 
-> **args**: [`InvitationUpdateManyArgs`](InvitationUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`InvitationUpdateManyArgs`](InvitationUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.Invitation.operations.updateMany.result
 
@@ -1894,7 +2085,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Invitation.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$InvitationPayload`]($InvitationPayload.md)\>
 
 #### model.Invitation.payload
 
@@ -1918,11 +2110,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.aggregate.args
 
-> **args**: [`PIIAuditLogAggregateArgs`](PIIAuditLogAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogAggregateArgs`](PIIAuditLogAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregatePIIAuditLog`](AggregatePIIAuditLog.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregatePIIAuditLog`](AggregatePIIAuditLog.md)\>
 
 #### model.PIIAuditLog.operations.count
 
@@ -1934,7 +2128,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`PIIAuditLogCountAggregateOutputType`](PIIAuditLogCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`PIIAuditLogCountAggregateOutputType`](PIIAuditLogCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.PIIAuditLog.operations.create
 
@@ -1946,7 +2142,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.operations.createMany
 
@@ -1954,7 +2151,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.createMany.args
 
-> **args**: [`PIIAuditLogCreateManyArgs`](PIIAuditLogCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogCreateManyArgs`](PIIAuditLogCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.createMany.result
 
@@ -1966,11 +2164,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.createManyAndReturn.args
 
-> **args**: [`PIIAuditLogCreateManyAndReturnArgs`](PIIAuditLogCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogCreateManyAndReturnArgs`](PIIAuditLogCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>[]
 
 #### model.PIIAuditLog.operations.delete
 
@@ -1982,7 +2182,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.operations.deleteMany
 
@@ -1990,7 +2191,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.deleteMany.args
 
-> **args**: [`PIIAuditLogDeleteManyArgs`](PIIAuditLogDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogDeleteManyArgs`](PIIAuditLogDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.deleteMany.result
 
@@ -2002,11 +2204,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.findFirst.args
 
-> **args**: [`PIIAuditLogFindFirstArgs`](PIIAuditLogFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogFindFirstArgs`](PIIAuditLogFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\> \|
+> `null`
 
 #### model.PIIAuditLog.operations.findFirstOrThrow
 
@@ -2014,11 +2219,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.findFirstOrThrow.args
 
-> **args**: [`PIIAuditLogFindFirstOrThrowArgs`](PIIAuditLogFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogFindFirstOrThrowArgs`](PIIAuditLogFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.operations.findMany
 
@@ -2030,7 +2237,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>[]
 
 #### model.PIIAuditLog.operations.findUnique
 
@@ -2038,11 +2246,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.findUnique.args
 
-> **args**: [`PIIAuditLogFindUniqueArgs`](PIIAuditLogFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogFindUniqueArgs`](PIIAuditLogFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\> \|
+> `null`
 
 #### model.PIIAuditLog.operations.findUniqueOrThrow
 
@@ -2050,11 +2261,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.findUniqueOrThrow.args
 
-> **args**: [`PIIAuditLogFindUniqueOrThrowArgs`](PIIAuditLogFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogFindUniqueOrThrowArgs`](PIIAuditLogFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.operations.groupBy
 
@@ -2066,7 +2279,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`PIIAuditLogGroupByOutputType`](PIIAuditLogGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`PIIAuditLogGroupByOutputType`](PIIAuditLogGroupByOutputType.md)\>[]
 
 #### model.PIIAuditLog.operations.update
 
@@ -2078,7 +2292,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.operations.updateMany
 
@@ -2086,7 +2301,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.updateMany.args
 
-> **args**: [`PIIAuditLogUpdateManyArgs`](PIIAuditLogUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`PIIAuditLogUpdateManyArgs`](PIIAuditLogUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.PIIAuditLog.operations.updateMany.result
 
@@ -2102,7 +2318,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.PIIAuditLog.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\>
 
 #### model.PIIAuditLog.payload
 
@@ -2126,11 +2343,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.aggregate.args
 
-> **args**: [`SubscriptionAggregateArgs`](SubscriptionAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionAggregateArgs`](SubscriptionAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateSubscription`](AggregateSubscription.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateSubscription`](AggregateSubscription.md)\>
 
 #### model.Subscription.operations.count
 
@@ -2142,7 +2361,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`SubscriptionCountAggregateOutputType`](SubscriptionCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`SubscriptionCountAggregateOutputType`](SubscriptionCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Subscription.operations.create
 
@@ -2154,7 +2375,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.operations.createMany
 
@@ -2162,7 +2384,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.createMany.args
 
-> **args**: [`SubscriptionCreateManyArgs`](SubscriptionCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionCreateManyArgs`](SubscriptionCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.createMany.result
 
@@ -2174,11 +2397,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.createManyAndReturn.args
 
-> **args**: [`SubscriptionCreateManyAndReturnArgs`](SubscriptionCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionCreateManyAndReturnArgs`](SubscriptionCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>[]
 
 #### model.Subscription.operations.delete
 
@@ -2190,7 +2415,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.operations.deleteMany
 
@@ -2198,7 +2424,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.deleteMany.args
 
-> **args**: [`SubscriptionDeleteManyArgs`](SubscriptionDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionDeleteManyArgs`](SubscriptionDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.deleteMany.result
 
@@ -2210,11 +2437,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.findFirst.args
 
-> **args**: [`SubscriptionFindFirstArgs`](SubscriptionFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionFindFirstArgs`](SubscriptionFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> \| `null`
 
 #### model.Subscription.operations.findFirstOrThrow
 
@@ -2222,11 +2452,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.findFirstOrThrow.args
 
-> **args**: [`SubscriptionFindFirstOrThrowArgs`](SubscriptionFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionFindFirstOrThrowArgs`](SubscriptionFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.operations.findMany
 
@@ -2234,11 +2466,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.findMany.args
 
-> **args**: [`SubscriptionFindManyArgs`](SubscriptionFindManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionFindManyArgs`](SubscriptionFindManyArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>[]
 
 #### model.Subscription.operations.findUnique
 
@@ -2246,11 +2480,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.findUnique.args
 
-> **args**: [`SubscriptionFindUniqueArgs`](SubscriptionFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionFindUniqueArgs`](SubscriptionFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> \| `null`
 
 #### model.Subscription.operations.findUniqueOrThrow
 
@@ -2258,11 +2495,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.findUniqueOrThrow.args
 
-> **args**: [`SubscriptionFindUniqueOrThrowArgs`](SubscriptionFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionFindUniqueOrThrowArgs`](SubscriptionFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.operations.groupBy
 
@@ -2274,7 +2513,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`SubscriptionGroupByOutputType`](SubscriptionGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`SubscriptionGroupByOutputType`](SubscriptionGroupByOutputType.md)\>[]
 
 #### model.Subscription.operations.update
 
@@ -2286,7 +2526,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.operations.updateMany
 
@@ -2294,7 +2535,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.updateMany.args
 
-> **args**: [`SubscriptionUpdateManyArgs`](SubscriptionUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`SubscriptionUpdateManyArgs`](SubscriptionUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.Subscription.operations.updateMany.result
 
@@ -2310,7 +2552,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Subscription.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$SubscriptionPayload`]($SubscriptionPayload.md)\>
 
 #### model.Subscription.payload
 
@@ -2322,7 +2565,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.fields
 
-> **fields**: [`TemplateVersionFieldRefs`](../interfaces/TemplateVersionFieldRefs.md)
+> **fields**:
+> [`TemplateVersionFieldRefs`](../interfaces/TemplateVersionFieldRefs.md)
 
 #### model.TemplateVersion.operations
 
@@ -2334,11 +2578,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.aggregate.args
 
-> **args**: [`TemplateVersionAggregateArgs`](TemplateVersionAggregateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionAggregateArgs`](TemplateVersionAggregateArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.aggregate.result
 
-> **result**: `$Utils.Optional`\<[`AggregateTemplateVersion`](AggregateTemplateVersion.md)\>
+> **result**:
+> `$Utils.Optional`\<[`AggregateTemplateVersion`](AggregateTemplateVersion.md)\>
 
 #### model.TemplateVersion.operations.count
 
@@ -2346,11 +2592,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.count.args
 
-> **args**: [`TemplateVersionCountArgs`](TemplateVersionCountArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionCountArgs`](TemplateVersionCountArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`TemplateVersionCountAggregateOutputType`](TemplateVersionCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`TemplateVersionCountAggregateOutputType`](TemplateVersionCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.TemplateVersion.operations.create
 
@@ -2358,11 +2607,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.create.args
 
-> **args**: [`TemplateVersionCreateArgs`](TemplateVersionCreateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionCreateArgs`](TemplateVersionCreateArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.create.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.operations.createMany
 
@@ -2370,7 +2621,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.createMany.args
 
-> **args**: [`TemplateVersionCreateManyArgs`](TemplateVersionCreateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionCreateManyArgs`](TemplateVersionCreateManyArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.createMany.result
 
@@ -2382,11 +2634,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.createManyAndReturn.args
 
-> **args**: [`TemplateVersionCreateManyAndReturnArgs`](TemplateVersionCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionCreateManyAndReturnArgs`](TemplateVersionCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>[]
 
 #### model.TemplateVersion.operations.delete
 
@@ -2394,11 +2648,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.delete.args
 
-> **args**: [`TemplateVersionDeleteArgs`](TemplateVersionDeleteArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionDeleteArgs`](TemplateVersionDeleteArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.delete.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.operations.deleteMany
 
@@ -2406,7 +2662,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.deleteMany.args
 
-> **args**: [`TemplateVersionDeleteManyArgs`](TemplateVersionDeleteManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionDeleteManyArgs`](TemplateVersionDeleteManyArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.deleteMany.result
 
@@ -2418,11 +2675,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.findFirst.args
 
-> **args**: [`TemplateVersionFindFirstArgs`](TemplateVersionFindFirstArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionFindFirstArgs`](TemplateVersionFindFirstArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> \| `null`
 
 #### model.TemplateVersion.operations.findFirstOrThrow
 
@@ -2430,11 +2690,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.findFirstOrThrow.args
 
-> **args**: [`TemplateVersionFindFirstOrThrowArgs`](TemplateVersionFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionFindFirstOrThrowArgs`](TemplateVersionFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.findFirstOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.operations.findMany
 
@@ -2442,11 +2704,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.findMany.args
 
-> **args**: [`TemplateVersionFindManyArgs`](TemplateVersionFindManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionFindManyArgs`](TemplateVersionFindManyArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>[]
 
 #### model.TemplateVersion.operations.findUnique
 
@@ -2454,11 +2718,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.findUnique.args
 
-> **args**: [`TemplateVersionFindUniqueArgs`](TemplateVersionFindUniqueArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionFindUniqueArgs`](TemplateVersionFindUniqueArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\> \| `null`
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> \| `null`
 
 #### model.TemplateVersion.operations.findUniqueOrThrow
 
@@ -2466,11 +2733,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.findUniqueOrThrow.args
 
-> **args**: [`TemplateVersionFindUniqueOrThrowArgs`](TemplateVersionFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionFindUniqueOrThrowArgs`](TemplateVersionFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.findUniqueOrThrow.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.operations.groupBy
 
@@ -2478,11 +2747,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.groupBy.args
 
-> **args**: [`TemplateVersionGroupByArgs`](TemplateVersionGroupByArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionGroupByArgs`](TemplateVersionGroupByArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`TemplateVersionGroupByOutputType`](TemplateVersionGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`TemplateVersionGroupByOutputType`](TemplateVersionGroupByOutputType.md)\>[]
 
 #### model.TemplateVersion.operations.update
 
@@ -2490,11 +2761,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.update.args
 
-> **args**: [`TemplateVersionUpdateArgs`](TemplateVersionUpdateArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionUpdateArgs`](TemplateVersionUpdateArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.update.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.operations.updateMany
 
@@ -2502,7 +2775,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.updateMany.args
 
-> **args**: [`TemplateVersionUpdateManyArgs`](TemplateVersionUpdateManyArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionUpdateManyArgs`](TemplateVersionUpdateManyArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.updateMany.result
 
@@ -2514,15 +2788,18 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.TemplateVersion.operations.upsert.args
 
-> **args**: [`TemplateVersionUpsertArgs`](TemplateVersionUpsertArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TemplateVersionUpsertArgs`](TemplateVersionUpsertArgs.md)\<`ExtArgs`\>
 
 #### model.TemplateVersion.operations.upsert.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TemplateVersionPayload`]($TemplateVersionPayload.md)\>
 
 #### model.TemplateVersion.payload
 
-> **payload**: [`$TemplateVersionPayload`]($TemplateVersionPayload.md)\<`ExtArgs`\>
+> **payload**:
+> [`$TemplateVersionPayload`]($TemplateVersionPayload.md)\<`ExtArgs`\>
 
 #### model.Tenant
 
@@ -2558,7 +2835,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`TenantCountAggregateOutputType`](TenantCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`TenantCountAggregateOutputType`](TenantCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Tenant.operations.create
 
@@ -2590,11 +2869,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.createManyAndReturn.args
 
-> **args**: [`TenantCreateManyAndReturnArgs`](TenantCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TenantCreateManyAndReturnArgs`](TenantCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Tenant.operations.createManyAndReturn.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>[]
 
 #### model.Tenant.operations.delete
 
@@ -2630,7 +2911,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>
+> \| `null`
 
 #### model.Tenant.operations.findFirstOrThrow
 
@@ -2638,7 +2920,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.findFirstOrThrow.args
 
-> **args**: [`TenantFindFirstOrThrowArgs`](TenantFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TenantFindFirstOrThrowArgs`](TenantFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Tenant.operations.findFirstOrThrow.result
 
@@ -2654,7 +2937,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.findMany.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>[]
+> **result**:
+> `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>[]
 
 #### model.Tenant.operations.findUnique
 
@@ -2666,7 +2950,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$TenantPayload`]($TenantPayload.md)\>
+> \| `null`
 
 #### model.Tenant.operations.findUniqueOrThrow
 
@@ -2674,7 +2959,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.findUniqueOrThrow.args
 
-> **args**: [`TenantFindUniqueOrThrowArgs`](TenantFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`TenantFindUniqueOrThrowArgs`](TenantFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Tenant.operations.findUniqueOrThrow.result
 
@@ -2690,7 +2976,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Tenant.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`TenantGroupByOutputType`](TenantGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`TenantGroupByOutputType`](TenantGroupByOutputType.md)\>[]
 
 #### model.Tenant.operations.update
 
@@ -2766,7 +3053,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`UsageCountAggregateOutputType`](UsageCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`UsageCountAggregateOutputType`](UsageCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.Usage.operations.create
 
@@ -2798,7 +3087,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.createManyAndReturn.args
 
-> **args**: [`UsageCreateManyAndReturnArgs`](UsageCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UsageCreateManyAndReturnArgs`](UsageCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.Usage.operations.createManyAndReturn.result
 
@@ -2838,7 +3128,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$UsagePayload`]($UsagePayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$UsagePayload`]($UsagePayload.md)\> \|
+> `null`
 
 #### model.Usage.operations.findFirstOrThrow
 
@@ -2846,7 +3137,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.findFirstOrThrow.args
 
-> **args**: [`UsageFindFirstOrThrowArgs`](UsageFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UsageFindFirstOrThrowArgs`](UsageFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Usage.operations.findFirstOrThrow.result
 
@@ -2874,7 +3166,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$UsagePayload`]($UsagePayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$UsagePayload`]($UsagePayload.md)\> \|
+> `null`
 
 #### model.Usage.operations.findUniqueOrThrow
 
@@ -2882,7 +3175,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.findUniqueOrThrow.args
 
-> **args**: [`UsageFindUniqueOrThrowArgs`](UsageFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UsageFindUniqueOrThrowArgs`](UsageFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.Usage.operations.findUniqueOrThrow.result
 
@@ -2898,7 +3192,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.Usage.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`UsageGroupByOutputType`](UsageGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`UsageGroupByOutputType`](UsageGroupByOutputType.md)\>[]
 
 #### model.Usage.operations.update
 
@@ -2974,7 +3269,9 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.count.result
 
-> **result**: `$Utils.Optional`\<[`UserCountAggregateOutputType`](UserCountAggregateOutputType.md)\> \| `number`
+> **result**:
+> `$Utils.Optional`\<[`UserCountAggregateOutputType`](UserCountAggregateOutputType.md)\>
+> \| `number`
 
 #### model.User.operations.create
 
@@ -3006,7 +3303,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.createManyAndReturn.args
 
-> **args**: [`UserCreateManyAndReturnArgs`](UserCreateManyAndReturnArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UserCreateManyAndReturnArgs`](UserCreateManyAndReturnArgs.md)\<`ExtArgs`\>
 
 #### model.User.operations.createManyAndReturn.result
 
@@ -3046,7 +3344,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.findFirst.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$UserPayload`]($UserPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$UserPayload`]($UserPayload.md)\> \|
+> `null`
 
 #### model.User.operations.findFirstOrThrow
 
@@ -3054,7 +3353,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.findFirstOrThrow.args
 
-> **args**: [`UserFindFirstOrThrowArgs`](UserFindFirstOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UserFindFirstOrThrowArgs`](UserFindFirstOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.User.operations.findFirstOrThrow.result
 
@@ -3082,7 +3382,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.findUnique.result
 
-> **result**: `$Utils.PayloadToResult`\<[`$UserPayload`]($UserPayload.md)\> \| `null`
+> **result**: `$Utils.PayloadToResult`\<[`$UserPayload`]($UserPayload.md)\> \|
+> `null`
 
 #### model.User.operations.findUniqueOrThrow
 
@@ -3090,7 +3391,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.findUniqueOrThrow.args
 
-> **args**: [`UserFindUniqueOrThrowArgs`](UserFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
+> **args**:
+> [`UserFindUniqueOrThrowArgs`](UserFindUniqueOrThrowArgs.md)\<`ExtArgs`\>
 
 #### model.User.operations.findUniqueOrThrow.result
 
@@ -3106,7 +3408,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 #### model.User.operations.groupBy.result
 
-> **result**: `$Utils.Optional`\<[`UserGroupByOutputType`](UserGroupByOutputType.md)\>[]
+> **result**:
+> `$Utils.Optional`\<[`UserGroupByOutputType`](UserGroupByOutputType.md)\>[]
 
 #### model.User.operations.update
 
@@ -3214,7 +3517,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:833
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ### ClientOptions
 

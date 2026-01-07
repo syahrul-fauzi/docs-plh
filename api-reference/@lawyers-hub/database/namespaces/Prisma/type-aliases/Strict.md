@@ -1,14 +1,17 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / \_Strict
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / \_Strict
 
-# Type Alias: \_Strict\<U, _U\>
+# Type Alias: \_Strict\<U, \_U\>
 
-> **\_Strict**\<`U`, `_U`\> = `U` *extends* `unknown` ? `U` & [`OptionalFlat`](OptionalFlat.md)\<[`_Record`](Record.md)\<`Exclude`\<[`Keys`](Keys.md)\<`_U`\>, keyof `U`\>, `never`\>\> : `never`
+> **\_Strict**\<`U`, `_U`\> = `U` _extends_ `unknown` ? `U` &
+> [`OptionalFlat`](OptionalFlat.md)\<[`_Record`](Record.md)\<`Exclude`\<[`Keys`](Keys.md)\<`_U`\>,
+> keyof `U`\>, `never`\>\> : `never`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:694
+Defined in: node_modules/.prisma/client/index.d.ts:694
 
 ## Type Parameters
 
@@ -16,6 +19,6 @@ Defined in: node\_modules/.prisma/client/index.d.ts:694
 
 `U`
 
-### _U
+### \_U
 
 `_U` = `U`

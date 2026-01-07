@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / NestedStringWithAggregatesFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+NestedStringWithAggregatesFilter
 
 # Type Alias: NestedStringWithAggregatesFilter\<$PrismaModel\>
 
 > **NestedStringWithAggregatesFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22999
+Defined in: node_modules/.prisma/client/index.d.ts:22999
 
 ## Type Parameters
 
@@ -20,110 +22,124 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22999
 
 ### \_count?
 
-> `optional` **\_count**: [`NestedIntFilter`](NestedIntFilter.md)\<`$PrismaModel`\>
+> `optional` **\_count**:
+> [`NestedIntFilter`](NestedIntFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23011
+Defined in: node_modules/.prisma/client/index.d.ts:23011
 
-***
+---
 
 ### \_max?
 
-> `optional` **\_max**: [`NestedStringFilter`](NestedStringFilter.md)\<`$PrismaModel`\>
+> `optional` **\_max**:
+> [`NestedStringFilter`](NestedStringFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23013
+Defined in: node_modules/.prisma/client/index.d.ts:23013
 
-***
+---
 
 ### \_min?
 
-> `optional` **\_min**: [`NestedStringFilter`](NestedStringFilter.md)\<`$PrismaModel`\>
+> `optional` **\_min**:
+> [`NestedStringFilter`](NestedStringFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23012
+Defined in: node_modules/.prisma/client/index.d.ts:23012
 
-***
+---
 
 ### contains?
 
-> `optional` **contains**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **contains**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23007
+Defined in: node_modules/.prisma/client/index.d.ts:23007
 
-***
+---
 
 ### endsWith?
 
-> `optional` **endsWith**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **endsWith**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23009
+Defined in: node_modules/.prisma/client/index.d.ts:23009
 
-***
+---
 
 ### equals?
 
-> `optional` **equals**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **equals**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23000
+Defined in: node_modules/.prisma/client/index.d.ts:23000
 
-***
+---
 
 ### gt?
 
-> `optional` **gt**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gt**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23005
+Defined in: node_modules/.prisma/client/index.d.ts:23005
 
-***
+---
 
 ### gte?
 
-> `optional` **gte**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gte**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23006
+Defined in: node_modules/.prisma/client/index.d.ts:23006
 
-***
+---
 
 ### in?
 
-> `optional` **in**: `string`[] \| [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **in**: `string`[] \|
+> [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23001
+Defined in: node_modules/.prisma/client/index.d.ts:23001
 
-***
+---
 
 ### lt?
 
-> `optional` **lt**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lt**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23003
+Defined in: node_modules/.prisma/client/index.d.ts:23003
 
-***
+---
 
 ### lte?
 
-> `optional` **lte**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lte**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23004
+Defined in: node_modules/.prisma/client/index.d.ts:23004
 
-***
+---
 
 ### not?
 
-> `optional` **not**: `NestedStringWithAggregatesFilter`\<`$PrismaModel`\> \| `string`
+> `optional` **not**: `NestedStringWithAggregatesFilter`\<`$PrismaModel`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23010
+Defined in: node_modules/.prisma/client/index.d.ts:23010
 
-***
+---
 
 ### notIn?
 
-> `optional` **notIn**: `string`[] \| [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **notIn**: `string`[] \|
+> [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23002
+Defined in: node_modules/.prisma/client/index.d.ts:23002
 
-***
+---
 
 ### startsWith?
 
-> `optional` **startsWith**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **startsWith**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23008
+Defined in: node_modules/.prisma/client/index.d.ts:23008

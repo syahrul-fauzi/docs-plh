@@ -1,35 +1,40 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentTemplateListRelationFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentTemplateListRelationFilter
 
 # Type Alias: DocumentTemplateListRelationFilter
 
 > **DocumentTemplateListRelationFilter** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20749
+Defined in: node_modules/.prisma/client/index.d.ts:20749
 
 ## Properties
 
 ### every?
 
-> `optional` **every**: [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
+> `optional` **every**:
+> [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20750
+Defined in: node_modules/.prisma/client/index.d.ts:20750
 
-***
+---
 
 ### none?
 
-> `optional` **none**: [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
+> `optional` **none**:
+> [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20752
+Defined in: node_modules/.prisma/client/index.d.ts:20752
 
-***
+---
 
 ### some?
 
-> `optional` **some**: [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
+> `optional` **some**:
+> [`DocumentTemplateWhereInput`](DocumentTemplateWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20751
+Defined in: node_modules/.prisma/client/index.d.ts:20751

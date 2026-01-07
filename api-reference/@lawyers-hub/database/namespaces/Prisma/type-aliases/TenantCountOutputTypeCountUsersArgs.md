@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantCountOutputTypeCountUsersArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantCountOutputTypeCountUsersArgs
 
 # Type Alias: TenantCountOutputTypeCountUsersArgs\<ExtArgs\>
 
 > **TenantCountOutputTypeCountUsersArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2161
+Defined in: node_modules/.prisma/client/index.d.ts:2161
 
 TenantCountOutputType without action
 
@@ -16,7 +18,7 @@ TenantCountOutputType without action
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,4 +26,4 @@ TenantCountOutputType without action
 
 > `optional` **where**: [`UserWhereInput`](UserWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2162
+Defined in: node_modules/.prisma/client/index.d.ts:2162

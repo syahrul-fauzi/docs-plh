@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigFieldRefs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigFieldRefs
 
 # Interface: AIModelConfigFieldRefs
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15402
+Defined in: node_modules/.prisma/client/index.d.ts:15402
 
 Fields of the AIModelConfig model
 
@@ -14,94 +16,106 @@ Fields of the AIModelConfig model
 
 ### apiKey
 
-> `readonly` **apiKey**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
+> `readonly` **apiKey**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15406
+Defined in: node_modules/.prisma/client/index.d.ts:15406
 
-***
+---
 
 ### canaryStartedAt
 
-> `readonly` **canaryStartedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
+> `readonly` **canaryStartedAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15411
+Defined in: node_modules/.prisma/client/index.d.ts:15411
 
-***
+---
 
 ### createdAt
 
-> `readonly` **createdAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
+> `readonly` **createdAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15413
+Defined in: node_modules/.prisma/client/index.d.ts:15413
 
-***
+---
 
 ### endpoint
 
-> `readonly` **endpoint**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
+> `readonly` **endpoint**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15405
+Defined in: node_modules/.prisma/client/index.d.ts:15405
 
-***
+---
 
 ### id
 
-> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
+> `readonly` **id**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15403
+Defined in: node_modules/.prisma/client/index.d.ts:15403
 
-***
+---
 
 ### isDefault
 
-> `readonly` **isDefault**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Boolean"`\>
+> `readonly` **isDefault**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Boolean"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15407
+Defined in: node_modules/.prisma/client/index.d.ts:15407
 
-***
+---
 
 ### lastPromotedAt
 
-> `readonly` **lastPromotedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
+> `readonly` **lastPromotedAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15412
+Defined in: node_modules/.prisma/client/index.d.ts:15412
 
-***
+---
 
 ### metrics
 
-> `readonly` **metrics**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Json"`\>
+> `readonly` **metrics**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Json"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15410
+Defined in: node_modules/.prisma/client/index.d.ts:15410
 
-***
+---
 
 ### status
 
-> `readonly` **status**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
+> `readonly` **status**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15409
+Defined in: node_modules/.prisma/client/index.d.ts:15409
 
-***
+---
 
 ### trafficWeight
 
-> `readonly` **trafficWeight**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Int"`\>
+> `readonly` **trafficWeight**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"Int"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15408
+Defined in: node_modules/.prisma/client/index.d.ts:15408
 
-***
+---
 
 ### updatedAt
 
-> `readonly` **updatedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
+> `readonly` **updatedAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15414
+Defined in: node_modules/.prisma/client/index.d.ts:15414
 
-***
+---
 
 ### version
 
-> `readonly` **version**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
+> `readonly` **version**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"AIModelConfig"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15404
+Defined in: node_modules/.prisma/client/index.d.ts:15404

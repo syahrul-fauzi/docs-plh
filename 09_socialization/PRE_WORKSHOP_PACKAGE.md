@@ -48,18 +48,16 @@ Sebelum sesi dimulai, pastikan Anda telah meninjau:
 
 **Subject**: [Workshop] Implementasi Arsitektur Dokumentasi Enterprise
 
-**Body**:
-Halo semuanya,
+**Body**: Halo semuanya,
 
 Seiring dengan pertumbuhan Lawyers Hub, kita perlu menstandarisasi cara kita
 mendokumentasikan pengetahuan teknis dan hukum. Workshop ini bertujuan untuk
 memperkenalkan struktur dokumentasi baru yang lebih skalabel dan patuh regulasi.
 
-**Waktu**: [Tentukan Waktu]
-**Lokasi**: [Tentukan Link Meeting / Ruang]
-**Materi Pra-Workshop**: [Lihat PRE_WORKSHOP_PACKAGE.md](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
+**Waktu**: [Tentukan Waktu] **Lokasi**: [Tentukan Link Meeting / Ruang] **Materi
+Pra-Workshop**:
+[Lihat PRE_WORKSHOP_PACKAGE.md](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
 
 Kehadiran Anda sangat diharapkan untuk memastikan transisi yang mulus.
 
-Salam,
-[Nama Anda]
+Salam, [Nama Anda]

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / User$templateVersionsArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+User$templateVersionsArgs
 
 # Type Alias: User$templateVersionsArgs\<ExtArgs\>
 
 > **User$templateVersionsArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5672
+Defined in: node_modules/.prisma/client/index.d.ts:5672
 
 User.templateVersions
 
@@ -16,72 +18,81 @@ User.templateVersions
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### cursor?
 
-> `optional` **cursor**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
+> `optional` **cursor**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5683
+Defined in: node_modules/.prisma/client/index.d.ts:5683
 
-***
+---
 
 ### distinct?
 
-> `optional` **distinct**: [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md) \| [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)[]
+> `optional` **distinct**:
+> [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md) \|
+> [`TemplateVersionScalarFieldEnum`](TemplateVersionScalarFieldEnum.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5686
+Defined in: node_modules/.prisma/client/index.d.ts:5686
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5680
+Defined in: node_modules/.prisma/client/index.d.ts:5680
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`TemplateVersionOrderByWithRelationInput`](TemplateVersionOrderByWithRelationInput.md) \| [`TemplateVersionOrderByWithRelationInput`](TemplateVersionOrderByWithRelationInput.md)[]
+> `optional` **orderBy**:
+> [`TemplateVersionOrderByWithRelationInput`](TemplateVersionOrderByWithRelationInput.md)
+> \|
+> [`TemplateVersionOrderByWithRelationInput`](TemplateVersionOrderByWithRelationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5682
+Defined in: node_modules/.prisma/client/index.d.ts:5682
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5676
+Defined in: node_modules/.prisma/client/index.d.ts:5676
 
 Select specific fields to fetch from the TemplateVersion
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5685
+Defined in: node_modules/.prisma/client/index.d.ts:5685
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5684
+Defined in: node_modules/.prisma/client/index.d.ts:5684
 
-***
+---
 
 ### where?
 
-> `optional` **where**: [`TemplateVersionWhereInput`](TemplateVersionWhereInput.md)
+> `optional` **where**:
+> [`TemplateVersionWhereInput`](TemplateVersionWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5681
+Defined in: node_modules/.prisma/client/index.d.ts:5681

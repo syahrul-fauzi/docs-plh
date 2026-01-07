@@ -1,6 +1,6 @@
 [**Lawyers Hub API Reference**](../../README.md)
 
-***
+---
 
 [Lawyers Hub API Reference](../../packages.md) / @lawyers-hub/core
 
@@ -54,8 +54,8 @@
 - [CreateDraftSchema](variables/CreateDraftSchema.md)
 - [CreateInvitationSchema](variables/CreateInvitationSchema.md)
 - [PaginationSchema](variables/PaginationSchema.md)
-- [PLAN\_LIMITS](variables/PLAN_LIMITS.md)
-- [ROLES\_KEY](variables/ROLES_KEY.md)
+- [PLAN_LIMITS](variables/PLAN_LIMITS.md)
+- [ROLES_KEY](variables/ROLES_KEY.md)
 - [TenantIdSchema](variables/TenantIdSchema.md)
 - [UpdateCaseSchema](variables/UpdateCaseSchema.md)
 - [UpdateCommentSchema](variables/UpdateCommentSchema.md)

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / NestedIntNullableFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+NestedIntNullableFilter
 
 # Type Alias: NestedIntNullableFilter\<$PrismaModel\>
 
 > **NestedIntNullableFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23091
+Defined in: node_modules/.prisma/client/index.d.ts:23091
 
 ## Type Parameters
 
@@ -20,62 +22,70 @@ Defined in: node\_modules/.prisma/client/index.d.ts:23091
 
 ### equals?
 
-> `optional` **equals**: `number` \| [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **equals**: `number` \|
+> [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23092
+Defined in: node_modules/.prisma/client/index.d.ts:23092
 
-***
+---
 
 ### gt?
 
-> `optional` **gt**: `number` \| [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gt**: `number` \|
+> [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23097
+Defined in: node_modules/.prisma/client/index.d.ts:23097
 
-***
+---
 
 ### gte?
 
-> `optional` **gte**: `number` \| [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gte**: `number` \|
+> [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23098
+Defined in: node_modules/.prisma/client/index.d.ts:23098
 
-***
+---
 
 ### in?
 
-> `optional` **in**: `number`[] \| [`ListIntFieldRefInput`](ListIntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **in**: `number`[] \|
+> [`ListIntFieldRefInput`](ListIntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23093
+Defined in: node_modules/.prisma/client/index.d.ts:23093
 
-***
+---
 
 ### lt?
 
-> `optional` **lt**: `number` \| [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lt**: `number` \|
+> [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23095
+Defined in: node_modules/.prisma/client/index.d.ts:23095
 
-***
+---
 
 ### lte?
 
-> `optional` **lte**: `number` \| [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lte**: `number` \|
+> [`IntFieldRefInput`](IntFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23096
+Defined in: node_modules/.prisma/client/index.d.ts:23096
 
-***
+---
 
 ### not?
 
-> `optional` **not**: `NestedIntNullableFilter`\<`$PrismaModel`\> \| `number` \| `null`
+> `optional` **not**: `NestedIntNullableFilter`\<`$PrismaModel`\> \| `number` \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23099
+Defined in: node_modules/.prisma/client/index.d.ts:23099
 
-***
+---
 
 ### notIn?
 
-> `optional` **notIn**: `number`[] \| [`ListIntFieldRefInput`](ListIntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **notIn**: `number`[] \|
+> [`ListIntFieldRefInput`](ListIntFieldRefInput.md)\<`$PrismaModel`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23094
+Defined in: node_modules/.prisma/client/index.d.ts:23094

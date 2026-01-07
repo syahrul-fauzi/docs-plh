@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AggregateInvitation
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AggregateInvitation
 
 # Type Alias: AggregateInvitation
 
 > **AggregateInvitation** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11754
+Defined in: node_modules/.prisma/client/index.d.ts:11754
 
 Model Invitation
 
@@ -16,22 +18,28 @@ Model Invitation
 
 ### \_count
 
-> **\_count**: [`InvitationCountAggregateOutputType`](InvitationCountAggregateOutputType.md) \| `null`
+> **\_count**:
+> [`InvitationCountAggregateOutputType`](InvitationCountAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11755
+Defined in: node_modules/.prisma/client/index.d.ts:11755
 
-***
+---
 
 ### \_max
 
-> **\_max**: [`InvitationMaxAggregateOutputType`](InvitationMaxAggregateOutputType.md) \| `null`
+> **\_max**:
+> [`InvitationMaxAggregateOutputType`](InvitationMaxAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11757
+Defined in: node_modules/.prisma/client/index.d.ts:11757
 
-***
+---
 
 ### \_min
 
-> **\_min**: [`InvitationMinAggregateOutputType`](InvitationMinAggregateOutputType.md) \| `null`
+> **\_min**:
+> [`InvitationMinAggregateOutputType`](InvitationMinAggregateOutputType.md) \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11756
+Defined in: node_modules/.prisma/client/index.d.ts:11756

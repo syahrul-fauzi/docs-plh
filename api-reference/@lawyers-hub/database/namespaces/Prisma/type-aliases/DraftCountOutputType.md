@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftCountOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftCountOutputType
 
 # Type Alias: DraftCountOutputType
 
 > **DraftCountOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2317
+Defined in: node_modules/.prisma/client/index.d.ts:2317
 
 Count Type DraftCountOutputType
 
@@ -18,4 +20,4 @@ Count Type DraftCountOutputType
 
 > **comments**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2318
+Defined in: node_modules/.prisma/client/index.d.ts:2318

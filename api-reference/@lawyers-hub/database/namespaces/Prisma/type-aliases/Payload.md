@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Payload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Payload
 
 # Type Alias: Payload\<T, F\>
 
-> **Payload**\<`T`, `F`\> = `T` *extends* `object` ? `T`\[`symbol`\]\[`"types"`\]\[`"payload"`\] : `any`
+> **Payload**\<`T`, `F`\> = `T` _extends_ `object` ?
+> `T`\[`symbol`\]\[`"types"`\]\[`"payload"`\] : `any`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:2297
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:2297
 
 ## Type Parameters
 
@@ -18,4 +20,4 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:2297
 
 ### F
 
-`F` *extends* `Operation` = `never`
+`F` _extends_ `Operation` = `never`

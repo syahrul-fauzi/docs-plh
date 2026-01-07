@@ -1,99 +1,130 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionUncheckedUpdateManyWithoutTemplateNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionUncheckedUpdateManyWithoutTemplateNestedInput
 
 # Type Alias: TemplateVersionUncheckedUpdateManyWithoutTemplateNestedInput
 
 > **TemplateVersionUncheckedUpdateManyWithoutTemplateNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22847
+Defined in: node_modules/.prisma/client/index.d.ts:22847
 
 ## Properties
 
 ### connect?
 
-> `optional` **connect**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \| [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
+> `optional` **connect**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \|
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22855
+Defined in: node_modules/.prisma/client/index.d.ts:22855
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`TemplateVersionCreateOrConnectWithoutTemplateInput`](TemplateVersionCreateOrConnectWithoutTemplateInput.md) \| [`TemplateVersionCreateOrConnectWithoutTemplateInput`](TemplateVersionCreateOrConnectWithoutTemplateInput.md)[]
+> `optional` **connectOrCreate**:
+> [`TemplateVersionCreateOrConnectWithoutTemplateInput`](TemplateVersionCreateOrConnectWithoutTemplateInput.md)
+> \|
+> [`TemplateVersionCreateOrConnectWithoutTemplateInput`](TemplateVersionCreateOrConnectWithoutTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22849
+Defined in: node_modules/.prisma/client/index.d.ts:22849
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`TemplateVersionCreateWithoutTemplateInput`](TemplateVersionCreateWithoutTemplateInput.md), [`TemplateVersionUncheckedCreateWithoutTemplateInput`](TemplateVersionUncheckedCreateWithoutTemplateInput.md)\> \| [`TemplateVersionCreateWithoutTemplateInput`](TemplateVersionCreateWithoutTemplateInput.md)[] \| [`TemplateVersionUncheckedCreateWithoutTemplateInput`](TemplateVersionUncheckedCreateWithoutTemplateInput.md)[]
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`TemplateVersionCreateWithoutTemplateInput`](TemplateVersionCreateWithoutTemplateInput.md),
+> [`TemplateVersionUncheckedCreateWithoutTemplateInput`](TemplateVersionUncheckedCreateWithoutTemplateInput.md)\>
+> \|
+> [`TemplateVersionCreateWithoutTemplateInput`](TemplateVersionCreateWithoutTemplateInput.md)[]
+> \|
+> [`TemplateVersionUncheckedCreateWithoutTemplateInput`](TemplateVersionUncheckedCreateWithoutTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22848
+Defined in: node_modules/.prisma/client/index.d.ts:22848
 
-***
+---
 
 ### createMany?
 
-> `optional` **createMany**: [`TemplateVersionCreateManyTemplateInputEnvelope`](TemplateVersionCreateManyTemplateInputEnvelope.md)
+> `optional` **createMany**:
+> [`TemplateVersionCreateManyTemplateInputEnvelope`](TemplateVersionCreateManyTemplateInputEnvelope.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22851
+Defined in: node_modules/.prisma/client/index.d.ts:22851
 
-***
+---
 
 ### delete?
 
-> `optional` **delete**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \| [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
+> `optional` **delete**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \|
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22854
+Defined in: node_modules/.prisma/client/index.d.ts:22854
 
-***
+---
 
 ### deleteMany?
 
-> `optional` **deleteMany**: [`TemplateVersionScalarWhereInput`](TemplateVersionScalarWhereInput.md) \| [`TemplateVersionScalarWhereInput`](TemplateVersionScalarWhereInput.md)[]
+> `optional` **deleteMany**:
+> [`TemplateVersionScalarWhereInput`](TemplateVersionScalarWhereInput.md) \|
+> [`TemplateVersionScalarWhereInput`](TemplateVersionScalarWhereInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22858
+Defined in: node_modules/.prisma/client/index.d.ts:22858
 
-***
+---
 
 ### disconnect?
 
-> `optional` **disconnect**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \| [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
+> `optional` **disconnect**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \|
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22853
+Defined in: node_modules/.prisma/client/index.d.ts:22853
 
-***
+---
 
 ### set?
 
-> `optional` **set**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \| [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
+> `optional` **set**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md) \|
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22852
+Defined in: node_modules/.prisma/client/index.d.ts:22852
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput.md) \| [`TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput.md)[]
+> `optional` **update**:
+> [`TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput.md)
+> \|
+> [`TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpdateWithWhereUniqueWithoutTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22856
+Defined in: node_modules/.prisma/client/index.d.ts:22856
 
-***
+---
 
 ### updateMany?
 
-> `optional` **updateMany**: [`TemplateVersionUpdateManyWithWhereWithoutTemplateInput`](TemplateVersionUpdateManyWithWhereWithoutTemplateInput.md) \| [`TemplateVersionUpdateManyWithWhereWithoutTemplateInput`](TemplateVersionUpdateManyWithWhereWithoutTemplateInput.md)[]
+> `optional` **updateMany**:
+> [`TemplateVersionUpdateManyWithWhereWithoutTemplateInput`](TemplateVersionUpdateManyWithWhereWithoutTemplateInput.md)
+> \|
+> [`TemplateVersionUpdateManyWithWhereWithoutTemplateInput`](TemplateVersionUpdateManyWithWhereWithoutTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22857
+Defined in: node_modules/.prisma/client/index.d.ts:22857
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput.md) \| [`TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput.md)[]
+> `optional` **upsert**:
+> [`TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput.md)
+> \|
+> [`TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput`](TemplateVersionUpsertWithWhereUniqueWithoutTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22850
+Defined in: node_modules/.prisma/client/index.d.ts:22850

@@ -1,27 +1,32 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput
 
 # Type Alias: ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput
 
 > **ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23671
+Defined in: node_modules/.prisma/client/index.d.ts:23671
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`ComplianceReviewUpdateWithoutTenantInput`](ComplianceReviewUpdateWithoutTenantInput.md), [`ComplianceReviewUncheckedUpdateWithoutTenantInput`](ComplianceReviewUncheckedUpdateWithoutTenantInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`ComplianceReviewUpdateWithoutTenantInput`](ComplianceReviewUpdateWithoutTenantInput.md),
+> [`ComplianceReviewUncheckedUpdateWithoutTenantInput`](ComplianceReviewUncheckedUpdateWithoutTenantInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23673
+Defined in: node_modules/.prisma/client/index.d.ts:23673
 
-***
+---
 
 ### where
 
-> **where**: [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)
+> **where**:
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23672
+Defined in: node_modules/.prisma/client/index.d.ts:23672

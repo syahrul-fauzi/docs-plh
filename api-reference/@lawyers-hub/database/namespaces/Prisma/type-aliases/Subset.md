@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Subset
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Subset
 
 # Type Alias: Subset\<T, U\>
 
-> **Subset**\<`T`, `U`\> = `{ [key in keyof T]: key extends keyof U ? T[key] : never }`
+> **Subset**\<`T`, `U`\> =
+> `{ [key in keyof T]: key extends keyof U ? T[key] : never }`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:552
+Defined in: node_modules/.prisma/client/index.d.ts:552
 
 Subset
 

@@ -1,99 +1,126 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentUncheckedUpdateManyWithoutCaseNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentUncheckedUpdateManyWithoutCaseNestedInput
 
 # Type Alias: CommentUncheckedUpdateManyWithoutCaseNestedInput
 
 > **CommentUncheckedUpdateManyWithoutCaseNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22503
+Defined in: node_modules/.prisma/client/index.d.ts:22503
 
 ## Properties
 
 ### connect?
 
-> `optional` **connect**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \| [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
+> `optional` **connect**:
+> [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \|
+> [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22511
+Defined in: node_modules/.prisma/client/index.d.ts:22511
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`CommentCreateOrConnectWithoutCaseInput`](CommentCreateOrConnectWithoutCaseInput.md) \| [`CommentCreateOrConnectWithoutCaseInput`](CommentCreateOrConnectWithoutCaseInput.md)[]
+> `optional` **connectOrCreate**:
+> [`CommentCreateOrConnectWithoutCaseInput`](CommentCreateOrConnectWithoutCaseInput.md)
+> \|
+> [`CommentCreateOrConnectWithoutCaseInput`](CommentCreateOrConnectWithoutCaseInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22505
+Defined in: node_modules/.prisma/client/index.d.ts:22505
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`CommentCreateWithoutCaseInput`](CommentCreateWithoutCaseInput.md), [`CommentUncheckedCreateWithoutCaseInput`](CommentUncheckedCreateWithoutCaseInput.md)\> \| [`CommentCreateWithoutCaseInput`](CommentCreateWithoutCaseInput.md)[] \| [`CommentUncheckedCreateWithoutCaseInput`](CommentUncheckedCreateWithoutCaseInput.md)[]
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`CommentCreateWithoutCaseInput`](CommentCreateWithoutCaseInput.md),
+> [`CommentUncheckedCreateWithoutCaseInput`](CommentUncheckedCreateWithoutCaseInput.md)\>
+> \| [`CommentCreateWithoutCaseInput`](CommentCreateWithoutCaseInput.md)[] \|
+> [`CommentUncheckedCreateWithoutCaseInput`](CommentUncheckedCreateWithoutCaseInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22504
+Defined in: node_modules/.prisma/client/index.d.ts:22504
 
-***
+---
 
 ### createMany?
 
-> `optional` **createMany**: [`CommentCreateManyCaseInputEnvelope`](CommentCreateManyCaseInputEnvelope.md)
+> `optional` **createMany**:
+> [`CommentCreateManyCaseInputEnvelope`](CommentCreateManyCaseInputEnvelope.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22507
+Defined in: node_modules/.prisma/client/index.d.ts:22507
 
-***
+---
 
 ### delete?
 
-> `optional` **delete**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \| [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
+> `optional` **delete**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)
+> \| [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22510
+Defined in: node_modules/.prisma/client/index.d.ts:22510
 
-***
+---
 
 ### deleteMany?
 
-> `optional` **deleteMany**: [`CommentScalarWhereInput`](CommentScalarWhereInput.md) \| [`CommentScalarWhereInput`](CommentScalarWhereInput.md)[]
+> `optional` **deleteMany**:
+> [`CommentScalarWhereInput`](CommentScalarWhereInput.md) \|
+> [`CommentScalarWhereInput`](CommentScalarWhereInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22514
+Defined in: node_modules/.prisma/client/index.d.ts:22514
 
-***
+---
 
 ### disconnect?
 
-> `optional` **disconnect**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \| [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
+> `optional` **disconnect**:
+> [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \|
+> [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22509
+Defined in: node_modules/.prisma/client/index.d.ts:22509
 
-***
+---
 
 ### set?
 
-> `optional` **set**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \| [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
+> `optional` **set**: [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md) \|
+> [`CommentWhereUniqueInput`](CommentWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22508
+Defined in: node_modules/.prisma/client/index.d.ts:22508
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`CommentUpdateWithWhereUniqueWithoutCaseInput`](CommentUpdateWithWhereUniqueWithoutCaseInput.md) \| [`CommentUpdateWithWhereUniqueWithoutCaseInput`](CommentUpdateWithWhereUniqueWithoutCaseInput.md)[]
+> `optional` **update**:
+> [`CommentUpdateWithWhereUniqueWithoutCaseInput`](CommentUpdateWithWhereUniqueWithoutCaseInput.md)
+> \|
+> [`CommentUpdateWithWhereUniqueWithoutCaseInput`](CommentUpdateWithWhereUniqueWithoutCaseInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22512
+Defined in: node_modules/.prisma/client/index.d.ts:22512
 
-***
+---
 
 ### updateMany?
 
-> `optional` **updateMany**: [`CommentUpdateManyWithWhereWithoutCaseInput`](CommentUpdateManyWithWhereWithoutCaseInput.md) \| [`CommentUpdateManyWithWhereWithoutCaseInput`](CommentUpdateManyWithWhereWithoutCaseInput.md)[]
+> `optional` **updateMany**:
+> [`CommentUpdateManyWithWhereWithoutCaseInput`](CommentUpdateManyWithWhereWithoutCaseInput.md)
+> \|
+> [`CommentUpdateManyWithWhereWithoutCaseInput`](CommentUpdateManyWithWhereWithoutCaseInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22513
+Defined in: node_modules/.prisma/client/index.d.ts:22513
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`CommentUpsertWithWhereUniqueWithoutCaseInput`](CommentUpsertWithWhereUniqueWithoutCaseInput.md) \| [`CommentUpsertWithWhereUniqueWithoutCaseInput`](CommentUpsertWithWhereUniqueWithoutCaseInput.md)[]
+> `optional` **upsert**:
+> [`CommentUpsertWithWhereUniqueWithoutCaseInput`](CommentUpsertWithWhereUniqueWithoutCaseInput.md)
+> \|
+> [`CommentUpsertWithWhereUniqueWithoutCaseInput`](CommentUpsertWithWhereUniqueWithoutCaseInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22506
+Defined in: node_modules/.prisma/client/index.d.ts:22506

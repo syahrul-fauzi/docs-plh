@@ -1,51 +1,63 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UsageUpdateWithoutTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UsageUpdateWithoutTenantInput
 
 # Type Alias: UsageUpdateWithoutTenantInput
 
 > **UsageUpdateWithoutTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26812
+Defined in: node_modules/.prisma/client/index.d.ts:26812
 
 ## Properties
 
 ### amount?
 
-> `optional` **amount**: [`IntFieldUpdateOperationsInput`](IntFieldUpdateOperationsInput.md) \| `number`
+> `optional` **amount**:
+> [`IntFieldUpdateOperationsInput`](IntFieldUpdateOperationsInput.md) \|
+> `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26815
+Defined in: node_modules/.prisma/client/index.d.ts:26815
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **createdAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26817
+Defined in: node_modules/.prisma/client/index.d.ts:26817
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **id**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26813
+Defined in: node_modules/.prisma/client/index.d.ts:26813
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26816
+Defined in: node_modules/.prisma/client/index.d.ts:26816
 
-***
+---
 
 ### type?
 
-> `optional` **type**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **type**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:26814
+Defined in: node_modules/.prisma/client/index.d.ts:26814

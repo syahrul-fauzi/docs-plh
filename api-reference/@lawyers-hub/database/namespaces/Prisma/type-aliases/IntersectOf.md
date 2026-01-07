@@ -1,19 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / IntersectOf
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+IntersectOf
 
 # Type Alias: IntersectOf\<U\>
 
-> **IntersectOf**\<`U`\> = `U` *extends* `unknown` ? (`k`) => `void` : `never` *extends* (`k`) => `void` ? `I` : `never`
+> **IntersectOf**\<`U`\> = `U` _extends_ `unknown` ? (`k`) => `void` : `never`
+> _extends_ (`k`) => `void` ? `I` : `never`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:649
+Defined in: node_modules/.prisma/client/index.d.ts:649
 
-Helper Types for "Merge" *
+Helper Types for "Merge" \*
 
 ## Type Parameters
 
 ### U
 
-`U` *extends* [`Union`](Union.md)
+`U` _extends_ [`Union`](Union.md)

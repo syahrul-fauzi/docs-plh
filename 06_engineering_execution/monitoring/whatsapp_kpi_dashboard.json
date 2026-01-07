@@ -1,0 +1,114 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": "-- Grafana --",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "liveNow": true,
+  "panels": [
+    {
+      "title": "WhatsApp Message Volume (Inbound vs Outbound)",
+      "type": "timeseries",
+      "datasource": "${datasource}",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "expr": "sum by (direction) (rate(whatsapp_message_total[5m]))",
+          "refId": "A",
+          "legendFormat": "{{direction}}"
+        }
+      ]
+    },
+    {
+      "title": "WhatsApp SLA Violations",
+      "type": "timeseries",
+      "datasource": "${datasource}",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        {
+          "expr": "sum by (tenantId, type) (rate(whatsapp_sla_violations_total[5m]))",
+          "refId": "A",
+          "legendFormat": "{{tenantId}} - {{type}}"
+        }
+      ]
+    },
+    {
+      "title": "WhatsApp Average Response Time (AI)",
+      "type": "timeseries",
+      "datasource": "${datasource}",
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        {
+          "expr": "rate(whatsapp_response_time_seconds_sum{type=\"AI\"}[5m]) / rate(whatsapp_response_time_seconds_count{type=\"AI\"}[5m])",
+          "refId": "A",
+          "legendFormat": "Avg AI Response Time"
+        }
+      ]
+    },
+    {
+      "title": "Circuit Breaker State by Tenant",
+      "type": "state-timeline",
+      "datasource": "${datasource}",
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        {
+          "expr": "whatsapp_circuit_breaker_state",
+          "refId": "A",
+          "legendFormat": "{{tenantId}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "mappings": [
+            { "options": { "0": { "text": "Closed (OK)", "color": "green" }, "1": { "text": "Open (FAIL)", "color": "red" } }, "type": "value" }
+          ]
+        }
+      }
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 36,
+  "style": "dark",
+  "tags": ["lawyers-hub", "whatsapp", "kpi"],
+  "templating": {
+    "list": [
+      {
+        "current": { "selected": true, "text": "Prometheus", "value": "prometheus" },
+        "hide": 0,
+        "includeAll": false,
+        "label": "Datasource",
+        "multi": false,
+        "name": "datasource",
+        "options": [],
+        "query": "prometheus",
+        "refresh": 1,
+        "regex": "",
+        "skipUrlSync": false,
+        "type": "datasource"
+      }
+    ]
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Lawyers Hub: WhatsApp Communication KPIs",
+  "uid": "whatsapp-kpis",
+  "version": 1,
+  "weekStart": ""
+}

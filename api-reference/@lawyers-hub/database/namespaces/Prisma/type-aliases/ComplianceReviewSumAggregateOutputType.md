@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewSumAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewSumAggregateOutputType
 
 # Type Alias: ComplianceReviewSumAggregateOutputType
 
 > **ComplianceReviewSumAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15719
+Defined in: node_modules/.prisma/client/index.d.ts:15719
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:15719
 
 > **confidenceScore**: `number` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15720
+Defined in: node_modules/.prisma/client/index.d.ts:15720

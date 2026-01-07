@@ -1,25 +1,26 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / \_Either
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / \_Either
 
 # Type Alias: \_Either\<O, K, strict\>
 
 > **\_Either**\<`O`, `K`, `strict`\> = `object`\[`strict`\]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:627
+Defined in: node_modules/.prisma/client/index.d.ts:627
 
 ## Type Parameters
 
 ### O
 
-`O` *extends* `object`
+`O` _extends_ `object`
 
 ### K
 
-`K` *extends* [`Key`](Key.md)
+`K` _extends_ [`Key`](Key.md)
 
 ### strict
 
-`strict` *extends* [`Boolean`](Boolean.md)
+`strict` _extends_ [`Boolean`](Boolean.md)

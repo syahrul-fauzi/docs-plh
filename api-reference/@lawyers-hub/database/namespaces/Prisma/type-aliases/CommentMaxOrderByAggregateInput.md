@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentMaxOrderByAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentMaxOrderByAggregateInput
 
 # Type Alias: CommentMaxOrderByAggregateInput
 
 > **CommentMaxOrderByAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21262
+Defined in: node_modules/.prisma/client/index.d.ts:21262
 
 ## Properties
 
@@ -16,60 +18,60 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21262
 
 > `optional` **caseId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21267
+Defined in: node_modules/.prisma/client/index.d.ts:21267
 
-***
+---
 
 ### content?
 
 > `optional` **content**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21264
+Defined in: node_modules/.prisma/client/index.d.ts:21264
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21269
+Defined in: node_modules/.prisma/client/index.d.ts:21269
 
-***
+---
 
 ### draftId?
 
 > `optional` **draftId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21266
+Defined in: node_modules/.prisma/client/index.d.ts:21266
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21263
+Defined in: node_modules/.prisma/client/index.d.ts:21263
 
-***
+---
 
 ### tenantId?
 
 > `optional` **tenantId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21268
+Defined in: node_modules/.prisma/client/index.d.ts:21268
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21270
+Defined in: node_modules/.prisma/client/index.d.ts:21270
 
-***
+---
 
 ### userId?
 
 > `optional` **userId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21265
+Defined in: node_modules/.prisma/client/index.d.ts:21265

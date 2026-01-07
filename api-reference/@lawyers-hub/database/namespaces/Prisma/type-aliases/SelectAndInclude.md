@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SelectAndInclude
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SelectAndInclude
 
 # Type Alias: SelectAndInclude
 
 > **SelectAndInclude** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:508
+Defined in: node_modules/.prisma/client/index.d.ts:508
 
 ## Properties
 
@@ -16,12 +18,12 @@ Defined in: node\_modules/.prisma/client/index.d.ts:508
 
 > **include**: `any`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:510
+Defined in: node_modules/.prisma/client/index.d.ts:510
 
-***
+---
 
 ### select
 
 > **select**: `any`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:509
+Defined in: node_modules/.prisma/client/index.d.ts:509

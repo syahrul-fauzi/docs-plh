@@ -1,11 +1,14 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/core](../README.md) / CreateDocument
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/core](../README.md) / CreateDocument
 
 # Type Alias: CreateDocument
 
-> **CreateDocument** = `z.infer`\<*typeof* [`CreateDocumentSchema`](../variables/CreateDocumentSchema.md)\>
+> **CreateDocument** = `z.infer`\<_typeof_
+> [`CreateDocumentSchema`](../variables/CreateDocumentSchema.md)\>
 
-Defined in: [packages/core/src/validation.ts:20](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/validation.ts#L20)
+Defined in:
+[packages/core/src/validation.ts:20](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/validation.ts#L20)

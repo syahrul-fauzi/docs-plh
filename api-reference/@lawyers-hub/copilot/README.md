@@ -1,6 +1,6 @@
 [**Lawyers Hub API Reference**](../../README.md)
 
-***
+---
 
 [Lawyers Hub API Reference](../../packages.md) / @lawyers-hub/copilot
 

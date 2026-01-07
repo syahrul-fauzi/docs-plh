@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UsageCreateWithoutTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UsageCreateWithoutTenantInput
 
 # Type Alias: UsageCreateWithoutTenantInput
 
 > **UsageCreateWithoutTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23512
+Defined in: node_modules/.prisma/client/index.d.ts:23512
 
 ## Properties
 
@@ -16,36 +18,38 @@ Defined in: node\_modules/.prisma/client/index.d.ts:23512
 
 > `optional` **amount**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23515
+Defined in: node_modules/.prisma/client/index.d.ts:23515
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23517
+Defined in: node_modules/.prisma/client/index.d.ts:23517
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23513
+Defined in: node_modules/.prisma/client/index.d.ts:23513
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23516
+Defined in: node_modules/.prisma/client/index.d.ts:23516
 
-***
+---
 
 ### type
 
 > **type**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23514
+Defined in: node_modules/.prisma/client/index.d.ts:23514

@@ -1,13 +1,13 @@
 # 📋 Rule PRD: LGL-PRIV-001 - PII Sanitization Requirement
 
-| Field | Value |
-| :--- | :--- |
-| **Rule ID** | LGL-PRIV-001 |
-| **Domain** | Privacy & Data Protection |
-| **Data Sensitivity** | RESTRICTED |
-| **Retention Period** | Permanent (Audit Trail) |
-| **Status** | Active |
-| **Last Updated** | 2026-01-06 |
+| Field                | Value                     |
+| :------------------- | :------------------------ |
+| **Rule ID**          | LGL-PRIV-001              |
+| **Domain**           | Privacy & Data Protection |
+| **Data Sensitivity** | RESTRICTED                |
+| **Retention Period** | Permanent (Audit Trail)   |
+| **Status**           | Active                    |
+| **Last Updated**     | 2026-01-06                |
 
 ---
 
@@ -40,8 +40,8 @@
 ```yaml
 condition:
   contains_pii: true
-  data_source: "external_upload"
-  target_engine: "llm_external"
+  data_source: 'external_upload'
+  target_engine: 'llm_external'
 ```
 
 ### 3.3 Pesan Respon (Response Messages)
@@ -75,5 +75,6 @@ condition:
 
 ---
 
-Dokumen ini dimigrasikan dari `.trae/rules/core/privacy_and_security/pii_handling.yaml`
-sebagai bagian dari standarisasi dokumentasi v1.1.
+Dokumen ini dimigrasikan dari
+`.trae/rules/core/privacy_and_security/pii_handling.yaml` sebagai bagian dari
+standarisasi dokumentasi v1.1.

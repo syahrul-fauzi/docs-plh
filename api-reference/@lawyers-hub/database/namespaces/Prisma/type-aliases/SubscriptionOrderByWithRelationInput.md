@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SubscriptionOrderByWithRelationInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SubscriptionOrderByWithRelationInput
 
 # Type Alias: SubscriptionOrderByWithRelationInput
 
 > **SubscriptionOrderByWithRelationInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18305
+Defined in: node_modules/.prisma/client/index.d.ts:18305
 
 ## Properties
 
@@ -16,84 +18,88 @@ Defined in: node\_modules/.prisma/client/index.d.ts:18305
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18314
+Defined in: node_modules/.prisma/client/index.d.ts:18314
 
-***
+---
 
 ### currentPeriodEnd?
 
-> `optional` **currentPeriodEnd**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **currentPeriodEnd**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18313
+Defined in: node_modules/.prisma/client/index.d.ts:18313
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18306
+Defined in: node_modules/.prisma/client/index.d.ts:18306
 
-***
+---
 
 ### plan?
 
 > `optional` **plan**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18311
+Defined in: node_modules/.prisma/client/index.d.ts:18311
 
-***
+---
 
 ### quantity?
 
 > `optional` **quantity**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18312
+Defined in: node_modules/.prisma/client/index.d.ts:18312
 
-***
+---
 
 ### status?
 
 > `optional` **status**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18310
+Defined in: node_modules/.prisma/client/index.d.ts:18310
 
-***
+---
 
 ### stripeCustomerId?
 
-> `optional` **stripeCustomerId**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **stripeCustomerId**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18308
+Defined in: node_modules/.prisma/client/index.d.ts:18308
 
-***
+---
 
 ### stripePriceId?
 
-> `optional` **stripePriceId**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **stripePriceId**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18309
+Defined in: node_modules/.prisma/client/index.d.ts:18309
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`TenantOrderByWithRelationInput`](TenantOrderByWithRelationInput.md)
+> `optional` **tenant**:
+> [`TenantOrderByWithRelationInput`](TenantOrderByWithRelationInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18316
+Defined in: node_modules/.prisma/client/index.d.ts:18316
 
-***
+---
 
 ### tenantId?
 
 > `optional` **tenantId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18307
+Defined in: node_modules/.prisma/client/index.d.ts:18307
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18315
+Defined in: node_modules/.prisma/client/index.d.ts:18315

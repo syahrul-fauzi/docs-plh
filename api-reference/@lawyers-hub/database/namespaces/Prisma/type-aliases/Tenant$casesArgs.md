@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Tenant$casesArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+Tenant$casesArgs
 
 # Type Alias: Tenant$casesArgs\<ExtArgs\>
 
 > **Tenant$casesArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3371
+Defined in: node_modules/.prisma/client/index.d.ts:3371
 
 Tenant.cases
 
@@ -16,7 +18,7 @@ Tenant.cases
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,64 +26,67 @@ Tenant.cases
 
 > `optional` **cursor**: [`CaseWhereUniqueInput`](CaseWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3382
+Defined in: node_modules/.prisma/client/index.d.ts:3382
 
-***
+---
 
 ### distinct?
 
-> `optional` **distinct**: [`CaseScalarFieldEnum`](CaseScalarFieldEnum.md) \| [`CaseScalarFieldEnum`](CaseScalarFieldEnum.md)[]
+> `optional` **distinct**: [`CaseScalarFieldEnum`](CaseScalarFieldEnum.md) \|
+> [`CaseScalarFieldEnum`](CaseScalarFieldEnum.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3385
+Defined in: node_modules/.prisma/client/index.d.ts:3385
 
-***
+---
 
 ### include?
 
 > `optional` **include**: [`CaseInclude`](CaseInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3379
+Defined in: node_modules/.prisma/client/index.d.ts:3379
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`CaseOrderByWithRelationInput`](CaseOrderByWithRelationInput.md) \| [`CaseOrderByWithRelationInput`](CaseOrderByWithRelationInput.md)[]
+> `optional` **orderBy**:
+> [`CaseOrderByWithRelationInput`](CaseOrderByWithRelationInput.md) \|
+> [`CaseOrderByWithRelationInput`](CaseOrderByWithRelationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3381
+Defined in: node_modules/.prisma/client/index.d.ts:3381
 
-***
+---
 
 ### select?
 
 > `optional` **select**: [`CaseSelect`](CaseSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3375
+Defined in: node_modules/.prisma/client/index.d.ts:3375
 
 Select specific fields to fetch from the Case
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3384
+Defined in: node_modules/.prisma/client/index.d.ts:3384
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3383
+Defined in: node_modules/.prisma/client/index.d.ts:3383
 
-***
+---
 
 ### where?
 
 > `optional` **where**: [`CaseWhereInput`](CaseWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3380
+Defined in: node_modules/.prisma/client/index.d.ts:3380

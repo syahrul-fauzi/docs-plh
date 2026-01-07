@@ -53,7 +53,7 @@ perubahan. Workflow utama berada di
 ## 4. Pelaporan dan Dokumentasi
 
 - Hasil monitoring harus ditinjau oleh tim Engineering setiap minggu.
-- Jika ada masalah sistemik dalam CI/CD (misal: API eksternal sering *timeout*),
+- Jika ada masalah sistemik dalam CI/CD (misal: API eksternal sering _timeout_),
   segera laporkan ke tim DevOps/Infrastructure.
 
 ---

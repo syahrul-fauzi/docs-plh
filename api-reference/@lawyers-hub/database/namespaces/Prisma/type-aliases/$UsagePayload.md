@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $UsagePayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$UsagePayload
 
 # Type Alias: $UsagePayload\<ExtArgs\>
 
 > **$UsagePayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11006
+Defined in: node_modules/.prisma/client/index.d.ts:11006
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,32 +24,35 @@ Defined in: node\_modules/.prisma/client/index.d.ts:11006
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11019
+Defined in: node_modules/.prisma/client/index.d.ts:11019
 
-***
+---
 
 ### name
 
 > **name**: `"Usage"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11007
+Defined in: node_modules/.prisma/client/index.d.ts:11007
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11008
+Defined in: node_modules/.prisma/client/index.d.ts:11008
 
 #### tenant
 
 > **tenant**: [`$TenantPayload`]($TenantPayload.md)\<`ExtArgs`\>
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `amount`: `number`; `createdAt`: `Date`; `id`: `string`; `metadata`: [`JsonValue`](JsonValue.md) \| `null`; `tenantId`: `string`; `type`: `string`; \}, `ExtArgs`\[`"result"`\]\[`"usage"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `amount`: `number`;
+> `createdAt`: `Date`; `id`: `string`; `metadata`: [`JsonValue`](JsonValue.md)
+> \| `null`; `tenantId`: `string`; `type`: `string`; \},
+> `ExtArgs`\[`"result"`\]\[`"usage"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:11011
+Defined in: node_modules/.prisma/client/index.d.ts:11011

@@ -1,25 +1,27 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Either
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Either
 
 # Type Alias: Either\<O, K, strict\>
 
-> **Either**\<`O`, `K`, `strict`\> = `O` *extends* `unknown` ? [`_Either`](Either-1.md)\<`O`, `K`, `strict`\> : `never`
+> **Either**\<`O`, `K`, `strict`\> = `O` _extends_ `unknown` ?
+> [`_Either`](Either-1.md)\<`O`, `K`, `strict`\> : `never`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:636
+Defined in: node_modules/.prisma/client/index.d.ts:636
 
 ## Type Parameters
 
 ### O
 
-`O` *extends* `object`
+`O` _extends_ `object`
 
 ### K
 
-`K` *extends* [`Key`](Key.md)
+`K` _extends_ [`Key`](Key.md)
 
 ### strict
 
-`strict` *extends* [`Boolean`](Boolean.md) = `1`
+`strict` _extends_ [`Boolean`](Boolean.md) = `1`

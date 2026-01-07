@@ -6,16 +6,16 @@
 - **Status**: Draft v0.1
 - **Owner**: Legal Counsel / DPO (Data Protection Officer)
 - **Stakeholders**: Engineering, Product, Security, Management
-- **Regulatory Basis**: Undang-Undang No. 27 Tahun 2022 tentang Perlindungan Data
-  Pribadi (UU PDP)
+- **Regulatory Basis**: Undang-Undang No. 27 Tahun 2022 tentang Perlindungan
+  Data Pribadi (UU PDP)
 
 ---
 
 ## 1. Tujuan Dokumen
 
-Mendefinisikan strategi Lawyers Hub untuk memenuhi kewajiban hukum di bawah
-**UU PDP Indonesia**, khususnya dalam konteks pemrosesan data hukum yang
-sensitif oleh sistem AI.
+Mendefinisikan strategi Lawyers Hub untuk memenuhi kewajiban hukum di bawah **UU
+PDP Indonesia**, khususnya dalam konteks pemrosesan data hukum yang sensitif
+oleh sistem AI.
 
 ---
 
@@ -45,8 +45,8 @@ Sistem harus menyediakan fitur untuk:
 
 ### 2.4 Keamanan Data (Data Security)
 
-- **Enkripsi**: Data dienkripsi saat istirahat (AES-256) dan saat transmisi
-  (TLS 1.3).
+- **Enkripsi**: Data dienkripsi saat istirahat (AES-256) dan saat transmisi (TLS
+  1.3).
 - **Anonymization & Masking**: PII (NIK, Nama, Alamat) dimask sebelum dikirim ke
   pihak ketiga (LLM Provider).
 - **Data Residency**: Server dan database diutamakan berlokasi di wilayah
@@ -63,11 +63,11 @@ Sistem harus menyediakan fitur untuk:
 
 ## 3. Penanganan Data Sensitif AI
 
-| Tipe Data | Perlakuan | Alasan |
-| :--- | :--- | :--- |
-| **Identitas** | Masking | Mencegah profiling oleh AI provider |
-| **Dokumen** | E2E Encryption | Kerahasiaan Advokat-Klien |
-| **Log Chat** | Retention 30 hari | Keperluan tracing malpraktik AI |
+| Tipe Data     | Perlakuan         | Alasan                              |
+| :------------ | :---------------- | :---------------------------------- |
+| **Identitas** | Masking           | Mencegah profiling oleh AI provider |
+| **Dokumen**   | E2E Encryption    | Kerahasiaan Advokat-Klien           |
+| **Log Chat**  | Retention 30 hari | Keperluan tracing malpraktik AI     |
 
 ---
 

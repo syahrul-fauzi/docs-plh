@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / BatchPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+BatchPayload
 
 # Type Alias: BatchPayload
 
 > **BatchPayload** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27459
+Defined in: node_modules/.prisma/client/index.d.ts:27459
 
 Batch Payload for updateMany & deleteMany & createMany
 
@@ -18,4 +20,4 @@ Batch Payload for updateMany & deleteMany & createMany
 
 > **count**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27460
+Defined in: node_modules/.prisma/client/index.d.ts:27460

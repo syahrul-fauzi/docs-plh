@@ -6,9 +6,9 @@ Dokumen ini menjelaskan kebijakan dan prosedur untuk mengelola folder
 ## 1. Tujuan
 
 Folder arsip digunakan untuk menyimpan dokumen yang sudah tidak berlaku lagi
-(deprecated), laporan fase yang sudah selesai, dan catatan historis lainnya
-yang tidak lagi menjadi referensi aktif namun penting untuk audit atau
-pemahaman sejarah pengembangan.
+(deprecated), laporan fase yang sudah selesai, dan catatan historis lainnya yang
+tidak lagi menjadi referensi aktif namun penting untuk audit atau pemahaman
+sejarah pengembangan.
 
 ## 2. Struktur Folder
 
@@ -21,8 +21,8 @@ pemahaman sejarah pengembangan.
 
 ## 3. Prosedur Pengarsipan
 
-1. **Identifikasi**: Dokumen diidentifikasi sebagai "Arsip" jika sudah ada
-   versi pengganti yang lebih baru di folder kategori utama (00-07) atau jika
+1. **Identifikasi**: Dokumen diidentifikasi sebagai "Arsip" jika sudah ada versi
+   pengganti yang lebih baru di folder kategori utama (00-07) atau jika
    fitur/proses yang dijelaskan sudah dihapus.
 2. **Pemindahan**: Gunakan `git mv` untuk memindahkan file ke subfolder yang
    sesuai di `08_archives`.

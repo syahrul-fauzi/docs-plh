@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserUpdateOneRequiredWithoutPiiAuditLogsNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserUpdateOneRequiredWithoutPiiAuditLogsNestedInput
 
 # Type Alias: UserUpdateOneRequiredWithoutPiiAuditLogsNestedInput
 
 > **UserUpdateOneRequiredWithoutPiiAuditLogsNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22961
+Defined in: node_modules/.prisma/client/index.d.ts:22961
 
 ## Properties
 
@@ -16,36 +18,43 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22961
 
 > `optional` **connect**: [`UserWhereUniqueInput`](UserWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22965
+Defined in: node_modules/.prisma/client/index.d.ts:22965
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`UserCreateOrConnectWithoutPiiAuditLogsInput`](UserCreateOrConnectWithoutPiiAuditLogsInput.md)
+> `optional` **connectOrCreate**:
+> [`UserCreateOrConnectWithoutPiiAuditLogsInput`](UserCreateOrConnectWithoutPiiAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22963
+Defined in: node_modules/.prisma/client/index.d.ts:22963
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`UserCreateWithoutPiiAuditLogsInput`](UserCreateWithoutPiiAuditLogsInput.md), [`UserUncheckedCreateWithoutPiiAuditLogsInput`](UserUncheckedCreateWithoutPiiAuditLogsInput.md)\>
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`UserCreateWithoutPiiAuditLogsInput`](UserCreateWithoutPiiAuditLogsInput.md),
+> [`UserUncheckedCreateWithoutPiiAuditLogsInput`](UserUncheckedCreateWithoutPiiAuditLogsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22962
+Defined in: node_modules/.prisma/client/index.d.ts:22962
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`UserUpdateToOneWithWhereWithoutPiiAuditLogsInput`](UserUpdateToOneWithWhereWithoutPiiAuditLogsInput.md), [`UserUpdateWithoutPiiAuditLogsInput`](UserUpdateWithoutPiiAuditLogsInput.md)\>, [`UserUncheckedUpdateWithoutPiiAuditLogsInput`](UserUncheckedUpdateWithoutPiiAuditLogsInput.md)\>
+> `optional` **update**:
+> [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`UserUpdateToOneWithWhereWithoutPiiAuditLogsInput`](UserUpdateToOneWithWhereWithoutPiiAuditLogsInput.md),
+> [`UserUpdateWithoutPiiAuditLogsInput`](UserUpdateWithoutPiiAuditLogsInput.md)\>,
+> [`UserUncheckedUpdateWithoutPiiAuditLogsInput`](UserUncheckedUpdateWithoutPiiAuditLogsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22966
+Defined in: node_modules/.prisma/client/index.d.ts:22966
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`UserUpsertWithoutPiiAuditLogsInput`](UserUpsertWithoutPiiAuditLogsInput.md)
+> `optional` **upsert**:
+> [`UserUpsertWithoutPiiAuditLogsInput`](UserUpsertWithoutPiiAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22964
+Defined in: node_modules/.prisma/client/index.d.ts:22964

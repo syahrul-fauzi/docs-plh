@@ -2,8 +2,8 @@
 
 ## 1. Overview
 
-Rencana ini merinci langkah-langkah untuk merestrukturisasi dokumentasi
-Lawyers Hub dari sistem berbasis fase pengembangan ke Arsitektur Enterprise
+Rencana ini merinci langkah-langkah untuk merestrukturisasi dokumentasi Lawyers
+Hub dari sistem berbasis fase pengembangan ke Arsitektur Enterprise
 Documentation v1.0.
 
 ## 2. Timeline & Milestones
@@ -33,13 +33,13 @@ Documentation v1.0.
 
 ## 3. Mapping Strategy (Lama ke Baru)
 
-| Sumber (Lama) | Target (Baru) | Catatan |
-| :--- | :--- | :--- |
-| `ARCHITECTURE.md` | `01_architecture/system_overview.md` | Tambahkan diagram Mermaid |
-| `TECHNICAL_SPEC.md` | `01_architecture/api_and_service_map.md` | Gabungkan semua spesifikasi API |
-| `PROJECT_PLAN.md` | `05_delivery_and_ops/project_plan.md` | Update status real-time |
-| `QA_REPORTS/` | `08_archives/qa_reports/` | Simpan sebagai audit trail |
-| `docs/.trae/Master Plan.md` | `00_foundation/README.md` | Referensi utama |
+| Sumber (Lama)               | Target (Baru)                            | Catatan                         |
+| :-------------------------- | :--------------------------------------- | :------------------------------ |
+| `ARCHITECTURE.md`           | `01_architecture/system_overview.md`     | Tambahkan diagram Mermaid       |
+| `TECHNICAL_SPEC.md`         | `01_architecture/api_and_service_map.md` | Gabungkan semua spesifikasi API |
+| `PROJECT_PLAN.md`           | `05_delivery_and_ops/project_plan.md`    | Update status real-time         |
+| `QA_REPORTS/`               | `08_archives/qa_reports/`                | Simpan sebagai audit trail      |
+| `docs/.trae/Master Plan.md` | `00_foundation/README.md`                | Referensi utama                 |
 
 ## 4. Risk Mitigation
 

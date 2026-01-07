@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $TenantPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$TenantPayload
 
 # Type Alias: $TenantPayload\<ExtArgs\>
 
 > **$TenantPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2601
+Defined in: node_modules/.prisma/client/index.d.ts:2601
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2601
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2625
+Defined in: node_modules/.prisma/client/index.d.ts:2625
 
-***
+---
 
 ### name
 
 > **name**: `"Tenant"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2602
+Defined in: node_modules/.prisma/client/index.d.ts:2602
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2603
+Defined in: node_modules/.prisma/client/index.d.ts:2603
 
 #### auditLogs
 
@@ -54,7 +56,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2603
 
 #### complianceReviews
 
-> **complianceReviews**: [`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\<`ExtArgs`\>[]
+> **complianceReviews**:
+> [`$ComplianceReviewPayload`]($ComplianceReviewPayload.md)\<`ExtArgs`\>[]
 
 #### documents
 
@@ -62,7 +65,8 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2603
 
 #### documentTemplates
 
-> **documentTemplates**: [`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\<`ExtArgs`\>[]
+> **documentTemplates**:
+> [`$DocumentTemplatePayload`]($DocumentTemplatePayload.md)\<`ExtArgs`\>[]
 
 #### drafts
 
@@ -74,11 +78,13 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2603
 
 #### piiAuditLogs
 
-> **piiAuditLogs**: [`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\<`ExtArgs`\>[]
+> **piiAuditLogs**:
+> [`$PIIAuditLogPayload`]($PIIAuditLogPayload.md)\<`ExtArgs`\>[]
 
 #### subscription
 
-> **subscription**: [`$SubscriptionPayload`]($SubscriptionPayload.md)\<`ExtArgs`\> \| `null`
+> **subscription**:
+> [`$SubscriptionPayload`]($SubscriptionPayload.md)\<`ExtArgs`\> \| `null`
 
 #### usageRecords
 
@@ -88,10 +94,12 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2603
 
 > **users**: [`$UserPayload`]($UserPayload.md)\<`ExtArgs`\>[]
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `createdAt`: `Date`; `id`: `string`; `isActive`: `boolean`; `name`: `string`; `slug`: `string`; `updatedAt`: `Date`; \}, `ExtArgs`\[`"result"`\]\[`"tenant"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `createdAt`: `Date`; `id`:
+> `string`; `isActive`: `boolean`; `name`: `string`; `slug`: `string`;
+> `updatedAt`: `Date`; \}, `ExtArgs`\[`"result"`\]\[`"tenant"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2617
+Defined in: node_modules/.prisma/client/index.d.ts:2617

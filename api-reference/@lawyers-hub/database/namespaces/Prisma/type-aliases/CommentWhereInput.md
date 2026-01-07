@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentWhereInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentWhereInput
 
 # Type Alias: CommentWhereInput
 
 > **CommentWhereInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18686
+Defined in: node_modules/.prisma/client/index.d.ts:18686
 
 ## Properties
 
@@ -16,116 +18,134 @@ Defined in: node\_modules/.prisma/client/index.d.ts:18686
 
 > `optional` **AND**: `CommentWhereInput` \| `CommentWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18687
+Defined in: node_modules/.prisma/client/index.d.ts:18687
 
-***
+---
 
 ### case?
 
-> `optional` **case**: [`XOR`](XOR.md)\<[`CaseNullableRelationFilter`](CaseNullableRelationFilter.md), [`CaseWhereInput`](CaseWhereInput.md)\> \| `null`
+> `optional` **case**:
+> [`XOR`](XOR.md)\<[`CaseNullableRelationFilter`](CaseNullableRelationFilter.md),
+> [`CaseWhereInput`](CaseWhereInput.md)\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18698
+Defined in: node_modules/.prisma/client/index.d.ts:18698
 
-***
+---
 
 ### caseId?
 
-> `optional` **caseId**: [`StringNullableFilter`](StringNullableFilter.md)\<`"Comment"`\> \| `string` \| `null`
+> `optional` **caseId**:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"Comment"`\> \| `string`
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18694
+Defined in: node_modules/.prisma/client/index.d.ts:18694
 
-***
+---
 
 ### content?
 
-> `optional` **content**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \| `string`
+> `optional` **content**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18691
+Defined in: node_modules/.prisma/client/index.d.ts:18691
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Comment"`\> \| `Date` \| `string`
+> `optional` **createdAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Comment"`\>
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18696
+Defined in: node_modules/.prisma/client/index.d.ts:18696
 
-***
+---
 
 ### draft?
 
-> `optional` **draft**: [`XOR`](XOR.md)\<[`DraftNullableRelationFilter`](DraftNullableRelationFilter.md), [`DraftWhereInput`](DraftWhereInput.md)\> \| `null`
+> `optional` **draft**:
+> [`XOR`](XOR.md)\<[`DraftNullableRelationFilter`](DraftNullableRelationFilter.md),
+> [`DraftWhereInput`](DraftWhereInput.md)\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18699
+Defined in: node_modules/.prisma/client/index.d.ts:18699
 
-***
+---
 
 ### draftId?
 
-> `optional` **draftId**: [`StringNullableFilter`](StringNullableFilter.md)\<`"Comment"`\> \| `string` \| `null`
+> `optional` **draftId**:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"Comment"`\> \| `string`
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18693
+Defined in: node_modules/.prisma/client/index.d.ts:18693
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \| `string`
+> `optional` **id**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18690
+Defined in: node_modules/.prisma/client/index.d.ts:18690
 
-***
+---
 
 ### NOT?
 
 > `optional` **NOT**: `CommentWhereInput` \| `CommentWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18689
+Defined in: node_modules/.prisma/client/index.d.ts:18689
 
-***
+---
 
 ### OR?
 
 > `optional` **OR**: `CommentWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18688
+Defined in: node_modules/.prisma/client/index.d.ts:18688
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md), [`TenantWhereInput`](TenantWhereInput.md)\>
+> `optional` **tenant**:
+> [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md),
+> [`TenantWhereInput`](TenantWhereInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18700
+Defined in: node_modules/.prisma/client/index.d.ts:18700
 
-***
+---
 
 ### tenantId?
 
-> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \| `string`
+> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18695
+Defined in: node_modules/.prisma/client/index.d.ts:18695
 
-***
+---
 
 ### updatedAt?
 
-> `optional` **updatedAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Comment"`\> \| `Date` \| `string`
+> `optional` **updatedAt**: [`DateTimeFilter`](DateTimeFilter.md)\<`"Comment"`\>
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18697
+Defined in: node_modules/.prisma/client/index.d.ts:18697
 
-***
+---
 
 ### user?
 
-> `optional` **user**: [`XOR`](XOR.md)\<[`UserRelationFilter`](UserRelationFilter.md), [`UserWhereInput`](UserWhereInput.md)\>
+> `optional` **user**:
+> [`XOR`](XOR.md)\<[`UserRelationFilter`](UserRelationFilter.md),
+> [`UserWhereInput`](UserWhereInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18701
+Defined in: node_modules/.prisma/client/index.d.ts:18701
 
-***
+---
 
 ### userId?
 
-> `optional` **userId**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \| `string`
+> `optional` **userId**: [`StringFilter`](StringFilter.md)\<`"Comment"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18692
+Defined in: node_modules/.prisma/client/index.d.ts:18692

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UnEnumerate
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UnEnumerate
 
 # Type Alias: UnEnumerate\<T\>
 
-> **UnEnumerate**\<`T`\> = `T` *extends* infer U[] ? `U` : `T`
+> **UnEnumerate**\<`T`\> = `T` _extends_ infer U[] ? `U` : `T`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:611
+Defined in: node_modules/.prisma/client/index.d.ts:611
 
 If it's T[], return T
 
@@ -16,4 +18,4 @@ If it's T[], return T
 
 ### T
 
-`T` *extends* `unknown`
+`T` _extends_ `unknown`

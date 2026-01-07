@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionDeleteArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionDeleteArgs
 
 # Type Alias: TemplateVersionDeleteArgs\<ExtArgs\>
 
 > **TemplateVersionDeleteArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14671
+Defined in: node_modules/.prisma/client/index.d.ts:14671
 
 TemplateVersion delete
 
@@ -16,34 +18,37 @@ TemplateVersion delete
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14679
+Defined in: node_modules/.prisma/client/index.d.ts:14679
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14675
+Defined in: node_modules/.prisma/client/index.d.ts:14675
 
 Select specific fields to fetch from the TemplateVersion
 
-***
+---
 
 ### where
 
-> **where**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
+> **where**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14683
+Defined in: node_modules/.prisma/client/index.d.ts:14683
 
 Filter which TemplateVersion to delete.

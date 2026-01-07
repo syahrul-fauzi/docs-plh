@@ -1,13 +1,14 @@
 # Changelog Infrastruktur Dokumentasi 📝
 
-Semua perubahan besar pada infrastruktur dokumentasi Lawyers Hub dicatat di sini.
+Semua perubahan besar pada infrastruktur dokumentasi Lawyers Hub dicatat di
+sini.
 
 ## [1.0.0] - 2026-01-04
 
 ### Added
 
-- **Inisialisasi Git**: Menambahkan file `.gitignore` komprehensif untuk
-  project dokumentasi.
+- **Inisialisasi Git**: Menambahkan file `.gitignore` komprehensif untuk project
+  dokumentasi.
 - **Standar Kualitas**: Implementasi `.prettierrc` dan `.markdownlint.json`.
 - **Otomatisasi**: Menambahkan GitHub Actions workflow
   `.github/workflows/docs-validation.yml` untuk linting dan validasi link.

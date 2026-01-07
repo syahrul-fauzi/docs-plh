@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewDeleteManyArgs
 
 # Type Alias: ComplianceReviewDeleteManyArgs\<ExtArgs\>
 
 > **ComplianceReviewDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:16758
+Defined in: node_modules/.prisma/client/index.d.ts:16758
 
 ComplianceReview deleteMany
 
@@ -16,14 +18,15 @@ ComplianceReview deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### where?
 
-> `optional` **where**: [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)
+> `optional` **where**:
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:16762
+Defined in: node_modules/.prisma/client/index.d.ts:16762
 
 Filter which ComplianceReviews to delete

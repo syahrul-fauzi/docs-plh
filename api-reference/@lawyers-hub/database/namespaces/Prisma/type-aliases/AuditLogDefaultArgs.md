@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AuditLogDefaultArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AuditLogDefaultArgs
 
 # Type Alias: AuditLogDefaultArgs\<ExtArgs\>
 
 > **AuditLogDefaultArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10763
+Defined in: node_modules/.prisma/client/index.d.ts:10763
 
 AuditLog without action
 
@@ -16,24 +18,26 @@ AuditLog without action
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`AuditLogInclude`](AuditLogInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**: [`AuditLogInclude`](AuditLogInclude.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10771
+Defined in: node_modules/.prisma/client/index.d.ts:10771
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`AuditLogSelect`](AuditLogSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**: [`AuditLogSelect`](AuditLogSelect.md)\<`ExtArgs`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10767
+Defined in: node_modules/.prisma/client/index.d.ts:10767
 
 Select specific fields to fetch from the AuditLog

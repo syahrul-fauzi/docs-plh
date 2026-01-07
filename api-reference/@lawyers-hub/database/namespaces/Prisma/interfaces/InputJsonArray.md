@@ -1,23 +1,27 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InputJsonArray
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InputJsonArray
 
 # Interface: InputJsonArray
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:1739
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:1739
 
-Matches a JSON array.
-Unlike `JsonArray`, readonly arrays are assignable to this type.
+Matches a JSON array. Unlike `JsonArray`, readonly arrays are assignable to this
+type.
 
 ## Extends
 
-- `ReadonlyArray`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>
+- `ReadonlyArray`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+  `null`\>
 
 ## Indexable
 
-\[`n`: `number`\]: [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+\[`n`: `number`\]: [`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+`null`
 
 ## Properties
 
@@ -25,10 +29,10 @@ Unlike `JsonArray`, readonly arrays are assignable to this type.
 
 > `readonly` **\[unscopables\]**: `object`
 
-Defined in: node\_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:107
+Defined in: node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:107
 
-Is an object whose properties have the value 'true'
-when they will be absent when used in a 'with' statement.
+Is an object whose properties have the value 'true' when they will be absent
+when used in a 'with' statement.
 
 #### Index Signature
 
@@ -42,8 +46,8 @@ when they will be absent when used in a 'with' statement.
 
 > `readonly` `optional` **\[unscopables\]**: `boolean`
 
-Is an object whose properties have the value 'true'
-when they will be absent when used in a 'with' statement.
+Is an object whose properties have the value 'true' when they will be absent
+when used in a 'with' statement.
 
 #### concat?
 
@@ -105,7 +109,8 @@ when they will be absent when used in a 'with' statement.
 
 > `readonly` `optional` **length**: `boolean`
 
-Gets the length of the array. This is a number one higher than the highest element defined in an array.
+Gets the length of the array. This is a number one higher than the highest
+element defined in an array.
 
 #### map?
 
@@ -143,15 +148,16 @@ Gets the length of the array. This is a number one higher than the highest eleme
 
 `ReadonlyArray.[unscopables]`
 
-***
+---
 
 ### length
 
 > `readonly` **length**: `number`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1195
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1195
 
-Gets the length of the array. This is a number one higher than the highest element defined in an array.
+Gets the length of the array. This is a number one higher than the highest
+element defined in an array.
 
 #### Inherited from
 
@@ -161,29 +167,33 @@ Gets the length of the array. This is a number one higher than the highest eleme
 
 ### \[iterator\]()
 
-> **\[iterator\]**(): `ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>
+> **\[iterator\]**():
+> `ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+> `null`\>
 
-Defined in: node\_modules/typescript/lib/lib.es2015.iterable.d.ts:114
+Defined in: node_modules/typescript/lib/lib.es2015.iterable.d.ts:114
 
 Iterator of values in the array.
 
 #### Returns
 
-`ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>
+`ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+`null`\>
 
 #### Inherited from
 
 `ReadonlyArray.[iterator]`
 
-***
+---
 
 ### concat()
 
 #### Call Signature
 
-> **concat**(...`items`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
+> **concat**(...`items`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md)
+> \| `null`)[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1208
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1208
 
 Combines two or more arrays.
 
@@ -191,7 +201,8 @@ Combines two or more arrays.
 
 ###### items
 
-...`ConcatArray`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>[]
+...`ConcatArray`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+`null`\>[]
 
 Additional items to add to the end of array1.
 
@@ -205,9 +216,10 @@ Additional items to add to the end of array1.
 
 #### Call Signature
 
-> **concat**(...`items`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
+> **concat**(...`items`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md)
+> \| `null`)[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1213
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1213
 
 Combines two or more arrays.
 
@@ -215,7 +227,8 @@ Combines two or more arrays.
 
 ###### items
 
-...([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `ConcatArray`\<InputJsonValue \| null\> \| `null`)[]
+...([`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+`ConcatArray`\<InputJsonValue \| null\> \| `null`)[]
 
 Additional items to add to the end of array1.
 
@@ -227,25 +240,27 @@ Additional items to add to the end of array1.
 
 `ReadonlyArray.concat`
 
-***
+---
 
 ### entries()
 
-> **entries**(): `ArrayIterator`\<\[`number`, [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\]\>
+> **entries**(): `ArrayIterator`\<\[`number`,
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\]\>
 
-Defined in: node\_modules/typescript/lib/lib.es2015.iterable.d.ts:119
+Defined in: node_modules/typescript/lib/lib.es2015.iterable.d.ts:119
 
 Returns an iterable of key, value pairs for every entry in the array
 
 #### Returns
 
-`ArrayIterator`\<\[`number`, [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\]\>
+`ArrayIterator`\<\[`number`,
+[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\]\>
 
 #### Inherited from
 
 `ReadonlyArray.entries`
 
-***
+---
 
 ### every()
 
@@ -253,7 +268,7 @@ Returns an iterable of key, value pairs for every entry in the array
 
 > **every**\<`S`\>(`predicate`, `thisArg?`): `this is readonly S[]`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1245
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1245
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -261,7 +276,7 @@ Determines whether all the members of an array satisfy the specified test.
 
 ###### S
 
-`S` *extends* [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+`S` _extends_ [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
 ##### Parameters
 
@@ -269,16 +284,17 @@ Determines whether all the members of an array satisfy the specified test.
 
 (`value`, `index`, `array`) => `value is S`
 
-A function that accepts up to three arguments. The every method calls
-the predicate function for each element in the array until the predicate returns a value
-which is coercible to the Boolean value false, or until the end of the array.
+A function that accepts up to three arguments. The every method calls the
+predicate function for each element in the array until the predicate returns a
+value which is coercible to the Boolean value false, or until the end of the
+array.
 
 ###### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the predicate function.
-If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the predicate function. If
+thisArg is omitted, undefined is used as the this value.
 
 ##### Returns
 
@@ -292,7 +308,7 @@ If thisArg is omitted, undefined is used as the this value.
 
 > **every**(`predicate`, `thisArg?`): `boolean`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1254
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1254
 
 Determines whether all the members of an array satisfy the specified test.
 
@@ -302,16 +318,17 @@ Determines whether all the members of an array satisfy the specified test.
 
 (`value`, `index`, `array`) => `unknown`
 
-A function that accepts up to three arguments. The every method calls
-the predicate function for each element in the array until the predicate returns a value
-which is coercible to the Boolean value false, or until the end of the array.
+A function that accepts up to three arguments. The every method calls the
+predicate function for each element in the array until the predicate returns a
+value which is coercible to the Boolean value false, or until the end of the
+array.
 
 ###### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the predicate function.
-If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the predicate function. If
+thisArg is omitted, undefined is used as the this value.
 
 ##### Returns
 
@@ -321,7 +338,7 @@ If thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.every`
 
-***
+---
 
 ### filter()
 
@@ -329,15 +346,16 @@ If thisArg is omitted, undefined is used as the this value.
 
 > **filter**\<`S`\>(`predicate`, `thisArg?`): `S`[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1281
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1281
 
-Returns the elements of an array that meet the condition specified in a callback function.
+Returns the elements of an array that meet the condition specified in a callback
+function.
 
 ##### Type Parameters
 
 ###### S
 
-`S` *extends* [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+`S` _extends_ [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
 ##### Parameters
 
@@ -345,13 +363,15 @@ Returns the elements of an array that meet the condition specified in a callback
 
 (`value`, `index`, `array`) => `value is S`
 
-A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.
+A function that accepts up to three arguments. The filter method calls the
+predicate function one time for each element in the array.
 
 ###### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the predicate function. If
+thisArg is omitted, undefined is used as the this value.
 
 ##### Returns
 
@@ -363,11 +383,13 @@ An object to which the this keyword can refer in the predicate function. If this
 
 #### Call Signature
 
-> **filter**(`predicate`, `thisArg?`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
+> **filter**(`predicate`, `thisArg?`):
+> ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1287
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1287
 
-Returns the elements of an array that meet the condition specified in a callback function.
+Returns the elements of an array that meet the condition specified in a callback
+function.
 
 ##### Parameters
 
@@ -375,13 +397,15 @@ Returns the elements of an array that meet the condition specified in a callback
 
 (`value`, `index`, `array`) => `unknown`
 
-A function that accepts up to three arguments. The filter method calls the predicate function one time for each element in the array.
+A function that accepts up to three arguments. The filter method calls the
+predicate function one time for each element in the array.
 
 ###### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the predicate function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the predicate function. If
+thisArg is omitted, undefined is used as the this value.
 
 ##### Returns
 
@@ -391,7 +415,7 @@ An object to which the this keyword can refer in the predicate function. If this
 
 `ReadonlyArray.filter`
 
-***
+---
 
 ### find()
 
@@ -399,16 +423,16 @@ An object to which the this keyword can refer in the predicate function. If this
 
 > **find**\<`S`\>(`predicate`, `thisArg?`): `S` \| `undefined`
 
-Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:352
+Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:352
 
-Returns the value of the first element in the array where predicate is true, and undefined
-otherwise.
+Returns the value of the first element in the array where predicate is true, and
+undefined otherwise.
 
 ##### Type Parameters
 
 ###### S
 
-`S` *extends* [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+`S` _extends_ [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
 ##### Parameters
 
@@ -416,16 +440,16 @@ otherwise.
 
 (`value`, `index`, `obj`) => `value is S`
 
-find calls predicate once for each element of the array, in ascending
-order, until it finds one where predicate returns true. If such an element is found, find
-immediately returns that element value. Otherwise, find returns undefined.
+find calls predicate once for each element of the array, in ascending order,
+until it finds one where predicate returns true. If such an element is found,
+find immediately returns that element value. Otherwise, find returns undefined.
 
 ###### thisArg?
 
 `any`
 
-If provided, it will be used as the this value for each invocation of
-predicate. If it is not provided, undefined is used instead.
+If provided, it will be used as the this value for each invocation of predicate.
+If it is not provided, undefined is used instead.
 
 ##### Returns
 
@@ -437,9 +461,10 @@ predicate. If it is not provided, undefined is used instead.
 
 #### Call Signature
 
-> **find**(`predicate`, `thisArg?`): [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null` \| `undefined`
+> **find**(`predicate`, `thisArg?`):
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null` \| `undefined`
 
-Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:353
+Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:353
 
 ##### Parameters
 
@@ -459,16 +484,16 @@ Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:353
 
 `ReadonlyArray.find`
 
-***
+---
 
 ### findIndex()
 
 > **findIndex**(`predicate`, `thisArg?`): `number`
 
-Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:364
+Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:364
 
-Returns the index of the first element in the array where predicate is true, and -1
-otherwise.
+Returns the index of the first element in the array where predicate is true, and
+-1 otherwise.
 
 #### Parameters
 
@@ -476,16 +501,17 @@ otherwise.
 
 (`value`, `index`, `obj`) => `unknown`
 
-find calls predicate once for each element of the array, in ascending
-order, until it finds one where predicate returns true. If such an element is found,
-findIndex immediately returns that element index. Otherwise, findIndex returns -1.
+find calls predicate once for each element of the array, in ascending order,
+until it finds one where predicate returns true. If such an element is found,
+findIndex immediately returns that element index. Otherwise, findIndex returns
+-1.
 
 ##### thisArg?
 
 `any`
 
-If provided, it will be used as the this value for each invocation of
-predicate. If it is not provided, undefined is used instead.
+If provided, it will be used as the this value for each invocation of predicate.
+If it is not provided, undefined is used instead.
 
 #### Returns
 
@@ -495,16 +521,16 @@ predicate. If it is not provided, undefined is used instead.
 
 `ReadonlyArray.findIndex`
 
-***
+---
 
 ### flat()
 
 > **flat**\<`A`, `D`\>(`this`, `depth?`): `FlatArray`\<`A`, `D`\>[]
 
-Defined in: node\_modules/typescript/lib/lib.es2019.array.d.ts:47
+Defined in: node_modules/typescript/lib/lib.es2019.array.d.ts:47
 
-Returns a new array with all sub-array elements concatenated into it recursively up to the
-specified depth.
+Returns a new array with all sub-array elements concatenated into it recursively
+up to the specified depth.
 
 #### Type Parameters
 
@@ -514,7 +540,7 @@ specified depth.
 
 ##### D
 
-`D` *extends* `number` = `1`
+`D` _extends_ `number` = `1`
 
 #### Parameters
 
@@ -536,17 +562,17 @@ The maximum recursion depth
 
 `ReadonlyArray.flat`
 
-***
+---
 
 ### flatMap()
 
 > **flatMap**\<`U`, `This`\>(`callback`, `thisArg?`): `U`[]
 
-Defined in: node\_modules/typescript/lib/lib.es2019.array.d.ts:36
+Defined in: node_modules/typescript/lib/lib.es2019.array.d.ts:36
 
-Calls a defined callback function on each element of an array. Then, flattens the result into
-a new array.
-This is identical to a map followed by flat with depth 1.
+Calls a defined callback function on each element of an array. Then, flattens
+the result into a new array. This is identical to a map followed by flat with
+depth 1.
 
 #### Type Parameters
 
@@ -582,13 +608,13 @@ thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.flatMap`
 
-***
+---
 
 ### forEach()
 
 > **forEach**(`callbackfn`, `thisArg?`): `void`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1269
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1269
 
 Performs the specified action for each element in an array.
 
@@ -598,13 +624,15 @@ Performs the specified action for each element in an array.
 
 (`value`, `index`, `array`) => `void`
 
-A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array.
+A function that accepts up to three arguments. forEach calls the callbackfn
+function one time for each element in the array.
 
 ##### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function. If
+thisArg is omitted, undefined is used as the this value.
 
 #### Returns
 
@@ -614,15 +642,16 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 `ReadonlyArray.forEach`
 
-***
+---
 
 ### includes()
 
 > **includes**(`searchElement`, `fromIndex?`): `boolean`
 
-Defined in: node\_modules/typescript/lib/lib.es2016.array.include.d.ts:34
+Defined in: node_modules/typescript/lib/lib.es2016.array.include.d.ts:34
 
-Determines whether an array includes a certain element, returning true or false as appropriate.
+Determines whether an array includes a certain element, returning true or false
+as appropriate.
 
 #### Parameters
 
@@ -646,13 +675,13 @@ The position in this array at which to begin searching for searchElement.
 
 `ReadonlyArray.includes`
 
-***
+---
 
 ### indexOf()
 
 > **indexOf**(`searchElement`, `fromIndex?`): `number`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1230
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1230
 
 Returns the index of the first occurrence of a value in an array.
 
@@ -668,7 +697,8 @@ The value to locate in the array.
 
 `number`
 
-The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.
+The array index at which to begin the search. If fromIndex is omitted, the
+search starts at index 0.
 
 #### Returns
 
@@ -678,13 +708,13 @@ The array index at which to begin the search. If fromIndex is omitted, the searc
 
 `ReadonlyArray.indexOf`
 
-***
+---
 
 ### join()
 
 > **join**(`separator?`): `string`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1218
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1218
 
 Adds all the elements of an array separated by the specified separator string.
 
@@ -694,7 +724,8 @@ Adds all the elements of an array separated by the specified separator string.
 
 `string`
 
-A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.
+A string used to separate one element of an array from the next in the resulting
+String. If omitted, the array elements are separated with a comma.
 
 #### Returns
 
@@ -704,13 +735,13 @@ A string used to separate one element of an array from the next in the resulting
 
 `ReadonlyArray.join`
 
-***
+---
 
 ### keys()
 
 > **keys**(): `ArrayIterator`\<`number`\>
 
-Defined in: node\_modules/typescript/lib/lib.es2015.iterable.d.ts:124
+Defined in: node_modules/typescript/lib/lib.es2015.iterable.d.ts:124
 
 Returns an iterable of keys in the array
 
@@ -722,13 +753,13 @@ Returns an iterable of keys in the array
 
 `ReadonlyArray.keys`
 
-***
+---
 
 ### lastIndexOf()
 
 > **lastIndexOf**(`searchElement`, `fromIndex?`): `number`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1236
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1236
 
 Returns the index of the last occurrence of a specified value in an array.
 
@@ -744,7 +775,8 @@ The value to locate in the array.
 
 `number`
 
-The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.
+The array index at which to begin the search. If fromIndex is omitted, the
+search starts at the last index in the array.
 
 #### Returns
 
@@ -754,15 +786,16 @@ The array index at which to begin the search. If fromIndex is omitted, the searc
 
 `ReadonlyArray.lastIndexOf`
 
-***
+---
 
 ### map()
 
 > **map**\<`U`\>(`callbackfn`, `thisArg?`): `U`[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1275
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1275
 
-Calls a defined callback function on each element of an array, and returns an array that contains the results.
+Calls a defined callback function on each element of an array, and returns an
+array that contains the results.
 
 #### Type Parameters
 
@@ -776,13 +809,15 @@ Calls a defined callback function on each element of an array, and returns an ar
 
 (`value`, `index`, `array`) => `U`
 
-A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array.
+A function that accepts up to three arguments. The map method calls the
+callbackfn function one time for each element in the array.
 
 ##### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the callbackfn function. If
+thisArg is omitted, undefined is used as the this value.
 
 #### Returns
 
@@ -792,25 +827,30 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 `ReadonlyArray.map`
 
-***
+---
 
 ### reduce()
 
 #### Call Signature
 
-> **reduce**(`callbackfn`): [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+> **reduce**(`callbackfn`):
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1293
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1293
 
-Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+Calls the specified callback function for all the elements in an array. The
+return value of the callback function is the accumulated result, and is provided
+as an argument in the next call to the callback function.
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+(`previousValue`, `currentValue`, `currentIndex`, `array`) =>
+[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.
+A function that accepts up to four arguments. The reduce method calls the
+callbackfn function one time for each element in the array.
 
 ##### Returns
 
@@ -822,15 +862,17 @@ A function that accepts up to four arguments. The reduce method calls the callba
 
 #### Call Signature
 
-> **reduce**(`callbackfn`, `initialValue`): [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+> **reduce**(`callbackfn`, `initialValue`):
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1294
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1294
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+(`previousValue`, `currentValue`, `currentIndex`, `array`) =>
+[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
 ###### initialValue
 
@@ -848,9 +890,11 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1294
 
 > **reduce**\<`U`\>(`callbackfn`, `initialValue`): `U`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1300
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1300
 
-Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+Calls the specified callback function for all the elements in an array. The
+return value of the callback function is the accumulated result, and is provided
+as an argument in the next call to the callback function.
 
 ##### Type Parameters
 
@@ -864,13 +908,16 @@ Calls the specified callback function for all the elements in an array. The retu
 
 (`previousValue`, `currentValue`, `currentIndex`, `array`) => `U`
 
-A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array.
+A function that accepts up to four arguments. The reduce method calls the
+callbackfn function one time for each element in the array.
 
 ###### initialValue
 
 `U`
 
-If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
+If initialValue is specified, it is used as the initial value to start the
+accumulation. The first call to the callbackfn function provides this value as
+an argument instead of an array value.
 
 ##### Returns
 
@@ -880,25 +927,31 @@ If initialValue is specified, it is used as the initial value to start the accum
 
 `ReadonlyArray.reduce`
 
-***
+---
 
 ### reduceRight()
 
 #### Call Signature
 
-> **reduceRight**(`callbackfn`): [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+> **reduceRight**(`callbackfn`):
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1306
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1306
 
-Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+Calls the specified callback function for all the elements in an array, in
+descending order. The return value of the callback function is the accumulated
+result, and is provided as an argument in the next call to the callback
+function.
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+(`previousValue`, `currentValue`, `currentIndex`, `array`) =>
+[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.
+A function that accepts up to four arguments. The reduceRight method calls the
+callbackfn function one time for each element in the array.
 
 ##### Returns
 
@@ -910,15 +963,17 @@ A function that accepts up to four arguments. The reduceRight method calls the c
 
 #### Call Signature
 
-> **reduceRight**(`callbackfn`, `initialValue`): [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+> **reduceRight**(`callbackfn`, `initialValue`):
+> [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1307
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1307
 
 ##### Parameters
 
 ###### callbackfn
 
-(`previousValue`, `currentValue`, `currentIndex`, `array`) => [`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
+(`previousValue`, `currentValue`, `currentIndex`, `array`) =>
+[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`
 
 ###### initialValue
 
@@ -936,9 +991,12 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1307
 
 > **reduceRight**\<`U`\>(`callbackfn`, `initialValue`): `U`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1313
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1313
 
-Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
+Calls the specified callback function for all the elements in an array, in
+descending order. The return value of the callback function is the accumulated
+result, and is provided as an argument in the next call to the callback
+function.
 
 ##### Type Parameters
 
@@ -952,13 +1010,16 @@ Calls the specified callback function for all the elements in an array, in desce
 
 (`previousValue`, `currentValue`, `currentIndex`, `array`) => `U`
 
-A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array.
+A function that accepts up to four arguments. The reduceRight method calls the
+callbackfn function one time for each element in the array.
 
 ###### initialValue
 
 `U`
 
-If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.
+If initialValue is specified, it is used as the initial value to start the
+accumulation. The first call to the callbackfn function provides this value as
+an argument instead of an array value.
 
 ##### Returns
 
@@ -968,13 +1029,14 @@ If initialValue is specified, it is used as the initial value to start the accum
 
 `ReadonlyArray.reduceRight`
 
-***
+---
 
 ### slice()
 
-> **slice**(`start?`, `end?`): ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
+> **slice**(`start?`, `end?`):
+> ([`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`)[]
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1224
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1224
 
 Returns a section of an array.
 
@@ -990,7 +1052,8 @@ The beginning of the specified portion of the array.
 
 `number`
 
-The end of the specified portion of the array. This is exclusive of the element at the index 'end'.
+The end of the specified portion of the array. This is exclusive of the element
+at the index 'end'.
 
 #### Returns
 
@@ -1000,15 +1063,16 @@ The end of the specified portion of the array. This is exclusive of the element 
 
 `ReadonlyArray.slice`
 
-***
+---
 
 ### some()
 
 > **some**(`predicate`, `thisArg?`): `boolean`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1263
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1263
 
-Determines whether the specified callback function returns true for any element of an array.
+Determines whether the specified callback function returns true for any element
+of an array.
 
 #### Parameters
 
@@ -1016,16 +1080,17 @@ Determines whether the specified callback function returns true for any element 
 
 (`value`, `index`, `array`) => `unknown`
 
-A function that accepts up to three arguments. The some method calls
-the predicate function for each element in the array until the predicate returns a value
-which is coercible to the Boolean value true, or until the end of the array.
+A function that accepts up to three arguments. The some method calls the
+predicate function for each element in the array until the predicate returns a
+value which is coercible to the Boolean value true, or until the end of the
+array.
 
 ##### thisArg?
 
 `any`
 
-An object to which the this keyword can refer in the predicate function.
-If thisArg is omitted, undefined is used as the this value.
+An object to which the this keyword can refer in the predicate function. If
+thisArg is omitted, undefined is used as the this value.
 
 #### Returns
 
@@ -1035,7 +1100,7 @@ If thisArg is omitted, undefined is used as the this value.
 
 `ReadonlyArray.some`
 
-***
+---
 
 ### toLocaleString()
 
@@ -1043,9 +1108,10 @@ If thisArg is omitted, undefined is used as the this value.
 
 > **toLocaleString**(): `string`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1203
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1203
 
-Returns a string representation of an array. The elements are converted to string using their toLocaleString methods.
+Returns a string representation of an array. The elements are converted to
+string using their toLocaleString methods.
 
 ##### Returns
 
@@ -1059,7 +1125,7 @@ Returns a string representation of an array. The elements are converted to strin
 
 > **toLocaleString**(`locales`, `options?`): `string`
 
-Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:366
+Defined in: node_modules/typescript/lib/lib.es2015.core.d.ts:366
 
 ##### Parameters
 
@@ -1079,13 +1145,13 @@ Defined in: node\_modules/typescript/lib/lib.es2015.core.d.ts:366
 
 `ReadonlyArray.toLocaleString`
 
-***
+---
 
 ### toString()
 
 > **toString**(): `string`
 
-Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1199
+Defined in: node_modules/typescript/lib/lib.es5.d.ts:1199
 
 Returns a string representation of an array.
 
@@ -1097,19 +1163,22 @@ Returns a string representation of an array.
 
 `ReadonlyArray.toString`
 
-***
+---
 
 ### values()
 
-> **values**(): `ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>
+> **values**():
+> `ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+> `null`\>
 
-Defined in: node\_modules/typescript/lib/lib.es2015.iterable.d.ts:129
+Defined in: node_modules/typescript/lib/lib.es2015.iterable.d.ts:129
 
 Returns an iterable of values in the array
 
 #### Returns
 
-`ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \| `null`\>
+`ArrayIterator`\<[`InputJsonValue`](../type-aliases/InputJsonValue.md) \|
+`null`\>
 
 #### Inherited from
 

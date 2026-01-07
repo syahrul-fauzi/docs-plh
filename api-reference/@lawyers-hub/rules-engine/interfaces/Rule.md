@@ -1,12 +1,13 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/rules-engine](../README.md) / Rule
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/rules-engine](../README.md) / Rule
 
 # Interface: Rule
 
-Defined in: enforcement/runtime\_enforcer.ts:7
+Defined in: enforcement/runtime_enforcer.ts:7
 
 ## Properties
 
@@ -14,7 +15,7 @@ Defined in: enforcement/runtime\_enforcer.ts:7
 
 > **action**: `object`
 
-Defined in: enforcement/runtime\_enforcer.ts:21
+Defined in: enforcement/runtime_enforcer.ts:21
 
 #### Index Signature
 
@@ -28,81 +29,81 @@ Defined in: enforcement/runtime\_enforcer.ts:21
 
 > **type**: `string`
 
-***
+---
 
 ### condition
 
 > **condition**: `object`
 
-Defined in: enforcement/runtime\_enforcer.ts:18
+Defined in: enforcement/runtime_enforcer.ts:18
 
 #### Index Signature
 
 \[`key`: `string`\]: `any`
 
-***
+---
 
 ### description?
 
 > `optional` **description**: `string`
 
-Defined in: enforcement/runtime\_enforcer.ts:12
+Defined in: enforcement/runtime_enforcer.ts:12
 
-***
+---
 
 ### domain?
 
 > `optional` **domain**: `string`
 
-Defined in: enforcement/runtime\_enforcer.ts:11
+Defined in: enforcement/runtime_enforcer.ts:11
 
-***
+---
 
 ### name
 
 > **name**: `string`
 
-Defined in: enforcement/runtime\_enforcer.ts:9
+Defined in: enforcement/runtime_enforcer.ts:9
 
-***
+---
 
-### on\_fail?
+### on_fail?
 
-> `optional` **on\_fail**: `string`
+> `optional` **on_fail**: `string`
 
-Defined in: enforcement/runtime\_enforcer.ts:26
+Defined in: enforcement/runtime_enforcer.ts:26
 
-***
+---
 
 ### priority
 
 > **priority**: `RulePriority`
 
-Defined in: enforcement/runtime\_enforcer.ts:10
+Defined in: enforcement/runtime_enforcer.ts:10
 
-***
+---
 
-### rule\_id
+### rule_id
 
-> **rule\_id**: `string`
+> **rule_id**: `string`
 
-Defined in: enforcement/runtime\_enforcer.ts:8
+Defined in: enforcement/runtime_enforcer.ts:8
 
-***
+---
 
 ### trigger
 
 > **trigger**: `object`
 
-Defined in: enforcement/runtime\_enforcer.ts:13
+Defined in: enforcement/runtime_enforcer.ts:13
 
 #### Index Signature
 
 \[`key`: `string`\]: `any`
 
-#### action\_type?
+#### action_type?
 
-> `optional` **action\_type**: `string`
+> `optional` **action_type**: `string`
 
 #### context
 

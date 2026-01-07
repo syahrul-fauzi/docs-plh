@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseFindUniqueArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseFindUniqueArgs
 
 # Type Alias: CaseFindUniqueArgs\<ExtArgs\>
 
 > **CaseFindUniqueArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6350
+Defined in: node_modules/.prisma/client/index.d.ts:6350
 
 Case findUnique
 
@@ -16,7 +18,7 @@ Case findUnique
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,26 +26,26 @@ Case findUnique
 
 > `optional` **include**: [`CaseInclude`](CaseInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6358
+Defined in: node_modules/.prisma/client/index.d.ts:6358
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
 > `optional` **select**: [`CaseSelect`](CaseSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6354
+Defined in: node_modules/.prisma/client/index.d.ts:6354
 
 Select specific fields to fetch from the Case
 
-***
+---
 
 ### where
 
 > **where**: [`CaseWhereUniqueInput`](CaseWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6362
+Defined in: node_modules/.prisma/client/index.d.ts:6362
 
 Filter, which Case to fetch.

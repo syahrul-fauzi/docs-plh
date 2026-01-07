@@ -1,14 +1,17 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SubsetIntersection
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SubsetIntersection
 
 # Type Alias: SubsetIntersection\<T, U, K\>
 
-> **SubsetIntersection**\<`T`, `U`, `K`\> = `{ [key in keyof T]: key extends keyof U ? T[key] : never }` & `K`
+> **SubsetIntersection**\<`T`, `U`, `K`\> =
+> `{ [key in keyof T]: key extends keyof U ? T[key] : never }` & `K`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:574
+Defined in: node_modules/.prisma/client/index.d.ts:574
 
 Subset + Intersection
 

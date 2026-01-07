@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigFindFirstOrThrowArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigFindFirstOrThrowArgs
 
 # Type Alias: AIModelConfigFindFirstOrThrowArgs\<ExtArgs\>
 
 > **AIModelConfigFindFirstOrThrowArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15494
+Defined in: node_modules/.prisma/client/index.d.ts:15494
 
 AIModelConfig findFirstOrThrow
 
@@ -16,84 +18,91 @@ AIModelConfig findFirstOrThrow
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### cursor?
 
-> `optional` **cursor**: [`AIModelConfigWhereUniqueInput`](AIModelConfigWhereUniqueInput.md)
+> `optional` **cursor**:
+> [`AIModelConfigWhereUniqueInput`](AIModelConfigWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15514
+Defined in: node_modules/.prisma/client/index.d.ts:15514
 
 [Cursor Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination)
 
 Sets the position for searching for AIModelConfigs.
 
-***
+---
 
 ### distinct?
 
-> `optional` **distinct**: [`AIModelConfigScalarFieldEnum`](AIModelConfigScalarFieldEnum.md) \| [`AIModelConfigScalarFieldEnum`](AIModelConfigScalarFieldEnum.md)[]
+> `optional` **distinct**:
+> [`AIModelConfigScalarFieldEnum`](AIModelConfigScalarFieldEnum.md) \|
+> [`AIModelConfigScalarFieldEnum`](AIModelConfigScalarFieldEnum.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15532
+Defined in: node_modules/.prisma/client/index.d.ts:15532
 
 [Distinct Docs](https://www.prisma.io/docs/concepts/components/prisma-client/distinct)
 
 Filter by unique combinations of AIModelConfigs.
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`AIModelConfigOrderByWithRelationInput`](AIModelConfigOrderByWithRelationInput.md) \| [`AIModelConfigOrderByWithRelationInput`](AIModelConfigOrderByWithRelationInput.md)[]
+> `optional` **orderBy**:
+> [`AIModelConfigOrderByWithRelationInput`](AIModelConfigOrderByWithRelationInput.md)
+> \|
+> [`AIModelConfigOrderByWithRelationInput`](AIModelConfigOrderByWithRelationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15508
+Defined in: node_modules/.prisma/client/index.d.ts:15508
 
 [Sorting Docs](https://www.prisma.io/docs/concepts/components/prisma-client/sorting)
 
 Determine the order of AIModelConfigs to fetch.
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`AIModelConfigSelect`](AIModelConfigSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`AIModelConfigSelect`](AIModelConfigSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15498
+Defined in: node_modules/.prisma/client/index.d.ts:15498
 
 Select specific fields to fetch from the AIModelConfig
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15526
+Defined in: node_modules/.prisma/client/index.d.ts:15526
 
 [Pagination Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination)
 
 Skip the first `n` AIModelConfigs.
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15520
+Defined in: node_modules/.prisma/client/index.d.ts:15520
 
 [Pagination Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination)
 
 Take `±n` AIModelConfigs from the position of the cursor.
 
-***
+---
 
 ### where?
 
 > `optional` **where**: [`AIModelConfigWhereInput`](AIModelConfigWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15502
+Defined in: node_modules/.prisma/client/index.d.ts:15502
 
 Filter, which AIModelConfig to fetch.

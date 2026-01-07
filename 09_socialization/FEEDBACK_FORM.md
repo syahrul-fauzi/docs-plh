@@ -1,7 +1,7 @@
 # Formulir Feedback Workshop (Workshop Feedback Form)
 
-Terima kasih telah berpartisipasi dalam workshop Lawyers Hub. Feedback Anda sangat
-berharga untuk menyempurnakan sistem dokumentasi kita.
+Terima kasih telah berpartisipasi dalam workshop Lawyers Hub. Feedback Anda
+sangat berharga untuk menyempurnakan sistem dokumentasi kita.
 
 ## 1. Informasi Peserta
 
@@ -29,6 +29,6 @@ Berikan nilai 1-5 (1: Sangat Kurang, 5: Sangat Baik)
 
 ---
 
-*Silakan salin bagian di atas ke dokumen baru di folder
+_Silakan salin bagian di atas ke dokumen baru di folder
 `docs/09_socialization/results/` atau kirimkan via email ke tim arsitektur
-dokumentasi.*
+dokumentasi._

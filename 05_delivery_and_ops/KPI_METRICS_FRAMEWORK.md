@@ -2,12 +2,12 @@
 
 ## 1. Key Performance Indicators (KPIs)
 
-| Dimensi | Indikator | Target | Frekuensi |
-| :--- | :--- | :--- | :--- |
-| **Kelengkapan** | % Template yang terisi penuh | > 90% | Bulanan |
-| **Akurasi** | Jumlah bug dokumentasi yang dilaporkan | < 2 per rilis | Mingguan |
-| **Kecepatan** | Waktu rata-rata update dokumen vs rilis kode | < 24 jam | Per Rilis |
-| **Kesehatan** | Jumlah broken links dalam repository | 0 | Harian (CI) |
+| Dimensi         | Indikator                                    | Target        | Frekuensi   |
+| :-------------- | :------------------------------------------- | :------------ | :---------- |
+| **Kelengkapan** | % Template yang terisi penuh                 | > 90%         | Bulanan     |
+| **Akurasi**     | Jumlah bug dokumentasi yang dilaporkan       | < 2 per rilis | Mingguan    |
+| **Kecepatan**   | Waktu rata-rata update dokumen vs rilis kode | < 24 jam      | Per Rilis   |
+| **Kesehatan**   | Jumlah broken links dalam repository         | 0             | Harian (CI) |
 
 ## 2. Adoption & Success Tracking
 
@@ -45,8 +45,8 @@ Dilakukan melalui survei kuartalan kepada internal team (Dev, QA, Product):
 
 - **Technical Audit (Kuartalan)**: Review kesesuaian antara kode nyata dan
   spesifikasi teknis.
-- **Compliance Audit (Semesteran)**: Review kepatuhan terhadap UU PDP dan standar
-  keamanan data terbaru.
+- **Compliance Audit (Semesteran)**: Review kepatuhan terhadap UU PDP dan
+  standar keamanan data terbaru.
 - **Structure Review (Tahunan)**: Evaluasi apakah arsitektur dokumentasi masih
   mendukung skala bisnis saat ini.
 

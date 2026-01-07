@@ -1,21 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AtBasic
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AtBasic
 
 # Type Alias: AtBasic\<O, K\>
 
-> **AtBasic**\<`O`, `K`\> = `K` *extends* keyof `O` ? `O`\[`K`\] : `never`
+> **AtBasic**\<`O`, `K`\> = `K` _extends_ keyof `O` ? `O`\[`K`\] : `never`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:664
+Defined in: node_modules/.prisma/client/index.d.ts:664
 
 ## Type Parameters
 
 ### O
 
-`O` *extends* `object`
+`O` _extends_ `object`
 
 ### K
 
-`K` *extends* [`Key`](Key.md)
+`K` _extends_ [`Key`](Key.md)

@@ -1,147 +1,160 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantCreateWithoutDocumentsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantCreateWithoutDocumentsInput
 
 # Type Alias: TenantCreateWithoutDocumentsInput
 
 > **TenantCreateWithoutDocumentsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24670
+Defined in: node_modules/.prisma/client/index.d.ts:24670
 
 ## Properties
 
 ### auditLogs?
 
-> `optional` **auditLogs**: [`AuditLogCreateNestedManyWithoutTenantInput`](AuditLogCreateNestedManyWithoutTenantInput.md)
+> `optional` **auditLogs**:
+> [`AuditLogCreateNestedManyWithoutTenantInput`](AuditLogCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24677
+Defined in: node_modules/.prisma/client/index.d.ts:24677
 
-***
+---
 
 ### cases?
 
-> `optional` **cases**: [`CaseCreateNestedManyWithoutTenantInput`](CaseCreateNestedManyWithoutTenantInput.md)
+> `optional` **cases**:
+> [`CaseCreateNestedManyWithoutTenantInput`](CaseCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24678
+Defined in: node_modules/.prisma/client/index.d.ts:24678
 
-***
+---
 
 ### comments?
 
-> `optional` **comments**: [`CommentCreateNestedManyWithoutTenantInput`](CommentCreateNestedManyWithoutTenantInput.md)
+> `optional` **comments**:
+> [`CommentCreateNestedManyWithoutTenantInput`](CommentCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24679
+Defined in: node_modules/.prisma/client/index.d.ts:24679
 
-***
+---
 
 ### complianceReviews?
 
-> `optional` **complianceReviews**: [`ComplianceReviewCreateNestedManyWithoutTenantInput`](ComplianceReviewCreateNestedManyWithoutTenantInput.md)
+> `optional` **complianceReviews**:
+> [`ComplianceReviewCreateNestedManyWithoutTenantInput`](ComplianceReviewCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24680
+Defined in: node_modules/.prisma/client/index.d.ts:24680
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24675
+Defined in: node_modules/.prisma/client/index.d.ts:24675
 
-***
+---
 
 ### documentTemplates?
 
-> `optional` **documentTemplates**: [`DocumentTemplateCreateNestedManyWithoutTenantInput`](DocumentTemplateCreateNestedManyWithoutTenantInput.md)
+> `optional` **documentTemplates**:
+> [`DocumentTemplateCreateNestedManyWithoutTenantInput`](DocumentTemplateCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24681
+Defined in: node_modules/.prisma/client/index.d.ts:24681
 
-***
+---
 
 ### drafts?
 
-> `optional` **drafts**: [`DraftCreateNestedManyWithoutTenantInput`](DraftCreateNestedManyWithoutTenantInput.md)
+> `optional` **drafts**:
+> [`DraftCreateNestedManyWithoutTenantInput`](DraftCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24682
+Defined in: node_modules/.prisma/client/index.d.ts:24682
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24671
+Defined in: node_modules/.prisma/client/index.d.ts:24671
 
-***
+---
 
 ### invitations?
 
-> `optional` **invitations**: [`InvitationCreateNestedManyWithoutTenantInput`](InvitationCreateNestedManyWithoutTenantInput.md)
+> `optional` **invitations**:
+> [`InvitationCreateNestedManyWithoutTenantInput`](InvitationCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24683
+Defined in: node_modules/.prisma/client/index.d.ts:24683
 
-***
+---
 
 ### isActive?
 
 > `optional` **isActive**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24674
+Defined in: node_modules/.prisma/client/index.d.ts:24674
 
-***
+---
 
 ### name
 
 > **name**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24672
+Defined in: node_modules/.prisma/client/index.d.ts:24672
 
-***
+---
 
 ### piiAuditLogs?
 
-> `optional` **piiAuditLogs**: [`PIIAuditLogCreateNestedManyWithoutTenantInput`](PIIAuditLogCreateNestedManyWithoutTenantInput.md)
+> `optional` **piiAuditLogs**:
+> [`PIIAuditLogCreateNestedManyWithoutTenantInput`](PIIAuditLogCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24684
+Defined in: node_modules/.prisma/client/index.d.ts:24684
 
-***
+---
 
 ### slug
 
 > **slug**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24673
+Defined in: node_modules/.prisma/client/index.d.ts:24673
 
-***
+---
 
 ### subscription?
 
-> `optional` **subscription**: [`SubscriptionCreateNestedOneWithoutTenantInput`](SubscriptionCreateNestedOneWithoutTenantInput.md)
+> `optional` **subscription**:
+> [`SubscriptionCreateNestedOneWithoutTenantInput`](SubscriptionCreateNestedOneWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24685
+Defined in: node_modules/.prisma/client/index.d.ts:24685
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24676
+Defined in: node_modules/.prisma/client/index.d.ts:24676
 
-***
+---
 
 ### usageRecords?
 
-> `optional` **usageRecords**: [`UsageCreateNestedManyWithoutTenantInput`](UsageCreateNestedManyWithoutTenantInput.md)
+> `optional` **usageRecords**:
+> [`UsageCreateNestedManyWithoutTenantInput`](UsageCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24686
+Defined in: node_modules/.prisma/client/index.d.ts:24686
 
-***
+---
 
 ### users?
 
-> `optional` **users**: [`UserCreateNestedManyWithoutTenantInput`](UserCreateNestedManyWithoutTenantInput.md)
+> `optional` **users**:
+> [`UserCreateNestedManyWithoutTenantInput`](UserCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24687
+Defined in: node_modules/.prisma/client/index.d.ts:24687

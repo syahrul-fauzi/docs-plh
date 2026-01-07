@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseMinAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseMinAggregateOutputType
 
 # Type Alias: CaseMinAggregateOutputType
 
 > **CaseMinAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5714
+Defined in: node_modules/.prisma/client/index.d.ts:5714
 
 ## Properties
 
@@ -16,52 +18,52 @@ Defined in: node\_modules/.prisma/client/index.d.ts:5714
 
 > **createdAt**: `Date` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5720
+Defined in: node_modules/.prisma/client/index.d.ts:5720
 
-***
+---
 
 ### description
 
 > **description**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5717
+Defined in: node_modules/.prisma/client/index.d.ts:5717
 
-***
+---
 
 ### id
 
 > **id**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5715
+Defined in: node_modules/.prisma/client/index.d.ts:5715
 
-***
+---
 
 ### status
 
 > **status**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5718
+Defined in: node_modules/.prisma/client/index.d.ts:5718
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5719
+Defined in: node_modules/.prisma/client/index.d.ts:5719
 
-***
+---
 
 ### title
 
 > **title**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5716
+Defined in: node_modules/.prisma/client/index.d.ts:5716
 
-***
+---
 
 ### updatedAt
 
 > **updatedAt**: `Date` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:5721
+Defined in: node_modules/.prisma/client/index.d.ts:5721

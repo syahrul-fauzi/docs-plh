@@ -1,12 +1,13 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Decimal
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Decimal
 
 # Class: Decimal
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:327
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:327
 
 ## Constructors
 
@@ -14,7 +15,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:327
 
 > **new Decimal**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:353
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:353
 
 #### Parameters
 
@@ -32,183 +33,187 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:353
 
 > `readonly` **d**: `number`[]
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:349
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:349
 
-***
+---
 
 ### e
 
 > `readonly` **e**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:350
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:350
 
-***
+---
 
 ### s
 
 > `readonly` **s**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:351
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:351
 
-***
+---
 
 ### crypto
 
 > `readonly` `static` **crypto**: `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:579
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:579
 
-***
+---
 
 ### Decimal?
 
-> `readonly` `static` `optional` **Decimal**: *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `readonly` `static` `optional` **Decimal**: _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:571
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:571
 
-***
+---
 
 ### default?
 
-> `readonly` `static` `optional` **default**: *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `readonly` `static` `optional` **default**: _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:570
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:570
 
-***
+---
 
 ### EUCLID
 
 > `readonly` `static` **EUCLID**: `9`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:591
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:591
 
-***
+---
 
 ### maxE
 
 > `readonly` `static` **maxE**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:578
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:578
 
-***
+---
 
 ### minE
 
 > `readonly` `static` **minE**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:577
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:577
 
-***
+---
 
 ### modulo
 
-> `readonly` `static` **modulo**: [`Modulo`](../namespaces/Decimal/type-aliases/Modulo.md)
+> `readonly` `static` **modulo**:
+> [`Modulo`](../namespaces/Decimal/type-aliases/Modulo.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:580
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:580
 
-***
+---
 
 ### precision
 
 > `readonly` `static` **precision**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:573
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:573
 
-***
+---
 
-### ROUND\_CEIL
+### ROUND_CEIL
 
-> `readonly` `static` **ROUND\_CEIL**: `2`
+> `readonly` `static` **ROUND_CEIL**: `2`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:584
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:584
 
-***
+---
 
-### ROUND\_DOWN
+### ROUND_DOWN
 
-> `readonly` `static` **ROUND\_DOWN**: `1`
+> `readonly` `static` **ROUND_DOWN**: `1`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:583
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:583
 
-***
+---
 
-### ROUND\_FLOOR
+### ROUND_FLOOR
 
-> `readonly` `static` **ROUND\_FLOOR**: `3`
+> `readonly` `static` **ROUND_FLOOR**: `3`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:585
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:585
 
-***
+---
 
-### ROUND\_HALF\_CEIL
+### ROUND_HALF_CEIL
 
-> `readonly` `static` **ROUND\_HALF\_CEIL**: `7`
+> `readonly` `static` **ROUND_HALF_CEIL**: `7`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:589
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:589
 
-***
+---
 
-### ROUND\_HALF\_DOWN
+### ROUND_HALF_DOWN
 
-> `readonly` `static` **ROUND\_HALF\_DOWN**: `5`
+> `readonly` `static` **ROUND_HALF_DOWN**: `5`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:587
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:587
 
-***
+---
 
-### ROUND\_HALF\_EVEN
+### ROUND_HALF_EVEN
 
-> `readonly` `static` **ROUND\_HALF\_EVEN**: `6`
+> `readonly` `static` **ROUND_HALF_EVEN**: `6`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:588
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:588
 
-***
+---
 
-### ROUND\_HALF\_FLOOR
+### ROUND_HALF_FLOOR
 
-> `readonly` `static` **ROUND\_HALF\_FLOOR**: `8`
+> `readonly` `static` **ROUND_HALF_FLOOR**: `8`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:590
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:590
 
-***
+---
 
-### ROUND\_HALF\_UP
+### ROUND_HALF_UP
 
-> `readonly` `static` **ROUND\_HALF\_UP**: `4`
+> `readonly` `static` **ROUND_HALF_UP**: `4`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:586
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:586
 
-***
+---
 
-### ROUND\_UP
+### ROUND_UP
 
-> `readonly` `static` **ROUND\_UP**: `0`
+> `readonly` `static` **ROUND_UP**: `0`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:582
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:582
 
-***
+---
 
 ### rounding
 
-> `readonly` `static` **rounding**: [`Rounding`](../namespaces/Decimal/type-aliases/Rounding.md)
+> `readonly` `static` **rounding**:
+> [`Rounding`](../namespaces/Decimal/type-aliases/Rounding.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:574
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:574
 
-***
+---
 
 ### toExpNeg
 
 > `readonly` `static` **toExpNeg**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:575
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:575
 
-***
+---
 
 ### toExpPos
 
 > `readonly` `static` **toExpPos**: `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:576
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:576
 
 ## Methods
 
@@ -216,55 +221,55 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:576
 
 > **abs**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:356
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:356
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### absoluteValue()
 
 > **absoluteValue**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:355
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:355
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### acos()
 
 > **acos**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:402
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:402
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### acosh()
 
 > **acosh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:405
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:405
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### add()
 
 > **add**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:459
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:459
 
 #### Parameters
 
@@ -276,85 +281,85 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:459
 
 `Decimal`
 
-***
+---
 
 ### asin()
 
 > **asin**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:414
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:414
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### asinh()
 
 > **asinh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:408
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:408
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### atan()
 
 > **atan**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:417
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:417
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### atanh()
 
 > **atanh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:411
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:411
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### cbrt()
 
 > **cbrt**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:370
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:370
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### ceil()
 
 > **ceil**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:358
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:358
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### clamp()
 
 > **clamp**(`min`, `max`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:361
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:361
 
 #### Parameters
 
@@ -370,13 +375,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:361
 
 `Decimal`
 
-***
+---
 
 ### clampedTo()
 
 > **clampedTo**(`min`, `max`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:360
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:360
 
 #### Parameters
 
@@ -392,13 +397,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:360
 
 `Decimal`
 
-***
+---
 
 ### cmp()
 
 > **cmp**(`n`): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:364
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:364
 
 #### Parameters
 
@@ -410,13 +415,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:364
 
 `number`
 
-***
+---
 
 ### comparedTo()
 
 > **comparedTo**(`n`): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:363
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:363
 
 #### Parameters
 
@@ -428,73 +433,73 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:363
 
 `number`
 
-***
+---
 
 ### cos()
 
 > **cos**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:367
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:367
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### cosh()
 
 > **cosh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:393
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:393
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### cosine()
 
 > **cosine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:366
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:366
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### cubeRoot()
 
 > **cubeRoot**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:369
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:369
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### decimalPlaces()
 
 > **decimalPlaces**(): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:372
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:372
 
 #### Returns
 
 `number`
 
-***
+---
 
 ### div()
 
 > **div**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:376
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:376
 
 #### Parameters
 
@@ -506,13 +511,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:376
 
 `Decimal`
 
-***
+---
 
 ### dividedBy()
 
 > **dividedBy**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:375
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:375
 
 #### Parameters
 
@@ -524,13 +529,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:375
 
 `Decimal`
 
-***
+---
 
 ### dividedToIntegerBy()
 
 > **dividedToIntegerBy**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:378
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:378
 
 #### Parameters
 
@@ -542,13 +547,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:378
 
 `Decimal`
 
-***
+---
 
 ### divToInt()
 
 > **divToInt**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:379
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:379
 
 #### Parameters
 
@@ -560,25 +565,25 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:379
 
 `Decimal`
 
-***
+---
 
 ### dp()
 
 > **dp**(): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:373
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:373
 
 #### Returns
 
 `number`
 
-***
+---
 
 ### eq()
 
 > **eq**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:382
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:382
 
 #### Parameters
 
@@ -590,13 +595,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:382
 
 `boolean`
 
-***
+---
 
 ### equals()
 
 > **equals**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:381
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:381
 
 #### Parameters
 
@@ -608,37 +613,37 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:381
 
 `boolean`
 
-***
+---
 
 ### exp()
 
 > **exp**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:450
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:450
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### floor()
 
 > **floor**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:384
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:384
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### greaterThan()
 
 > **greaterThan**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:386
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:386
 
 #### Parameters
 
@@ -650,13 +655,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:386
 
 `boolean`
 
-***
+---
 
 ### greaterThanOrEqualTo()
 
 > **greaterThanOrEqualTo**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:389
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:389
 
 #### Parameters
 
@@ -668,13 +673,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:389
 
 `boolean`
 
-***
+---
 
 ### gt()
 
 > **gt**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:387
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:387
 
 #### Parameters
 
@@ -686,13 +691,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:387
 
 `boolean`
 
-***
+---
 
 ### gte()
 
 > **gte**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:390
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:390
 
 #### Parameters
 
@@ -704,229 +709,229 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:390
 
 `boolean`
 
-***
+---
 
 ### hyperbolicCosine()
 
 > **hyperbolicCosine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:392
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:392
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### hyperbolicSine()
 
 > **hyperbolicSine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:395
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:395
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### hyperbolicTangent()
 
 > **hyperbolicTangent**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:398
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:398
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseCosine()
 
 > **inverseCosine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:401
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:401
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseHyperbolicCosine()
 
 > **inverseHyperbolicCosine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:404
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:404
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseHyperbolicSine()
 
 > **inverseHyperbolicSine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:407
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:407
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseHyperbolicTangent()
 
 > **inverseHyperbolicTangent**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:410
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:410
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseSine()
 
 > **inverseSine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:413
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:413
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### inverseTangent()
 
 > **inverseTangent**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:416
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:416
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### isFinite()
 
 > **isFinite**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:419
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:419
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isInt()
 
 > **isInt**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:422
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:422
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isInteger()
 
 > **isInteger**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:421
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:421
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isNaN()
 
 > **isNaN**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:424
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:424
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isNeg()
 
 > **isNeg**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:427
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:427
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isNegative()
 
 > **isNegative**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:426
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:426
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isPos()
 
 > **isPos**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:430
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:430
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isPositive()
 
 > **isPositive**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:429
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:429
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### isZero()
 
 > **isZero**(): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:432
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:432
 
 #### Returns
 
 `boolean`
 
-***
+---
 
 ### lessThan()
 
 > **lessThan**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:434
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:434
 
 #### Parameters
 
@@ -938,13 +943,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:434
 
 `boolean`
 
-***
+---
 
 ### lessThanOrEqualTo()
 
 > **lessThanOrEqualTo**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:437
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:437
 
 #### Parameters
 
@@ -956,25 +961,25 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:437
 
 `boolean`
 
-***
+---
 
 ### ln()
 
 > **ln**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:453
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:453
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### log()
 
 > **log**(`n?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:441
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:441
 
 #### Parameters
 
@@ -986,13 +991,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:441
 
 `Decimal`
 
-***
+---
 
 ### logarithm()
 
 > **logarithm**(`n?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:440
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:440
 
 #### Parameters
 
@@ -1004,13 +1009,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:440
 
 `Decimal`
 
-***
+---
 
 ### lt()
 
 > **lt**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:435
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:435
 
 #### Parameters
 
@@ -1022,13 +1027,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:435
 
 `boolean`
 
-***
+---
 
 ### lte()
 
 > **lte**(`n`): `boolean`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:438
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:438
 
 #### Parameters
 
@@ -1040,13 +1045,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:438
 
 `boolean`
 
-***
+---
 
 ### minus()
 
 > **minus**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:443
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:443
 
 #### Parameters
 
@@ -1058,13 +1063,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:443
 
 `Decimal`
 
-***
+---
 
 ### mod()
 
 > **mod**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:447
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:447
 
 #### Parameters
 
@@ -1076,13 +1081,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:447
 
 `Decimal`
 
-***
+---
 
 ### modulo()
 
 > **modulo**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:446
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:446
 
 #### Parameters
 
@@ -1094,13 +1099,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:446
 
 `Decimal`
 
-***
+---
 
 ### mul()
 
 > **mul**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:476
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:476
 
 #### Parameters
 
@@ -1112,61 +1117,61 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:476
 
 `Decimal`
 
-***
+---
 
 ### naturalExponential()
 
 > **naturalExponential**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:449
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:449
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### naturalLogarithm()
 
 > **naturalLogarithm**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:452
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:452
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### neg()
 
 > **neg**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:456
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:456
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### negated()
 
 > **negated**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:455
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:455
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### plus()
 
 > **plus**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:458
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:458
 
 #### Parameters
 
@@ -1178,13 +1183,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:458
 
 `Decimal`
 
-***
+---
 
 ### pow()
 
 > **pow**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:509
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:509
 
 #### Parameters
 
@@ -1196,13 +1201,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:509
 
 `Decimal`
 
-***
+---
 
 ### precision()
 
 > **precision**(`includeZeros?`): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:461
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:461
 
 #### Parameters
 
@@ -1214,25 +1219,25 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:461
 
 `number`
 
-***
+---
 
 ### round()
 
 > **round**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:464
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:464
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### sd()
 
 > **sd**(`includeZeros?`): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:462
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:462
 
 #### Parameters
 
@@ -1244,73 +1249,73 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:462
 
 `number`
 
-***
+---
 
 ### sin()
 
 > **sin**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:467
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:467
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### sine()
 
 > **sine**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:466
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:466
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### sinh()
 
 > **sinh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:396
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:396
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### sqrt()
 
 > **sqrt**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:470
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:470
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### squareRoot()
 
 > **squareRoot**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:469
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:469
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### sub()
 
 > **sub**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:444
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:444
 
 #### Parameters
 
@@ -1322,49 +1327,49 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:444
 
 `Decimal`
 
-***
+---
 
 ### tan()
 
 > **tan**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:473
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:473
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### tangent()
 
 > **tangent**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:472
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:472
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### tanh()
 
 > **tanh**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:399
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:399
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### times()
 
 > **times**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:475
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:475
 
 #### Parameters
 
@@ -1376,7 +1381,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:475
 
 `Decimal`
 
-***
+---
 
 ### toBinary()
 
@@ -1384,7 +1389,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:475
 
 > **toBinary**(`significantDigits?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:478
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:478
 
 ##### Parameters
 
@@ -1400,7 +1405,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:478
 
 > **toBinary**(`significantDigits`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:479
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:479
 
 ##### Parameters
 
@@ -1416,7 +1421,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:479
 
 `string`
 
-***
+---
 
 ### toDecimalPlaces()
 
@@ -1424,7 +1429,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:479
 
 > **toDecimalPlaces**(`decimalPlaces?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:481
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:481
 
 ##### Parameters
 
@@ -1440,7 +1445,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:481
 
 > **toDecimalPlaces**(`decimalPlaces`, `rounding`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:482
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:482
 
 ##### Parameters
 
@@ -1456,7 +1461,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:482
 
 `Decimal`
 
-***
+---
 
 ### toDP()
 
@@ -1464,7 +1469,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:482
 
 > **toDP**(`decimalPlaces?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:483
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:483
 
 ##### Parameters
 
@@ -1480,7 +1485,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:483
 
 > **toDP**(`decimalPlaces`, `rounding`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:484
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:484
 
 ##### Parameters
 
@@ -1496,7 +1501,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:484
 
 `Decimal`
 
-***
+---
 
 ### toExponential()
 
@@ -1504,7 +1509,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:484
 
 > **toExponential**(`decimalPlaces?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:486
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:486
 
 ##### Parameters
 
@@ -1520,7 +1525,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:486
 
 > **toExponential**(`decimalPlaces`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:487
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:487
 
 ##### Parameters
 
@@ -1536,7 +1541,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:487
 
 `string`
 
-***
+---
 
 ### toFixed()
 
@@ -1544,7 +1549,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:487
 
 > **toFixed**(`decimalPlaces?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:489
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:489
 
 ##### Parameters
 
@@ -1560,7 +1565,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:489
 
 > **toFixed**(`decimalPlaces`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:490
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:490
 
 ##### Parameters
 
@@ -1576,17 +1581,17 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:490
 
 `string`
 
-***
+---
 
 ### toFraction()
 
 > **toFraction**(`max_denominator?`): `Decimal`[]
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:492
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:492
 
 #### Parameters
 
-##### max\_denominator?
+##### max_denominator?
 
 [`Value`](../namespaces/Decimal/type-aliases/Value.md)
 
@@ -1594,7 +1599,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:492
 
 `Decimal`[]
 
-***
+---
 
 ### toHex()
 
@@ -1602,7 +1607,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:492
 
 > **toHex**(`significantDigits?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:496
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:496
 
 ##### Parameters
 
@@ -1618,7 +1623,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:496
 
 > **toHex**(`significantDigits`, `rounding?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:497
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:497
 
 ##### Parameters
 
@@ -1634,7 +1639,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:497
 
 `string`
 
-***
+---
 
 ### toHexadecimal()
 
@@ -1642,7 +1647,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:497
 
 > **toHexadecimal**(`significantDigits?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:494
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:494
 
 ##### Parameters
 
@@ -1658,7 +1663,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:494
 
 > **toHexadecimal**(`significantDigits`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:495
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:495
 
 ##### Parameters
 
@@ -1674,25 +1679,25 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:495
 
 `string`
 
-***
+---
 
 ### toJSON()
 
 > **toJSON**(): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:499
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:499
 
 #### Returns
 
 `string`
 
-***
+---
 
 ### toNearest()
 
 > **toNearest**(`n`, `rounding?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:501
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:501
 
 #### Parameters
 
@@ -1708,19 +1713,19 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:501
 
 `Decimal`
 
-***
+---
 
 ### toNumber()
 
 > **toNumber**(): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:503
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:503
 
 #### Returns
 
 `number`
 
-***
+---
 
 ### toOctal()
 
@@ -1728,7 +1733,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:503
 
 > **toOctal**(`significantDigits?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:505
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:505
 
 ##### Parameters
 
@@ -1744,7 +1749,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:505
 
 > **toOctal**(`significantDigits`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:506
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:506
 
 ##### Parameters
 
@@ -1760,13 +1765,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:506
 
 `string`
 
-***
+---
 
 ### toPower()
 
 > **toPower**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:508
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:508
 
 #### Parameters
 
@@ -1778,7 +1783,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:508
 
 `Decimal`
 
-***
+---
 
 ### toPrecision()
 
@@ -1786,7 +1791,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:508
 
 > **toPrecision**(`significantDigits?`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:511
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:511
 
 ##### Parameters
 
@@ -1802,7 +1807,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:511
 
 > **toPrecision**(`significantDigits`, `rounding`): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:512
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:512
 
 ##### Parameters
 
@@ -1818,7 +1823,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:512
 
 `string`
 
-***
+---
 
 ### toSD()
 
@@ -1826,7 +1831,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:512
 
 > **toSD**(`significantDigits?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:516
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:516
 
 ##### Parameters
 
@@ -1842,7 +1847,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:516
 
 > **toSD**(`significantDigits`, `rounding`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:517
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:517
 
 ##### Parameters
 
@@ -1858,7 +1863,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:517
 
 `Decimal`
 
-***
+---
 
 ### toSignificantDigits()
 
@@ -1866,7 +1871,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:517
 
 > **toSignificantDigits**(`significantDigits?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:514
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:514
 
 ##### Parameters
 
@@ -1882,7 +1887,7 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:514
 
 > **toSignificantDigits**(`significantDigits`, `rounding`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:515
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:515
 
 ##### Parameters
 
@@ -1898,61 +1903,61 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:515
 
 `Decimal`
 
-***
+---
 
 ### toString()
 
 > **toString**(): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:519
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:519
 
 #### Returns
 
 `string`
 
-***
+---
 
 ### trunc()
 
 > **trunc**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:522
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:522
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### truncated()
 
 > **truncated**(): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:521
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:521
 
 #### Returns
 
 `Decimal`
 
-***
+---
 
 ### valueOf()
 
 > **valueOf**(): `string`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:524
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:524
 
 #### Returns
 
 `string`
 
-***
+---
 
 ### abs()
 
 > `static` **abs**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:526
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:526
 
 #### Parameters
 
@@ -1964,13 +1969,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:526
 
 `Decimal`
 
-***
+---
 
 ### acos()
 
 > `static` **acos**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:527
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:527
 
 #### Parameters
 
@@ -1982,13 +1987,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:527
 
 `Decimal`
 
-***
+---
 
 ### acosh()
 
 > `static` **acosh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:528
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:528
 
 #### Parameters
 
@@ -2000,13 +2005,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:528
 
 `Decimal`
 
-***
+---
 
 ### add()
 
 > `static` **add**(`x`, `y`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:529
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:529
 
 #### Parameters
 
@@ -2022,13 +2027,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:529
 
 `Decimal`
 
-***
+---
 
 ### asin()
 
 > `static` **asin**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:530
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:530
 
 #### Parameters
 
@@ -2040,13 +2045,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:530
 
 `Decimal`
 
-***
+---
 
 ### asinh()
 
 > `static` **asinh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:531
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:531
 
 #### Parameters
 
@@ -2058,13 +2063,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:531
 
 `Decimal`
 
-***
+---
 
 ### atan()
 
 > `static` **atan**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:532
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:532
 
 #### Parameters
 
@@ -2076,13 +2081,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:532
 
 `Decimal`
 
-***
+---
 
 ### atan2()
 
 > `static` **atan2**(`y`, `x`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:534
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:534
 
 #### Parameters
 
@@ -2098,13 +2103,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:534
 
 `Decimal`
 
-***
+---
 
 ### atanh()
 
 > `static` **atanh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:533
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:533
 
 #### Parameters
 
@@ -2116,13 +2121,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:533
 
 `Decimal`
 
-***
+---
 
 ### cbrt()
 
 > `static` **cbrt**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:535
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:535
 
 #### Parameters
 
@@ -2134,13 +2139,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:535
 
 `Decimal`
 
-***
+---
 
 ### ceil()
 
 > `static` **ceil**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:536
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:536
 
 #### Parameters
 
@@ -2152,13 +2157,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:536
 
 `Decimal`
 
-***
+---
 
 ### clamp()
 
 > `static` **clamp**(`n`, `min`, `max`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:537
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:537
 
 #### Parameters
 
@@ -2178,13 +2183,14 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:537
 
 `Decimal`
 
-***
+---
 
 ### clone()
 
-> `static` **clone**(`object?`): *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `static` **clone**(`object?`): _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:538
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:538
 
 #### Parameters
 
@@ -2194,15 +2200,16 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:538
 
 #### Returns
 
-*typeof* [`Decimal`](../namespaces/Decimal/README.md)
+_typeof_ [`Decimal`](../namespaces/Decimal/README.md)
 
-***
+---
 
 ### config()
 
-> `static` **config**(`object`): *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `static` **config**(`object`): _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:539
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:539
 
 #### Parameters
 
@@ -2212,15 +2219,15 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:539
 
 #### Returns
 
-*typeof* [`Decimal`](../namespaces/Decimal/README.md)
+_typeof_ [`Decimal`](../namespaces/Decimal/README.md)
 
-***
+---
 
 ### cos()
 
 > `static` **cos**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:540
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:540
 
 #### Parameters
 
@@ -2232,13 +2239,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:540
 
 `Decimal`
 
-***
+---
 
 ### cosh()
 
 > `static` **cosh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:541
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:541
 
 #### Parameters
 
@@ -2250,13 +2257,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:541
 
 `Decimal`
 
-***
+---
 
 ### div()
 
 > `static` **div**(`x`, `y`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:542
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:542
 
 #### Parameters
 
@@ -2272,13 +2279,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:542
 
 `Decimal`
 
-***
+---
 
 ### exp()
 
 > `static` **exp**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:543
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:543
 
 #### Parameters
 
@@ -2290,13 +2297,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:543
 
 `Decimal`
 
-***
+---
 
 ### floor()
 
 > `static` **floor**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:544
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:544
 
 #### Parameters
 
@@ -2308,13 +2315,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:544
 
 `Decimal`
 
-***
+---
 
 ### hypot()
 
 > `static` **hypot**(...`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:545
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:545
 
 #### Parameters
 
@@ -2326,13 +2333,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:545
 
 `Decimal`
 
-***
+---
 
 ### isDecimal()
 
 > `static` **isDecimal**(`object`): `object is Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:546
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:546
 
 #### Parameters
 
@@ -2344,13 +2351,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:546
 
 `object is Decimal`
 
-***
+---
 
 ### ln()
 
 > `static` **ln**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:547
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:547
 
 #### Parameters
 
@@ -2362,13 +2369,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:547
 
 `Decimal`
 
-***
+---
 
 ### log()
 
 > `static` **log**(`n`, `base?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:548
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:548
 
 #### Parameters
 
@@ -2384,13 +2391,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:548
 
 `Decimal`
 
-***
+---
 
 ### log10()
 
 > `static` **log10**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:550
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:550
 
 #### Parameters
 
@@ -2402,13 +2409,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:550
 
 `Decimal`
 
-***
+---
 
 ### log2()
 
 > `static` **log2**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:549
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:549
 
 #### Parameters
 
@@ -2420,13 +2427,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:549
 
 `Decimal`
 
-***
+---
 
 ### max()
 
 > `static` **max**(...`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:551
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:551
 
 #### Parameters
 
@@ -2438,13 +2445,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:551
 
 `Decimal`
 
-***
+---
 
 ### min()
 
 > `static` **min**(...`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:552
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:552
 
 #### Parameters
 
@@ -2456,13 +2463,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:552
 
 `Decimal`
 
-***
+---
 
 ### mod()
 
 > `static` **mod**(`x`, `y`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:553
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:553
 
 #### Parameters
 
@@ -2478,13 +2485,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:553
 
 `Decimal`
 
-***
+---
 
 ### mul()
 
 > `static` **mul**(`x`, `y`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:554
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:554
 
 #### Parameters
 
@@ -2500,25 +2507,26 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:554
 
 `Decimal`
 
-***
+---
 
 ### noConflict()
 
-> `static` **noConflict**(): *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `static` **noConflict**(): _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:555
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:555
 
 #### Returns
 
-*typeof* [`Decimal`](../namespaces/Decimal/README.md)
+_typeof_ [`Decimal`](../namespaces/Decimal/README.md)
 
-***
+---
 
 ### pow()
 
 > `static` **pow**(`base`, `exponent`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:556
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:556
 
 #### Parameters
 
@@ -2534,13 +2542,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:556
 
 `Decimal`
 
-***
+---
 
 ### random()
 
 > `static` **random**(`significantDigits?`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:557
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:557
 
 #### Parameters
 
@@ -2552,13 +2560,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:557
 
 `Decimal`
 
-***
+---
 
 ### round()
 
 > `static` **round**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:558
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:558
 
 #### Parameters
 
@@ -2570,13 +2578,14 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:558
 
 `Decimal`
 
-***
+---
 
 ### set()
 
-> `static` **set**(`object`): *typeof* [`Decimal`](../namespaces/Decimal/README.md)
+> `static` **set**(`object`): _typeof_
+> [`Decimal`](../namespaces/Decimal/README.md)
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:559
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:559
 
 #### Parameters
 
@@ -2586,15 +2595,15 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:559
 
 #### Returns
 
-*typeof* [`Decimal`](../namespaces/Decimal/README.md)
+_typeof_ [`Decimal`](../namespaces/Decimal/README.md)
 
-***
+---
 
 ### sign()
 
 > `static` **sign**(`n`): `number`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:560
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:560
 
 #### Parameters
 
@@ -2606,13 +2615,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:560
 
 `number`
 
-***
+---
 
 ### sin()
 
 > `static` **sin**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:561
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:561
 
 #### Parameters
 
@@ -2624,13 +2633,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:561
 
 `Decimal`
 
-***
+---
 
 ### sinh()
 
 > `static` **sinh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:562
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:562
 
 #### Parameters
 
@@ -2642,13 +2651,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:562
 
 `Decimal`
 
-***
+---
 
 ### sqrt()
 
 > `static` **sqrt**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:563
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:563
 
 #### Parameters
 
@@ -2660,13 +2669,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:563
 
 `Decimal`
 
-***
+---
 
 ### sub()
 
 > `static` **sub**(`x`, `y`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:564
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:564
 
 #### Parameters
 
@@ -2682,13 +2691,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:564
 
 `Decimal`
 
-***
+---
 
 ### sum()
 
 > `static` **sum**(...`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:565
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:565
 
 #### Parameters
 
@@ -2700,13 +2709,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:565
 
 `Decimal`
 
-***
+---
 
 ### tan()
 
 > `static` **tan**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:566
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:566
 
 #### Parameters
 
@@ -2718,13 +2727,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:566
 
 `Decimal`
 
-***
+---
 
 ### tanh()
 
 > `static` **tanh**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:567
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:567
 
 #### Parameters
 
@@ -2736,13 +2745,13 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:567
 
 `Decimal`
 
-***
+---
 
 ### trunc()
 
 > `static` **trunc**(`n`): `Decimal`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:568
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:568
 
 #### Parameters
 

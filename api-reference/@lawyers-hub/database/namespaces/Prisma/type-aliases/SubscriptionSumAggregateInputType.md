@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SubscriptionSumAggregateInputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SubscriptionSumAggregateInputType
 
 # Type Alias: SubscriptionSumAggregateInputType
 
 > **SubscriptionSumAggregateInputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3663
+Defined in: node_modules/.prisma/client/index.d.ts:3663
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:3663
 
 > `optional` **quantity**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3664
+Defined in: node_modules/.prisma/client/index.d.ts:3664

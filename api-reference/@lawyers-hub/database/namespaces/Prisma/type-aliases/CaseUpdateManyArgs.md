@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseUpdateManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseUpdateManyArgs
 
 # Type Alias: CaseUpdateManyArgs\<ExtArgs\>
 
 > **CaseUpdateManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6595
+Defined in: node_modules/.prisma/client/index.d.ts:6595
 
 Case updateMany
 
@@ -16,24 +18,26 @@ Case updateMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`CaseUpdateManyMutationInput`](CaseUpdateManyMutationInput.md), [`CaseUncheckedUpdateManyInput`](CaseUncheckedUpdateManyInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`CaseUpdateManyMutationInput`](CaseUpdateManyMutationInput.md),
+> [`CaseUncheckedUpdateManyInput`](CaseUncheckedUpdateManyInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6599
+Defined in: node_modules/.prisma/client/index.d.ts:6599
 
 The data used to update Cases.
 
-***
+---
 
 ### where?
 
 > `optional` **where**: [`CaseWhereInput`](CaseWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6603
+Defined in: node_modules/.prisma/client/index.d.ts:6603
 
 Filter which Cases to update

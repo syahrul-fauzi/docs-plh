@@ -1,147 +1,160 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantUncheckedCreateWithoutUsersInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantUncheckedCreateWithoutUsersInput
 
 # Type Alias: TenantUncheckedCreateWithoutUsersInput
 
 > **TenantUncheckedCreateWithoutUsersInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24230
+Defined in: node_modules/.prisma/client/index.d.ts:24230
 
 ## Properties
 
 ### auditLogs?
 
-> `optional` **auditLogs**: [`AuditLogUncheckedCreateNestedManyWithoutTenantInput`](AuditLogUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **auditLogs**:
+> [`AuditLogUncheckedCreateNestedManyWithoutTenantInput`](AuditLogUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24237
+Defined in: node_modules/.prisma/client/index.d.ts:24237
 
-***
+---
 
 ### cases?
 
-> `optional` **cases**: [`CaseUncheckedCreateNestedManyWithoutTenantInput`](CaseUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **cases**:
+> [`CaseUncheckedCreateNestedManyWithoutTenantInput`](CaseUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24238
+Defined in: node_modules/.prisma/client/index.d.ts:24238
 
-***
+---
 
 ### comments?
 
-> `optional` **comments**: [`CommentUncheckedCreateNestedManyWithoutTenantInput`](CommentUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **comments**:
+> [`CommentUncheckedCreateNestedManyWithoutTenantInput`](CommentUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24239
+Defined in: node_modules/.prisma/client/index.d.ts:24239
 
-***
+---
 
 ### complianceReviews?
 
-> `optional` **complianceReviews**: [`ComplianceReviewUncheckedCreateNestedManyWithoutTenantInput`](ComplianceReviewUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **complianceReviews**:
+> [`ComplianceReviewUncheckedCreateNestedManyWithoutTenantInput`](ComplianceReviewUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24240
+Defined in: node_modules/.prisma/client/index.d.ts:24240
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24235
+Defined in: node_modules/.prisma/client/index.d.ts:24235
 
-***
+---
 
 ### documents?
 
-> `optional` **documents**: [`DocumentUncheckedCreateNestedManyWithoutTenantInput`](DocumentUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **documents**:
+> [`DocumentUncheckedCreateNestedManyWithoutTenantInput`](DocumentUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24242
+Defined in: node_modules/.prisma/client/index.d.ts:24242
 
-***
+---
 
 ### documentTemplates?
 
-> `optional` **documentTemplates**: [`DocumentTemplateUncheckedCreateNestedManyWithoutTenantInput`](DocumentTemplateUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **documentTemplates**:
+> [`DocumentTemplateUncheckedCreateNestedManyWithoutTenantInput`](DocumentTemplateUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24241
+Defined in: node_modules/.prisma/client/index.d.ts:24241
 
-***
+---
 
 ### drafts?
 
-> `optional` **drafts**: [`DraftUncheckedCreateNestedManyWithoutTenantInput`](DraftUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **drafts**:
+> [`DraftUncheckedCreateNestedManyWithoutTenantInput`](DraftUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24243
+Defined in: node_modules/.prisma/client/index.d.ts:24243
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24231
+Defined in: node_modules/.prisma/client/index.d.ts:24231
 
-***
+---
 
 ### invitations?
 
-> `optional` **invitations**: [`InvitationUncheckedCreateNestedManyWithoutTenantInput`](InvitationUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **invitations**:
+> [`InvitationUncheckedCreateNestedManyWithoutTenantInput`](InvitationUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24244
+Defined in: node_modules/.prisma/client/index.d.ts:24244
 
-***
+---
 
 ### isActive?
 
 > `optional` **isActive**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24234
+Defined in: node_modules/.prisma/client/index.d.ts:24234
 
-***
+---
 
 ### name
 
 > **name**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24232
+Defined in: node_modules/.prisma/client/index.d.ts:24232
 
-***
+---
 
 ### piiAuditLogs?
 
-> `optional` **piiAuditLogs**: [`PIIAuditLogUncheckedCreateNestedManyWithoutTenantInput`](PIIAuditLogUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **piiAuditLogs**:
+> [`PIIAuditLogUncheckedCreateNestedManyWithoutTenantInput`](PIIAuditLogUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24245
+Defined in: node_modules/.prisma/client/index.d.ts:24245
 
-***
+---
 
 ### slug
 
 > **slug**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24233
+Defined in: node_modules/.prisma/client/index.d.ts:24233
 
-***
+---
 
 ### subscription?
 
-> `optional` **subscription**: [`SubscriptionUncheckedCreateNestedOneWithoutTenantInput`](SubscriptionUncheckedCreateNestedOneWithoutTenantInput.md)
+> `optional` **subscription**:
+> [`SubscriptionUncheckedCreateNestedOneWithoutTenantInput`](SubscriptionUncheckedCreateNestedOneWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24246
+Defined in: node_modules/.prisma/client/index.d.ts:24246
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24236
+Defined in: node_modules/.prisma/client/index.d.ts:24236
 
-***
+---
 
 ### usageRecords?
 
-> `optional` **usageRecords**: [`UsageUncheckedCreateNestedManyWithoutTenantInput`](UsageUncheckedCreateNestedManyWithoutTenantInput.md)
+> `optional` **usageRecords**:
+> [`UsageUncheckedCreateNestedManyWithoutTenantInput`](UsageUncheckedCreateNestedManyWithoutTenantInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24247
+Defined in: node_modules/.prisma/client/index.d.ts:24247

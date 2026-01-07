@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentTemplateCreateWithoutVersionsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentTemplateCreateWithoutVersionsInput
 
 # Type Alias: DocumentTemplateCreateWithoutVersionsInput
 
 > **DocumentTemplateCreateWithoutVersionsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25859
+Defined in: node_modules/.prisma/client/index.d.ts:25859
 
 ## Properties
 
@@ -16,52 +18,53 @@ Defined in: node\_modules/.prisma/client/index.d.ts:25859
 
 > `optional` **category**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25863
+Defined in: node_modules/.prisma/client/index.d.ts:25863
 
-***
+---
 
 ### content
 
 > **content**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25862
+Defined in: node_modules/.prisma/client/index.d.ts:25862
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25864
+Defined in: node_modules/.prisma/client/index.d.ts:25864
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25860
+Defined in: node_modules/.prisma/client/index.d.ts:25860
 
-***
+---
 
 ### name
 
 > **name**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25861
+Defined in: node_modules/.prisma/client/index.d.ts:25861
 
-***
+---
 
 ### tenant
 
-> **tenant**: [`TenantCreateNestedOneWithoutDocumentTemplatesInput`](TenantCreateNestedOneWithoutDocumentTemplatesInput.md)
+> **tenant**:
+> [`TenantCreateNestedOneWithoutDocumentTemplatesInput`](TenantCreateNestedOneWithoutDocumentTemplatesInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25866
+Defined in: node_modules/.prisma/client/index.d.ts:25866
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25865
+Defined in: node_modules/.prisma/client/index.d.ts:25865

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / StringNullableWithAggregatesFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+StringNullableWithAggregatesFilter
 
 # Type Alias: StringNullableWithAggregatesFilter\<$PrismaModel\>
 
 > **StringNullableWithAggregatesFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21001
+Defined in: node_modules/.prisma/client/index.d.ts:21001
 
 ## Type Parameters
 
@@ -20,118 +22,135 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21001
 
 ### \_count?
 
-> `optional` **\_count**: [`NestedIntNullableFilter`](NestedIntNullableFilter.md)\<`$PrismaModel`\>
+> `optional` **\_count**:
+> [`NestedIntNullableFilter`](NestedIntNullableFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21014
+Defined in: node_modules/.prisma/client/index.d.ts:21014
 
-***
+---
 
 ### \_max?
 
-> `optional` **\_max**: [`NestedStringNullableFilter`](NestedStringNullableFilter.md)\<`$PrismaModel`\>
+> `optional` **\_max**:
+> [`NestedStringNullableFilter`](NestedStringNullableFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21016
+Defined in: node_modules/.prisma/client/index.d.ts:21016
 
-***
+---
 
 ### \_min?
 
-> `optional` **\_min**: [`NestedStringNullableFilter`](NestedStringNullableFilter.md)\<`$PrismaModel`\>
+> `optional` **\_min**:
+> [`NestedStringNullableFilter`](NestedStringNullableFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21015
+Defined in: node_modules/.prisma/client/index.d.ts:21015
 
-***
+---
 
 ### contains?
 
-> `optional` **contains**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **contains**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21009
+Defined in: node_modules/.prisma/client/index.d.ts:21009
 
-***
+---
 
 ### endsWith?
 
-> `optional` **endsWith**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **endsWith**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21011
+Defined in: node_modules/.prisma/client/index.d.ts:21011
 
-***
+---
 
 ### equals?
 
-> `optional` **equals**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **equals**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21002
+Defined in: node_modules/.prisma/client/index.d.ts:21002
 
-***
+---
 
 ### gt?
 
-> `optional` **gt**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gt**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21007
+Defined in: node_modules/.prisma/client/index.d.ts:21007
 
-***
+---
 
 ### gte?
 
-> `optional` **gte**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gte**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21008
+Defined in: node_modules/.prisma/client/index.d.ts:21008
 
-***
+---
 
 ### in?
 
-> `optional` **in**: `string`[] \| [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **in**: `string`[] \|
+> [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21003
+Defined in: node_modules/.prisma/client/index.d.ts:21003
 
-***
+---
 
 ### lt?
 
-> `optional` **lt**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lt**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21005
+Defined in: node_modules/.prisma/client/index.d.ts:21005
 
-***
+---
 
 ### lte?
 
-> `optional` **lte**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lte**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21006
+Defined in: node_modules/.prisma/client/index.d.ts:21006
 
-***
+---
 
 ### mode?
 
 > `optional` **mode**: [`QueryMode`](QueryMode.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21012
+Defined in: node_modules/.prisma/client/index.d.ts:21012
 
-***
+---
 
 ### not?
 
-> `optional` **not**: [`NestedStringNullableWithAggregatesFilter`](NestedStringNullableWithAggregatesFilter.md)\<`$PrismaModel`\> \| `string` \| `null`
+> `optional` **not**:
+> [`NestedStringNullableWithAggregatesFilter`](NestedStringNullableWithAggregatesFilter.md)\<`$PrismaModel`\>
+> \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21013
+Defined in: node_modules/.prisma/client/index.d.ts:21013
 
-***
+---
 
 ### notIn?
 
-> `optional` **notIn**: `string`[] \| [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\> \| `null`
+> `optional` **notIn**: `string`[] \|
+> [`ListStringFieldRefInput`](ListStringFieldRefInput.md)\<`$PrismaModel`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21004
+Defined in: node_modules/.prisma/client/index.d.ts:21004
 
-***
+---
 
 ### startsWith?
 
-> `optional` **startsWith**: `string` \| [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **startsWith**: `string` \|
+> [`StringFieldRefInput`](StringFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21010
+Defined in: node_modules/.prisma/client/index.d.ts:21010

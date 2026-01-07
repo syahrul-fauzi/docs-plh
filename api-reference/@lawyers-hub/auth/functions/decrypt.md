@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/auth](../README.md) / decrypt
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/auth](../README.md) / decrypt
 
 # Function: decrypt()
 
 > **decrypt**(`text`, `key`): `string`
 
-Defined in: [encryption.ts:25](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/auth/src/encryption.ts#L25)
+Defined in:
+[encryption.ts:25](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/auth/src/encryption.ts#L25)
 
 ## Parameters
 

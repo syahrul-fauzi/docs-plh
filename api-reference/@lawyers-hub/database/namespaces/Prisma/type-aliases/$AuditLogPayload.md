@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $AuditLogPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$AuditLogPayload
 
 # Type Alias: $AuditLogPayload\<ExtArgs\>
 
 > **$AuditLogPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10025
+Defined in: node_modules/.prisma/client/index.d.ts:10025
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:10025
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10041
+Defined in: node_modules/.prisma/client/index.d.ts:10041
 
-***
+---
 
 ### name
 
 > **name**: `"AuditLog"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10026
+Defined in: node_modules/.prisma/client/index.d.ts:10026
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10027
+Defined in: node_modules/.prisma/client/index.d.ts:10027
 
 #### tenant
 
@@ -48,10 +50,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:10027
 
 > **user**: [`$UserPayload`]($UserPayload.md)\<`ExtArgs`\>
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `action`: `string`; `createdAt`: `Date`; `entityId`: `string` \| `null`; `entityType`: `string` \| `null`; `id`: `string`; `metadata`: [`JsonValue`](JsonValue.md) \| `null`; `tenantId`: `string`; `userId`: `string`; \}, `ExtArgs`\[`"result"`\]\[`"auditLog"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `action`: `string`;
+> `createdAt`: `Date`; `entityId`: `string` \| `null`; `entityType`: `string` \|
+> `null`; `id`: `string`; `metadata`: [`JsonValue`](JsonValue.md) \| `null`;
+> `tenantId`: `string`; `userId`: `string`; \},
+> `ExtArgs`\[`"result"`\]\[`"auditLog"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10031
+Defined in: node_modules/.prisma/client/index.d.ts:10031

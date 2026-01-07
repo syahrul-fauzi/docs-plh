@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentDeleteManyArgs
 
 # Type Alias: CommentDeleteManyArgs\<ExtArgs\>
 
 > **CommentDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9752
+Defined in: node_modules/.prisma/client/index.d.ts:9752
 
 Comment deleteMany
 
@@ -16,7 +18,7 @@ Comment deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,6 +26,6 @@ Comment deleteMany
 
 > `optional` **where**: [`CommentWhereInput`](CommentWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9756
+Defined in: node_modules/.prisma/client/index.d.ts:9756
 
 Filter which Comments to delete

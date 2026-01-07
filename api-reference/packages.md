@@ -1,6 +1,6 @@
 # [Lawyers Hub API Reference](README.md)
 
-***
+---
 
 ## Packages
 

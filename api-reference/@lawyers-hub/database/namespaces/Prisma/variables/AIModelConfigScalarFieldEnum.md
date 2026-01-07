@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigScalarFieldEnum
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigScalarFieldEnum
 
 # Variable: AIModelConfigScalarFieldEnum
 
 > `const` **AIModelConfigScalarFieldEnum**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:18021
+Defined in: node_modules/.prisma/client/index.d.ts:18021
 
 ## Type Declaration
 

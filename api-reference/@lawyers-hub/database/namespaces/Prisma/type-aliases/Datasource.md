@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / Datasource
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+Datasource
 
 # Type Alias: Datasource
 
 > **Datasource** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2036
+Defined in: node_modules/.prisma/client/index.d.ts:2036
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:2036
 
 > `optional` **url**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2037
+Defined in: node_modules/.prisma/client/index.d.ts:2037

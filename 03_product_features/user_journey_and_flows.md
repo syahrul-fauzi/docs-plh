@@ -2,27 +2,30 @@
 
 ## Metadata
 
-* **Document ID**: LH-UJ-FLOW-001
-* **Status**: Draft v0.1 (Built from zero)
-* **Owner**: Product Architect
-* **Stakeholders**: UX, Engineering, AI, Legal Ops, GTM
-* **Derived From**: [README.md](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/README.md), [system_overview.md](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md), [core_features_spec.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md), [prompt_governance.md](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md)
+- **Document ID**: LH-UJ-FLOW-001
+- **Status**: Draft v0.1 (Built from zero)
+- **Owner**: Product Architect
+- **Stakeholders**: UX, Engineering, AI, Legal Ops, GTM
+- **Derived From**: 00_foundation/README.md, 01_architecture/system_overview.md,
+  03_product_features/core_features_spec.md,
+  02_ai_and_rules/prompt_governance.md
 
 ---
 
 ## 1. Tujuan Dokumen
 
-Mendefinisikan **alur pengguna (user journey)** dan **interaction flow** Lawyers Hub secara end-to-end untuk memastikan:
+Mendefinisikan **alur pengguna (user journey)** dan **interaction flow** Lawyers
+Hub secara end-to-end untuk memastikan:
 
-* Pengalaman konsisten antara AG-UI, CopilotKit, dan backend
-* AI muncul di *right moment, right context*
-* Tidak ada pelanggaran governance saat interaksi pengguna
+- Pengalaman konsisten antara AG-UI, CopilotKit, dan backend
+- AI muncul di _right moment, right context_
+- Tidak ada pelanggaran governance saat interaksi pengguna
 
 Dokumen ini menjadi referensi utama untuk:
 
-* UX Design
-* Frontend state management (AG-UI)
-* AI entry points
+- UX Design
+- Frontend state management (AG-UI)
+- AI entry points
 
 ---
 
@@ -30,19 +33,19 @@ Dokumen ini menjadi referensi utama untuk:
 
 ### 2.1 Lawyer / Legal Professional
 
-* Partner
-* Associate
-* Paralegal
+- Partner
+- Associate
+- Paralegal
 
 ### 2.2 Client
 
-* Individu
-* Korporasi
+- Individu
+- Korporasi
 
 ### 2.3 Internal
 
-* Platform Admin
-* Compliance & Audit
+- Platform Admin
+- Compliance & Audit
 
 ---
 
@@ -81,11 +84,11 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AG-UI State**:
 
-* `onboarding.pending`
+- `onboarding.pending`
 
 **AI Role**:
 
-* ❌ No AI access
+- ❌ No AI access
 
 ---
 
@@ -98,11 +101,11 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AG-UI State**:
 
-* `workspace.active`
+- `workspace.active`
 
 **AI Role**:
 
-* ❌ No AI
+- ❌ No AI
 
 ---
 
@@ -115,11 +118,11 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AG-UI State**:
 
-* `case.draft`
+- `case.draft`
 
 **AI Role**:
 
-* Optional checklist suggestion (Green Zone)
+- Optional checklist suggestion (Green Zone)
 
 ---
 
@@ -129,17 +132,17 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AI Capabilities**:
 
-* Draft structure
-* Clause suggestions
+- Draft structure
+- Clause suggestions
 
 **AG-UI State**:
 
-* `document.editing`
+- `document.editing`
 
 **Governance**:
 
-* Mandatory disclaimer
-* Citation required
+- Mandatory disclaimer
+- Citation required
 
 ---
 
@@ -147,14 +150,14 @@ Dokumen ini menjadi referensi utama untuk:
 
 **Capabilities**:
 
-* Risk highlight
-* Consistency check
+- Risk highlight
+- Consistency check
 
 **Zone**: Yellow
 
 **AG-UI State**:
 
-* `document.review`
+- `document.review`
 
 ---
 
@@ -162,12 +165,12 @@ Dokumen ini menjadi referensi utama untuk:
 
 **Channels**:
 
-* In-app
-* WhatsApp (logged)
+- In-app
+- WhatsApp (logged)
 
 **AI Role**:
 
-* Draft reply only
+- Draft reply only
 
 ---
 
@@ -180,11 +183,11 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AG-UI State**:
 
-* `document.final`
+- `document.final`
 
 **AI Role**:
 
-* ❌ Disabled
+- ❌ Disabled
 
 ---
 
@@ -199,7 +202,7 @@ Dokumen ini menjadi referensi utama untuk:
 
 **AG-UI State**:
 
-* `client.active`
+- `client.active`
 
 ---
 
@@ -207,12 +210,12 @@ Dokumen ini menjadi referensi utama untuk:
 
 **Capabilities**:
 
-* View only
-* Comment
+- View only
+- Comment
 
 **AI Role**:
 
-* ❌ No legal advice
+- ❌ No legal advice
 
 ---
 
@@ -238,24 +241,25 @@ Dokumen ini menjadi referensi utama untuk:
 
 ## 8. Error & Guardrail UX
 
-* AI refusal explanation
-* Governance tooltip
-* Manual override path
+- AI refusal explanation
+- Governance tooltip
+- Manual override path
 
 ---
 
 ## 9. Out of Scope
 
-* Client-facing AI advice
-* Autonomous workflows
+- Client-facing AI advice
+- Autonomous workflows
 
 ---
 
 ## 10. Dokumen Terkait
 
-* [Core Features Spec](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md)
-* [Prompt Governance](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md)
-* [Architecture Overview](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md)
+- [Core Features Spec](core_features_spec.md)
+- [Prompt Governance](../02_ai_and_rules/prompt_governance.md)
+- [Analisis & Rencana Implementasi CopilotKit](<../00_foundation/Analisis%20&%20Rencana%20Implementasi%20%E2%80%94%20Lowyers-Hub%20%C3%97%20CopilotKit%20(agentic%20+%20UI%20+%20actions%20+%20shared%20state).md>)
+- [Architecture Overview](../01_architecture/system_overview.md)
 
 ---
 

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / NestedDateTimeFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+NestedDateTimeFilter
 
 # Type Alias: NestedDateTimeFilter\<$PrismaModel\>
 
 > **NestedDateTimeFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22988
+Defined in: node_modules/.prisma/client/index.d.ts:22988
 
 ## Type Parameters
 
@@ -20,62 +22,70 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22988
 
 ### equals?
 
-> `optional` **equals**: `Date` \| `string` \| [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **equals**: `Date` \| `string` \|
+> [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22989
+Defined in: node_modules/.prisma/client/index.d.ts:22989
 
-***
+---
 
 ### gt?
 
-> `optional` **gt**: `Date` \| `string` \| [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gt**: `Date` \| `string` \|
+> [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22994
+Defined in: node_modules/.prisma/client/index.d.ts:22994
 
-***
+---
 
 ### gte?
 
-> `optional` **gte**: `Date` \| `string` \| [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gte**: `Date` \| `string` \|
+> [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22995
+Defined in: node_modules/.prisma/client/index.d.ts:22995
 
-***
+---
 
 ### in?
 
-> `optional` **in**: `Date`[] \| `string`[] \| [`ListDateTimeFieldRefInput`](ListDateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **in**: `Date`[] \| `string`[] \|
+> [`ListDateTimeFieldRefInput`](ListDateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22990
+Defined in: node_modules/.prisma/client/index.d.ts:22990
 
-***
+---
 
 ### lt?
 
-> `optional` **lt**: `Date` \| `string` \| [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lt**: `Date` \| `string` \|
+> [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22992
+Defined in: node_modules/.prisma/client/index.d.ts:22992
 
-***
+---
 
 ### lte?
 
-> `optional` **lte**: `Date` \| `string` \| [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lte**: `Date` \| `string` \|
+> [`DateTimeFieldRefInput`](DateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22993
+Defined in: node_modules/.prisma/client/index.d.ts:22993
 
-***
+---
 
 ### not?
 
-> `optional` **not**: `NestedDateTimeFilter`\<`$PrismaModel`\> \| `Date` \| `string`
+> `optional` **not**: `NestedDateTimeFilter`\<`$PrismaModel`\> \| `Date` \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22996
+Defined in: node_modules/.prisma/client/index.d.ts:22996
 
-***
+---
 
 ### notIn?
 
-> `optional` **notIn**: `Date`[] \| `string`[] \| [`ListDateTimeFieldRefInput`](ListDateTimeFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **notIn**: `Date`[] \| `string`[] \|
+> [`ListDateTimeFieldRefInput`](ListDateTimeFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22991
+Defined in: node_modules/.prisma/client/index.d.ts:22991

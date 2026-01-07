@@ -1,107 +1,119 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionGroupByOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionGroupByOutputType
 
 # Type Alias: TemplateVersionGroupByOutputType
 
 > **TemplateVersionGroupByOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13891
+Defined in: node_modules/.prisma/client/index.d.ts:13891
 
 ## Properties
 
 ### \_avg
 
-> **\_avg**: [`TemplateVersionAvgAggregateOutputType`](TemplateVersionAvgAggregateOutputType.md) \| `null`
+> **\_avg**:
+> [`TemplateVersionAvgAggregateOutputType`](TemplateVersionAvgAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13900
+Defined in: node_modules/.prisma/client/index.d.ts:13900
 
-***
+---
 
 ### \_count
 
-> **\_count**: [`TemplateVersionCountAggregateOutputType`](TemplateVersionCountAggregateOutputType.md) \| `null`
+> **\_count**:
+> [`TemplateVersionCountAggregateOutputType`](TemplateVersionCountAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13899
+Defined in: node_modules/.prisma/client/index.d.ts:13899
 
-***
+---
 
 ### \_max
 
-> **\_max**: [`TemplateVersionMaxAggregateOutputType`](TemplateVersionMaxAggregateOutputType.md) \| `null`
+> **\_max**:
+> [`TemplateVersionMaxAggregateOutputType`](TemplateVersionMaxAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13903
+Defined in: node_modules/.prisma/client/index.d.ts:13903
 
-***
+---
 
 ### \_min
 
-> **\_min**: [`TemplateVersionMinAggregateOutputType`](TemplateVersionMinAggregateOutputType.md) \| `null`
+> **\_min**:
+> [`TemplateVersionMinAggregateOutputType`](TemplateVersionMinAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13902
+Defined in: node_modules/.prisma/client/index.d.ts:13902
 
-***
+---
 
 ### \_sum
 
-> **\_sum**: [`TemplateVersionSumAggregateOutputType`](TemplateVersionSumAggregateOutputType.md) \| `null`
+> **\_sum**:
+> [`TemplateVersionSumAggregateOutputType`](TemplateVersionSumAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13901
+Defined in: node_modules/.prisma/client/index.d.ts:13901
 
-***
+---
 
 ### changeLog
 
 > **changeLog**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13896
+Defined in: node_modules/.prisma/client/index.d.ts:13896
 
-***
+---
 
 ### content
 
 > **content**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13894
+Defined in: node_modules/.prisma/client/index.d.ts:13894
 
-***
+---
 
 ### createdAt
 
 > **createdAt**: `Date`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13898
+Defined in: node_modules/.prisma/client/index.d.ts:13898
 
-***
+---
 
 ### id
 
 > **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13892
+Defined in: node_modules/.prisma/client/index.d.ts:13892
 
-***
+---
 
 ### templateId
 
 > **templateId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13893
+Defined in: node_modules/.prisma/client/index.d.ts:13893
 
-***
+---
 
 ### userId
 
 > **userId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13897
+Defined in: node_modules/.prisma/client/index.d.ts:13897
 
-***
+---
 
 ### version
 
 > **version**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13895
+Defined in: node_modules/.prisma/client/index.d.ts:13895

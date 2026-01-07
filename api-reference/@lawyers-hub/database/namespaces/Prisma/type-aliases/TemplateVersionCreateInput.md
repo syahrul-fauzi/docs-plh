@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionCreateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionCreateInput
 
 # Type Alias: TemplateVersionCreateInput
 
 > **TemplateVersionCreateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20309
+Defined in: node_modules/.prisma/client/index.d.ts:20309
 
 ## Properties
 
@@ -16,52 +18,54 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20309
 
 > `optional` **changeLog**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20313
+Defined in: node_modules/.prisma/client/index.d.ts:20313
 
-***
+---
 
 ### content
 
 > **content**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20311
+Defined in: node_modules/.prisma/client/index.d.ts:20311
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20314
+Defined in: node_modules/.prisma/client/index.d.ts:20314
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20310
+Defined in: node_modules/.prisma/client/index.d.ts:20310
 
-***
+---
 
 ### template
 
-> **template**: [`DocumentTemplateCreateNestedOneWithoutVersionsInput`](DocumentTemplateCreateNestedOneWithoutVersionsInput.md)
+> **template**:
+> [`DocumentTemplateCreateNestedOneWithoutVersionsInput`](DocumentTemplateCreateNestedOneWithoutVersionsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20315
+Defined in: node_modules/.prisma/client/index.d.ts:20315
 
-***
+---
 
 ### user
 
-> **user**: [`UserCreateNestedOneWithoutTemplateVersionsInput`](UserCreateNestedOneWithoutTemplateVersionsInput.md)
+> **user**:
+> [`UserCreateNestedOneWithoutTemplateVersionsInput`](UserCreateNestedOneWithoutTemplateVersionsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20316
+Defined in: node_modules/.prisma/client/index.d.ts:20316
 
-***
+---
 
 ### version
 
 > **version**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20312
+Defined in: node_modules/.prisma/client/index.d.ts:20312

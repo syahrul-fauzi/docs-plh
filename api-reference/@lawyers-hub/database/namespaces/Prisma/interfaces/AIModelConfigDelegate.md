@@ -1,18 +1,20 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigDelegate
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigDelegate
 
 # Interface: AIModelConfigDelegate\<ExtArgs\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15021
+Defined in: node_modules/.prisma/client/index.d.ts:15021
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Indexable
 
@@ -24,7 +26,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:15021
 
 > `readonly` **fields**: [`AIModelConfigFieldRefs`](AIModelConfigFieldRefs.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15363
+Defined in: node_modules/.prisma/client/index.d.ts:15363
 
 Fields of the AIModelConfig model
 
@@ -32,25 +34,28 @@ Fields of the AIModelConfig model
 
 ### aggregate()
 
-> **aggregate**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetAIModelConfigAggregateType`](../type-aliases/GetAIModelConfigAggregateType.md)\<`T`\>\>
+> **aggregate**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetAIModelConfigAggregateType`](../type-aliases/GetAIModelConfigAggregateType.md)\<`T`\>\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15282
+Defined in: node_modules/.prisma/client/index.d.ts:15282
 
-Allows you to perform aggregations operations on a AIModelConfig.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Allows you to perform aggregations operations on a AIModelConfig. Note, that
+providing `undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigAggregateArgs`](../type-aliases/AIModelConfigAggregateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigAggregateArgs`](../type-aliases/AIModelConfigAggregateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`AIModelConfigAggregateArgs`](../type-aliases/AIModelConfigAggregateArgs.md)\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`AIModelConfigAggregateArgs`](../type-aliases/AIModelConfigAggregateArgs.md)\>
 
 Select which aggregations you would like to apply and on what fields.
 
@@ -70,45 +75,55 @@ const aggregations = await prisma.user.aggregate({
   },
   where: {
     email: {
-      contains: "prisma.io",
+      contains: 'prisma.io',
     },
   },
   orderBy: {
-    age: "asc",
+    age: 'asc',
   },
   take: 10,
-})
+});
 ```
 
-***
+---
 
 ### count()
 
-> **count**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof AIModelConfigCountAggregateOutputType ? AIModelConfigCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+> **count**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+> `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+> `number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+> AIModelConfigCountAggregateOutputType ?
+> AIModelConfigCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15248
+Defined in: node_modules/.prisma/client/index.d.ts:15248
 
-Count the number of AIModelConfigs.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Count the number of AIModelConfigs. Note, that providing `undefined` is treated
+as the value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigCountArgs`](../type-aliases/AIModelConfigCountArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigCountArgs`](../type-aliases/AIModelConfigCountArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`AIModelConfigCountArgs`](../type-aliases/AIModelConfigCountArgs.md)\<`DefaultArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`AIModelConfigCountArgs`](../type-aliases/AIModelConfigCountArgs.md)\<`DefaultArgs`\>\>
 
 Arguments to filter AIModelConfigs to count.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof AIModelConfigCountAggregateOutputType ? AIModelConfigCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+`Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+`number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+AIModelConfigCountAggregateOutputType ?
+AIModelConfigCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
 
 #### Example
 
@@ -117,17 +132,19 @@ Arguments to filter AIModelConfigs to count.
 const count = await prisma.aIModelConfig.count({
   where: {
     // ... the filter for the AIModelConfigs we want to count
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### create()
 
-> **create**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **create**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15111
+Defined in: node_modules/.prisma/client/index.d.ts:15111
 
 Create a AIModelConfig.
 
@@ -135,19 +152,22 @@ Create a AIModelConfig.
 
 ##### T
 
-`T` *extends* [`AIModelConfigCreateArgs`](../type-aliases/AIModelConfigCreateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigCreateArgs`](../type-aliases/AIModelConfigCreateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigCreateArgs`](../type-aliases/AIModelConfigCreateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigCreateArgs`](../type-aliases/AIModelConfigCreateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create a AIModelConfig.
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -156,17 +176,18 @@ Arguments to create a AIModelConfig.
 const AIModelConfig = await prisma.aIModelConfig.create({
   data: {
     // ... data to create a AIModelConfig
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### createMany()
 
-> **createMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **createMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15125
+Defined in: node_modules/.prisma/client/index.d.ts:15125
 
 Create many AIModelConfigs.
 
@@ -174,13 +195,15 @@ Create many AIModelConfigs.
 
 ##### T
 
-`T` *extends* [`AIModelConfigCreateManyArgs`](../type-aliases/AIModelConfigCreateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigCreateManyArgs`](../type-aliases/AIModelConfigCreateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigCreateManyArgs`](../type-aliases/AIModelConfigCreateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigCreateManyArgs`](../type-aliases/AIModelConfigCreateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many AIModelConfigs.
 
@@ -195,17 +218,19 @@ Arguments to create many AIModelConfigs.
 const aIModelConfig = await prisma.aIModelConfig.createMany({
   data: [
     // ... provide data here
-  ]
-})
+  ],
+});
 ```
 
-***
+---
 
 ### createManyAndReturn()
 
-> **createManyAndReturn**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **createManyAndReturn**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15149
+Defined in: node_modules/.prisma/client/index.d.ts:15149
 
 Create many AIModelConfigs and returns the data saved in the database.
 
@@ -213,19 +238,22 @@ Create many AIModelConfigs and returns the data saved in the database.
 
 ##### T
 
-`T` *extends* [`AIModelConfigCreateManyAndReturnArgs`](../type-aliases/AIModelConfigCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigCreateManyAndReturnArgs`](../type-aliases/AIModelConfigCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigCreateManyAndReturnArgs`](../type-aliases/AIModelConfigCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigCreateManyAndReturnArgs`](../type-aliases/AIModelConfigCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many AIModelConfigs.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
@@ -238,7 +266,7 @@ const aIModelConfig = await prisma.aIModelConfig.createManyAndReturn({
 })
 
 // Create many AIModelConfigs and only return the `id`
-const aIModelConfigWithIdOnly = await prisma.aIModelConfig.createManyAndReturn({ 
+const aIModelConfigWithIdOnly = await prisma.aIModelConfig.createManyAndReturn({
   select: { id: true },
   data: [
     // ... provide data here
@@ -248,13 +276,15 @@ Note, that providing `undefined` is treated as the value not being there.
 Read more here: https://pris.ly/d/null-undefined
 ```
 
-***
+---
 
 ### delete()
 
-> **delete**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **delete**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15163
+Defined in: node_modules/.prisma/client/index.d.ts:15163
 
 Delete a AIModelConfig.
 
@@ -262,19 +292,22 @@ Delete a AIModelConfig.
 
 ##### T
 
-`T` *extends* [`AIModelConfigDeleteArgs`](../type-aliases/AIModelConfigDeleteArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigDeleteArgs`](../type-aliases/AIModelConfigDeleteArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigDeleteArgs`](../type-aliases/AIModelConfigDeleteArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigDeleteArgs`](../type-aliases/AIModelConfigDeleteArgs.md)\<`ExtArgs`\>\>
 
 Arguments to delete one AIModelConfig.
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -283,17 +316,18 @@ Arguments to delete one AIModelConfig.
 const AIModelConfig = await prisma.aIModelConfig.delete({
   where: {
     // ... filter to delete one AIModelConfig
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### deleteMany()
 
-> **deleteMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **deleteMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15194
+Defined in: node_modules/.prisma/client/index.d.ts:15194
 
 Delete zero or more AIModelConfigs.
 
@@ -301,13 +335,15 @@ Delete zero or more AIModelConfigs.
 
 ##### T
 
-`T` *extends* [`AIModelConfigDeleteManyArgs`](../type-aliases/AIModelConfigDeleteManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigDeleteManyArgs`](../type-aliases/AIModelConfigDeleteManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigDeleteManyArgs`](../type-aliases/AIModelConfigDeleteManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigDeleteManyArgs`](../type-aliases/AIModelConfigDeleteManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter AIModelConfigs to delete.
 
@@ -322,39 +358,44 @@ Arguments to filter AIModelConfigs to delete.
 const { count } = await prisma.aIModelConfig.deleteMany({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirst()
 
-> **findFirst**\<`T`\>(`args?`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findFirst**\<`T`\>(`args?`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15063
+Defined in: node_modules/.prisma/client/index.d.ts:15063
 
-Find the first AIModelConfig that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first AIModelConfig that matches the filter. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigFindFirstArgs`](../type-aliases/AIModelConfigFindFirstArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigFindFirstArgs`](../type-aliases/AIModelConfigFindFirstArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigFindFirstArgs`](../type-aliases/AIModelConfigFindFirstArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigFindFirstArgs`](../type-aliases/AIModelConfigFindFirstArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a AIModelConfig
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -363,40 +404,45 @@ Arguments to find a AIModelConfig
 const aIModelConfig = await prisma.aIModelConfig.findFirst({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirstOrThrow()
 
-> **findFirstOrThrow**\<`T`\>(`args?`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findFirstOrThrow**\<`T`\>(`args?`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15079
+Defined in: node_modules/.prisma/client/index.d.ts:15079
 
-Find the first AIModelConfig that matches the filter or
-throw `PrismaKnownClientError` with `P2025` code if no matches were found.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first AIModelConfig that matches the filter or throw
+`PrismaKnownClientError` with `P2025` code if no matches were found. Note, that
+providing `undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigFindFirstOrThrowArgs`](../type-aliases/AIModelConfigFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigFindFirstOrThrowArgs`](../type-aliases/AIModelConfigFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigFindFirstOrThrowArgs`](../type-aliases/AIModelConfigFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigFindFirstOrThrowArgs`](../type-aliases/AIModelConfigFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a AIModelConfig
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -405,60 +451,69 @@ Arguments to find a AIModelConfig
 const aIModelConfig = await prisma.aIModelConfig.findFirstOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findMany()
 
-> **findMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **findMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15097
+Defined in: node_modules/.prisma/client/index.d.ts:15097
 
-Find zero or more AIModelConfigs that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find zero or more AIModelConfigs that matches the filter. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigFindManyArgs`](../type-aliases/AIModelConfigFindManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigFindManyArgs`](../type-aliases/AIModelConfigFindManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigFindManyArgs`](../type-aliases/AIModelConfigFindManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigFindManyArgs`](../type-aliases/AIModelConfigFindManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter and select certain fields only.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
 ```ts
 // Get all AIModelConfigs
-const aIModelConfigs = await prisma.aIModelConfig.findMany()
+const aIModelConfigs = await prisma.aIModelConfig.findMany();
 
 // Get first 10 AIModelConfigs
-const aIModelConfigs = await prisma.aIModelConfig.findMany({ take: 10 })
+const aIModelConfigs = await prisma.aIModelConfig.findMany({ take: 10 });
 
 // Only select the `id`
-const aIModelConfigWithIdOnly = await prisma.aIModelConfig.findMany({ select: { id: true } })
+const aIModelConfigWithIdOnly = await prisma.aIModelConfig.findMany({
+  select: { id: true },
+});
 ```
 
-***
+---
 
 ### findUnique()
 
-> **findUnique**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findUnique**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15034
+Defined in: node_modules/.prisma/client/index.d.ts:15034
 
 Find zero or one AIModelConfig that matches the filter.
 
@@ -466,19 +521,22 @@ Find zero or one AIModelConfig that matches the filter.
 
 ##### T
 
-`T` *extends* [`AIModelConfigFindUniqueArgs`](../type-aliases/AIModelConfigFindUniqueArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigFindUniqueArgs`](../type-aliases/AIModelConfigFindUniqueArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigFindUniqueArgs`](../type-aliases/AIModelConfigFindUniqueArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigFindUniqueArgs`](../type-aliases/AIModelConfigFindUniqueArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a AIModelConfig
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -487,38 +545,43 @@ Arguments to find a AIModelConfig
 const aIModelConfig = await prisma.aIModelConfig.findUnique({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findUniqueOrThrow()
 
-> **findUniqueOrThrow**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findUniqueOrThrow**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15048
+Defined in: node_modules/.prisma/client/index.d.ts:15048
 
-Find one AIModelConfig that matches the filter or throw an error with `error.code='P2025'` 
-if no matches were found.
+Find one AIModelConfig that matches the filter or throw an error with
+`error.code='P2025'` if no matches were found.
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigFindUniqueOrThrowArgs`](../type-aliases/AIModelConfigFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigFindUniqueOrThrowArgs`](../type-aliases/AIModelConfigFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigFindUniqueOrThrowArgs`](../type-aliases/AIModelConfigFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigFindUniqueOrThrowArgs`](../type-aliases/AIModelConfigFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a AIModelConfig
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -527,51 +590,66 @@ Arguments to find a AIModelConfig
 const aIModelConfig = await prisma.aIModelConfig.findUniqueOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### groupBy()
 
-> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`, `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`): `object` *extends* `InputErrors` ? [`GetAIModelConfigGroupByPayload`](../type-aliases/GetAIModelConfigGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`,
+> `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`):
+> `object` _extends_ `InputErrors` ?
+> [`GetAIModelConfigGroupByPayload`](../type-aliases/GetAIModelConfigGroupByPayload.md)\<`T`\>
+> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15302
+Defined in: node_modules/.prisma/client/index.d.ts:15302
 
-Group by AIModelConfig.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Group by AIModelConfig. Note, that providing `undefined` is treated as the value
+not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigGroupByArgs`](../type-aliases/AIModelConfigGroupByArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigGroupByArgs`](../type-aliases/AIModelConfigGroupByArgs.md)\<`DefaultArgs`\>
 
 ##### HasSelectOrTake
 
-`HasSelectOrTake` *extends* `0` \| `1`
+`HasSelectOrTake` _extends_ `0` \| `1`
 
 ##### OrderByArg
 
-`OrderByArg` *extends* \{ `orderBy`: [`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md) \| [`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)[] \| `undefined`; \} \| \{ `orderBy?`: [`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md) \| [`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)[]; \}
+`OrderByArg` _extends_ \{ `orderBy`:
+[`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)
+\|
+[`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)[]
+\| `undefined`; \} \| \{ `orderBy?`:
+[`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)
+\|
+[`AIModelConfigOrderByWithAggregationInput`](../type-aliases/AIModelConfigOrderByWithAggregationInput.md)[];
+\}
 
 ##### OrderFields
 
-`OrderFields` *extends* `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"status"` \| `"version"` \| `"endpoint"` \| `"apiKey"` \| `"isDefault"` \| `"trafficWeight"` \| `"metrics"` \| `"canaryStartedAt"` \| `"lastPromotedAt"`
+`OrderFields` _extends_ `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"status"`
+\| `"version"` \| `"endpoint"` \| `"apiKey"` \| `"isDefault"` \|
+`"trafficWeight"` \| `"metrics"` \| `"canaryStartedAt"` \| `"lastPromotedAt"`
 
 ##### ByFields
 
-`ByFields` *extends* [`AIModelConfigScalarFieldEnum`](../type-aliases/AIModelConfigScalarFieldEnum.md)
+`ByFields` _extends_
+[`AIModelConfigScalarFieldEnum`](../type-aliases/AIModelConfigScalarFieldEnum.md)
 
 ##### ByValid
 
-`ByValid` *extends* `0` \| `1`
+`ByValid` _extends_ `0` \| `1`
 
 ##### HavingFields
 
-`HavingFields` *extends* `string` \| `number` \| `symbol`
+`HavingFields` _extends_ `string` \| `number` \| `symbol`
 
 ##### HavingValid
 
@@ -579,7 +657,7 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### ByEmpty
 
-`ByEmpty` *extends* `0` \| `1`
+`ByEmpty` _extends_ `0` \| `1`
 
 ##### InputErrors
 
@@ -589,13 +667,17 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### args
 
-\{ \[key in string \| number \| symbol\]: key extends keyof AIModelConfigGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} & `OrderByArg` & `InputErrors`
+\{ \[key in string \| number \| symbol\]: key extends keyof
+AIModelConfigGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} &
+`OrderByArg` & `InputErrors`
 
 Group by arguments.
 
 #### Returns
 
-`object` *extends* `InputErrors` ? [`GetAIModelConfigGroupByPayload`](../type-aliases/GetAIModelConfigGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+`object` _extends_ `InputErrors` ?
+[`GetAIModelConfigGroupByPayload`](../type-aliases/GetAIModelConfigGroupByPayload.md)\<`T`\>
+: [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
 #### Example
 
@@ -604,21 +686,23 @@ Group by arguments.
 const result = await prisma.user.groupBy({
   by: ['city', 'createdAt'],
   orderBy: {
-    createdAt: true
+    createdAt: true,
   },
   _count: {
-    _all: true
+    _all: true,
   },
-})
+});
 ```
 
-***
+---
 
 ### update()
 
-> **update**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **update**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15180
+Defined in: node_modules/.prisma/client/index.d.ts:15180
 
 Update one AIModelConfig.
 
@@ -626,19 +710,22 @@ Update one AIModelConfig.
 
 ##### T
 
-`T` *extends* [`AIModelConfigUpdateArgs`](../type-aliases/AIModelConfigUpdateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigUpdateArgs`](../type-aliases/AIModelConfigUpdateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigUpdateArgs`](../type-aliases/AIModelConfigUpdateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigUpdateArgs`](../type-aliases/AIModelConfigUpdateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one AIModelConfig.
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -650,33 +737,35 @@ const aIModelConfig = await prisma.aIModelConfig.update({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### updateMany()
 
-> **updateMany**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **updateMany**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15213
+Defined in: node_modules/.prisma/client/index.d.ts:15213
 
-Update zero or more AIModelConfigs.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Update zero or more AIModelConfigs. Note, that providing `undefined` is treated
+as the value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`AIModelConfigUpdateManyArgs`](../type-aliases/AIModelConfigUpdateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigUpdateManyArgs`](../type-aliases/AIModelConfigUpdateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigUpdateManyArgs`](../type-aliases/AIModelConfigUpdateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigUpdateManyArgs`](../type-aliases/AIModelConfigUpdateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one or more rows.
 
@@ -694,17 +783,19 @@ const aIModelConfig = await prisma.aIModelConfig.updateMany({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### upsert()
 
-> **upsert**\<`T`\>(`args`): [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **upsert**\<`T`\>(`args`):
+> [`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:15232
+Defined in: node_modules/.prisma/client/index.d.ts:15232
 
 Create or update one AIModelConfig.
 
@@ -712,19 +803,22 @@ Create or update one AIModelConfig.
 
 ##### T
 
-`T` *extends* [`AIModelConfigUpsertArgs`](../type-aliases/AIModelConfigUpsertArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`AIModelConfigUpsertArgs`](../type-aliases/AIModelConfigUpsertArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`AIModelConfigUpsertArgs`](../type-aliases/AIModelConfigUpsertArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`AIModelConfigUpsertArgs`](../type-aliases/AIModelConfigUpsertArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update or create a AIModelConfig.
 
 #### Returns
 
-[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__AIModelConfigClient`](Prisma__AIModelConfigClient.md)\<`GetFindResult`\<[`$AIModelConfigPayload`](../type-aliases/$AIModelConfigPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -739,6 +833,6 @@ const aIModelConfig = await prisma.aIModelConfig.upsert({
   },
   where: {
     // ... the filter for the AIModelConfig we want to update
-  }
-})
+  },
+});
 ```

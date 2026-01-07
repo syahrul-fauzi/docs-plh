@@ -22,7 +22,8 @@ This folder is the "Safe Harbor" for our legal artifacts:
 How Legal contributes to the product:
 
 1. Define Rule in plain language.
-2. Convert to YAML structure using [Rule Template](../00_foundation/STYLE_GUIDE.md).
+2. Convert to YAML structure using
+   [Rule Template](../00_foundation/STYLE_GUIDE.md).
 3. Peer review by Engineering for technical feasibility.
 4. Validation via AI Rule Validator.
 

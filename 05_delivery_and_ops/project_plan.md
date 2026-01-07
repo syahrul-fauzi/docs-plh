@@ -2,21 +2,21 @@
 
 ## 1. Timeline & Milestones
 
-| Minggu | Fokus | Milestone | Status |
-| :--- | :--- | :--- | :--- |
-| **Minggu 1** | Audit & Stabilitas | Finalisasi audit kode, perbaikan type safety, dan optimasi build. | [x] Selesai |
-| **Minggu 2** | QA & Testing | Uji coba fungsional (E2E), audit UI/UX, dan pengujian performa. | [ ] In Progress |
-| **Minggu 3** | Dokumentasi & Infra | Finalisasi teknis dokumentasi dan persiapan pipeline CI/CD produksi. | [ ] Pending |
-| **Minggu 4** | Go-Live | Final security audit (OWASP) dan deployment canary ke produksi. | [ ] Pending |
+| Minggu       | Fokus               | Milestone                                                            | Status          |
+| :----------- | :------------------ | :------------------------------------------------------------------- | :-------------- |
+| **Minggu 1** | Audit & Stabilitas  | Finalisasi audit kode, perbaikan type safety, dan optimasi build.    | [x] Selesai     |
+| **Minggu 2** | QA & Testing        | Uji coba fungsional (E2E), audit UI/UX, dan pengujian performa.      | [ ] In Progress |
+| **Minggu 3** | Dokumentasi & Infra | Finalisasi teknis dokumentasi dan persiapan pipeline CI/CD produksi. | [ ] Pending     |
+| **Minggu 4** | Go-Live             | Final security audit (OWASP) dan deployment canary ke produksi.      | [ ] Pending     |
 
 ## 2. Alokasi Resource (Role Based)
 
-| Role | Tanggung Jawab Utama | Alokasi |
-| :--- | :--- | :--- |
-| **Senior Developer (AI/Security)** | PII Masking Engine, RAG Optimization, Security Audit. | 40 jam/minggu |
-| **Frontend Lead (UI/UX)** | Dashboard Next.js, Framer Motion, Accessibility (WCAG). | 30 jam/minggu |
-| **Backend Engineer (API)** | NestJS Microservices, Prisma ORM, BullMQ Worker. | 30 jam/minggu |
-| **QA/DevOps** | CI/CD Pipeline, E2E Testing, Monitoring (Grafana). | 20 jam/minggu |
+| Role                               | Tanggung Jawab Utama                                    | Alokasi       |
+| :--------------------------------- | :------------------------------------------------------ | :------------ |
+| **Senior Developer (AI/Security)** | PII Masking Engine, RAG Optimization, Security Audit.   | 40 jam/minggu |
+| **Frontend Lead (UI/UX)**          | Dashboard Next.js, Framer Motion, Accessibility (WCAG). | 30 jam/minggu |
+| **Backend Engineer (API)**         | NestJS Microservices, Prisma ORM, BullMQ Worker.        | 30 jam/minggu |
+| **QA/DevOps**                      | CI/CD Pipeline, E2E Testing, Monitoring (Grafana).      | 20 jam/minggu |
 
 ## 3. Strategi Pengujian (QA Strategy)
 

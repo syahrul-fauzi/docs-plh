@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationUncheckedCreateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationUncheckedCreateInput
 
 # Type Alias: InvitationUncheckedCreateInput
 
 > **InvitationUncheckedCreateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20165
+Defined in: node_modules/.prisma/client/index.d.ts:20165
 
 ## Properties
 
@@ -16,68 +18,68 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20165
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20173
+Defined in: node_modules/.prisma/client/index.d.ts:20173
 
-***
+---
 
 ### email
 
 > **email**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20167
+Defined in: node_modules/.prisma/client/index.d.ts:20167
 
-***
+---
 
 ### expiresAt
 
 > **expiresAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20170
+Defined in: node_modules/.prisma/client/index.d.ts:20170
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20166
+Defined in: node_modules/.prisma/client/index.d.ts:20166
 
-***
+---
 
 ### role
 
 > **role**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20168
+Defined in: node_modules/.prisma/client/index.d.ts:20168
 
-***
+---
 
 ### status?
 
 > `optional` **status**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20172
+Defined in: node_modules/.prisma/client/index.d.ts:20172
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20171
+Defined in: node_modules/.prisma/client/index.d.ts:20171
 
-***
+---
 
 ### token
 
 > **token**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20169
+Defined in: node_modules/.prisma/client/index.d.ts:20169
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20174
+Defined in: node_modules/.prisma/client/index.d.ts:20174

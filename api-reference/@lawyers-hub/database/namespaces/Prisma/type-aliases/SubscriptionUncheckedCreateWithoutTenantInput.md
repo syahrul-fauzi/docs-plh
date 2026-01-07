@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SubscriptionUncheckedCreateWithoutTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SubscriptionUncheckedCreateWithoutTenantInput
 
 # Type Alias: SubscriptionUncheckedCreateWithoutTenantInput
 
 > **SubscriptionUncheckedCreateWithoutTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23495
+Defined in: node_modules/.prisma/client/index.d.ts:23495
 
 ## Properties
 
@@ -16,68 +18,68 @@ Defined in: node\_modules/.prisma/client/index.d.ts:23495
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23503
+Defined in: node_modules/.prisma/client/index.d.ts:23503
 
-***
+---
 
 ### currentPeriodEnd?
 
 > `optional` **currentPeriodEnd**: `Date` \| `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23502
+Defined in: node_modules/.prisma/client/index.d.ts:23502
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23496
+Defined in: node_modules/.prisma/client/index.d.ts:23496
 
-***
+---
 
 ### plan?
 
 > `optional` **plan**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23500
+Defined in: node_modules/.prisma/client/index.d.ts:23500
 
-***
+---
 
 ### quantity?
 
 > `optional` **quantity**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23501
+Defined in: node_modules/.prisma/client/index.d.ts:23501
 
-***
+---
 
 ### status?
 
 > `optional` **status**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23499
+Defined in: node_modules/.prisma/client/index.d.ts:23499
 
-***
+---
 
 ### stripeCustomerId?
 
 > `optional` **stripeCustomerId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23497
+Defined in: node_modules/.prisma/client/index.d.ts:23497
 
-***
+---
 
 ### stripePriceId?
 
 > `optional` **stripePriceId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23498
+Defined in: node_modules/.prisma/client/index.d.ts:23498
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23504
+Defined in: node_modules/.prisma/client/index.d.ts:23504

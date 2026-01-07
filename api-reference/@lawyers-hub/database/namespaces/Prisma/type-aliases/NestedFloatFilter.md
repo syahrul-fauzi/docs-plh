@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / NestedFloatFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+NestedFloatFilter
 
 # Type Alias: NestedFloatFilter\<$PrismaModel\>
 
 > **NestedFloatFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23118
+Defined in: node_modules/.prisma/client/index.d.ts:23118
 
 ## Type Parameters
 
@@ -20,62 +22,69 @@ Defined in: node\_modules/.prisma/client/index.d.ts:23118
 
 ### equals?
 
-> `optional` **equals**: `number` \| [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **equals**: `number` \|
+> [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23119
+Defined in: node_modules/.prisma/client/index.d.ts:23119
 
-***
+---
 
 ### gt?
 
-> `optional` **gt**: `number` \| [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gt**: `number` \|
+> [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23124
+Defined in: node_modules/.prisma/client/index.d.ts:23124
 
-***
+---
 
 ### gte?
 
-> `optional` **gte**: `number` \| [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **gte**: `number` \|
+> [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23125
+Defined in: node_modules/.prisma/client/index.d.ts:23125
 
-***
+---
 
 ### in?
 
-> `optional` **in**: `number`[] \| [`ListFloatFieldRefInput`](ListFloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **in**: `number`[] \|
+> [`ListFloatFieldRefInput`](ListFloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23120
+Defined in: node_modules/.prisma/client/index.d.ts:23120
 
-***
+---
 
 ### lt?
 
-> `optional` **lt**: `number` \| [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lt**: `number` \|
+> [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23122
+Defined in: node_modules/.prisma/client/index.d.ts:23122
 
-***
+---
 
 ### lte?
 
-> `optional` **lte**: `number` \| [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **lte**: `number` \|
+> [`FloatFieldRefInput`](FloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23123
+Defined in: node_modules/.prisma/client/index.d.ts:23123
 
-***
+---
 
 ### not?
 
 > `optional` **not**: `NestedFloatFilter`\<`$PrismaModel`\> \| `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23126
+Defined in: node_modules/.prisma/client/index.d.ts:23126
 
-***
+---
 
 ### notIn?
 
-> `optional` **notIn**: `number`[] \| [`ListFloatFieldRefInput`](ListFloatFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **notIn**: `number`[] \|
+> [`ListFloatFieldRefInput`](ListFloatFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23121
+Defined in: node_modules/.prisma/client/index.d.ts:23121

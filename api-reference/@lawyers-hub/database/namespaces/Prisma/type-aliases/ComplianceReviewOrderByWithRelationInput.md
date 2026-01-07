@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewOrderByWithRelationInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewOrderByWithRelationInput
 
 # Type Alias: ComplianceReviewOrderByWithRelationInput
 
 > **ComplianceReviewOrderByWithRelationInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19224
+Defined in: node_modules/.prisma/client/index.d.ts:19224
 
 ## Properties
 
@@ -16,124 +18,130 @@ Defined in: node\_modules/.prisma/client/index.d.ts:19224
 
 > `optional` **confidenceScore**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19233
+Defined in: node_modules/.prisma/client/index.d.ts:19233
 
-***
+---
 
 ### correctedValue?
 
-> `optional` **correctedValue**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **correctedValue**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19232
+Defined in: node_modules/.prisma/client/index.d.ts:19232
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19237
+Defined in: node_modules/.prisma/client/index.d.ts:19237
 
-***
+---
 
 ### entityId?
 
-> `optional` **entityId**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **entityId**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19228
+Defined in: node_modules/.prisma/client/index.d.ts:19228
 
-***
+---
 
 ### entityType?
 
-> `optional` **entityType**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **entityType**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19229
+Defined in: node_modules/.prisma/client/index.d.ts:19229
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19225
+Defined in: node_modules/.prisma/client/index.d.ts:19225
 
-***
+---
 
 ### isProcessed?
 
 > `optional` **isProcessed**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19235
+Defined in: node_modules/.prisma/client/index.d.ts:19235
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`SortOrderInput`](SortOrderInput.md) \| [`SortOrder`](SortOrder.md)
+> `optional` **metadata**: [`SortOrderInput`](SortOrderInput.md) \|
+> [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19236
+Defined in: node_modules/.prisma/client/index.d.ts:19236
 
-***
+---
 
 ### originalValue?
 
 > `optional` **originalValue**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19231
+Defined in: node_modules/.prisma/client/index.d.ts:19231
 
-***
+---
 
 ### piiType?
 
 > `optional` **piiType**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19230
+Defined in: node_modules/.prisma/client/index.d.ts:19230
 
-***
+---
 
 ### reviewer?
 
-> `optional` **reviewer**: [`UserOrderByWithRelationInput`](UserOrderByWithRelationInput.md)
+> `optional` **reviewer**:
+> [`UserOrderByWithRelationInput`](UserOrderByWithRelationInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19239
+Defined in: node_modules/.prisma/client/index.d.ts:19239
 
-***
+---
 
 ### reviewerId?
 
 > `optional` **reviewerId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19227
+Defined in: node_modules/.prisma/client/index.d.ts:19227
 
-***
+---
 
 ### status?
 
 > `optional` **status**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19234
+Defined in: node_modules/.prisma/client/index.d.ts:19234
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`TenantOrderByWithRelationInput`](TenantOrderByWithRelationInput.md)
+> `optional` **tenant**:
+> [`TenantOrderByWithRelationInput`](TenantOrderByWithRelationInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19240
+Defined in: node_modules/.prisma/client/index.d.ts:19240
 
-***
+---
 
 ### tenantId?
 
 > `optional` **tenantId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19226
+Defined in: node_modules/.prisma/client/index.d.ts:19226
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19238
+Defined in: node_modules/.prisma/client/index.d.ts:19238

@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $PIIAuditLogPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$PIIAuditLogPayload
 
 # Type Alias: $PIIAuditLogPayload\<ExtArgs\>
 
 > **$PIIAuditLogPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17069
+Defined in: node_modules/.prisma/client/index.d.ts:17069
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:17069
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17089
+Defined in: node_modules/.prisma/client/index.d.ts:17089
 
-***
+---
 
 ### name
 
 > **name**: `"PIIAuditLog"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17070
+Defined in: node_modules/.prisma/client/index.d.ts:17070
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17071
+Defined in: node_modules/.prisma/client/index.d.ts:17071
 
 #### document
 
@@ -52,10 +54,15 @@ Defined in: node\_modules/.prisma/client/index.d.ts:17071
 
 > **user**: [`$UserPayload`]($UserPayload.md)\<`ExtArgs`\>
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `actionType`: `string`; `documentId`: `string` \| `null`; `id`: `string`; `isMasked`: `boolean`; `justification`: `string` \| `null`; `metadata`: [`JsonValue`](JsonValue.md) \| `null`; `piiType`: `string` \| `null`; `riskScore`: `number`; `tenantId`: `string`; `timestamp`: `Date`; `userId`: `string`; \}, `ExtArgs`\[`"result"`\]\[`"pIIAuditLog"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `actionType`: `string`;
+> `documentId`: `string` \| `null`; `id`: `string`; `isMasked`: `boolean`;
+> `justification`: `string` \| `null`; `metadata`: [`JsonValue`](JsonValue.md)
+> \| `null`; `piiType`: `string` \| `null`; `riskScore`: `number`; `tenantId`:
+> `string`; `timestamp`: `Date`; `userId`: `string`; \},
+> `ExtArgs`\[`"result"`\]\[`"pIIAuditLog"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17076
+Defined in: node_modules/.prisma/client/index.d.ts:17076

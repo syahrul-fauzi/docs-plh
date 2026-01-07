@@ -2,23 +2,30 @@
 
 ## Metadata
 
-* **Document ID**: LH-GTM-ARCH-001
-* **Status**: Draft v0.1 (Post-Lock v1.0)
-* **Owner**: GTM Lead / Product Strategy
-* **Stakeholders**: Founders, Sales, Legal Ops, Engineering, AI
-* **Derived From**: [README.md](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/README.md), [system_overview.md](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md), [core_features_spec.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md), [prompt_governance.md](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md), [user_journey_and_flows.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md)
+- **Document ID**: LH-GTM-ARCH-001
+- **Status**: Draft v0.1 (Post-Lock v1.0)
+- **Owner**: GTM Lead / Product Strategy
+- **Stakeholders**: Founders, Sales, Legal Ops, Engineering, AI
+- **Derived From**:
+  [README.md](file:///home/inbox/smart-ai/lawyers-hub/docs/00_foundation/README.md),
+  [system_overview.md](file:///home/inbox/smart-ai/lawyers-hub/docs/01_architecture/system_overview.md),
+  [core_features_spec.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md),
+  [prompt_governance.md](file:///home/inbox/smart-ai/lawyers-hub/docs/02_ai_and_rules/prompt_governance.md),
+  [user_journey_and_flows.md](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md)
 
 ---
 
 ## 1. Tujuan Dokumen
 
-Mendefinisikan **arsitektur Go-To-Market (GTM)** Lawyers Hub secara operasional dan teknis untuk:
+Mendefinisikan **arsitektur Go-To-Market (GTM)** Lawyers Hub secara operasional
+dan teknis untuk:
 
-* Akuisisi pengguna awal (pilot & early adopters)
-* Konversi trial → paid
-* Menjaga kepatuhan legal & AI selama proses penjualan
+- Akuisisi pengguna awal (pilot & early adopters)
+- Konversi trial → paid
+- Menjaga kepatuhan legal & AI selama proses penjualan
 
-Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**.
+Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi
+teknis**.
 
 ---
 
@@ -26,14 +33,14 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 ### 2.1 Primary ICP (Pilot Phase)
 
-* Firma hukum kecil–menengah (2–20 lawyer)
-* Boutique law firm (corporate, compliance, litigation ringan)
-* Legal in-house UMKM / startup
+- Firma hukum kecil–menengah (2–20 lawyer)
+- Boutique law firm (corporate, compliance, litigation ringan)
+- Legal in-house UMKM / startup
 
 ### 2.2 Secondary ICP
 
-* Paralegal services
-* Legal consultant (non-litigasi)
+- Paralegal services
+- Legal consultant (non-litigasi)
 
 ---
 
@@ -43,15 +50,15 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 **Tujuan**:
 
-* Validasi produk
-* Validasi AI trust
-* Validasi workflow
+- Validasi produk
+- Validasi AI trust
+- Validasi workflow
 
 **Ciri**:
 
-* Invitation-only
-* White-glove onboarding
-* Direct feedback loop
+- Invitation-only
+- White-glove onboarding
+- Direct feedback loop
 
 ---
 
@@ -59,15 +66,15 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 **Tujuan**:
 
-* Scale onboarding
-* Validate pricing
-* Marketing activation
+- Scale onboarding
+- Validate pricing
+- Marketing activation
 
 **Ciri**:
 
-* Self-serve signup
-* Limited AI quota
-* Feature gating
+- Self-serve signup
+- Limited AI quota
+- Feature gating
 
 ---
 
@@ -75,8 +82,8 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 **Tujuan**:
 
-* Monetisasi penuh
-* Partnership
+- Monetisasi penuh
+- Partnership
 
 ---
 
@@ -86,18 +93,18 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 **Fungsi**:
 
-* Sales demo
-* Investor demo
+- Sales demo
+- Investor demo
 
 **Karakteristik**:
 
-* Dummy data
-* AI restricted
-* No real client data
+- Dummy data
+- AI restricted
+- No real client data
 
 **AG-UI State**:
 
-* `workspace.demo`
+- `workspace.demo`
 
 ---
 
@@ -105,14 +112,14 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 **Fitur**:
 
-* Real data
-* Limited users
-* Enhanced audit
+- Real data
+- Limited users
+- Enhanced audit
 
 **Restrictions**:
 
-* No production billing
-* AI quota capped
+- No production billing
+- AI quota capped
 
 ---
 
@@ -137,14 +144,14 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 ### Models
 
-* Per-seat (lawyer)
-* AI usage add-on
-* Case volume tier
+- Per-seat (lawyer)
+- AI usage add-on
+- Case volume tier
 
 ### Pilot Incentive
 
-* Discounted rate
-* Extended trial
+- Discounted rate
+- Extended trial
 
 ---
 
@@ -152,52 +159,52 @@ Dokumen ini menjadi penghubung antara **produk, sales, dan implementasi teknis**
 
 ### Activation
 
-* Time to first case
-* Time to first AI usage
+- Time to first case
+- Time to first AI usage
 
 ### Engagement
 
-* DAU / MAU (lawyer)
-* AI interaction per case
+- DAU / MAU (lawyer)
+- AI interaction per case
 
 ### Conversion
 
-* Trial → paid
-* Pilot → contract
+- Trial → paid
+- Pilot → contract
 
 ---
 
 ## 8. Compliance & Risk Control (GTM)
 
-* No AI legal advice marketing claim
-* Explicit AI disclaimer in sales material
-* Consent during onboarding
+- No AI legal advice marketing claim
+- Explicit AI disclaimer in sales material
+- Consent during onboarding
 
 ---
 
 ## 9. GTM Tooling Integration
 
-* CRM (HubSpot / custom)
-* Product analytics
-* Audit dashboard
+- CRM (HubSpot / custom)
+- Product analytics
+- Audit dashboard
 
 ---
 
 ## 10. Out of Scope
 
-* Open marketplace
-* Revenue sharing v1
+- Open marketplace
+- Revenue sharing v1
 
 ---
 
 ## 11. Dokumen Terkait
 
-* [Core Features Spec](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md)
-* [User Journey](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md)
-* [Deployment Docs](file:///home/inbox/smart-ai/lawyers-hub/docs/deployment/DEPLOYMENT.md)
+- [Core Features Spec](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/core_features_spec.md)
+- [User Journey](file:///home/inbox/smart-ai/lawyers-hub/docs/03_product_features/user_journey_and_flows.md)
+- [Deployment Docs](file:///home/inbox/smart-ai/lawyers-hub/docs/deployment/DEPLOYMENT.md)
 
 ---
 
 ## 12. Status
 
- 🚧 **Draft — Ready for GTM review & lock**
+🚧 **Draft — Ready for GTM review & lock**

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogListRelationFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogListRelationFilter
 
 # Type Alias: PIIAuditLogListRelationFilter
 
 > **PIIAuditLogListRelationFilter** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20773
+Defined in: node_modules/.prisma/client/index.d.ts:20773
 
 ## Properties
 
@@ -16,20 +18,20 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20773
 
 > `optional` **every**: [`PIIAuditLogWhereInput`](PIIAuditLogWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20774
+Defined in: node_modules/.prisma/client/index.d.ts:20774
 
-***
+---
 
 ### none?
 
 > `optional` **none**: [`PIIAuditLogWhereInput`](PIIAuditLogWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20776
+Defined in: node_modules/.prisma/client/index.d.ts:20776
 
-***
+---
 
 ### some?
 
 > `optional` **some**: [`PIIAuditLogWhereInput`](PIIAuditLogWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20775
+Defined in: node_modules/.prisma/client/index.d.ts:20775

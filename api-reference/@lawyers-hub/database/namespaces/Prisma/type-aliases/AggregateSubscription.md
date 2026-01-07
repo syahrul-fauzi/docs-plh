@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AggregateSubscription
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AggregateSubscription
 
 # Type Alias: AggregateSubscription
 
 > **AggregateSubscription** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3602
+Defined in: node_modules/.prisma/client/index.d.ts:3602
 
 Model Subscription
 
@@ -16,38 +18,48 @@ Model Subscription
 
 ### \_avg
 
-> **\_avg**: [`SubscriptionAvgAggregateOutputType`](SubscriptionAvgAggregateOutputType.md) \| `null`
+> **\_avg**:
+> [`SubscriptionAvgAggregateOutputType`](SubscriptionAvgAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3604
+Defined in: node_modules/.prisma/client/index.d.ts:3604
 
-***
+---
 
 ### \_count
 
-> **\_count**: [`SubscriptionCountAggregateOutputType`](SubscriptionCountAggregateOutputType.md) \| `null`
+> **\_count**:
+> [`SubscriptionCountAggregateOutputType`](SubscriptionCountAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3603
+Defined in: node_modules/.prisma/client/index.d.ts:3603
 
-***
+---
 
 ### \_max
 
-> **\_max**: [`SubscriptionMaxAggregateOutputType`](SubscriptionMaxAggregateOutputType.md) \| `null`
+> **\_max**:
+> [`SubscriptionMaxAggregateOutputType`](SubscriptionMaxAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3607
+Defined in: node_modules/.prisma/client/index.d.ts:3607
 
-***
+---
 
 ### \_min
 
-> **\_min**: [`SubscriptionMinAggregateOutputType`](SubscriptionMinAggregateOutputType.md) \| `null`
+> **\_min**:
+> [`SubscriptionMinAggregateOutputType`](SubscriptionMinAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3606
+Defined in: node_modules/.prisma/client/index.d.ts:3606
 
-***
+---
 
 ### \_sum
 
-> **\_sum**: [`SubscriptionSumAggregateOutputType`](SubscriptionSumAggregateOutputType.md) \| `null`
+> **\_sum**:
+> [`SubscriptionSumAggregateOutputType`](SubscriptionSumAggregateOutputType.md)
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3605
+Defined in: node_modules/.prisma/client/index.d.ts:3605

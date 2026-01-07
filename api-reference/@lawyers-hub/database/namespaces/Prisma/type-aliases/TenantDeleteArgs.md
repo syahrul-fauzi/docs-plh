@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantDeleteArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantDeleteArgs
 
 # Type Alias: TenantDeleteArgs\<ExtArgs\>
 
 > **TenantDeleteArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3323
+Defined in: node_modules/.prisma/client/index.d.ts:3323
 
 Tenant delete
 
@@ -16,34 +18,36 @@ Tenant delete
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`TenantInclude`](TenantInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**: [`TenantInclude`](TenantInclude.md)\<`ExtArgs`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3331
+Defined in: node_modules/.prisma/client/index.d.ts:3331
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`TenantSelect`](TenantSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**: [`TenantSelect`](TenantSelect.md)\<`ExtArgs`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3327
+Defined in: node_modules/.prisma/client/index.d.ts:3327
 
 Select specific fields to fetch from the Tenant
 
-***
+---
 
 ### where
 
 > **where**: [`TenantWhereUniqueInput`](TenantWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3335
+Defined in: node_modules/.prisma/client/index.d.ts:3335
 
 Filter which Tenant to delete.

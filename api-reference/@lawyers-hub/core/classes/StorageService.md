@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../packages.md) / [@lawyers-hub/core](../README.md) / StorageService
+[Lawyers Hub API Reference](../../../packages.md) /
+[@lawyers-hub/core](../README.md) / StorageService
 
 # Class: StorageService
 
-Defined in: [packages/core/src/storage.ts:12](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L12)
+Defined in:
+[packages/core/src/storage.ts:12](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L12)
 
 ## Constructors
 
@@ -14,7 +16,8 @@ Defined in: [packages/core/src/storage.ts:12](https://github.com/syahrul-fauzi/l
 
 > **new StorageService**(`options`): `StorageService`
 
-Defined in: [packages/core/src/storage.ts:16](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L16)
+Defined in:
+[packages/core/src/storage.ts:16](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L16)
 
 #### Parameters
 
@@ -32,7 +35,8 @@ Defined in: [packages/core/src/storage.ts:16](https://github.com/syahrul-fauzi/l
 
 > **getDownloadUrl**(`key`): `Promise`\<`string`\>
 
-Defined in: [packages/core/src/storage.ts:35](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L35)
+Defined in:
+[packages/core/src/storage.ts:35](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L35)
 
 #### Parameters
 
@@ -44,13 +48,15 @@ Defined in: [packages/core/src/storage.ts:35](https://github.com/syahrul-fauzi/l
 
 `Promise`\<`string`\>
 
-***
+---
 
 ### upload()
 
-> **upload**(`key`, `body`, `contentType?`): `Promise`\<`PutObjectCommandOutput`\>
+> **upload**(`key`, `body`, `contentType?`):
+> `Promise`\<`PutObjectCommandOutput`\>
 
-Defined in: [packages/core/src/storage.ts:24](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L24)
+Defined in:
+[packages/core/src/storage.ts:24](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/core/src/storage.ts#L24)
 
 #### Parameters
 

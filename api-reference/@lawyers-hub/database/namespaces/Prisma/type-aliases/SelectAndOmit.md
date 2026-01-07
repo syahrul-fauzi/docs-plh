@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / SelectAndOmit
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+SelectAndOmit
 
 # Type Alias: SelectAndOmit
 
 > **SelectAndOmit** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:513
+Defined in: node_modules/.prisma/client/index.d.ts:513
 
 ## Properties
 
@@ -16,12 +18,12 @@ Defined in: node\_modules/.prisma/client/index.d.ts:513
 
 > **omit**: `any`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:515
+Defined in: node_modules/.prisma/client/index.d.ts:515
 
-***
+---
 
 ### select
 
 > **select**: `any`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:514
+Defined in: node_modules/.prisma/client/index.d.ts:514

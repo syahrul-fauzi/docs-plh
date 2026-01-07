@@ -1,67 +1,80 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentUpdateWithoutCaseInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentUpdateWithoutCaseInput
 
 # Type Alias: CommentUpdateWithoutCaseInput
 
 > **CommentUpdateWithoutCaseInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27137
+Defined in: node_modules/.prisma/client/index.d.ts:27137
 
 ## Properties
 
 ### content?
 
-> `optional` **content**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **content**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27139
+Defined in: node_modules/.prisma/client/index.d.ts:27139
 
-***
+---
 
 ### createdAt?
 
-> `optional` **createdAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **createdAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27140
+Defined in: node_modules/.prisma/client/index.d.ts:27140
 
-***
+---
 
 ### draft?
 
-> `optional` **draft**: [`DraftUpdateOneWithoutCommentsNestedInput`](DraftUpdateOneWithoutCommentsNestedInput.md)
+> `optional` **draft**:
+> [`DraftUpdateOneWithoutCommentsNestedInput`](DraftUpdateOneWithoutCommentsNestedInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27142
+Defined in: node_modules/.prisma/client/index.d.ts:27142
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \| `string`
+> `optional` **id**:
+> [`StringFieldUpdateOperationsInput`](StringFieldUpdateOperationsInput.md) \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27138
+Defined in: node_modules/.prisma/client/index.d.ts:27138
 
-***
+---
 
 ### tenant?
 
-> `optional` **tenant**: [`TenantUpdateOneRequiredWithoutCommentsNestedInput`](TenantUpdateOneRequiredWithoutCommentsNestedInput.md)
+> `optional` **tenant**:
+> [`TenantUpdateOneRequiredWithoutCommentsNestedInput`](TenantUpdateOneRequiredWithoutCommentsNestedInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27143
+Defined in: node_modules/.prisma/client/index.d.ts:27143
 
-***
+---
 
 ### updatedAt?
 
-> `optional` **updatedAt**: [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md) \| `Date` \| `string`
+> `optional` **updatedAt**:
+> [`DateTimeFieldUpdateOperationsInput`](DateTimeFieldUpdateOperationsInput.md)
+> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27141
+Defined in: node_modules/.prisma/client/index.d.ts:27141
 
-***
+---
 
 ### user?
 
-> `optional` **user**: [`UserUpdateOneRequiredWithoutCommentsNestedInput`](UserUpdateOneRequiredWithoutCommentsNestedInput.md)
+> `optional` **user**:
+> [`UserUpdateOneRequiredWithoutCommentsNestedInput`](UserUpdateOneRequiredWithoutCommentsNestedInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:27144
+Defined in: node_modules/.prisma/client/index.d.ts:27144

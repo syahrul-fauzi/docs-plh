@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantUpdateOneRequiredWithoutDocumentTemplatesNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantUpdateOneRequiredWithoutDocumentTemplatesNestedInput
 
 # Type Alias: TenantUpdateOneRequiredWithoutDocumentTemplatesNestedInput
 
 > **TenantUpdateOneRequiredWithoutDocumentTemplatesNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22825
+Defined in: node_modules/.prisma/client/index.d.ts:22825
 
 ## Properties
 
@@ -16,36 +18,43 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22825
 
 > `optional` **connect**: [`TenantWhereUniqueInput`](TenantWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22829
+Defined in: node_modules/.prisma/client/index.d.ts:22829
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`TenantCreateOrConnectWithoutDocumentTemplatesInput`](TenantCreateOrConnectWithoutDocumentTemplatesInput.md)
+> `optional` **connectOrCreate**:
+> [`TenantCreateOrConnectWithoutDocumentTemplatesInput`](TenantCreateOrConnectWithoutDocumentTemplatesInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22827
+Defined in: node_modules/.prisma/client/index.d.ts:22827
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`TenantCreateWithoutDocumentTemplatesInput`](TenantCreateWithoutDocumentTemplatesInput.md), [`TenantUncheckedCreateWithoutDocumentTemplatesInput`](TenantUncheckedCreateWithoutDocumentTemplatesInput.md)\>
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`TenantCreateWithoutDocumentTemplatesInput`](TenantCreateWithoutDocumentTemplatesInput.md),
+> [`TenantUncheckedCreateWithoutDocumentTemplatesInput`](TenantUncheckedCreateWithoutDocumentTemplatesInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22826
+Defined in: node_modules/.prisma/client/index.d.ts:22826
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`TenantUpdateToOneWithWhereWithoutDocumentTemplatesInput`](TenantUpdateToOneWithWhereWithoutDocumentTemplatesInput.md), [`TenantUpdateWithoutDocumentTemplatesInput`](TenantUpdateWithoutDocumentTemplatesInput.md)\>, [`TenantUncheckedUpdateWithoutDocumentTemplatesInput`](TenantUncheckedUpdateWithoutDocumentTemplatesInput.md)\>
+> `optional` **update**:
+> [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`TenantUpdateToOneWithWhereWithoutDocumentTemplatesInput`](TenantUpdateToOneWithWhereWithoutDocumentTemplatesInput.md),
+> [`TenantUpdateWithoutDocumentTemplatesInput`](TenantUpdateWithoutDocumentTemplatesInput.md)\>,
+> [`TenantUncheckedUpdateWithoutDocumentTemplatesInput`](TenantUncheckedUpdateWithoutDocumentTemplatesInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22830
+Defined in: node_modules/.prisma/client/index.d.ts:22830
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`TenantUpsertWithoutDocumentTemplatesInput`](TenantUpsertWithoutDocumentTemplatesInput.md)
+> `optional` **upsert**:
+> [`TenantUpsertWithoutDocumentTemplatesInput`](TenantUpsertWithoutDocumentTemplatesInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22828
+Defined in: node_modules/.prisma/client/index.d.ts:22828

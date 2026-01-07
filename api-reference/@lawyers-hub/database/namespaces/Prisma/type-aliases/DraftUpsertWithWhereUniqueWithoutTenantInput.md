@@ -1,35 +1,41 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftUpsertWithWhereUniqueWithoutTenantInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftUpsertWithWhereUniqueWithoutTenantInput
 
 # Type Alias: DraftUpsertWithWhereUniqueWithoutTenantInput
 
 > **DraftUpsertWithWhereUniqueWithoutTenantInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23760
+Defined in: node_modules/.prisma/client/index.d.ts:23760
 
 ## Properties
 
 ### create
 
-> **create**: [`XOR`](XOR.md)\<[`DraftCreateWithoutTenantInput`](DraftCreateWithoutTenantInput.md), [`DraftUncheckedCreateWithoutTenantInput`](DraftUncheckedCreateWithoutTenantInput.md)\>
+> **create**:
+> [`XOR`](XOR.md)\<[`DraftCreateWithoutTenantInput`](DraftCreateWithoutTenantInput.md),
+> [`DraftUncheckedCreateWithoutTenantInput`](DraftUncheckedCreateWithoutTenantInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23763
+Defined in: node_modules/.prisma/client/index.d.ts:23763
 
-***
+---
 
 ### update
 
-> **update**: [`XOR`](XOR.md)\<[`DraftUpdateWithoutTenantInput`](DraftUpdateWithoutTenantInput.md), [`DraftUncheckedUpdateWithoutTenantInput`](DraftUncheckedUpdateWithoutTenantInput.md)\>
+> **update**:
+> [`XOR`](XOR.md)\<[`DraftUpdateWithoutTenantInput`](DraftUpdateWithoutTenantInput.md),
+> [`DraftUncheckedUpdateWithoutTenantInput`](DraftUncheckedUpdateWithoutTenantInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23762
+Defined in: node_modules/.prisma/client/index.d.ts:23762
 
-***
+---
 
 ### where
 
 > **where**: [`DraftWhereUniqueInput`](DraftWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23761
+Defined in: node_modules/.prisma/client/index.d.ts:23761

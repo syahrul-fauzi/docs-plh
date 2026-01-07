@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AIModelConfigCountAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AIModelConfigCountAggregateOutputType
 
 # Type Alias: AIModelConfigCountAggregateOutputType
 
 > **AIModelConfigCountAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14759
+Defined in: node_modules/.prisma/client/index.d.ts:14759
 
 ## Properties
 
@@ -16,100 +18,100 @@ Defined in: node\_modules/.prisma/client/index.d.ts:14759
 
 > **\_all**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14772
+Defined in: node_modules/.prisma/client/index.d.ts:14772
 
-***
+---
 
 ### apiKey
 
 > **apiKey**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14763
+Defined in: node_modules/.prisma/client/index.d.ts:14763
 
-***
+---
 
 ### canaryStartedAt
 
 > **canaryStartedAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14768
+Defined in: node_modules/.prisma/client/index.d.ts:14768
 
-***
+---
 
 ### createdAt
 
 > **createdAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14770
+Defined in: node_modules/.prisma/client/index.d.ts:14770
 
-***
+---
 
 ### endpoint
 
 > **endpoint**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14762
+Defined in: node_modules/.prisma/client/index.d.ts:14762
 
-***
+---
 
 ### id
 
 > **id**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14760
+Defined in: node_modules/.prisma/client/index.d.ts:14760
 
-***
+---
 
 ### isDefault
 
 > **isDefault**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14764
+Defined in: node_modules/.prisma/client/index.d.ts:14764
 
-***
+---
 
 ### lastPromotedAt
 
 > **lastPromotedAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14769
+Defined in: node_modules/.prisma/client/index.d.ts:14769
 
-***
+---
 
 ### metrics
 
 > **metrics**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14767
+Defined in: node_modules/.prisma/client/index.d.ts:14767
 
-***
+---
 
 ### status
 
 > **status**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14766
+Defined in: node_modules/.prisma/client/index.d.ts:14766
 
-***
+---
 
 ### trafficWeight
 
 > **trafficWeight**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14765
+Defined in: node_modules/.prisma/client/index.d.ts:14765
 
-***
+---
 
 ### updatedAt
 
 > **updatedAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14771
+Defined in: node_modules/.prisma/client/index.d.ts:14771
 
-***
+---
 
 ### version
 
 > **version**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14761
+Defined in: node_modules/.prisma/client/index.d.ts:14761

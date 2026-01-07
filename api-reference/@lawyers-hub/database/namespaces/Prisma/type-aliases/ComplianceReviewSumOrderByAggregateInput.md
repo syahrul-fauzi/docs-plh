@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewSumOrderByAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewSumOrderByAggregateInput
 
 # Type Alias: ComplianceReviewSumOrderByAggregateInput
 
 > **ComplianceReviewSumOrderByAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21572
+Defined in: node_modules/.prisma/client/index.d.ts:21572
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21572
 
 > `optional` **confidenceScore**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21573
+Defined in: node_modules/.prisma/client/index.d.ts:21573

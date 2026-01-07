@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentCountAggregateOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentCountAggregateOutputType
 
 # Type Alias: CommentCountAggregateOutputType
 
 > **CommentCountAggregateOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8819
+Defined in: node_modules/.prisma/client/index.d.ts:8819
 
 ## Properties
 
@@ -16,68 +18,68 @@ Defined in: node\_modules/.prisma/client/index.d.ts:8819
 
 > **\_all**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8828
+Defined in: node_modules/.prisma/client/index.d.ts:8828
 
-***
+---
 
 ### caseId
 
 > **caseId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8824
+Defined in: node_modules/.prisma/client/index.d.ts:8824
 
-***
+---
 
 ### content
 
 > **content**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8821
+Defined in: node_modules/.prisma/client/index.d.ts:8821
 
-***
+---
 
 ### createdAt
 
 > **createdAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8826
+Defined in: node_modules/.prisma/client/index.d.ts:8826
 
-***
+---
 
 ### draftId
 
 > **draftId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8823
+Defined in: node_modules/.prisma/client/index.d.ts:8823
 
-***
+---
 
 ### id
 
 > **id**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8820
+Defined in: node_modules/.prisma/client/index.d.ts:8820
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8825
+Defined in: node_modules/.prisma/client/index.d.ts:8825
 
-***
+---
 
 ### updatedAt
 
 > **updatedAt**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8827
+Defined in: node_modules/.prisma/client/index.d.ts:8827
 
-***
+---
 
 ### userId
 
 > **userId**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8822
+Defined in: node_modules/.prisma/client/index.d.ts:8822

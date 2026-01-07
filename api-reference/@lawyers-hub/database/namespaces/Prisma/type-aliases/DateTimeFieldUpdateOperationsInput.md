@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DateTimeFieldUpdateOperationsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DateTimeFieldUpdateOperationsInput
 
 # Type Alias: DateTimeFieldUpdateOperationsInput
 
 > **DateTimeFieldUpdateOperationsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21819
+Defined in: node_modules/.prisma/client/index.d.ts:21819
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21819
 
 > `optional` **set**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21820
+Defined in: node_modules/.prisma/client/index.d.ts:21820

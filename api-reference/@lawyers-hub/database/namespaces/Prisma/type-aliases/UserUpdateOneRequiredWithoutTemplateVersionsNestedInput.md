@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserUpdateOneRequiredWithoutTemplateVersionsNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserUpdateOneRequiredWithoutTemplateVersionsNestedInput
 
 # Type Alias: UserUpdateOneRequiredWithoutTemplateVersionsNestedInput
 
 > **UserUpdateOneRequiredWithoutTemplateVersionsNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22881
+Defined in: node_modules/.prisma/client/index.d.ts:22881
 
 ## Properties
 
@@ -16,36 +18,43 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22881
 
 > `optional` **connect**: [`UserWhereUniqueInput`](UserWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22885
+Defined in: node_modules/.prisma/client/index.d.ts:22885
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`UserCreateOrConnectWithoutTemplateVersionsInput`](UserCreateOrConnectWithoutTemplateVersionsInput.md)
+> `optional` **connectOrCreate**:
+> [`UserCreateOrConnectWithoutTemplateVersionsInput`](UserCreateOrConnectWithoutTemplateVersionsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22883
+Defined in: node_modules/.prisma/client/index.d.ts:22883
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`UserCreateWithoutTemplateVersionsInput`](UserCreateWithoutTemplateVersionsInput.md), [`UserUncheckedCreateWithoutTemplateVersionsInput`](UserUncheckedCreateWithoutTemplateVersionsInput.md)\>
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`UserCreateWithoutTemplateVersionsInput`](UserCreateWithoutTemplateVersionsInput.md),
+> [`UserUncheckedCreateWithoutTemplateVersionsInput`](UserUncheckedCreateWithoutTemplateVersionsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22882
+Defined in: node_modules/.prisma/client/index.d.ts:22882
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`UserUpdateToOneWithWhereWithoutTemplateVersionsInput`](UserUpdateToOneWithWhereWithoutTemplateVersionsInput.md), [`UserUpdateWithoutTemplateVersionsInput`](UserUpdateWithoutTemplateVersionsInput.md)\>, [`UserUncheckedUpdateWithoutTemplateVersionsInput`](UserUncheckedUpdateWithoutTemplateVersionsInput.md)\>
+> `optional` **update**:
+> [`XOR`](XOR.md)\<[`XOR`](XOR.md)\<[`UserUpdateToOneWithWhereWithoutTemplateVersionsInput`](UserUpdateToOneWithWhereWithoutTemplateVersionsInput.md),
+> [`UserUpdateWithoutTemplateVersionsInput`](UserUpdateWithoutTemplateVersionsInput.md)\>,
+> [`UserUncheckedUpdateWithoutTemplateVersionsInput`](UserUncheckedUpdateWithoutTemplateVersionsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22886
+Defined in: node_modules/.prisma/client/index.d.ts:22886
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`UserUpsertWithoutTemplateVersionsInput`](UserUpsertWithoutTemplateVersionsInput.md)
+> `optional` **upsert**:
+> [`UserUpsertWithoutTemplateVersionsInput`](UserUpsertWithoutTemplateVersionsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22884
+Defined in: node_modules/.prisma/client/index.d.ts:22884

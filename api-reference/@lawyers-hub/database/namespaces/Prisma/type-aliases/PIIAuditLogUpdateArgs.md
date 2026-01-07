@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogUpdateArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogUpdateArgs
 
 # Type Alias: PIIAuditLogUpdateArgs\<ExtArgs\>
 
 > **PIIAuditLogUpdateArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17725
+Defined in: node_modules/.prisma/client/index.d.ts:17725
 
 PIIAuditLog update
 
@@ -16,44 +18,48 @@ PIIAuditLog update
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`PIIAuditLogUpdateInput`](PIIAuditLogUpdateInput.md), [`PIIAuditLogUncheckedUpdateInput`](PIIAuditLogUncheckedUpdateInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`PIIAuditLogUpdateInput`](PIIAuditLogUpdateInput.md),
+> [`PIIAuditLogUncheckedUpdateInput`](PIIAuditLogUncheckedUpdateInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17737
+Defined in: node_modules/.prisma/client/index.d.ts:17737
 
 The data needed to update a PIIAuditLog.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`PIIAuditLogInclude`](PIIAuditLogInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`PIIAuditLogInclude`](PIIAuditLogInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17733
+Defined in: node_modules/.prisma/client/index.d.ts:17733
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`PIIAuditLogSelect`](PIIAuditLogSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`PIIAuditLogSelect`](PIIAuditLogSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17729
+Defined in: node_modules/.prisma/client/index.d.ts:17729
 
 Select specific fields to fetch from the PIIAuditLog
 
-***
+---
 
 ### where
 
 > **where**: [`PIIAuditLogWhereUniqueInput`](PIIAuditLogWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17741
+Defined in: node_modules/.prisma/client/index.d.ts:17741
 
 Choose, which PIIAuditLog to update.

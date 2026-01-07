@@ -1,8 +1,9 @@
 [**Lawyers Hub API Reference**](../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../packages.md) / [@lawyers-hub/database](../../README.md) / Prisma
+[Lawyers Hub API Reference](../../../../packages.md) /
+[@lawyers-hub/database](../../README.md) / Prisma
 
 # Prisma
 

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentCountOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentCountOutputType
 
 # Type Alias: DocumentCountOutputType
 
 > **DocumentCountOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2286
+Defined in: node_modules/.prisma/client/index.d.ts:2286
 
 Count Type DocumentCountOutputType
 
@@ -18,4 +20,4 @@ Count Type DocumentCountOutputType
 
 > **piiAuditLogs**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2287
+Defined in: node_modules/.prisma/client/index.d.ts:2287

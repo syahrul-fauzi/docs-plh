@@ -1,123 +1,141 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogScalarWhereInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogScalarWhereInput
 
 # Type Alias: PIIAuditLogScalarWhereInput
 
 > **PIIAuditLogScalarWhereInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23839
+Defined in: node_modules/.prisma/client/index.d.ts:23839
 
 ## Properties
 
 ### actionType?
 
-> `optional` **actionType**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \| `string`
+> `optional` **actionType**:
+> [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23846
+Defined in: node_modules/.prisma/client/index.d.ts:23846
 
-***
+---
 
 ### AND?
 
-> `optional` **AND**: `PIIAuditLogScalarWhereInput` \| `PIIAuditLogScalarWhereInput`[]
+> `optional` **AND**: `PIIAuditLogScalarWhereInput` \|
+> `PIIAuditLogScalarWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23840
+Defined in: node_modules/.prisma/client/index.d.ts:23840
 
-***
+---
 
 ### documentId?
 
-> `optional` **documentId**: [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \| `string` \| `null`
+> `optional` **documentId**:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \|
+> `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23851
+Defined in: node_modules/.prisma/client/index.d.ts:23851
 
-***
+---
 
 ### id?
 
-> `optional` **id**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \| `string`
+> `optional` **id**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23843
+Defined in: node_modules/.prisma/client/index.d.ts:23843
 
-***
+---
 
 ### isMasked?
 
-> `optional` **isMasked**: [`BoolFilter`](BoolFilter.md)\<`"PIIAuditLog"`\> \| `boolean`
+> `optional` **isMasked**: [`BoolFilter`](BoolFilter.md)\<`"PIIAuditLog"`\> \|
+> `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23848
+Defined in: node_modules/.prisma/client/index.d.ts:23848
 
-***
+---
 
 ### justification?
 
-> `optional` **justification**: [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \| `string` \| `null`
+> `optional` **justification**:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \|
+> `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23850
+Defined in: node_modules/.prisma/client/index.d.ts:23850
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`JsonNullableFilter`](JsonNullableFilter.md)\<`"PIIAuditLog"`\>
+> `optional` **metadata**:
+> [`JsonNullableFilter`](JsonNullableFilter.md)\<`"PIIAuditLog"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23852
+Defined in: node_modules/.prisma/client/index.d.ts:23852
 
-***
+---
 
 ### NOT?
 
-> `optional` **NOT**: `PIIAuditLogScalarWhereInput` \| `PIIAuditLogScalarWhereInput`[]
+> `optional` **NOT**: `PIIAuditLogScalarWhereInput` \|
+> `PIIAuditLogScalarWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23842
+Defined in: node_modules/.prisma/client/index.d.ts:23842
 
-***
+---
 
 ### OR?
 
 > `optional` **OR**: `PIIAuditLogScalarWhereInput`[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23841
+Defined in: node_modules/.prisma/client/index.d.ts:23841
 
-***
+---
 
 ### piiType?
 
-> `optional` **piiType**: [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \| `string` \| `null`
+> `optional` **piiType**:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"PIIAuditLog"`\> \|
+> `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23847
+Defined in: node_modules/.prisma/client/index.d.ts:23847
 
-***
+---
 
 ### riskScore?
 
-> `optional` **riskScore**: [`IntFilter`](IntFilter.md)\<`"PIIAuditLog"`\> \| `number`
+> `optional` **riskScore**: [`IntFilter`](IntFilter.md)\<`"PIIAuditLog"`\> \|
+> `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23849
+Defined in: node_modules/.prisma/client/index.d.ts:23849
 
-***
+---
 
 ### tenantId?
 
-> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \| `string`
+> `optional` **tenantId**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\>
+> \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23853
+Defined in: node_modules/.prisma/client/index.d.ts:23853
 
-***
+---
 
 ### timestamp?
 
-> `optional` **timestamp**: [`DateTimeFilter`](DateTimeFilter.md)\<`"PIIAuditLog"`\> \| `Date` \| `string`
+> `optional` **timestamp**:
+> [`DateTimeFilter`](DateTimeFilter.md)\<`"PIIAuditLog"`\> \| `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23844
+Defined in: node_modules/.prisma/client/index.d.ts:23844
 
-***
+---
 
 ### userId?
 
-> `optional` **userId**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \| `string`
+> `optional` **userId**: [`StringFilter`](StringFilter.md)\<`"PIIAuditLog"`\> \|
+> `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:23845
+Defined in: node_modules/.prisma/client/index.d.ts:23845

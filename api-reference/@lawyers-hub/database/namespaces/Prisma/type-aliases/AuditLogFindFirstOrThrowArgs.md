@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AuditLogFindFirstOrThrowArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AuditLogFindFirstOrThrowArgs
 
 # Type Alias: AuditLogFindFirstOrThrowArgs\<ExtArgs\>
 
 > **AuditLogFindFirstOrThrowArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10534
+Defined in: node_modules/.prisma/client/index.d.ts:10534
 
 AuditLog findFirstOrThrow
 
@@ -16,94 +18,101 @@ AuditLog findFirstOrThrow
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### cursor?
 
-> `optional` **cursor**: [`AuditLogWhereUniqueInput`](AuditLogWhereUniqueInput.md)
+> `optional` **cursor**:
+> [`AuditLogWhereUniqueInput`](AuditLogWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10558
+Defined in: node_modules/.prisma/client/index.d.ts:10558
 
 [Cursor Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination#cursor-based-pagination)
 
 Sets the position for searching for AuditLogs.
 
-***
+---
 
 ### distinct?
 
-> `optional` **distinct**: [`AuditLogScalarFieldEnum`](AuditLogScalarFieldEnum.md) \| [`AuditLogScalarFieldEnum`](AuditLogScalarFieldEnum.md)[]
+> `optional` **distinct**:
+> [`AuditLogScalarFieldEnum`](AuditLogScalarFieldEnum.md) \|
+> [`AuditLogScalarFieldEnum`](AuditLogScalarFieldEnum.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10576
+Defined in: node_modules/.prisma/client/index.d.ts:10576
 
 [Distinct Docs](https://www.prisma.io/docs/concepts/components/prisma-client/distinct)
 
 Filter by unique combinations of AuditLogs.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`AuditLogInclude`](AuditLogInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**: [`AuditLogInclude`](AuditLogInclude.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10542
+Defined in: node_modules/.prisma/client/index.d.ts:10542
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### orderBy?
 
-> `optional` **orderBy**: [`AuditLogOrderByWithRelationInput`](AuditLogOrderByWithRelationInput.md) \| [`AuditLogOrderByWithRelationInput`](AuditLogOrderByWithRelationInput.md)[]
+> `optional` **orderBy**:
+> [`AuditLogOrderByWithRelationInput`](AuditLogOrderByWithRelationInput.md) \|
+> [`AuditLogOrderByWithRelationInput`](AuditLogOrderByWithRelationInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10552
+Defined in: node_modules/.prisma/client/index.d.ts:10552
 
 [Sorting Docs](https://www.prisma.io/docs/concepts/components/prisma-client/sorting)
 
 Determine the order of AuditLogs to fetch.
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`AuditLogSelect`](AuditLogSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**: [`AuditLogSelect`](AuditLogSelect.md)\<`ExtArgs`\> \|
+> `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10538
+Defined in: node_modules/.prisma/client/index.d.ts:10538
 
 Select specific fields to fetch from the AuditLog
 
-***
+---
 
 ### skip?
 
 > `optional` **skip**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10570
+Defined in: node_modules/.prisma/client/index.d.ts:10570
 
 [Pagination Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination)
 
 Skip the first `n` AuditLogs.
 
-***
+---
 
 ### take?
 
 > `optional` **take**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10564
+Defined in: node_modules/.prisma/client/index.d.ts:10564
 
 [Pagination Docs](https://www.prisma.io/docs/concepts/components/prisma-client/pagination)
 
 Take `±n` AuditLogs from the position of the cursor.
 
-***
+---
 
 ### where?
 
 > `optional` **where**: [`AuditLogWhereInput`](AuditLogWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:10546
+Defined in: node_modules/.prisma/client/index.d.ts:10546
 
 Filter, which AuditLog to fetch.

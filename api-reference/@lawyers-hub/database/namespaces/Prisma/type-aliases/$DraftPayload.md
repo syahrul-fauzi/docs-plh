@@ -1,20 +1,22 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / $DraftPayload
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+$DraftPayload
 
 # Type Alias: $DraftPayload\<ExtArgs\>
 
 > **$DraftPayload**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7996
+Defined in: node_modules/.prisma/client/index.d.ts:7996
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -22,23 +24,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:7996
 
 > **composites**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8015
+Defined in: node_modules/.prisma/client/index.d.ts:8015
 
-***
+---
 
 ### name
 
 > **name**: `"Draft"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7997
+Defined in: node_modules/.prisma/client/index.d.ts:7997
 
-***
+---
 
 ### objects
 
 > **objects**: `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7998
+Defined in: node_modules/.prisma/client/index.d.ts:7998
 
 #### case
 
@@ -52,10 +54,14 @@ Defined in: node\_modules/.prisma/client/index.d.ts:7998
 
 > **tenant**: [`$TenantPayload`]($TenantPayload.md)\<`ExtArgs`\>
 
-***
+---
 
 ### scalars
 
-> **scalars**: `$Extensions.GetPayloadResult`\<\{ `caseId`: `string` \| `null`; `content`: `string`; `createdAt`: `Date`; `id`: `string`; `metadata`: [`JsonValue`](JsonValue.md) \| `null`; `status`: `string`; `templateType`: `string` \| `null`; `tenantId`: `string`; `title`: `string`; `updatedAt`: `Date`; \}, `ExtArgs`\[`"result"`\]\[`"draft"`\]\>
+> **scalars**: `$Extensions.GetPayloadResult`\<\{ `caseId`: `string` \| `null`;
+> `content`: `string`; `createdAt`: `Date`; `id`: `string`; `metadata`:
+> [`JsonValue`](JsonValue.md) \| `null`; `status`: `string`; `templateType`:
+> `string` \| `null`; `tenantId`: `string`; `title`: `string`; `updatedAt`:
+> `Date`; \}, `ExtArgs`\[`"result"`\]\[`"draft"`\]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8003
+Defined in: node_modules/.prisma/client/index.d.ts:8003

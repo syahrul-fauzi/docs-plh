@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / LogDefinition
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+LogDefinition
 
 # Type Alias: LogDefinition
 
 > **LogDefinition** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:1961
+Defined in: node_modules/.prisma/client/index.d.ts:1961
 
 ## Properties
 
@@ -16,12 +18,12 @@ Defined in: node\_modules/.prisma/client/index.d.ts:1961
 
 > **emit**: `"stdout"` \| `"event"`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:1963
+Defined in: node_modules/.prisma/client/index.d.ts:1963
 
-***
+---
 
 ### level
 
 > **level**: [`LogLevel`](LogLevel.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:1962
+Defined in: node_modules/.prisma/client/index.d.ts:1962

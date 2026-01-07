@@ -1,157 +1,56 @@
 # Technical Specification: Lawyers Hub
 
-## 1. Introduction
-Lawyers Hub is a multi-tenant legal management platform integrated with AI agents and deterministic legal logic. This document outlines the technical requirements, constraints, and dependencies for the project.
+## 1. System Overview
 
-## 2. System Requirements
-- **Node.js**: >= 18.0.0
-- **Package Manager**: npm >= 9.0.0
-- **Database**: PostgreSQL >= 15 with RLS support
-- **Vector Database**: pgvector or Pinecone
-- **AI Engine**: OpenAI GPT-4o / Claude 3.5 Sonnet
+Lawyers Hub is a multi-tenant platform for legal practice management, leveraging
+AI for document drafting, research, and compliance.
 
-## 3. Core Components & Dependencies
-### apps/web (Frontend)
-- **Framework**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS
-- **State Management**: React Query
-- **Auth**: Clerk
+## 2. Core Architecture
 
-### apps/api (Backend)
-- **Framework**: NestJS
-- **ORM**: Prisma
-- **Communication**: REST, Socket.io
-- **Security**: Passport, Clerk-SDK
+- **Frontend**: Next.js 14 (App Router), Tailwind CSS, TanStack Query.
+- **Backend**: NestJS (Monolithic Core with Microservice-ready structure).
+- **Database**: PostgreSQL with Prisma ORM.
+- **AI Gateway**: Custom implementation using LangChain, OpenAI, and Anthropic.
+- **Security**: Microsoft Presidio for PII masking, AES-256-GCM for document
+  encryption.
 
-### apps/worker (Background Jobs)
-- **Queue**: BullMQ
-- **Tasks**: OCR Processing, PII Scanning, Document Summarization
+## 3. Data Isolation (Multi-tenancy)
 
-### packages/auth (PII & Encryption)
-- **Masking**: Hybrid Regex + Microsoft Presidio (planned)
-- **Encryption**: AES-256-GCM for sensitive documents
+- **Database Level**: Row Level Security (RLS) is used to ensure that users can
+  only access data belonging to their tenant.
+- **Application Level**: All API requests must include a `tenantId` (derived
+  from JWT), which is passed to the `PrismaService.withTenant()` helper.
+- **Vector Level**: Each tenant has a dedicated namespace in the vector database
+  to prevent cross-tenant data leakage during RAG.
 
-## 4. Multi-tenancy Architecture
-- **Isolation Strategy**: Shared Database, Shared Schema, Row Level Security (RLS).
-- **Tenant Context**: Injected via Prisma Client Extensions using `current_setting('app.current_tenant_id')`.
-- **Policy**: `CREATE POLICY tenant_isolation_policy ON "Table" USING ("tenantId" = current_setting('app.current_tenant_id')::text);`
+## 4. AI & RAG Pipeline
 
-## 5. Compliance: UU PDP No. 27/2022
-- **Data Protection**: Mandatory PII masking before sending data to LLM providers.
-- **Data Subject Rights**: APIs for "Right to be Forgotten" and "Data Portability".
-- **Audit Trail**: Detailed logging of PII access and de-masking actions.
+1. **Ingestion**: Documents are chunked hierarchically (Document -> Chapter ->
+    Article).
+2. **Embedding**: Chunks are embedded using `text-embedding-3-small`.
+3. **Storage**: Vectors are stored in Pinecone/pgvector with `tenantId`
+    namespaces.
+4. **Retrieval**: Hybrid search (Semantic + Keyword) is used to find relevant
+    context.
+5. **Generation**:
+    - PII is masked from the prompt and context using `PresidioMaskingService`.
+    - Prompt is sent to LLM.
+    - Output is validated against deterministic legal rules (Level 0-2).
 
-## 6. RAG (Retrieval-Augmented Generation)
-- **Pipeline**:
-    1. Document Upload -> OCR -> PII Masking -> Storage.
-    2. Chunking -> Embedding -> Vector Store.
-    3. Query -> PII Masking -> Embedding -> Similarity Search.
-    4. Contextual Prompt -> LLM -> Response -> Unmasking (if authorized).
+## 5. Real-time Collaboration
 
-## 7. Acceptance Criteria
-- [ ] **Security**: 0 PII leakage to external logs.
-- [ ] **Performance**: AI response latency < 3s.
-- [ ] **Scalability**: Support for 100+ concurrent tenants.
-- [ ] **Compliance**: Automated PII detection with >95% accuracy.
+- **Engine**: Yjs (CRDT).
+- **Transport**: Socket.io.
+- **Editor**: Tiptap with Collaboration extension.
+- **Consistency**: Conflict-free replicated data types ensure no data loss
+  during concurrent edits.
 
-# Technical Specification: AI Canary Monitoring & Compliance System
+## 6. Security & Compliance
 
-## 1. Overview
-Sistem ini dirancang untuk memantau performa model AI (Canary) secara real-time, memberikan peringatan otomatis (Alerting), dan memastikan kepatuhan terhadap regulasi perlindungan data (UU PDP/GDPR) melalui deteksi dan masking PII.
-
-## 2. Technical Architecture
-
-### 2.1 Canary Monitoring Flow
-```mermaid
-graph TD
-    User((User)) --> Gateway[API Gateway / NestJS]
-    Gateway --> Router[AIRoutingService]
-    Router --> Stable[Stable Model V1]
-    Router --> Canary[Canary Model V2]
-    
-    Canary --> Metrics[Metrics Collector]
-    Metrics --> DB[(Prisma / Postgres)]
-    
-    Metrics --> Analyzer[Anomaly Detection]
-    Analyzer --> Alert[EmailService / Alerting]
-    Analyzer --> Rollback[Auto-Rollback Logic]
-    
-    subgraph Thresholds
-        E[Error Rate > 10%]
-        L[Latency > 1000ms]
-        D[Drift Detected]
-    end
-    
-    Analyzer -.-> Thresholds
-```
-
-### 2.2 PII Compliance Flow
-```mermaid
-graph LR
-    Input[Raw Legal Document] --> Detector[PII Detector]
-    Detector --> Policy[Policy Engine - UU PDP]
-    Policy --> Masker[Adaptive Masking]
-    Masker --> AI[AI Model Processing]
-    AI --> Output[Anonymized Result]
-    
-    subgraph PII Types
-        NIK[NIK / ID Card]
-        PH[Phone Number]
-        EM[Email Address]
-        AC[Account Number]
-    end
-    Detector -.-> PII Types
-```
-
-## 3. Core Specifications
-
-### 3.1 AI Metrics & Alerting
-| Metric | Threshold | Action |
-| :--- | :--- | :--- |
-| Error Rate | > 10% (30 min) | Send Critical Alert |
-| Latency (p95) | > 1500ms | Send Warning Alert |
-| Model Drift | Statistical Sig. | Notify Data Scientist |
-| Auto-Rollback | Error > 15% OR Latency > 2s | Trigger Immediate Rollback |
-
-### 3.2 Compliance (UU PDP)
-- **Masking Strategy**: Replace sensitive data with tags (e.g., `[MASKED_NIK]`).
-- **Data Lineage**: Log every AI interaction with anonymized metadata.
-- **Audit Trail**: Simpan log audit di tabel `AuditLog` untuk keperluan forensik/regulasi.
-
-## 4. Roadmap & Milestones
-
-### Milestone 1: Stability & Monitoring (Current)
-- [x] Fix build errors (Next.js 16)
-- [x] Implement basic Canary monitoring
-- [x] Multi-recipient email alerts
-
-### Milestone 2: Advanced AI Ops (Next)
-- [ ] Implement Latency thresholds & PII checks
-- [ ] Dynamic Canary Prompts for drift detection
-- [ ] Dashboard visual updates for drift analysis
-
-### Milestone 3: Full Compliance & Scaling
-- [ ] Integration with External PII Detection API (optional)
-- [ ] Scalable monorepo workflow optimization
-- [ ] Full system integration testing
-
-## 5. Quality Control & Versioning
-
-### 5.1 Static Code Analysis
-- **Linter**: ESLint v9 dengan flat config (`eslint.config.js`).
-- **Formatter**: Prettier untuk konsistensi gaya kode.
-- **Strict Rules**: 
-  - `@typescript-eslint/no-unused-vars`: Error.
-  - `@typescript-eslint/no-explicit-any`: Warning (Target: 0 any in Milestone 3).
-
-### 5.2 Branching Strategy (Git Flow)
-- `main`: Produksi, hanya merge dari `develop`.
-- `develop`: Integrasi fitur, basis untuk branch baru.
-- `feature/*`: Pengembangan fitur baru.
-- `fix/*`: Perbaikan bug mendesak.
-
-## 6. Acceptance Criteria
-1. **Performance**: API response time < 200ms (excluding AI processing).
-2. **Accuracy**: PII detection F1-score > 0.90.
-3. **Reliability**: Auto-rollback berfungsi dalam < 1 menit setelah threshold terlampaui.
-4. **Compliance**: Tidak ada PII yang bocor ke log server atau model provider luar.
+- **PII Masking**: Custom regex and NER for Indonesian-specific data (NIK,
+  NPWP).
+- **Audit Trail**: Every document access and modification is logged in
+  `audit_logs`.
+- **Encryption**: Documents in S3/Storage are encrypted at rest.
+- **GDPR/UU PDP**: Support for "Right to be Forgotten" via automated data
+  deletion scripts.

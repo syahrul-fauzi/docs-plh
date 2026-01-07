@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftCreateManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftCreateManyArgs
 
 # Type Alias: DraftCreateManyArgs\<ExtArgs\>
 
 > **DraftCreateManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8620
+Defined in: node_modules/.prisma/client/index.d.ts:8620
 
 Draft createMany
 
@@ -16,22 +18,23 @@ Draft createMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`DraftCreateManyInput`](DraftCreateManyInput.md) \| [`DraftCreateManyInput`](DraftCreateManyInput.md)[]
+> **data**: [`DraftCreateManyInput`](DraftCreateManyInput.md) \|
+> [`DraftCreateManyInput`](DraftCreateManyInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8624
+Defined in: node_modules/.prisma/client/index.d.ts:8624
 
 The data used to create many Drafts.
 
-***
+---
 
 ### skipDuplicates?
 
 > `optional` **skipDuplicates**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:8625
+Defined in: node_modules/.prisma/client/index.d.ts:8625

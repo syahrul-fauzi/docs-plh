@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentTemplateFindUniqueArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentTemplateFindUniqueArgs
 
 # Type Alias: DocumentTemplateFindUniqueArgs\<ExtArgs\>
 
 > **DocumentTemplateFindUniqueArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13369
+Defined in: node_modules/.prisma/client/index.d.ts:13369
 
 DocumentTemplate findUnique
 
@@ -16,34 +18,37 @@ DocumentTemplate findUnique
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### include?
 
-> `optional` **include**: [`DocumentTemplateInclude`](DocumentTemplateInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`DocumentTemplateInclude`](DocumentTemplateInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13377
+Defined in: node_modules/.prisma/client/index.d.ts:13377
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`DocumentTemplateSelect`](DocumentTemplateSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`DocumentTemplateSelect`](DocumentTemplateSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13373
+Defined in: node_modules/.prisma/client/index.d.ts:13373
 
 Select specific fields to fetch from the DocumentTemplate
 
-***
+---
 
 ### where
 
-> **where**: [`DocumentTemplateWhereUniqueInput`](DocumentTemplateWhereUniqueInput.md)
+> **where**:
+> [`DocumentTemplateWhereUniqueInput`](DocumentTemplateWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:13381
+Defined in: node_modules/.prisma/client/index.d.ts:13381
 
 Filter, which DocumentTemplate to fetch.

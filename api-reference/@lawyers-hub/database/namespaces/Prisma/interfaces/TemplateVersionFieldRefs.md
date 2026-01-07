@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionFieldRefs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionFieldRefs
 
 # Interface: TemplateVersionFieldRefs
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14371
+Defined in: node_modules/.prisma/client/index.d.ts:14371
 
 Fields of the TemplateVersion model
 
@@ -14,54 +16,61 @@ Fields of the TemplateVersion model
 
 ### changeLog
 
-> `readonly` **changeLog**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
+> `readonly` **changeLog**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14376
+Defined in: node_modules/.prisma/client/index.d.ts:14376
 
-***
+---
 
 ### content
 
-> `readonly` **content**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
+> `readonly` **content**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14374
+Defined in: node_modules/.prisma/client/index.d.ts:14374
 
-***
+---
 
 ### createdAt
 
-> `readonly` **createdAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"DateTime"`\>
+> `readonly` **createdAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14378
+Defined in: node_modules/.prisma/client/index.d.ts:14378
 
-***
+---
 
 ### id
 
-> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
+> `readonly` **id**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14372
+Defined in: node_modules/.prisma/client/index.d.ts:14372
 
-***
+---
 
 ### templateId
 
-> `readonly` **templateId**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
+> `readonly` **templateId**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14373
+Defined in: node_modules/.prisma/client/index.d.ts:14373
 
-***
+---
 
 ### userId
 
-> `readonly` **userId**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
+> `readonly` **userId**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14377
+Defined in: node_modules/.prisma/client/index.d.ts:14377
 
-***
+---
 
 ### version
 
-> `readonly` **version**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"Int"`\>
+> `readonly` **version**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"TemplateVersion"`, `"Int"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14375
+Defined in: node_modules/.prisma/client/index.d.ts:14375

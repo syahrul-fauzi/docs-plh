@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogUpdateManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogUpdateManyArgs
 
 # Type Alias: PIIAuditLogUpdateManyArgs\<ExtArgs\>
 
 > **PIIAuditLogUpdateManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17747
+Defined in: node_modules/.prisma/client/index.d.ts:17747
 
 PIIAuditLog updateMany
 
@@ -16,24 +18,26 @@ PIIAuditLog updateMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`PIIAuditLogUpdateManyMutationInput`](PIIAuditLogUpdateManyMutationInput.md), [`PIIAuditLogUncheckedUpdateManyInput`](PIIAuditLogUncheckedUpdateManyInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`PIIAuditLogUpdateManyMutationInput`](PIIAuditLogUpdateManyMutationInput.md),
+> [`PIIAuditLogUncheckedUpdateManyInput`](PIIAuditLogUncheckedUpdateManyInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17751
+Defined in: node_modules/.prisma/client/index.d.ts:17751
 
 The data used to update PIIAuditLogs.
 
-***
+---
 
 ### where?
 
 > `optional` **where**: [`PIIAuditLogWhereInput`](PIIAuditLogWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:17755
+Defined in: node_modules/.prisma/client/index.d.ts:17755
 
 Filter which PIIAuditLogs to update

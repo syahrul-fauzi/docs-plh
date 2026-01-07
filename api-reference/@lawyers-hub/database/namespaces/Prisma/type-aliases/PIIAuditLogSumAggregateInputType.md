@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogSumAggregateInputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogSumAggregateInputType
 
 # Type Alias: PIIAuditLogSumAggregateInputType
 
 > **PIIAuditLogSumAggregateInputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:16846
+Defined in: node_modules/.prisma/client/index.d.ts:16846
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:16846
 
 > `optional` **riskScore**: `true`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:16847
+Defined in: node_modules/.prisma/client/index.d.ts:16847

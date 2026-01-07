@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationUpdateArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationUpdateArgs
 
 # Type Alias: InvitationUpdateArgs\<ExtArgs\>
 
 > **InvitationUpdateArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12629
+Defined in: node_modules/.prisma/client/index.d.ts:12629
 
 Invitation update
 
@@ -16,44 +18,48 @@ Invitation update
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`InvitationUpdateInput`](InvitationUpdateInput.md), [`InvitationUncheckedUpdateInput`](InvitationUncheckedUpdateInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`InvitationUpdateInput`](InvitationUpdateInput.md),
+> [`InvitationUncheckedUpdateInput`](InvitationUncheckedUpdateInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12641
+Defined in: node_modules/.prisma/client/index.d.ts:12641
 
 The data needed to update a Invitation.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`InvitationInclude`](InvitationInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`InvitationInclude`](InvitationInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12637
+Defined in: node_modules/.prisma/client/index.d.ts:12637
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`InvitationSelect`](InvitationSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**: [`InvitationSelect`](InvitationSelect.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12633
+Defined in: node_modules/.prisma/client/index.d.ts:12633
 
 Select specific fields to fetch from the Invitation
 
-***
+---
 
 ### where
 
 > **where**: [`InvitationWhereUniqueInput`](InvitationWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12645
+Defined in: node_modules/.prisma/client/index.d.ts:12645
 
 Choose, which Invitation to update.

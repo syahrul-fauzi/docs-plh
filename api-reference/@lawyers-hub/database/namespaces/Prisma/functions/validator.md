@@ -1,8 +1,9 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / validator
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / validator
 
 # Function: validator()
 
@@ -10,7 +11,7 @@
 
 > **validator**\<`V`\>(): \<`S`\>(`select`) => `S`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3370
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:3370
 
 ### Type Parameters
 
@@ -40,9 +41,10 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3370
 
 ## Call Signature
 
-> **validator**\<`C`, `M`, `O`\>(`client`, `model`, `operation`): \<`S`\>(`select`) => `S`
+> **validator**\<`C`, `M`, `O`\>(`client`, `model`, `operation`):
+> \<`S`\>(`select`) => `S`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3372
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:3372
 
 ### Type Parameters
 
@@ -52,11 +54,16 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3372
 
 #### M
 
-`M` *extends* `string` \| `number` \| `symbol`
+`M` _extends_ `string` \| `number` \| `symbol`
 
 #### O
 
-`O` *extends* `"$executeRaw"` \| `"$executeRawUnsafe"` \| `"$queryRaw"` \| `"$queryRawUnsafe"` \| `"findUnique"` \| `"findUniqueOrThrow"` \| `"findMany"` \| `"findFirst"` \| `"findFirstOrThrow"` \| `"create"` \| `"createMany"` \| `"createManyAndReturn"` \| `"update"` \| `"updateMany"` \| `"upsert"` \| `"delete"` \| `"deleteMany"` \| `"aggregate"` \| `"count"` \| `"findRaw"` \| `"groupBy"` \| `"aggregateRaw"` \| `"$runCommandRaw"`
+`O` _extends_ `"$executeRaw"` \| `"$executeRawUnsafe"` \| `"$queryRaw"` \|
+`"$queryRawUnsafe"` \| `"findUnique"` \| `"findUniqueOrThrow"` \| `"findMany"`
+\| `"findFirst"` \| `"findFirstOrThrow"` \| `"create"` \| `"createMany"` \|
+`"createManyAndReturn"` \| `"update"` \| `"updateMany"` \| `"upsert"` \|
+`"delete"` \| `"deleteMany"` \| `"aggregate"` \| `"count"` \| `"findRaw"` \|
+`"groupBy"` \| `"aggregateRaw"` \| `"$runCommandRaw"`
 
 ### Parameters
 
@@ -86,7 +93,8 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3372
 
 ##### select
 
-[`Exact`](../type-aliases/Exact.md)\<`S`, [`Args`](../type-aliases/Args.md)\<`C`\[`M`\], `O`\>\>
+[`Exact`](../type-aliases/Exact.md)\<`S`,
+[`Args`](../type-aliases/Args.md)\<`C`\[`M`\], `O`\>\>
 
 #### Returns
 
@@ -94,9 +102,10 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3372
 
 ## Call Signature
 
-> **validator**\<`C`, `M`, `O`, `P`\>(`client`, `model`, `operation`, `prop`): \<`S`\>(`select`) => `S`
+> **validator**\<`C`, `M`, `O`, `P`\>(`client`, `model`, `operation`, `prop`):
+> \<`S`\>(`select`) => `S`
 
-Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3374
+Defined in: node_modules/@prisma/client/runtime/library.d.ts:3374
 
 ### Type Parameters
 
@@ -106,15 +115,20 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3374
 
 #### M
 
-`M` *extends* `string` \| `number` \| `symbol`
+`M` _extends_ `string` \| `number` \| `symbol`
 
 #### O
 
-`O` *extends* `"$executeRaw"` \| `"$executeRawUnsafe"` \| `"$queryRaw"` \| `"$queryRawUnsafe"` \| `"findUnique"` \| `"findUniqueOrThrow"` \| `"findMany"` \| `"findFirst"` \| `"findFirstOrThrow"` \| `"create"` \| `"createMany"` \| `"createManyAndReturn"` \| `"update"` \| `"updateMany"` \| `"upsert"` \| `"delete"` \| `"deleteMany"` \| `"aggregate"` \| `"count"` \| `"findRaw"` \| `"groupBy"` \| `"aggregateRaw"` \| `"$runCommandRaw"`
+`O` _extends_ `"$executeRaw"` \| `"$executeRawUnsafe"` \| `"$queryRaw"` \|
+`"$queryRawUnsafe"` \| `"findUnique"` \| `"findUniqueOrThrow"` \| `"findMany"`
+\| `"findFirst"` \| `"findFirstOrThrow"` \| `"create"` \| `"createMany"` \|
+`"createManyAndReturn"` \| `"update"` \| `"updateMany"` \| `"upsert"` \|
+`"delete"` \| `"deleteMany"` \| `"aggregate"` \| `"count"` \| `"findRaw"` \|
+`"groupBy"` \| `"aggregateRaw"` \| `"$runCommandRaw"`
 
 #### P
 
-`P` *extends* `string` \| `number` \| `symbol`
+`P` _extends_ `string` \| `number` \| `symbol`
 
 ### Parameters
 
@@ -148,7 +162,8 @@ Defined in: node\_modules/@prisma/client/runtime/library.d.ts:3374
 
 ##### select
 
-[`Exact`](../type-aliases/Exact.md)\<`S`, [`Args`](../type-aliases/Args.md)\<`C`\[`M`\], `O`\>\[`P`\]\>
+[`Exact`](../type-aliases/Exact.md)\<`S`,
+[`Args`](../type-aliases/Args.md)\<`C`\[`M`\], `O`\>\[`P`\]\>
 
 #### Returns
 

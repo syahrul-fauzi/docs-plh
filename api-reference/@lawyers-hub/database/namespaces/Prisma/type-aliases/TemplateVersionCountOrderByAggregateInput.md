@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionCountOrderByAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionCountOrderByAggregateInput
 
 # Type Alias: TemplateVersionCountOrderByAggregateInput
 
 > **TemplateVersionCountOrderByAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21419
+Defined in: node_modules/.prisma/client/index.d.ts:21419
 
 ## Properties
 
@@ -16,52 +18,52 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21419
 
 > `optional` **changeLog**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21424
+Defined in: node_modules/.prisma/client/index.d.ts:21424
 
-***
+---
 
 ### content?
 
 > `optional` **content**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21422
+Defined in: node_modules/.prisma/client/index.d.ts:21422
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21426
+Defined in: node_modules/.prisma/client/index.d.ts:21426
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21420
+Defined in: node_modules/.prisma/client/index.d.ts:21420
 
-***
+---
 
 ### templateId?
 
 > `optional` **templateId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21421
+Defined in: node_modules/.prisma/client/index.d.ts:21421
 
-***
+---
 
 ### userId?
 
 > `optional` **userId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21425
+Defined in: node_modules/.prisma/client/index.d.ts:21425
 
-***
+---
 
 ### version?
 
 > `optional` **version**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21423
+Defined in: node_modules/.prisma/client/index.d.ts:21423

@@ -1,18 +1,20 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentDelegate
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentDelegate
 
 # Interface: DocumentDelegate\<ExtArgs\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:6991
+Defined in: node_modules/.prisma/client/index.d.ts:6991
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Indexable
 
@@ -24,7 +26,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:6991
 
 > `readonly` **fields**: [`DocumentFieldRefs`](DocumentFieldRefs.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7333
+Defined in: node_modules/.prisma/client/index.d.ts:7333
 
 Fields of the Document model
 
@@ -32,25 +34,28 @@ Fields of the Document model
 
 ### aggregate()
 
-> **aggregate**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetDocumentAggregateType`](../type-aliases/GetDocumentAggregateType.md)\<`T`\>\>
+> **aggregate**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetDocumentAggregateType`](../type-aliases/GetDocumentAggregateType.md)\<`T`\>\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7252
+Defined in: node_modules/.prisma/client/index.d.ts:7252
 
-Allows you to perform aggregations operations on a Document.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Allows you to perform aggregations operations on a Document. Note, that
+providing `undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentAggregateArgs`](../type-aliases/DocumentAggregateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentAggregateArgs`](../type-aliases/DocumentAggregateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`DocumentAggregateArgs`](../type-aliases/DocumentAggregateArgs.md)\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`DocumentAggregateArgs`](../type-aliases/DocumentAggregateArgs.md)\>
 
 Select which aggregations you would like to apply and on what fields.
 
@@ -70,45 +75,55 @@ const aggregations = await prisma.user.aggregate({
   },
   where: {
     email: {
-      contains: "prisma.io",
+      contains: 'prisma.io',
     },
   },
   orderBy: {
-    age: "asc",
+    age: 'asc',
   },
   take: 10,
-})
+});
 ```
 
-***
+---
 
 ### count()
 
-> **count**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof DocumentCountAggregateOutputType ? DocumentCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+> **count**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+> `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+> `number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+> DocumentCountAggregateOutputType ? DocumentCountAggregateOutputType\[P\<P\>\]
+> : never \} : `number`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7218
+Defined in: node_modules/.prisma/client/index.d.ts:7218
 
-Count the number of Documents.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Count the number of Documents. Note, that providing `undefined` is treated as
+the value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentCountArgs`](../type-aliases/DocumentCountArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentCountArgs`](../type-aliases/DocumentCountArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`DocumentCountArgs`](../type-aliases/DocumentCountArgs.md)\<`DefaultArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`DocumentCountArgs`](../type-aliases/DocumentCountArgs.md)\<`DefaultArgs`\>\>
 
 Arguments to filter Documents to count.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof DocumentCountAggregateOutputType ? DocumentCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+`Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+`number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+DocumentCountAggregateOutputType ? DocumentCountAggregateOutputType\[P\<P\>\] :
+never \} : `number`\>
 
 #### Example
 
@@ -117,17 +132,19 @@ Arguments to filter Documents to count.
 const count = await prisma.document.count({
   where: {
     // ... the filter for the Documents we want to count
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### create()
 
-> **create**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **create**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7081
+Defined in: node_modules/.prisma/client/index.d.ts:7081
 
 Create a Document.
 
@@ -135,19 +152,22 @@ Create a Document.
 
 ##### T
 
-`T` *extends* [`DocumentCreateArgs`](../type-aliases/DocumentCreateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentCreateArgs`](../type-aliases/DocumentCreateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentCreateArgs`](../type-aliases/DocumentCreateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentCreateArgs`](../type-aliases/DocumentCreateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create a Document.
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -156,17 +176,18 @@ Arguments to create a Document.
 const Document = await prisma.document.create({
   data: {
     // ... data to create a Document
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### createMany()
 
-> **createMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **createMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7095
+Defined in: node_modules/.prisma/client/index.d.ts:7095
 
 Create many Documents.
 
@@ -174,13 +195,15 @@ Create many Documents.
 
 ##### T
 
-`T` *extends* [`DocumentCreateManyArgs`](../type-aliases/DocumentCreateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentCreateManyArgs`](../type-aliases/DocumentCreateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentCreateManyArgs`](../type-aliases/DocumentCreateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentCreateManyArgs`](../type-aliases/DocumentCreateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many Documents.
 
@@ -195,17 +218,19 @@ Arguments to create many Documents.
 const document = await prisma.document.createMany({
   data: [
     // ... provide data here
-  ]
-})
+  ],
+});
 ```
 
-***
+---
 
 ### createManyAndReturn()
 
-> **createManyAndReturn**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **createManyAndReturn**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7119
+Defined in: node_modules/.prisma/client/index.d.ts:7119
 
 Create many Documents and returns the data saved in the database.
 
@@ -213,19 +238,22 @@ Create many Documents and returns the data saved in the database.
 
 ##### T
 
-`T` *extends* [`DocumentCreateManyAndReturnArgs`](../type-aliases/DocumentCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentCreateManyAndReturnArgs`](../type-aliases/DocumentCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentCreateManyAndReturnArgs`](../type-aliases/DocumentCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentCreateManyAndReturnArgs`](../type-aliases/DocumentCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many Documents.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
@@ -238,7 +266,7 @@ const document = await prisma.document.createManyAndReturn({
 })
 
 // Create many Documents and only return the `id`
-const documentWithIdOnly = await prisma.document.createManyAndReturn({ 
+const documentWithIdOnly = await prisma.document.createManyAndReturn({
   select: { id: true },
   data: [
     // ... provide data here
@@ -248,13 +276,15 @@ Note, that providing `undefined` is treated as the value not being there.
 Read more here: https://pris.ly/d/null-undefined
 ```
 
-***
+---
 
 ### delete()
 
-> **delete**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **delete**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7133
+Defined in: node_modules/.prisma/client/index.d.ts:7133
 
 Delete a Document.
 
@@ -262,19 +292,22 @@ Delete a Document.
 
 ##### T
 
-`T` *extends* [`DocumentDeleteArgs`](../type-aliases/DocumentDeleteArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentDeleteArgs`](../type-aliases/DocumentDeleteArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentDeleteArgs`](../type-aliases/DocumentDeleteArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentDeleteArgs`](../type-aliases/DocumentDeleteArgs.md)\<`ExtArgs`\>\>
 
 Arguments to delete one Document.
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -283,17 +316,18 @@ Arguments to delete one Document.
 const Document = await prisma.document.delete({
   where: {
     // ... filter to delete one Document
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### deleteMany()
 
-> **deleteMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **deleteMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7164
+Defined in: node_modules/.prisma/client/index.d.ts:7164
 
 Delete zero or more Documents.
 
@@ -301,13 +335,15 @@ Delete zero or more Documents.
 
 ##### T
 
-`T` *extends* [`DocumentDeleteManyArgs`](../type-aliases/DocumentDeleteManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentDeleteManyArgs`](../type-aliases/DocumentDeleteManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentDeleteManyArgs`](../type-aliases/DocumentDeleteManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentDeleteManyArgs`](../type-aliases/DocumentDeleteManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter Documents to delete.
 
@@ -322,39 +358,44 @@ Arguments to filter Documents to delete.
 const { count } = await prisma.document.deleteMany({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirst()
 
-> **findFirst**\<`T`\>(`args?`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findFirst**\<`T`\>(`args?`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7033
+Defined in: node_modules/.prisma/client/index.d.ts:7033
 
-Find the first Document that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first Document that matches the filter. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentFindFirstArgs`](../type-aliases/DocumentFindFirstArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentFindFirstArgs`](../type-aliases/DocumentFindFirstArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentFindFirstArgs`](../type-aliases/DocumentFindFirstArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentFindFirstArgs`](../type-aliases/DocumentFindFirstArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Document
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -363,40 +404,45 @@ Arguments to find a Document
 const document = await prisma.document.findFirst({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirstOrThrow()
 
-> **findFirstOrThrow**\<`T`\>(`args?`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findFirstOrThrow**\<`T`\>(`args?`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7049
+Defined in: node_modules/.prisma/client/index.d.ts:7049
 
-Find the first Document that matches the filter or
-throw `PrismaKnownClientError` with `P2025` code if no matches were found.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first Document that matches the filter or throw
+`PrismaKnownClientError` with `P2025` code if no matches were found. Note, that
+providing `undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentFindFirstOrThrowArgs`](../type-aliases/DocumentFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentFindFirstOrThrowArgs`](../type-aliases/DocumentFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentFindFirstOrThrowArgs`](../type-aliases/DocumentFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentFindFirstOrThrowArgs`](../type-aliases/DocumentFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Document
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -405,60 +451,69 @@ Arguments to find a Document
 const document = await prisma.document.findFirstOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findMany()
 
-> **findMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **findMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7067
+Defined in: node_modules/.prisma/client/index.d.ts:7067
 
-Find zero or more Documents that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find zero or more Documents that matches the filter. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentFindManyArgs`](../type-aliases/DocumentFindManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentFindManyArgs`](../type-aliases/DocumentFindManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentFindManyArgs`](../type-aliases/DocumentFindManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentFindManyArgs`](../type-aliases/DocumentFindManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter and select certain fields only.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
 ```ts
 // Get all Documents
-const documents = await prisma.document.findMany()
+const documents = await prisma.document.findMany();
 
 // Get first 10 Documents
-const documents = await prisma.document.findMany({ take: 10 })
+const documents = await prisma.document.findMany({ take: 10 });
 
 // Only select the `id`
-const documentWithIdOnly = await prisma.document.findMany({ select: { id: true } })
+const documentWithIdOnly = await prisma.document.findMany({
+  select: { id: true },
+});
 ```
 
-***
+---
 
 ### findUnique()
 
-> **findUnique**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findUnique**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7004
+Defined in: node_modules/.prisma/client/index.d.ts:7004
 
 Find zero or one Document that matches the filter.
 
@@ -466,19 +521,22 @@ Find zero or one Document that matches the filter.
 
 ##### T
 
-`T` *extends* [`DocumentFindUniqueArgs`](../type-aliases/DocumentFindUniqueArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentFindUniqueArgs`](../type-aliases/DocumentFindUniqueArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentFindUniqueArgs`](../type-aliases/DocumentFindUniqueArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentFindUniqueArgs`](../type-aliases/DocumentFindUniqueArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Document
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -487,38 +545,43 @@ Arguments to find a Document
 const document = await prisma.document.findUnique({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findUniqueOrThrow()
 
-> **findUniqueOrThrow**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findUniqueOrThrow**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7018
+Defined in: node_modules/.prisma/client/index.d.ts:7018
 
-Find one Document that matches the filter or throw an error with `error.code='P2025'` 
-if no matches were found.
+Find one Document that matches the filter or throw an error with
+`error.code='P2025'` if no matches were found.
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentFindUniqueOrThrowArgs`](../type-aliases/DocumentFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentFindUniqueOrThrowArgs`](../type-aliases/DocumentFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentFindUniqueOrThrowArgs`](../type-aliases/DocumentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentFindUniqueOrThrowArgs`](../type-aliases/DocumentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Document
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -527,51 +590,65 @@ Arguments to find a Document
 const document = await prisma.document.findUniqueOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### groupBy()
 
-> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`, `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`): `object` *extends* `InputErrors` ? [`GetDocumentGroupByPayload`](../type-aliases/GetDocumentGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`,
+> `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`):
+> `object` _extends_ `InputErrors` ?
+> [`GetDocumentGroupByPayload`](../type-aliases/GetDocumentGroupByPayload.md)\<`T`\>
+> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7272
+Defined in: node_modules/.prisma/client/index.d.ts:7272
 
-Group by Document.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Group by Document. Note, that providing `undefined` is treated as the value not
+being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentGroupByArgs`](../type-aliases/DocumentGroupByArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentGroupByArgs`](../type-aliases/DocumentGroupByArgs.md)\<`DefaultArgs`\>
 
 ##### HasSelectOrTake
 
-`HasSelectOrTake` *extends* `0` \| `1`
+`HasSelectOrTake` _extends_ `0` \| `1`
 
 ##### OrderByArg
 
-`OrderByArg` *extends* \{ `orderBy`: [`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md) \| [`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)[] \| `undefined`; \} \| \{ `orderBy?`: [`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md) \| [`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)[]; \}
+`OrderByArg` _extends_ \{ `orderBy`:
+[`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)
+\|
+[`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)[]
+\| `undefined`; \} \| \{ `orderBy?`:
+[`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)
+\|
+[`DocumentOrderByWithAggregationInput`](../type-aliases/DocumentOrderByWithAggregationInput.md)[];
+\}
 
 ##### OrderFields
 
-`OrderFields` *extends* `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"tenantId"` \| `"status"` \| `"title"` \| `"content"` \| `"caseId"`
+`OrderFields` _extends_ `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"tenantId"`
+\| `"status"` \| `"title"` \| `"content"` \| `"caseId"`
 
 ##### ByFields
 
-`ByFields` *extends* [`DocumentScalarFieldEnum`](../type-aliases/DocumentScalarFieldEnum.md)
+`ByFields` _extends_
+[`DocumentScalarFieldEnum`](../type-aliases/DocumentScalarFieldEnum.md)
 
 ##### ByValid
 
-`ByValid` *extends* `0` \| `1`
+`ByValid` _extends_ `0` \| `1`
 
 ##### HavingFields
 
-`HavingFields` *extends* `string` \| `number` \| `symbol`
+`HavingFields` _extends_ `string` \| `number` \| `symbol`
 
 ##### HavingValid
 
@@ -579,7 +656,7 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### ByEmpty
 
-`ByEmpty` *extends* `0` \| `1`
+`ByEmpty` _extends_ `0` \| `1`
 
 ##### InputErrors
 
@@ -589,13 +666,17 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### args
 
-\{ \[key in string \| number \| symbol\]: key extends keyof DocumentGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} & `OrderByArg` & `InputErrors`
+\{ \[key in string \| number \| symbol\]: key extends keyof
+DocumentGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} & `OrderByArg` &
+`InputErrors`
 
 Group by arguments.
 
 #### Returns
 
-`object` *extends* `InputErrors` ? [`GetDocumentGroupByPayload`](../type-aliases/GetDocumentGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+`object` _extends_ `InputErrors` ?
+[`GetDocumentGroupByPayload`](../type-aliases/GetDocumentGroupByPayload.md)\<`T`\>
+: [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
 #### Example
 
@@ -604,21 +685,23 @@ Group by arguments.
 const result = await prisma.user.groupBy({
   by: ['city', 'createdAt'],
   orderBy: {
-    createdAt: true
+    createdAt: true,
   },
   _count: {
-    _all: true
+    _all: true,
   },
-})
+});
 ```
 
-***
+---
 
 ### update()
 
-> **update**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **update**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7150
+Defined in: node_modules/.prisma/client/index.d.ts:7150
 
 Update one Document.
 
@@ -626,19 +709,22 @@ Update one Document.
 
 ##### T
 
-`T` *extends* [`DocumentUpdateArgs`](../type-aliases/DocumentUpdateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentUpdateArgs`](../type-aliases/DocumentUpdateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentUpdateArgs`](../type-aliases/DocumentUpdateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentUpdateArgs`](../type-aliases/DocumentUpdateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one Document.
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -650,33 +736,35 @@ const document = await prisma.document.update({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### updateMany()
 
-> **updateMany**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **updateMany**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7183
+Defined in: node_modules/.prisma/client/index.d.ts:7183
 
-Update zero or more Documents.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Update zero or more Documents. Note, that providing `undefined` is treated as
+the value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`DocumentUpdateManyArgs`](../type-aliases/DocumentUpdateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentUpdateManyArgs`](../type-aliases/DocumentUpdateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentUpdateManyArgs`](../type-aliases/DocumentUpdateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentUpdateManyArgs`](../type-aliases/DocumentUpdateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one or more rows.
 
@@ -694,17 +782,19 @@ const document = await prisma.document.updateMany({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### upsert()
 
-> **upsert**\<`T`\>(`args`): [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **upsert**\<`T`\>(`args`):
+> [`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:7202
+Defined in: node_modules/.prisma/client/index.d.ts:7202
 
 Create or update one Document.
 
@@ -712,19 +802,22 @@ Create or update one Document.
 
 ##### T
 
-`T` *extends* [`DocumentUpsertArgs`](../type-aliases/DocumentUpsertArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`DocumentUpsertArgs`](../type-aliases/DocumentUpsertArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`DocumentUpsertArgs`](../type-aliases/DocumentUpsertArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`DocumentUpsertArgs`](../type-aliases/DocumentUpsertArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update or create a Document.
 
 #### Returns
 
-[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__DocumentClient`](Prisma__DocumentClient.md)\<`GetFindResult`\<[`$DocumentPayload`](../type-aliases/$DocumentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -739,6 +832,6 @@ const document = await prisma.document.upsert({
   },
   where: {
     // ... the filter for the Document we want to update
-  }
-})
+  },
+});
 ```

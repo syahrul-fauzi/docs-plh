@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AuditLogUncheckedCreateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AuditLogUncheckedCreateInput
 
 # Type Alias: AuditLogUncheckedCreateInput
 
 > **AuditLogUncheckedCreateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20027
+Defined in: node_modules/.prisma/client/index.d.ts:20027
 
 ## Properties
 
@@ -16,60 +18,62 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20027
 
 > **action**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20029
+Defined in: node_modules/.prisma/client/index.d.ts:20029
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20035
+Defined in: node_modules/.prisma/client/index.d.ts:20035
 
-***
+---
 
 ### entityId?
 
 > `optional` **entityId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20030
+Defined in: node_modules/.prisma/client/index.d.ts:20030
 
-***
+---
 
 ### entityType?
 
 > `optional` **entityType**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20031
+Defined in: node_modules/.prisma/client/index.d.ts:20031
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20028
+Defined in: node_modules/.prisma/client/index.d.ts:20028
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20034
+Defined in: node_modules/.prisma/client/index.d.ts:20034
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20033
+Defined in: node_modules/.prisma/client/index.d.ts:20033
 
-***
+---
 
 ### userId
 
 > **userId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20032
+Defined in: node_modules/.prisma/client/index.d.ts:20032

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentUncheckedCreateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentUncheckedCreateInput
 
 # Type Alias: CommentUncheckedCreateInput
 
 > **CommentUncheckedCreateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19954
+Defined in: node_modules/.prisma/client/index.d.ts:19954
 
 ## Properties
 
@@ -16,60 +18,60 @@ Defined in: node\_modules/.prisma/client/index.d.ts:19954
 
 > `optional` **caseId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19959
+Defined in: node_modules/.prisma/client/index.d.ts:19959
 
-***
+---
 
 ### content
 
 > **content**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19956
+Defined in: node_modules/.prisma/client/index.d.ts:19956
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19961
+Defined in: node_modules/.prisma/client/index.d.ts:19961
 
-***
+---
 
 ### draftId?
 
 > `optional` **draftId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19958
+Defined in: node_modules/.prisma/client/index.d.ts:19958
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19955
+Defined in: node_modules/.prisma/client/index.d.ts:19955
 
-***
+---
 
 ### tenantId
 
 > **tenantId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19960
+Defined in: node_modules/.prisma/client/index.d.ts:19960
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19962
+Defined in: node_modules/.prisma/client/index.d.ts:19962
 
-***
+---
 
 ### userId
 
 > **userId**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19957
+Defined in: node_modules/.prisma/client/index.d.ts:19957

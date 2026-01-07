@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionUpdateArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionUpdateArgs
 
 # Type Alias: TemplateVersionUpdateArgs\<ExtArgs\>
 
 > **TemplateVersionUpdateArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14609
+Defined in: node_modules/.prisma/client/index.d.ts:14609
 
 TemplateVersion update
 
@@ -16,44 +18,49 @@ TemplateVersion update
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`XOR`](XOR.md)\<[`TemplateVersionUpdateInput`](TemplateVersionUpdateInput.md), [`TemplateVersionUncheckedUpdateInput`](TemplateVersionUncheckedUpdateInput.md)\>
+> **data**:
+> [`XOR`](XOR.md)\<[`TemplateVersionUpdateInput`](TemplateVersionUpdateInput.md),
+> [`TemplateVersionUncheckedUpdateInput`](TemplateVersionUncheckedUpdateInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14621
+Defined in: node_modules/.prisma/client/index.d.ts:14621
 
 The data needed to update a TemplateVersion.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`TemplateVersionInclude`](TemplateVersionInclude.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14617
+Defined in: node_modules/.prisma/client/index.d.ts:14617
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`TemplateVersionSelect`](TemplateVersionSelect.md)\<`ExtArgs`\> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14613
+Defined in: node_modules/.prisma/client/index.d.ts:14613
 
 Select specific fields to fetch from the TemplateVersion
 
-***
+---
 
 ### where
 
-> **where**: [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
+> **where**:
+> [`TemplateVersionWhereUniqueInput`](TemplateVersionWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:14625
+Defined in: node_modules/.prisma/client/index.d.ts:14625
 
 Choose, which TemplateVersion to update.

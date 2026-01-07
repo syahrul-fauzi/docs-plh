@@ -1,99 +1,130 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewUncheckedUpdateManyWithoutTenantNestedInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewUncheckedUpdateManyWithoutTenantNestedInput
 
 # Type Alias: ComplianceReviewUncheckedUpdateManyWithoutTenantNestedInput
 
 > **ComplianceReviewUncheckedUpdateManyWithoutTenantNestedInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22029
+Defined in: node_modules/.prisma/client/index.d.ts:22029
 
 ## Properties
 
 ### connect?
 
-> `optional` **connect**: [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \| [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
+> `optional` **connect**:
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \|
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22037
+Defined in: node_modules/.prisma/client/index.d.ts:22037
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`ComplianceReviewCreateOrConnectWithoutTenantInput`](ComplianceReviewCreateOrConnectWithoutTenantInput.md) \| [`ComplianceReviewCreateOrConnectWithoutTenantInput`](ComplianceReviewCreateOrConnectWithoutTenantInput.md)[]
+> `optional` **connectOrCreate**:
+> [`ComplianceReviewCreateOrConnectWithoutTenantInput`](ComplianceReviewCreateOrConnectWithoutTenantInput.md)
+> \|
+> [`ComplianceReviewCreateOrConnectWithoutTenantInput`](ComplianceReviewCreateOrConnectWithoutTenantInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22031
+Defined in: node_modules/.prisma/client/index.d.ts:22031
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`ComplianceReviewCreateWithoutTenantInput`](ComplianceReviewCreateWithoutTenantInput.md), [`ComplianceReviewUncheckedCreateWithoutTenantInput`](ComplianceReviewUncheckedCreateWithoutTenantInput.md)\> \| [`ComplianceReviewCreateWithoutTenantInput`](ComplianceReviewCreateWithoutTenantInput.md)[] \| [`ComplianceReviewUncheckedCreateWithoutTenantInput`](ComplianceReviewUncheckedCreateWithoutTenantInput.md)[]
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`ComplianceReviewCreateWithoutTenantInput`](ComplianceReviewCreateWithoutTenantInput.md),
+> [`ComplianceReviewUncheckedCreateWithoutTenantInput`](ComplianceReviewUncheckedCreateWithoutTenantInput.md)\>
+> \|
+> [`ComplianceReviewCreateWithoutTenantInput`](ComplianceReviewCreateWithoutTenantInput.md)[]
+> \|
+> [`ComplianceReviewUncheckedCreateWithoutTenantInput`](ComplianceReviewUncheckedCreateWithoutTenantInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22030
+Defined in: node_modules/.prisma/client/index.d.ts:22030
 
-***
+---
 
 ### createMany?
 
-> `optional` **createMany**: [`ComplianceReviewCreateManyTenantInputEnvelope`](ComplianceReviewCreateManyTenantInputEnvelope.md)
+> `optional` **createMany**:
+> [`ComplianceReviewCreateManyTenantInputEnvelope`](ComplianceReviewCreateManyTenantInputEnvelope.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22033
+Defined in: node_modules/.prisma/client/index.d.ts:22033
 
-***
+---
 
 ### delete?
 
-> `optional` **delete**: [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \| [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
+> `optional` **delete**:
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \|
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22036
+Defined in: node_modules/.prisma/client/index.d.ts:22036
 
-***
+---
 
 ### deleteMany?
 
-> `optional` **deleteMany**: [`ComplianceReviewScalarWhereInput`](ComplianceReviewScalarWhereInput.md) \| [`ComplianceReviewScalarWhereInput`](ComplianceReviewScalarWhereInput.md)[]
+> `optional` **deleteMany**:
+> [`ComplianceReviewScalarWhereInput`](ComplianceReviewScalarWhereInput.md) \|
+> [`ComplianceReviewScalarWhereInput`](ComplianceReviewScalarWhereInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22040
+Defined in: node_modules/.prisma/client/index.d.ts:22040
 
-***
+---
 
 ### disconnect?
 
-> `optional` **disconnect**: [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \| [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
+> `optional` **disconnect**:
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \|
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22035
+Defined in: node_modules/.prisma/client/index.d.ts:22035
 
-***
+---
 
 ### set?
 
-> `optional` **set**: [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \| [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
+> `optional` **set**:
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md) \|
+> [`ComplianceReviewWhereUniqueInput`](ComplianceReviewWhereUniqueInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22034
+Defined in: node_modules/.prisma/client/index.d.ts:22034
 
-***
+---
 
 ### update?
 
-> `optional` **update**: [`ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput.md) \| [`ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput.md)[]
+> `optional` **update**:
+> [`ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput.md)
+> \|
+> [`ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpdateWithWhereUniqueWithoutTenantInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22038
+Defined in: node_modules/.prisma/client/index.d.ts:22038
 
-***
+---
 
 ### updateMany?
 
-> `optional` **updateMany**: [`ComplianceReviewUpdateManyWithWhereWithoutTenantInput`](ComplianceReviewUpdateManyWithWhereWithoutTenantInput.md) \| [`ComplianceReviewUpdateManyWithWhereWithoutTenantInput`](ComplianceReviewUpdateManyWithWhereWithoutTenantInput.md)[]
+> `optional` **updateMany**:
+> [`ComplianceReviewUpdateManyWithWhereWithoutTenantInput`](ComplianceReviewUpdateManyWithWhereWithoutTenantInput.md)
+> \|
+> [`ComplianceReviewUpdateManyWithWhereWithoutTenantInput`](ComplianceReviewUpdateManyWithWhereWithoutTenantInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22039
+Defined in: node_modules/.prisma/client/index.d.ts:22039
 
-***
+---
 
 ### upsert?
 
-> `optional` **upsert**: [`ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput.md) \| [`ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput.md)[]
+> `optional` **upsert**:
+> [`ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput.md)
+> \|
+> [`ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput`](ComplianceReviewUpsertWithWhereUniqueWithoutTenantInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22032
+Defined in: node_modules/.prisma/client/index.d.ts:22032

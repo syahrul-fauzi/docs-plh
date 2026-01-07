@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantDeleteManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantDeleteManyArgs
 
 # Type Alias: TenantDeleteManyArgs\<ExtArgs\>
 
 > **TenantDeleteManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3341
+Defined in: node_modules/.prisma/client/index.d.ts:3341
 
 Tenant deleteMany
 
@@ -16,7 +18,7 @@ Tenant deleteMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
@@ -24,6 +26,6 @@ Tenant deleteMany
 
 > `optional` **where**: [`TenantWhereInput`](TenantWhereInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:3345
+Defined in: node_modules/.prisma/client/index.d.ts:3345
 
 Filter which Tenants to delete

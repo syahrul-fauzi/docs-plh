@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftMinOrderByAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftMinOrderByAggregateInput
 
 # Type Alias: DraftMinOrderByAggregateInput
 
 > **DraftMinOrderByAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21204
+Defined in: node_modules/.prisma/client/index.d.ts:21204
 
 ## Properties
 
@@ -16,68 +18,68 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21204
 
 > `optional` **caseId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21211
+Defined in: node_modules/.prisma/client/index.d.ts:21211
 
-***
+---
 
 ### content?
 
 > `optional` **content**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21207
+Defined in: node_modules/.prisma/client/index.d.ts:21207
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21212
+Defined in: node_modules/.prisma/client/index.d.ts:21212
 
-***
+---
 
 ### id?
 
 > `optional` **id**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21205
+Defined in: node_modules/.prisma/client/index.d.ts:21205
 
-***
+---
 
 ### status?
 
 > `optional` **status**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21208
+Defined in: node_modules/.prisma/client/index.d.ts:21208
 
-***
+---
 
 ### templateType?
 
 > `optional` **templateType**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21209
+Defined in: node_modules/.prisma/client/index.d.ts:21209
 
-***
+---
 
 ### tenantId?
 
 > `optional` **tenantId**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21210
+Defined in: node_modules/.prisma/client/index.d.ts:21210
 
-***
+---
 
 ### title?
 
 > `optional` **title**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21206
+Defined in: node_modules/.prisma/client/index.d.ts:21206
 
-***
+---
 
 ### updatedAt?
 
 > `optional` **updatedAt**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21213
+Defined in: node_modules/.prisma/client/index.d.ts:21213

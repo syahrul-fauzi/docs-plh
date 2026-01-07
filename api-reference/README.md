@@ -1,6 +1,6 @@
 # ⚖️ Lawyers Hub (PLH) API Reference
 
-***
+---
 
 Lawyers Hub adalah platform manajemen hukum cerdas yang mengintegrasikan AI
 Agents dengan logika hukum deterministik. Proyek ini menggunakan arsitektur
@@ -14,10 +14,10 @@ secara efisien.
 - **Deterministic Fallback**: Mengurangi halusinasi AI dengan memvalidasi
   jawaban terhadap aturan hukum yang kaku.
 - **Explainable AI (XAI)**: Setiap tindakan AI dapat dilacak dan diaudit.
-- **Multi-Agent Coordination**: Kolaborasi antara berbagai spesialis AI
-  (Logic, Structure, Synergy).
-- **Compliance by Design**: Kepatuhan otomatis terhadap regulasi (seperti
-  UU PDP No. 27/2022).
+- **Multi-Agent Coordination**: Kolaborasi antara berbagai spesialis AI (Logic,
+  Structure, Synergy).
+- **Compliance by Design**: Kepatuhan otomatis terhadap regulasi (seperti UU PDP
+  No. 27/2022).
 
 ## 🏗️ Struktur Proyek
 
@@ -67,13 +67,17 @@ Proyek ini menggunakan **Turborepo** dengan struktur sebagai berikut:
 
 1. Clone repositori ini.
 2. Instal dependensi:
+
    ```bash
    npm install
    ```
+
 3. Salin file environment:
+
    ```bash
    cp .env.example .env
    ```
+
 4. Isi nilai-nilai di `.env` dengan kredensial yang sesuai.
 
 ### Menjalankan Development
@@ -110,6 +114,6 @@ Contoh penambahan aturan baru dapat dilihat di
 - [Framework Dokumentasi Aturan](docs/Design%20Document:%20Rules%20Documentation%20Framework.md)
 - [Panduan Kolaborasi Agent](docs/COLLABORATION.md)
 
-***
+---
 
-*Dikembangkan oleh @WorldClassAgent untuk masa depan hukum digital.*
+_Dikembangkan oleh @WorldClassAgent untuk masa depan hukum digital._

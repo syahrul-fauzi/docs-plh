@@ -1,18 +1,20 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentDelegate
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentDelegate
 
 # Interface: CommentDelegate\<ExtArgs\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9048
+Defined in: node_modules/.prisma/client/index.d.ts:9048
 
 ## Type Parameters
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Indexable
 
@@ -24,7 +26,7 @@ Defined in: node\_modules/.prisma/client/index.d.ts:9048
 
 > `readonly` **fields**: [`CommentFieldRefs`](CommentFieldRefs.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9390
+Defined in: node_modules/.prisma/client/index.d.ts:9390
 
 Fields of the Comment model
 
@@ -32,25 +34,28 @@ Fields of the Comment model
 
 ### aggregate()
 
-> **aggregate**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetCommentAggregateType`](../type-aliases/GetCommentAggregateType.md)\<`T`\>\>
+> **aggregate**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`GetCommentAggregateType`](../type-aliases/GetCommentAggregateType.md)\<`T`\>\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9309
+Defined in: node_modules/.prisma/client/index.d.ts:9309
 
-Allows you to perform aggregations operations on a Comment.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Allows you to perform aggregations operations on a Comment. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentAggregateArgs`](../type-aliases/CommentAggregateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentAggregateArgs`](../type-aliases/CommentAggregateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`CommentAggregateArgs`](../type-aliases/CommentAggregateArgs.md)\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`CommentAggregateArgs`](../type-aliases/CommentAggregateArgs.md)\>
 
 Select which aggregations you would like to apply and on what fields.
 
@@ -70,45 +75,55 @@ const aggregations = await prisma.user.aggregate({
   },
   where: {
     email: {
-      contains: "prisma.io",
+      contains: 'prisma.io',
     },
   },
   orderBy: {
-    age: "asc",
+    age: 'asc',
   },
   take: 10,
-})
+});
 ```
 
-***
+---
 
 ### count()
 
-> **count**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof CommentCountAggregateOutputType ? CommentCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+> **count**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+> `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+> `number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+> CommentCountAggregateOutputType ? CommentCountAggregateOutputType\[P\<P\>\] :
+> never \} : `number`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9275
+Defined in: node_modules/.prisma/client/index.d.ts:9275
 
-Count the number of Comments.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Count the number of Comments. Note, that providing `undefined` is treated as the
+value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentCountArgs`](../type-aliases/CommentCountArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentCountArgs`](../type-aliases/CommentCountArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`Subset`](../type-aliases/Subset.md)\<`T`, [`CommentCountArgs`](../type-aliases/CommentCountArgs.md)\<`DefaultArgs`\>\>
+[`Subset`](../type-aliases/Subset.md)\<`T`,
+[`CommentCountArgs`](../type-aliases/CommentCountArgs.md)\<`DefaultArgs`\>\>
 
 Arguments to filter Comments to count.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` *extends* `Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] *extends* `true` ? `number` : \{ \[P in string \| number \| symbol\]: P extends keyof CommentCountAggregateOutputType ? CommentCountAggregateOutputType\[P\<P\>\] : never \} : `number`\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`T` _extends_
+`Record_2`\<`"select"`, `any`\> ? `T`\<`T`\>\[`"select"`\] _extends_ `true` ?
+`number` : \{ \[P in string \| number \| symbol\]: P extends keyof
+CommentCountAggregateOutputType ? CommentCountAggregateOutputType\[P\<P\>\] :
+never \} : `number`\>
 
 #### Example
 
@@ -117,17 +132,19 @@ Arguments to filter Comments to count.
 const count = await prisma.comment.count({
   where: {
     // ... the filter for the Comments we want to count
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### create()
 
-> **create**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **create**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9138
+Defined in: node_modules/.prisma/client/index.d.ts:9138
 
 Create a Comment.
 
@@ -135,19 +152,22 @@ Create a Comment.
 
 ##### T
 
-`T` *extends* [`CommentCreateArgs`](../type-aliases/CommentCreateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentCreateArgs`](../type-aliases/CommentCreateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentCreateArgs`](../type-aliases/CommentCreateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentCreateArgs`](../type-aliases/CommentCreateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create a Comment.
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -156,17 +176,18 @@ Arguments to create a Comment.
 const Comment = await prisma.comment.create({
   data: {
     // ... data to create a Comment
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### createMany()
 
-> **createMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **createMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9152
+Defined in: node_modules/.prisma/client/index.d.ts:9152
 
 Create many Comments.
 
@@ -174,13 +195,15 @@ Create many Comments.
 
 ##### T
 
-`T` *extends* [`CommentCreateManyArgs`](../type-aliases/CommentCreateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentCreateManyArgs`](../type-aliases/CommentCreateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentCreateManyArgs`](../type-aliases/CommentCreateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentCreateManyArgs`](../type-aliases/CommentCreateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many Comments.
 
@@ -195,17 +218,19 @@ Arguments to create many Comments.
 const comment = await prisma.comment.createMany({
   data: [
     // ... provide data here
-  ]
-})
+  ],
+});
 ```
 
-***
+---
 
 ### createManyAndReturn()
 
-> **createManyAndReturn**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **createManyAndReturn**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9176
+Defined in: node_modules/.prisma/client/index.d.ts:9176
 
 Create many Comments and returns the data saved in the database.
 
@@ -213,19 +238,22 @@ Create many Comments and returns the data saved in the database.
 
 ##### T
 
-`T` *extends* [`CommentCreateManyAndReturnArgs`](../type-aliases/CommentCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentCreateManyAndReturnArgs`](../type-aliases/CommentCreateManyAndReturnArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentCreateManyAndReturnArgs`](../type-aliases/CommentCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentCreateManyAndReturnArgs`](../type-aliases/CommentCreateManyAndReturnArgs.md)\<`ExtArgs`\>\>
 
 Arguments to create many Comments.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
@@ -238,7 +266,7 @@ const comment = await prisma.comment.createManyAndReturn({
 })
 
 // Create many Comments and only return the `id`
-const commentWithIdOnly = await prisma.comment.createManyAndReturn({ 
+const commentWithIdOnly = await prisma.comment.createManyAndReturn({
   select: { id: true },
   data: [
     // ... provide data here
@@ -248,13 +276,15 @@ Note, that providing `undefined` is treated as the value not being there.
 Read more here: https://pris.ly/d/null-undefined
 ```
 
-***
+---
 
 ### delete()
 
-> **delete**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **delete**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9190
+Defined in: node_modules/.prisma/client/index.d.ts:9190
 
 Delete a Comment.
 
@@ -262,19 +292,22 @@ Delete a Comment.
 
 ##### T
 
-`T` *extends* [`CommentDeleteArgs`](../type-aliases/CommentDeleteArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentDeleteArgs`](../type-aliases/CommentDeleteArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentDeleteArgs`](../type-aliases/CommentDeleteArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentDeleteArgs`](../type-aliases/CommentDeleteArgs.md)\<`ExtArgs`\>\>
 
 Arguments to delete one Comment.
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -283,17 +316,18 @@ Arguments to delete one Comment.
 const Comment = await prisma.comment.delete({
   where: {
     // ... filter to delete one Comment
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### deleteMany()
 
-> **deleteMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **deleteMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9221
+Defined in: node_modules/.prisma/client/index.d.ts:9221
 
 Delete zero or more Comments.
 
@@ -301,13 +335,15 @@ Delete zero or more Comments.
 
 ##### T
 
-`T` *extends* [`CommentDeleteManyArgs`](../type-aliases/CommentDeleteManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentDeleteManyArgs`](../type-aliases/CommentDeleteManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentDeleteManyArgs`](../type-aliases/CommentDeleteManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentDeleteManyArgs`](../type-aliases/CommentDeleteManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter Comments to delete.
 
@@ -322,39 +358,44 @@ Arguments to filter Comments to delete.
 const { count } = await prisma.comment.deleteMany({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirst()
 
-> **findFirst**\<`T`\>(`args?`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findFirst**\<`T`\>(`args?`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9090
+Defined in: node_modules/.prisma/client/index.d.ts:9090
 
-Find the first Comment that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first Comment that matches the filter. Note, that providing `undefined`
+is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentFindFirstArgs`](../type-aliases/CommentFindFirstArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentFindFirstArgs`](../type-aliases/CommentFindFirstArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentFindFirstArgs`](../type-aliases/CommentFindFirstArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentFindFirstArgs`](../type-aliases/CommentFindFirstArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Comment
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -363,40 +404,45 @@ Arguments to find a Comment
 const comment = await prisma.comment.findFirst({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findFirstOrThrow()
 
-> **findFirstOrThrow**\<`T`\>(`args?`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findFirstOrThrow**\<`T`\>(`args?`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9106
+Defined in: node_modules/.prisma/client/index.d.ts:9106
 
-Find the first Comment that matches the filter or
-throw `PrismaKnownClientError` with `P2025` code if no matches were found.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find the first Comment that matches the filter or throw `PrismaKnownClientError`
+with `P2025` code if no matches were found. Note, that providing `undefined` is
+treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentFindFirstOrThrowArgs`](../type-aliases/CommentFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentFindFirstOrThrowArgs`](../type-aliases/CommentFindFirstOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentFindFirstOrThrowArgs`](../type-aliases/CommentFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentFindFirstOrThrowArgs`](../type-aliases/CommentFindFirstOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Comment
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -405,60 +451,69 @@ Arguments to find a Comment
 const comment = await prisma.comment.findFirstOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findMany()
 
-> **findMany**\<`T`\>(`args?`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+> **findMany**\<`T`\>(`args?`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>[]\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9124
+Defined in: node_modules/.prisma/client/index.d.ts:9124
 
-Find zero or more Comments that matches the filter.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Find zero or more Comments that matches the filter. Note, that providing
+`undefined` is treated as the value not being there. Read more here:
+<https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentFindManyArgs`](../type-aliases/CommentFindManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentFindManyArgs`](../type-aliases/CommentFindManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args?
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentFindManyArgs`](../type-aliases/CommentFindManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentFindManyArgs`](../type-aliases/CommentFindManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to filter and select certain fields only.
 
 #### Returns
 
-[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>[]\>
+[`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>[]\>
 
 #### Example
 
 ```ts
 // Get all Comments
-const comments = await prisma.comment.findMany()
+const comments = await prisma.comment.findMany();
 
 // Get first 10 Comments
-const comments = await prisma.comment.findMany({ take: 10 })
+const comments = await prisma.comment.findMany({ take: 10 });
 
 // Only select the `id`
-const commentWithIdOnly = await prisma.comment.findMany({ select: { id: true } })
+const commentWithIdOnly = await prisma.comment.findMany({
+  select: { id: true },
+});
 ```
 
-***
+---
 
 ### findUnique()
 
-> **findUnique**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+> **findUnique**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9061
+Defined in: node_modules/.prisma/client/index.d.ts:9061
 
 Find zero or one Comment that matches the filter.
 
@@ -466,19 +521,22 @@ Find zero or one Comment that matches the filter.
 
 ##### T
 
-`T` *extends* [`CommentFindUniqueArgs`](../type-aliases/CommentFindUniqueArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentFindUniqueArgs`](../type-aliases/CommentFindUniqueArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentFindUniqueArgs`](../type-aliases/CommentFindUniqueArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentFindUniqueArgs`](../type-aliases/CommentFindUniqueArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Comment
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\> \| `null`, `null`, `ExtArgs`\>
 
 #### Example
 
@@ -487,38 +545,43 @@ Arguments to find a Comment
 const comment = await prisma.comment.findUnique({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### findUniqueOrThrow()
 
-> **findUniqueOrThrow**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **findUniqueOrThrow**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9075
+Defined in: node_modules/.prisma/client/index.d.ts:9075
 
-Find one Comment that matches the filter or throw an error with `error.code='P2025'` 
-if no matches were found.
+Find one Comment that matches the filter or throw an error with
+`error.code='P2025'` if no matches were found.
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentFindUniqueOrThrowArgs`](../type-aliases/CommentFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentFindUniqueOrThrowArgs`](../type-aliases/CommentFindUniqueOrThrowArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentFindUniqueOrThrowArgs`](../type-aliases/CommentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentFindUniqueOrThrowArgs`](../type-aliases/CommentFindUniqueOrThrowArgs.md)\<`ExtArgs`\>\>
 
 Arguments to find a Comment
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -527,51 +590,65 @@ Arguments to find a Comment
 const comment = await prisma.comment.findUniqueOrThrow({
   where: {
     // ... provide filter here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### groupBy()
 
-> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`, `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`): `object` *extends* `InputErrors` ? [`GetCommentGroupByPayload`](../type-aliases/GetCommentGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+> **groupBy**\<`T`, `HasSelectOrTake`, `OrderByArg`, `OrderFields`, `ByFields`,
+> `ByValid`, `HavingFields`, `HavingValid`, `ByEmpty`, `InputErrors`\>(`args`):
+> `object` _extends_ `InputErrors` ?
+> [`GetCommentGroupByPayload`](../type-aliases/GetCommentGroupByPayload.md)\<`T`\>
+> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9329
+Defined in: node_modules/.prisma/client/index.d.ts:9329
 
-Group by Comment.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Group by Comment. Note, that providing `undefined` is treated as the value not
+being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentGroupByArgs`](../type-aliases/CommentGroupByArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentGroupByArgs`](../type-aliases/CommentGroupByArgs.md)\<`DefaultArgs`\>
 
 ##### HasSelectOrTake
 
-`HasSelectOrTake` *extends* `0` \| `1`
+`HasSelectOrTake` _extends_ `0` \| `1`
 
 ##### OrderByArg
 
-`OrderByArg` *extends* \{ `orderBy`: [`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md) \| [`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)[] \| `undefined`; \} \| \{ `orderBy?`: [`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md) \| [`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)[]; \}
+`OrderByArg` _extends_ \{ `orderBy`:
+[`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)
+\|
+[`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)[]
+\| `undefined`; \} \| \{ `orderBy?`:
+[`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)
+\|
+[`CommentOrderByWithAggregationInput`](../type-aliases/CommentOrderByWithAggregationInput.md)[];
+\}
 
 ##### OrderFields
 
-`OrderFields` *extends* `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"tenantId"` \| `"content"` \| `"caseId"` \| `"userId"` \| `"draftId"`
+`OrderFields` _extends_ `"id"` \| `"createdAt"` \| `"updatedAt"` \| `"tenantId"`
+\| `"content"` \| `"caseId"` \| `"userId"` \| `"draftId"`
 
 ##### ByFields
 
-`ByFields` *extends* [`CommentScalarFieldEnum`](../type-aliases/CommentScalarFieldEnum.md)
+`ByFields` _extends_
+[`CommentScalarFieldEnum`](../type-aliases/CommentScalarFieldEnum.md)
 
 ##### ByValid
 
-`ByValid` *extends* `0` \| `1`
+`ByValid` _extends_ `0` \| `1`
 
 ##### HavingFields
 
-`HavingFields` *extends* `string` \| `number` \| `symbol`
+`HavingFields` _extends_ `string` \| `number` \| `symbol`
 
 ##### HavingValid
 
@@ -579,7 +656,7 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### ByEmpty
 
-`ByEmpty` *extends* `0` \| `1`
+`ByEmpty` _extends_ `0` \| `1`
 
 ##### InputErrors
 
@@ -589,13 +666,17 @@ Read more here: https://pris.ly/d/null-undefined
 
 ##### args
 
-\{ \[key in string \| number \| symbol\]: key extends keyof CommentGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} & `OrderByArg` & `InputErrors`
+\{ \[key in string \| number \| symbol\]: key extends keyof
+CommentGroupByArgs\<DefaultArgs\> ? T\[key\<key\>\] : never \} & `OrderByArg` &
+`InputErrors`
 
 Group by arguments.
 
 #### Returns
 
-`object` *extends* `InputErrors` ? [`GetCommentGroupByPayload`](../type-aliases/GetCommentGroupByPayload.md)\<`T`\> : [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
+`object` _extends_ `InputErrors` ?
+[`GetCommentGroupByPayload`](../type-aliases/GetCommentGroupByPayload.md)\<`T`\>
+: [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<`InputErrors`\>
 
 #### Example
 
@@ -604,21 +685,23 @@ Group by arguments.
 const result = await prisma.user.groupBy({
   by: ['city', 'createdAt'],
   orderBy: {
-    createdAt: true
+    createdAt: true,
   },
   _count: {
-    _all: true
+    _all: true,
   },
-})
+});
 ```
 
-***
+---
 
 ### update()
 
-> **update**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **update**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9207
+Defined in: node_modules/.prisma/client/index.d.ts:9207
 
 Update one Comment.
 
@@ -626,19 +709,22 @@ Update one Comment.
 
 ##### T
 
-`T` *extends* [`CommentUpdateArgs`](../type-aliases/CommentUpdateArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentUpdateArgs`](../type-aliases/CommentUpdateArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentUpdateArgs`](../type-aliases/CommentUpdateArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentUpdateArgs`](../type-aliases/CommentUpdateArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one Comment.
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -650,33 +736,35 @@ const comment = await prisma.comment.update({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### updateMany()
 
-> **updateMany**\<`T`\>(`args`): [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
+> **updateMany**\<`T`\>(`args`):
+> [`PrismaPromise`](../type-aliases/PrismaPromise.md)\<[`BatchPayload`](../type-aliases/BatchPayload.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9240
+Defined in: node_modules/.prisma/client/index.d.ts:9240
 
-Update zero or more Comments.
-Note, that providing `undefined` is treated as the value not being there.
-Read more here: https://pris.ly/d/null-undefined
+Update zero or more Comments. Note, that providing `undefined` is treated as the
+value not being there. Read more here: <https://pris.ly/d/null-undefined>
 
 #### Type Parameters
 
 ##### T
 
-`T` *extends* [`CommentUpdateManyArgs`](../type-aliases/CommentUpdateManyArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentUpdateManyArgs`](../type-aliases/CommentUpdateManyArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentUpdateManyArgs`](../type-aliases/CommentUpdateManyArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentUpdateManyArgs`](../type-aliases/CommentUpdateManyArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update one or more rows.
 
@@ -694,17 +782,19 @@ const comment = await prisma.comment.updateMany({
   },
   data: {
     // ... provide data here
-  }
-})
+  },
+});
 ```
 
-***
+---
 
 ### upsert()
 
-> **upsert**\<`T`\>(`args`): [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+> **upsert**\<`T`\>(`args`):
+> [`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+> `T`, \{ \}\>, `never`, `ExtArgs`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9259
+Defined in: node_modules/.prisma/client/index.d.ts:9259
 
 Create or update one Comment.
 
@@ -712,19 +802,22 @@ Create or update one Comment.
 
 ##### T
 
-`T` *extends* [`CommentUpsertArgs`](../type-aliases/CommentUpsertArgs.md)\<`DefaultArgs`\>
+`T` _extends_
+[`CommentUpsertArgs`](../type-aliases/CommentUpsertArgs.md)\<`DefaultArgs`\>
 
 #### Parameters
 
 ##### args
 
-[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`, [`CommentUpsertArgs`](../type-aliases/CommentUpsertArgs.md)\<`ExtArgs`\>\>
+[`SelectSubset`](../type-aliases/SelectSubset.md)\<`T`,
+[`CommentUpsertArgs`](../type-aliases/CommentUpsertArgs.md)\<`ExtArgs`\>\>
 
 Arguments to update or create a Comment.
 
 #### Returns
 
-[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>, `T`, \{ \}\>, `never`, `ExtArgs`\>
+[`Prisma__CommentClient`](Prisma__CommentClient.md)\<`GetFindResult`\<[`$CommentPayload`](../type-aliases/$CommentPayload.md)\<`ExtArgs`\>,
+`T`, \{ \}\>, `never`, `ExtArgs`\>
 
 #### Example
 
@@ -739,6 +832,6 @@ const comment = await prisma.comment.upsert({
   },
   where: {
     // ... the filter for the Comment we want to update
-  }
-})
+  },
+});
 ```

@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DraftCreateNestedOneWithoutCommentsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DraftCreateNestedOneWithoutCommentsInput
 
 # Type Alias: DraftCreateNestedOneWithoutCommentsInput
 
 > **DraftCreateNestedOneWithoutCommentsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22695
+Defined in: node_modules/.prisma/client/index.d.ts:22695
 
 ## Properties
 
@@ -16,20 +18,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22695
 
 > `optional` **connect**: [`DraftWhereUniqueInput`](DraftWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22698
+Defined in: node_modules/.prisma/client/index.d.ts:22698
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`DraftCreateOrConnectWithoutCommentsInput`](DraftCreateOrConnectWithoutCommentsInput.md)
+> `optional` **connectOrCreate**:
+> [`DraftCreateOrConnectWithoutCommentsInput`](DraftCreateOrConnectWithoutCommentsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22697
+Defined in: node_modules/.prisma/client/index.d.ts:22697
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`DraftCreateWithoutCommentsInput`](DraftCreateWithoutCommentsInput.md), [`DraftUncheckedCreateWithoutCommentsInput`](DraftUncheckedCreateWithoutCommentsInput.md)\>
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`DraftCreateWithoutCommentsInput`](DraftCreateWithoutCommentsInput.md),
+> [`DraftUncheckedCreateWithoutCommentsInput`](DraftUncheckedCreateWithoutCommentsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22696
+Defined in: node_modules/.prisma/client/index.d.ts:22696

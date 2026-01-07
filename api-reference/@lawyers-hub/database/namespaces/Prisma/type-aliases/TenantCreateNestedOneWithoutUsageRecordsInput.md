@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TenantCreateNestedOneWithoutUsageRecordsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TenantCreateNestedOneWithoutUsageRecordsInput
 
 # Type Alias: TenantCreateNestedOneWithoutUsageRecordsInput
 
 > **TenantCreateNestedOneWithoutUsageRecordsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22777
+Defined in: node_modules/.prisma/client/index.d.ts:22777
 
 ## Properties
 
@@ -16,20 +18,23 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22777
 
 > `optional` **connect**: [`TenantWhereUniqueInput`](TenantWhereUniqueInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22780
+Defined in: node_modules/.prisma/client/index.d.ts:22780
 
-***
+---
 
 ### connectOrCreate?
 
-> `optional` **connectOrCreate**: [`TenantCreateOrConnectWithoutUsageRecordsInput`](TenantCreateOrConnectWithoutUsageRecordsInput.md)
+> `optional` **connectOrCreate**:
+> [`TenantCreateOrConnectWithoutUsageRecordsInput`](TenantCreateOrConnectWithoutUsageRecordsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22779
+Defined in: node_modules/.prisma/client/index.d.ts:22779
 
-***
+---
 
 ### create?
 
-> `optional` **create**: [`XOR`](XOR.md)\<[`TenantCreateWithoutUsageRecordsInput`](TenantCreateWithoutUsageRecordsInput.md), [`TenantUncheckedCreateWithoutUsageRecordsInput`](TenantUncheckedCreateWithoutUsageRecordsInput.md)\>
+> `optional` **create**:
+> [`XOR`](XOR.md)\<[`TenantCreateWithoutUsageRecordsInput`](TenantCreateWithoutUsageRecordsInput.md),
+> [`TenantUncheckedCreateWithoutUsageRecordsInput`](TenantUncheckedCreateWithoutUsageRecordsInput.md)\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22778
+Defined in: node_modules/.prisma/client/index.d.ts:22778

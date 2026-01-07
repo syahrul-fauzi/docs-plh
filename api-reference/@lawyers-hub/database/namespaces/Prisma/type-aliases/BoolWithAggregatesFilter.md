@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / BoolWithAggregatesFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+BoolWithAggregatesFilter
 
 # Type Alias: BoolWithAggregatesFilter\<$PrismaModel\>
 
 > **BoolWithAggregatesFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20885
+Defined in: node_modules/.prisma/client/index.d.ts:20885
 
 ## Type Parameters
 
@@ -20,38 +22,44 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20885
 
 ### \_count?
 
-> `optional` **\_count**: [`NestedIntFilter`](NestedIntFilter.md)\<`$PrismaModel`\>
+> `optional` **\_count**:
+> [`NestedIntFilter`](NestedIntFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20888
+Defined in: node_modules/.prisma/client/index.d.ts:20888
 
-***
+---
 
 ### \_max?
 
-> `optional` **\_max**: [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\>
+> `optional` **\_max**:
+> [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20890
+Defined in: node_modules/.prisma/client/index.d.ts:20890
 
-***
+---
 
 ### \_min?
 
-> `optional` **\_min**: [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\>
+> `optional` **\_min**:
+> [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20889
+Defined in: node_modules/.prisma/client/index.d.ts:20889
 
-***
+---
 
 ### equals?
 
-> `optional` **equals**: `boolean` \| [`BooleanFieldRefInput`](BooleanFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **equals**: `boolean` \|
+> [`BooleanFieldRefInput`](BooleanFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20886
+Defined in: node_modules/.prisma/client/index.d.ts:20886
 
-***
+---
 
 ### not?
 
-> `optional` **not**: [`NestedBoolWithAggregatesFilter`](NestedBoolWithAggregatesFilter.md)\<`$PrismaModel`\> \| `boolean`
+> `optional` **not**:
+> [`NestedBoolWithAggregatesFilter`](NestedBoolWithAggregatesFilter.md)\<`$PrismaModel`\>
+> \| `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20887
+Defined in: node_modules/.prisma/client/index.d.ts:20887

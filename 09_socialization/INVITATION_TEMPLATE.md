@@ -1,7 +1,7 @@
 # Template Undangan Workshop: Arsitektur Dokumentasi Enterprise
 
-Gunakan template ini untuk mengirimkan undangan melalui email atau kalender kepada
-seluruh anggota tim (Engineering, Legal, Product).
+Gunakan template ini untuk mengirimkan undangan melalui email atau kalender
+kepada seluruh anggota tim (Engineering, Legal, Product).
 
 ---
 
@@ -17,8 +17,8 @@ Seiring dengan pertumbuhan Lawyers Hub menuju skala enterprise, kita mengadopsi
 standar dokumentasi baru yang dirancang untuk kecepatan, keamanan data, dan
 kepatuhan hukum.
 
-Workshop ini akan memberikan pemahaman mendalam tentang struktur dokumentasi baru
-dan bagaimana tim Anda dapat berkontribusi secara efisien.
+Workshop ini akan memberikan pemahaman mendalam tentang struktur dokumentasi
+baru dan bagaimana tim Anda dapat berkontribusi secara efisien.
 
 ### 📅 Detail Acara
 
@@ -30,8 +30,8 @@ dan bagaimana tim Anda dapat berkontribusi secara efisien.
 ### 📚 Persiapan Pra-Workshop
 
 Mohon luangkan waktu minimal 15 menit untuk meninjau paket materi berikut
-sebelum hari-H:
-👉 [Paket Materi Pra-Workshop](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
+sebelum hari-H: 👉
+[Paket Materi Pra-Workshop](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
 
 ### 🎯 Apa yang akan kita capai?
 
@@ -43,8 +43,7 @@ Kehadiran rekan-rekan sangat penting untuk kelancaran transisi sistem kita.
 
 Sampai jumpa di workshop!
 
-Salam,
-**[Nama Fasilitator]**
+Salam, **[Nama Fasilitator]**
 
 ---
 
@@ -55,9 +54,9 @@ Salam,
 > Halo @channel! Kita akan mengadakan workshop penting untuk membahas
 > **Arsitektur Dokumentasi Enterprise** yang baru.
 >
-> 🗓️ **Kapan?** [Tentukan Tanggal/Waktu]
-> 🔗 **Link**: [Tentukan Link]
-> 📄 **Materi**: [Lihat di sini](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
+> 🗓️ **Kapan?** [Tentukan Tanggal/Waktu] 🔗 **Link**: [Tentukan Link] 📄
+> **Materi**:
+> [Lihat di sini](file:///home/inbox/smart-ai/lawyers-hub/docs/09_socialization/PRE_WORKSHOP_PACKAGE.md)
 >
-> Mohon konfirmasi kehadiran Anda melalui kalender yang telah dikirimkan.
-> Terima kasih!
+> Mohon konfirmasi kehadiran Anda melalui kalender yang telah dikirimkan. Terima
+> kasih!

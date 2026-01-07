@@ -1,25 +1,26 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / At
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / At
 
 # Type Alias: At\<O, K, strict\>
 
 > **At**\<`O`, `K`, `strict`\> = `object`\[`strict`\]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:667
+Defined in: node_modules/.prisma/client/index.d.ts:667
 
 ## Type Parameters
 
 ### O
 
-`O` *extends* `object`
+`O` _extends_ `object`
 
 ### K
 
-`K` *extends* [`Key`](Key.md)
+`K` _extends_ [`Key`](Key.md)
 
 ### strict
 
-`strict` *extends* [`Boolean`](Boolean.md) = `1`
+`strict` _extends_ [`Boolean`](Boolean.md) = `1`

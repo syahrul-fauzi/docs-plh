@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / PIIAuditLogCreateWithoutUserInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+PIIAuditLogCreateWithoutUserInput
 
 # Type Alias: PIIAuditLogCreateWithoutUserInput
 
 > **PIIAuditLogCreateWithoutUserInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24146
+Defined in: node_modules/.prisma/client/index.d.ts:24146
 
 ## Properties
 
@@ -16,76 +18,80 @@ Defined in: node\_modules/.prisma/client/index.d.ts:24146
 
 > **actionType**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24149
+Defined in: node_modules/.prisma/client/index.d.ts:24149
 
-***
+---
 
 ### document?
 
-> `optional` **document**: [`DocumentCreateNestedOneWithoutPiiAuditLogsInput`](DocumentCreateNestedOneWithoutPiiAuditLogsInput.md)
+> `optional` **document**:
+> [`DocumentCreateNestedOneWithoutPiiAuditLogsInput`](DocumentCreateNestedOneWithoutPiiAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24155
+Defined in: node_modules/.prisma/client/index.d.ts:24155
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24147
+Defined in: node_modules/.prisma/client/index.d.ts:24147
 
-***
+---
 
 ### isMasked?
 
 > `optional` **isMasked**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24151
+Defined in: node_modules/.prisma/client/index.d.ts:24151
 
-***
+---
 
 ### justification?
 
 > `optional` **justification**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24153
+Defined in: node_modules/.prisma/client/index.d.ts:24153
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24154
+Defined in: node_modules/.prisma/client/index.d.ts:24154
 
-***
+---
 
 ### piiType?
 
 > `optional` **piiType**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24150
+Defined in: node_modules/.prisma/client/index.d.ts:24150
 
-***
+---
 
 ### riskScore?
 
 > `optional` **riskScore**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24152
+Defined in: node_modules/.prisma/client/index.d.ts:24152
 
-***
+---
 
 ### tenant
 
-> **tenant**: [`TenantCreateNestedOneWithoutPiiAuditLogsInput`](TenantCreateNestedOneWithoutPiiAuditLogsInput.md)
+> **tenant**:
+> [`TenantCreateNestedOneWithoutPiiAuditLogsInput`](TenantCreateNestedOneWithoutPiiAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24156
+Defined in: node_modules/.prisma/client/index.d.ts:24156
 
-***
+---
 
 ### timestamp?
 
 > `optional` **timestamp**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:24148
+Defined in: node_modules/.prisma/client/index.d.ts:24148

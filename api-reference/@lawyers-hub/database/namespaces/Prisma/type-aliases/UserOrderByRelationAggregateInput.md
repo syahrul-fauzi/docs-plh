@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / UserOrderByRelationAggregateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+UserOrderByRelationAggregateInput
 
 # Type Alias: UserOrderByRelationAggregateInput
 
 > **UserOrderByRelationAggregateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20836
+Defined in: node_modules/.prisma/client/index.d.ts:20836
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20836
 
 > `optional` **\_count**: [`SortOrder`](SortOrder.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20837
+Defined in: node_modules/.prisma/client/index.d.ts:20837

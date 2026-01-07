@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CommentCreateManyAndReturnArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CommentCreateManyAndReturnArgs
 
 # Type Alias: CommentCreateManyAndReturnArgs\<ExtArgs\>
 
 > **CommentCreateManyAndReturnArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9653
+Defined in: node_modules/.prisma/client/index.d.ts:9653
 
 Comment createManyAndReturn
 
@@ -16,42 +18,47 @@ Comment createManyAndReturn
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`CommentCreateManyInput`](CommentCreateManyInput.md) \| [`CommentCreateManyInput`](CommentCreateManyInput.md)[]
+> **data**: [`CommentCreateManyInput`](CommentCreateManyInput.md) \|
+> [`CommentCreateManyInput`](CommentCreateManyInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9661
+Defined in: node_modules/.prisma/client/index.d.ts:9661
 
 The data used to create many Comments.
 
-***
+---
 
 ### include?
 
-> `optional` **include**: [`CommentIncludeCreateManyAndReturn`](CommentIncludeCreateManyAndReturn.md)\<`ExtArgs`\> \| `null`
+> `optional` **include**:
+> [`CommentIncludeCreateManyAndReturn`](CommentIncludeCreateManyAndReturn.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9666
+Defined in: node_modules/.prisma/client/index.d.ts:9666
 
 Choose, which related nodes to fetch as well
 
-***
+---
 
 ### select?
 
-> `optional` **select**: [`CommentSelectCreateManyAndReturn`](CommentSelectCreateManyAndReturn.md)\<`ExtArgs`\> \| `null`
+> `optional` **select**:
+> [`CommentSelectCreateManyAndReturn`](CommentSelectCreateManyAndReturn.md)\<`ExtArgs`\>
+> \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9657
+Defined in: node_modules/.prisma/client/index.d.ts:9657
 
 Select specific fields to fetch from the Comment
 
-***
+---
 
 ### skipDuplicates?
 
 > `optional` **skipDuplicates**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:9662
+Defined in: node_modules/.prisma/client/index.d.ts:9662

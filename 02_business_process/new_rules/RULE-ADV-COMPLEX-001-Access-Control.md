@@ -1,13 +1,13 @@
 # 📋 Rule PRD: ADV-COMPLEX-001 - Access Control for High-Complexity Advisory
 
-| Field | Value |
-| :--- | :--- |
-| **Rule ID** | ADV-COMPLEX-001 |
-| **Domain** | Advisory / Litigation |
-| **Data Sensitivity** | RESTRICTED |
+| Field                | Value                        |
+| :------------------- | :--------------------------- |
+| **Rule ID**          | ADV-COMPLEX-001              |
+| **Domain**           | Advisory / Litigation        |
+| **Data Sensitivity** | RESTRICTED                   |
 | **Retention Period** | Permanent (for Case History) |
-| **Status** | Under Review (Trial Version) |
-| **Last Updated** | 2026-01-06 |
+| **Status**           | Under Review (Trial Version) |
+| **Last Updated**     | 2026-01-06                   |
 
 ---
 
@@ -20,8 +20,8 @@
 
 ## 2. Klasifikasi Data & Privasi
 
-- **Sensitivitas**: Dokumen ini berisi strategi hukum yang sangat rahasia.
-  Akses yang tidak sah dapat membahayakan posisi klien dalam litigasi.
+- **Sensitivitas**: Dokumen ini berisi strategi hukum yang sangat rahasia. Akses
+  yang tidak sah dapat membahayakan posisi klien dalam litigasi.
 - **Masa Retensi**: Data dipertahankan selamanya sebagai bagian dari
   yurisprudensi internal firma.
 
@@ -40,14 +40,14 @@ eksplisit.
 
 ```yaml
 condition:
-  case_complexity: "HIGH"
+  case_complexity: 'HIGH'
   user_role:
-    in: ["PARTNER", "SENIOR_ASSOCIATE"]
+    in: ['PARTNER', 'SENIOR_ASSOCIATE']
   is_assigned:
-    if_role: "SENIOR_ASSOCIATE"
+    if_role: 'SENIOR_ASSOCIATE'
     required: true
   override_access:
-    role: "PARTNER"
+    role: 'PARTNER'
     allow: true
 ```
 

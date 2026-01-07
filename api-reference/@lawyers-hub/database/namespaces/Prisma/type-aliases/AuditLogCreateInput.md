@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / AuditLogCreateInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+AuditLogCreateInput
 
 # Type Alias: AuditLogCreateInput
 
 > **AuditLogCreateInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20016
+Defined in: node_modules/.prisma/client/index.d.ts:20016
 
 ## Properties
 
@@ -16,60 +18,64 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20016
 
 > **action**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20018
+Defined in: node_modules/.prisma/client/index.d.ts:20018
 
-***
+---
 
 ### createdAt?
 
 > `optional` **createdAt**: `Date` \| `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20022
+Defined in: node_modules/.prisma/client/index.d.ts:20022
 
-***
+---
 
 ### entityId?
 
 > `optional` **entityId**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20019
+Defined in: node_modules/.prisma/client/index.d.ts:20019
 
-***
+---
 
 ### entityType?
 
 > `optional` **entityType**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20020
+Defined in: node_modules/.prisma/client/index.d.ts:20020
 
-***
+---
 
 ### id?
 
 > `optional` **id**: `string`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20017
+Defined in: node_modules/.prisma/client/index.d.ts:20017
 
-***
+---
 
 ### metadata?
 
-> `optional` **metadata**: [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \| [`InputJsonValue`](InputJsonValue.md)
+> `optional` **metadata**:
+> [`NullableJsonNullValueInput`](NullableJsonNullValueInput.md) \|
+> [`InputJsonValue`](InputJsonValue.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20021
+Defined in: node_modules/.prisma/client/index.d.ts:20021
 
-***
+---
 
 ### tenant
 
-> **tenant**: [`TenantCreateNestedOneWithoutAuditLogsInput`](TenantCreateNestedOneWithoutAuditLogsInput.md)
+> **tenant**:
+> [`TenantCreateNestedOneWithoutAuditLogsInput`](TenantCreateNestedOneWithoutAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20023
+Defined in: node_modules/.prisma/client/index.d.ts:20023
 
-***
+---
 
 ### user
 
-> **user**: [`UserCreateNestedOneWithoutAuditLogsInput`](UserCreateNestedOneWithoutAuditLogsInput.md)
+> **user**:
+> [`UserCreateNestedOneWithoutAuditLogsInput`](UserCreateNestedOneWithoutAuditLogsInput.md)
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20024
+Defined in: node_modules/.prisma/client/index.d.ts:20024

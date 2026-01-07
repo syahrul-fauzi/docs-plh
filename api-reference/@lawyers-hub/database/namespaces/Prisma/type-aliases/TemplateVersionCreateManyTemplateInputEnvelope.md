@@ -1,27 +1,32 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / TemplateVersionCreateManyTemplateInputEnvelope
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+TemplateVersionCreateManyTemplateInputEnvelope
 
 # Type Alias: TemplateVersionCreateManyTemplateInputEnvelope
 
 > **TemplateVersionCreateManyTemplateInputEnvelope** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25787
+Defined in: node_modules/.prisma/client/index.d.ts:25787
 
 ## Properties
 
 ### data
 
-> **data**: [`TemplateVersionCreateManyTemplateInput`](TemplateVersionCreateManyTemplateInput.md) \| [`TemplateVersionCreateManyTemplateInput`](TemplateVersionCreateManyTemplateInput.md)[]
+> **data**:
+> [`TemplateVersionCreateManyTemplateInput`](TemplateVersionCreateManyTemplateInput.md)
+> \|
+> [`TemplateVersionCreateManyTemplateInput`](TemplateVersionCreateManyTemplateInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25788
+Defined in: node_modules/.prisma/client/index.d.ts:25788
 
-***
+---
 
 ### skipDuplicates?
 
 > `optional` **skipDuplicates**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:25789
+Defined in: node_modules/.prisma/client/index.d.ts:25789

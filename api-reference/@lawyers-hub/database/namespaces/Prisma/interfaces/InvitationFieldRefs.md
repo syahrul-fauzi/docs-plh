@@ -1,12 +1,14 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationFieldRefs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationFieldRefs
 
 # Interface: InvitationFieldRefs
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12389
+Defined in: node_modules/.prisma/client/index.d.ts:12389
 
 Fields of the Invitation model
 
@@ -14,70 +16,79 @@ Fields of the Invitation model
 
 ### createdAt
 
-> `readonly` **createdAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
+> `readonly` **createdAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12397
+Defined in: node_modules/.prisma/client/index.d.ts:12397
 
-***
+---
 
 ### email
 
-> `readonly` **email**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **email**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12391
+Defined in: node_modules/.prisma/client/index.d.ts:12391
 
-***
+---
 
 ### expiresAt
 
-> `readonly` **expiresAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
+> `readonly` **expiresAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12394
+Defined in: node_modules/.prisma/client/index.d.ts:12394
 
-***
+---
 
 ### id
 
-> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **id**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`,
+> `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12390
+Defined in: node_modules/.prisma/client/index.d.ts:12390
 
-***
+---
 
 ### role
 
-> `readonly` **role**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **role**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12392
+Defined in: node_modules/.prisma/client/index.d.ts:12392
 
-***
+---
 
 ### status
 
-> `readonly` **status**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **status**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12396
+Defined in: node_modules/.prisma/client/index.d.ts:12396
 
-***
+---
 
 ### tenantId
 
-> `readonly` **tenantId**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **tenantId**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12395
+Defined in: node_modules/.prisma/client/index.d.ts:12395
 
-***
+---
 
 ### token
 
-> `readonly` **token**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
+> `readonly` **token**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"String"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12393
+Defined in: node_modules/.prisma/client/index.d.ts:12393
 
-***
+---
 
 ### updatedAt
 
-> `readonly` **updatedAt**: [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
+> `readonly` **updatedAt**:
+> [`FieldRef`](../type-aliases/FieldRef.md)\<`"Invitation"`, `"DateTime"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12398
+Defined in: node_modules/.prisma/client/index.d.ts:12398

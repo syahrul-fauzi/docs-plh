@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / NullableStringFieldUpdateOperationsInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+NullableStringFieldUpdateOperationsInput
 
 # Type Alias: NullableStringFieldUpdateOperationsInput
 
 > **NullableStringFieldUpdateOperationsInput** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22157
+Defined in: node_modules/.prisma/client/index.d.ts:22157
 
 ## Properties
 
@@ -16,4 +18,4 @@ Defined in: node\_modules/.prisma/client/index.d.ts:22157
 
 > `optional` **set**: `string` \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:22158
+Defined in: node_modules/.prisma/client/index.d.ts:22158

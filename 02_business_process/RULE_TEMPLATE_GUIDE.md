@@ -40,8 +40,8 @@ sistem.
 
   ```yaml
   condition:
-    field_name: "value"
-    operator: ">="
+    field_name: 'value'
+    operator: '>='
   ```
 
 ### Langkah 5: Skenario Pengujian

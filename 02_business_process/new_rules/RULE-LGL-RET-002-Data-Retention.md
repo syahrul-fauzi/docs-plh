@@ -1,19 +1,19 @@
 # 📋 Data Retention Rule PRD (UU PDP Compliance)
 
-| Field | Value |
-| :--- | :--- |
-| **Rule ID** | LGL-RET-002 |
-| **Domain** | Privacy & Compliance |
-| **Data Sensitivity** | RESTRICTED |
+| Field                | Value                                       |
+| :------------------- | :------------------------------------------ |
+| **Rule ID**          | LGL-RET-002                                 |
+| **Domain**           | Privacy & Compliance                        |
+| **Data Sensitivity** | RESTRICTED                                  |
 | **Retention Period** | 5 Years (Standard) / Permanent (Litigation) |
-| **Status** | Draft |
-| **Last Updated** | 2026-01-06 |
+| **Status**           | Draft                                       |
+| **Last Updated**     | 2026-01-06                                  |
 
 ---
 
 ## 1. Konteks Regulasi
 
-*Aturan ini disusun berdasarkan kepatuhan terhadap:*
+_Aturan ini disusun berdasarkan kepatuhan terhadap:_
 
 - **UU No. 27 Tahun 2022** tentang Pelindungan Data Pribadi (UU PDP).
 - **PP No. 71 Tahun 2019** tentang Penyelenggaraan Sistem dan Transaksi
@@ -27,8 +27,8 @@
   identitas individu diklasifikasikan sebagai **RESTRICTED**.
 - **Masa Retensi**:
   - Data Pribadi Umum: **5 TAHUN** setelah masa keanggotaan/layanan berakhir.
-  - Data Litigasi/Kasus Hukum: **PERMANENT** atau sampai kasus dinyatakan selesai
-    secara hukum plus 10 tahun.
+  - Data Litigasi/Kasus Hukum: **PERMANENT** atau sampai kasus dinyatakan
+    selesai secara hukum plus 10 tahun.
   - Log Akses Keamanan: **2 TAHUN**.
 
 ## 3. Logika Aturan (Logic Engine)
@@ -43,14 +43,14 @@
 ```yaml
 condition:
   data_category:
-    in: ["PII", "LEGAL_DOC", "AUDIT_LOG"]
+    in: ['PII', 'LEGAL_DOC', 'AUDIT_LOG']
   last_activity_date:
-    operator: "<"
-    value: "now() - retention_period"
+    operator: '<'
+    value: 'now() - retention_period'
   litigation_hold:
     value: false
   manual_override:
-    role: "DATA_PROTECTION_OFFICER"
+    role: 'DATA_PROTECTION_OFFICER'
     allow_extension: true
 ```
 
@@ -60,8 +60,8 @@ condition:
   dihapus/diarsipkan."
 - **Warning (WARN)**: "Data akan segera kedaluwarsa dalam 30 hari. Mohon tinjau
   apakah diperlukan perpanjangan masa retensi (Litigation Hold)."
-- **Failure (BLOCK)**: "Penghapusan ditolak: Data berada dalam status 'Litigation
-  Hold' atau masa retensi belum tercapai."
+- **Failure (BLOCK)**: "Penghapusan ditolak: Data berada dalam status
+  'Litigation Hold' atau masa retensi belum tercapai."
 
 ## 4. Skenario Penggunaan
 
@@ -73,20 +73,22 @@ condition:
 
 ### Skenario B: Perlindungan Data Kasus Aktif
 
-- **Input**: Dokumen hukum terkait kasus yang masih berjalan (`litigation_hold: true`).
+- **Input**: Dokumen hukum terkait kasus yang masih berjalan
+  (`litigation_hold: true`).
 - **Expected**: Sistem memberikan status `BLOCK` meskipun dokumen sudah berusia
   lebih dari 5 tahun.
 
 ### Skenario C: Intervensi DPO (Data Protection Officer)
 
-- **Input**: Permintaan penghapusan data oleh user sebelum masa retensi berakhir.
+- **Input**: Permintaan penghapusan data oleh user sebelum masa retensi
+  berakhir.
 - **Expected**: Sistem memberikan status `BLOCK` secara default, namun DPO dapat
   memberikan `manual_override` jika ada dasar hukum yang kuat (misal: penarikan
   persetujuan/consent).
 
 ## 5. Implementasi Teknis
 
-*Implementasi aturan ini dapat ditemukan di:*
+_Implementasi aturan ini dapat ditemukan di:_
 
 - [retention.yaml](file:///home/inbox/smart-ai/lawyers-hub/.trae/rules/domains/retention.yaml)
 - [retention_engine.spec.ts](file:///home/inbox/smart-ai/lawyers-hub/packages/rules-engine/test/retention_engine.spec.ts)

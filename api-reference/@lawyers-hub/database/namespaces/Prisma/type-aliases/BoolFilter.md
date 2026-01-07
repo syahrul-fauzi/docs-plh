@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / BoolFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+BoolFilter
 
 # Type Alias: BoolFilter\<$PrismaModel\>
 
 > **BoolFilter**\<`$PrismaModel`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20709
+Defined in: node_modules/.prisma/client/index.d.ts:20709
 
 ## Type Parameters
 
@@ -20,14 +22,16 @@ Defined in: node\_modules/.prisma/client/index.d.ts:20709
 
 ### equals?
 
-> `optional` **equals**: `boolean` \| [`BooleanFieldRefInput`](BooleanFieldRefInput.md)\<`$PrismaModel`\>
+> `optional` **equals**: `boolean` \|
+> [`BooleanFieldRefInput`](BooleanFieldRefInput.md)\<`$PrismaModel`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20710
+Defined in: node_modules/.prisma/client/index.d.ts:20710
 
-***
+---
 
 ### not?
 
-> `optional` **not**: [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\> \| `boolean`
+> `optional` **not**:
+> [`NestedBoolFilter`](NestedBoolFilter.md)\<`$PrismaModel`\> \| `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:20711
+Defined in: node_modules/.prisma/client/index.d.ts:20711

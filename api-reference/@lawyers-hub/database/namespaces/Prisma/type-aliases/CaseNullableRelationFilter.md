@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / CaseNullableRelationFilter
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+CaseNullableRelationFilter
 
 # Type Alias: CaseNullableRelationFilter
 
 > **CaseNullableRelationFilter** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21119
+Defined in: node_modules/.prisma/client/index.d.ts:21119
 
 ## Properties
 
@@ -16,12 +18,12 @@ Defined in: node\_modules/.prisma/client/index.d.ts:21119
 
 > `optional` **is**: [`CaseWhereInput`](CaseWhereInput.md) \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21120
+Defined in: node_modules/.prisma/client/index.d.ts:21120
 
-***
+---
 
 ### isNot?
 
 > `optional` **isNot**: [`CaseWhereInput`](CaseWhereInput.md) \| `null`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:21121
+Defined in: node_modules/.prisma/client/index.d.ts:21121

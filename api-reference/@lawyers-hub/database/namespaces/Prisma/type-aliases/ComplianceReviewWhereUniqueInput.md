@@ -1,11 +1,44 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / ComplianceReviewWhereUniqueInput
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+ComplianceReviewWhereUniqueInput
 
 # Type Alias: ComplianceReviewWhereUniqueInput
 
-> **ComplianceReviewWhereUniqueInput** = [`AtLeast`](AtLeast.md)\<\{ `AND?`: [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md) \| [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[]; `confidenceScore?`: [`FloatFilter`](FloatFilter.md)\<`"ComplianceReview"`\> \| `number`; `correctedValue?`: [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \| `string` \| `null`; `createdAt?`: [`DateTimeFilter`](DateTimeFilter.md)\<`"ComplianceReview"`\> \| `Date` \| `string`; `entityId?`: [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \| `string` \| `null`; `entityType?`: [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \| `string` \| `null`; `id?`: `string`; `isProcessed?`: [`BoolFilter`](BoolFilter.md)\<`"ComplianceReview"`\> \| `boolean`; `metadata?`: [`JsonNullableFilter`](JsonNullableFilter.md)\<`"ComplianceReview"`\>; `NOT?`: [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md) \| [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[]; `OR?`: [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[]; `originalValue?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`; `piiType?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`; `reviewer?`: [`XOR`](XOR.md)\<[`UserRelationFilter`](UserRelationFilter.md), [`UserWhereInput`](UserWhereInput.md)\>; `reviewerId?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`; `status?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`; `tenant?`: [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md), [`TenantWhereInput`](TenantWhereInput.md)\>; `tenantId?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`; `updatedAt?`: [`DateTimeFilter`](DateTimeFilter.md)\<`"ComplianceReview"`\> \| `Date` \| `string`; \}, `"id"`\>
+> **ComplianceReviewWhereUniqueInput** = [`AtLeast`](AtLeast.md)\<\{ `AND?`:
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md) \|
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[];
+> `confidenceScore?`: [`FloatFilter`](FloatFilter.md)\<`"ComplianceReview"`\> \|
+> `number`; `correctedValue?`:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \|
+> `string` \| `null`; `createdAt?`:
+> [`DateTimeFilter`](DateTimeFilter.md)\<`"ComplianceReview"`\> \| `Date` \|
+> `string`; `entityId?`:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \|
+> `string` \| `null`; `entityType?`:
+> [`StringNullableFilter`](StringNullableFilter.md)\<`"ComplianceReview"`\> \|
+> `string` \| `null`; `id?`: `string`; `isProcessed?`:
+> [`BoolFilter`](BoolFilter.md)\<`"ComplianceReview"`\> \| `boolean`;
+> `metadata?`:
+> [`JsonNullableFilter`](JsonNullableFilter.md)\<`"ComplianceReview"`\>; `NOT?`:
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md) \|
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[]; `OR?`:
+> [`ComplianceReviewWhereInput`](ComplianceReviewWhereInput.md)[];
+> `originalValue?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \|
+> `string`; `piiType?`:
+> [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`;
+> `reviewer?`: [`XOR`](XOR.md)\<[`UserRelationFilter`](UserRelationFilter.md),
+> [`UserWhereInput`](UserWhereInput.md)\>; `reviewerId?`:
+> [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`;
+> `status?`: [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \|
+> `string`; `tenant?`:
+> [`XOR`](XOR.md)\<[`TenantRelationFilter`](TenantRelationFilter.md),
+> [`TenantWhereInput`](TenantWhereInput.md)\>; `tenantId?`:
+> [`StringFilter`](StringFilter.md)\<`"ComplianceReview"`\> \| `string`;
+> `updatedAt?`: [`DateTimeFilter`](DateTimeFilter.md)\<`"ComplianceReview"`\> \|
+> `Date` \| `string`; \}, `"id"`\>
 
-Defined in: node\_modules/.prisma/client/index.d.ts:19243
+Defined in: node_modules/.prisma/client/index.d.ts:19243

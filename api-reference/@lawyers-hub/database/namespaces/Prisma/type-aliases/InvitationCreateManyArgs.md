@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / InvitationCreateManyArgs
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+InvitationCreateManyArgs
 
 # Type Alias: InvitationCreateManyArgs\<ExtArgs\>
 
 > **InvitationCreateManyArgs**\<`ExtArgs`\> = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12599
+Defined in: node_modules/.prisma/client/index.d.ts:12599
 
 Invitation createMany
 
@@ -16,22 +18,23 @@ Invitation createMany
 
 ### ExtArgs
 
-`ExtArgs` *extends* `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
+`ExtArgs` _extends_ `$Extensions.InternalArgs` = `$Extensions.DefaultArgs`
 
 ## Properties
 
 ### data
 
-> **data**: [`InvitationCreateManyInput`](InvitationCreateManyInput.md) \| [`InvitationCreateManyInput`](InvitationCreateManyInput.md)[]
+> **data**: [`InvitationCreateManyInput`](InvitationCreateManyInput.md) \|
+> [`InvitationCreateManyInput`](InvitationCreateManyInput.md)[]
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12603
+Defined in: node_modules/.prisma/client/index.d.ts:12603
 
 The data used to create many Invitations.
 
-***
+---
 
 ### skipDuplicates?
 
 > `optional` **skipDuplicates**: `boolean`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:12604
+Defined in: node_modules/.prisma/client/index.d.ts:12604

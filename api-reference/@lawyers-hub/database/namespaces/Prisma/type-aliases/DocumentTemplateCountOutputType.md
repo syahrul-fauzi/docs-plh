@@ -1,14 +1,16 @@
 [**Lawyers Hub API Reference**](../../../../../README.md)
 
-***
+---
 
-[Lawyers Hub API Reference](../../../../../packages.md) / [@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) / DocumentTemplateCountOutputType
+[Lawyers Hub API Reference](../../../../../packages.md) /
+[@lawyers-hub/database](../../../README.md) / [Prisma](../README.md) /
+DocumentTemplateCountOutputType
 
 # Type Alias: DocumentTemplateCountOutputType
 
 > **DocumentTemplateCountOutputType** = `object`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2348
+Defined in: node_modules/.prisma/client/index.d.ts:2348
 
 Count Type DocumentTemplateCountOutputType
 
@@ -18,4 +20,4 @@ Count Type DocumentTemplateCountOutputType
 
 > **versions**: `number`
 
-Defined in: node\_modules/.prisma/client/index.d.ts:2349
+Defined in: node_modules/.prisma/client/index.d.ts:2349
