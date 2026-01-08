@@ -13,12 +13,12 @@ This document outlines high-impact technical solutions designed for the Lawyers 
 
 ## 1. Advanced Agent Supervisor (Strategic Oversight)
 
-The `AgentSupervisor` serves as the cognitive bridge between probabilistic AI agents and deterministic legal rules.
+The `Agent Supervisor` serves as the cognitive bridge between probabilistic AI agents and deterministic legal rules.
 
 ### Implementation Blueprint
 ```typescript
 /**
- * Proposed enhancement for AgentSupervisor in packages/rules-engine/src/supervisor.ts
+ * Proposed enhancement for Agent Supervisor in packages/rules-engine/src/supervisor.ts
  */
 
 export interface AgentAction {

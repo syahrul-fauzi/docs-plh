@@ -11,7 +11,7 @@ Defined in:
 [supervisor.ts:21](https://github.com/syahrul-fauzi/lawyers-hub/blob/bbe8186c2ef189749847fb3bf25d0d6cbefb2782/packages/rules-engine/src/supervisor.ts#L21)
 
 AgentSupervisor Coordinates between AI Agents and the LegalRulesEngine.
-Implements the "Supervisor Agent" pattern for strategic oversight.
+Implements the "Agent Supervisor" pattern for strategic oversight.
 
 ## Constructors
 

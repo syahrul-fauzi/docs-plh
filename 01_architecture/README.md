@@ -66,7 +66,7 @@ We employ **Logical Isolation** to ensure data privacy between different law fir
 
 ### 3.2. AI Orchestration & RAG Pipeline
 The AI system is designed to be deterministic and explainable.
-- **Explainable AI (XAI)**: Every AI action is traceable and auditable. The `AgentSupervisor` logs the reasoning behind rule-based interventions.
+- **Explainable AI (XAI)**: Every AI action is traceable and auditable. The `Agent Supervisor` logs the reasoning behind rule-based interventions.
 - **PII Masking**: Sensitive data (NIK, names, etc.) is masked using Microsoft Presidio before being sent to external LLMs.
 - **Deterministic Fallback**: AI outputs are validated against the `LegalRulesEngine` to ensure compliance with rigid legal rules.
 - **Contextual Retrieval (RAG)**:

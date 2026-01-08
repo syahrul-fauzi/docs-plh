@@ -30,7 +30,7 @@
 - **Kontribusi**:
   - `LegalRulesEngine`: Entry point terpadu dengan integrasi telemetry.
   - `FeedbackLoop`: Mekanisme perbaikan aturan berkelanjutan (PDCA).
-  - `AgentSupervisor`: Pengawasan strategis (Guardrails) koordinasi AI.
+  - `Agent Supervisor`: Pengawasan strategis (Guardrails) koordinasi AI.
 
 ---
 

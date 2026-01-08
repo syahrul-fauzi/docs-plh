@@ -293,11 +293,42 @@ POST /ai/summarize-document/:docId
 
 // Compliance
 GET /compliance/alerts
-```
-
-Endpoint handlers enforce `tenantId` from context; results are tenant scoped.
-
 ---
+
+# 8. UI/UX System & Next-Generation Features
+
+## Atomic Design Implementation
+Untuk memastikan skalabilitas dan konsistensi, UI dibangun menggunakan prinsip **Atomic Design** yang diintegrasikan dengan struktur **Feature-Sliced Design (FSD)**:
+- **Atoms**: Komponen UI dasar yang tidak dapat dipecah lagi (misalnya: `LegalButton`, `LegalBadge`, `LegalInput`).
+- **Molecules**: Gabungan atom yang membentuk fungsi sederhana (misalnya: `LegalFormField`, `LegalStatCard`, `LegalSectionHeader`).
+- **Organisms**: Komponen kompleks yang membentuk bagian fungsional dari interface (misalnya: `AIAnalyticsDashboard`, `DocumentIntelligenceCard`, `AIClauseLibrary`).
+- **Templates/Pages**: Layout FSD yang menyusun organisme menjadi halaman utuh.
+
+## Semantic Design Tokens (Tailwind CSS)
+Sistem desain menggunakan token semantik yang terpusat untuk memastikan konsistensi branding "Legal-Professional":
+- **Primary**: Indigo-900 (`#1f278c`) - Mewakili otoritas dan kepercayaan hukum.
+- **Accent**: Amber-500 (`#f59e0b`) - "Premium Gold" untuk aksi penting dan highlight AI.
+- **Success/Warning/Destructive**: Skema warna fungsional untuk status kasus dan risiko.
+- **Border Radius**: `2xl` (1rem) dan `3xl` (1.5rem) untuk kesan modern dan premium.
+
+## AI-Powered Legal Intelligence
+Fitur-fitur generasi berikutnya yang difokuskan pada efisiensi advokat:
+1. **AI Analytics Dashboard**: Visualisasi performa kasus, prediksi win-rate, dan analisis beban kerja tim secara real-time.
+2. **Document Intelligence**: Analisis otomatis draf dokumen menggunakan RAG untuk mendeteksi risiko, anomali, dan referensi preseden.
+3. **AI Clause Library**: Perpustakaan klausul cerdas dengan pencarian semantik dan verifikasi otomatis.
+
+## Performance & Accessibility Standards
+- **Lazy Loading**: Penggunaan `next/dynamic` untuk komponen berat (AI Dashboard, Timeline) guna mengoptimalkan LCP (Largest Contentful Paint).
+- **Micro-interactions**: Implementasi `framer-motion` untuk feedback visual yang halus dan intuitif tanpa mengorbankan performa.
+- **WCAG 2.1 Compliance**: Fokus pada kontras warna yang cukup, navigasi keyboard, dan struktur HTML semantik untuk aksesibilitas profesional hukum.
+- **Type Safety**: Penggunaan TypeScript interfaces yang ketat untuk seluruh props komponen guna meminimalkan runtime errors.
+
+## Change Log (UI/UX) - 2026-01-08
+- [x] Implementasi Centralized Design Tokens di `tailwind.config.js`.
+- [x] Migrasi ke struktur folder Atomic Design di `apps/web/src/shared/ui`.
+- [x] Peluncuran `AIAnalyticsDashboard` (Organism) dengan integrasi `LegalStatCard`.
+- [x] Optimasi performa `DashboardOverview` dengan Dynamic Imports.
+- [x] Standarisasi Testing Unit dengan coverage minimal 90% untuk komponen inti.
 
 # 16. Operational & deployment recommendations
 

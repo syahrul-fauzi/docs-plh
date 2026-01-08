@@ -19,7 +19,7 @@ This plan tracks the evolution of Lawyers Hub from an MVP to a World-Class Legal
 - [x] Automated Audit Logging Interceptor.
 
 ## Phase 2: Agentic Intelligence (In Progress)
-- [ ] **Strategic Agent Oversight**: Implement the `AgentSupervisor` with alternative suggestion logic.
+- [ ] **Strategic Agent Oversight**: Implement the `Agent Supervisor` with alternative suggestion logic.
 - [ ] **Advanced RAG**: Hybrid search (Keyword + Semantic) and Hierarchical Chunking.
 - [ ] **Indonesian Legal Context**: Fine-tune NER models for specific Indonesian legal entities (Pasal, Ayat, Keputusan).
 - [ ] **Collaborative Drafting**: Real-time multi-user editing with Yjs and Tiptap.
@@ -40,7 +40,7 @@ This plan tracks the evolution of Lawyers Hub from an MVP to a World-Class Legal
 ## 📅 Upcoming Milestones
 | Milestone | Description | Target Date | Status |
 | :--- | :--- | :--- | :--- |
-| **M1: Supervisor v1** | Functional AgentSupervisor with fallback logic | Jan 20, 2026 | Pending |
+| **M1: Supervisor v1** | Functional Agent Supervisor with fallback logic | Jan 20, 2026 | Pending |
 | **M2: Hybrid RAG** | Implement BM25 + Semantic search | Feb 15, 2026 | Pending |
 | **M3: Real-time Sync** | Multi-user collaboration beta | Mar 10, 2026 | Pending |
 

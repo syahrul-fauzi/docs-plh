@@ -25,7 +25,7 @@
 | 4.0.0   | 2026-01-02 | Super Agent | Architecture | SDLC integration           |
 | 4.1.0   | 2026-01-02 | Super Agent | Stakeholders | Architecture diagrams      |
 | 4.2.0   | 2026-01-02 | Super Agent | Lead Arch    | Analysis methodology       |
-| 4.3.0   | 2026-01-03 | Super Agent | Architecture | Integrated AgentSupervisor |
+| 4.3.0   | 2026-01-03 | Super Agent | Architecture | Integrated Agent Supervisor |
 
 ---
 
