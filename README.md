@@ -9,11 +9,8 @@ Selamat datang di pusat dokumentasi **Lawyers Hub**. Dokumentasi ini dirancang m
 - [**02_onboarding**](02_onboarding/README.md): Panduan Setup Developer dan Workflow.
 - [**06_engineering_execution**](06_engineering_execution/README.md): Standar Koding, Best Practices, Implementation Patterns, dan Troubleshooting.
 - [**07_compliance_and_audit**](07_compliance_and_audit/README.md): Keamanan Data (UU PDP) dan Log Audit.
-- [**api-reference**](api-reference/README.md): Dokumentasi API Teknis (Generated).
-
-## 💡 Engineering Highlights
-- **Strategic Agent Oversight**: Implementasi [Implementation Patterns](06_engineering_execution/implementation_patterns.md) untuk pengawasan AI yang cerdas.
-- **Legal-First Security**: Panduan enkripsi dan PII masking di [Best Practices](06_engineering_execution/best_practices.md).
+- [**Go-Live Readiness**](GOLIVE_CHECKLIST.md): Checklist, Rollback Plan, Disaster Recovery, dan Runbook.
+- [**Environment Config**](ENVIRONMENT_CONFIG.md): Spesifikasi Server dan Konfigurasi Produksi.
 
 ## 🚀 Quick Links
 - [Architecture Overview](01_architecture/README.md)
@@ -21,7 +18,14 @@ Selamat datang di pusat dokumentasi **Lawyers Hub**. Dokumentasi ini dirancang m
 - [Developer Setup](02_onboarding/README.md)
 - [Engineering Best Practices](06_engineering_execution/best_practices.md)
 - [Troubleshooting Guide](06_engineering_execution/troubleshooting.md)
-- [Staging Backend Evaluation Report](#staging-backend-evaluation-report)
+- [Go-Live Checklist](GOLIVE_CHECKLIST.md)
+- [Rollback Plan](ROLLBACK_PLAN.md)
+- [Disaster Recovery](DISASTER_RECOVERY.md)
+- [Operational Runbook](RUNBOOK.md)
+- [Team Preparation](TEAM_PREPARATION.md)
+- [Environment Configuration](ENVIRONMENT_CONFIG.md)
+- [User Manual](USER_MANUAL.md)
+- [UAT Scenarios](UAT_SCENARIOS.md)
 
 ---
 
