@@ -1,10 +1,10 @@
 # Blueprint Pengembangan Mobile App Pengacara
 
-**(lowyers-apps – Expo / React Native)**
+**(lawyers-apps – Expo / React Native)**
 
 ## 1. Ringkasan Eksekutif
 
-Aplikasi **Lowyers Mobile** adalah aplikasi mobile lintas platform (iOS &
+Aplikasi **Lawyers Mobile** adalah aplikasi mobile lintas platform (iOS &
 Android) berbasis **Expo (React Native + TypeScript)** yang dirancang khusus
 untuk:
 

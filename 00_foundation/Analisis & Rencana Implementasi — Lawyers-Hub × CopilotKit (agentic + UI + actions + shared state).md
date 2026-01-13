@@ -1,4 +1,4 @@
-# Analisis & Rencana Implementasi — **Lowyers-Hub** × **CopilotKit (agentic + UI + actions + shared state)**
+# Analisis & Rencana Implementasi — **Lawyers-Hub** × **CopilotKit (agentic + UI + actions + shared state)**
 
 ## Metadata
 

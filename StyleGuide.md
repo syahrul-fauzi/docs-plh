@@ -24,7 +24,9 @@
 ### Border Radius
 - **Base**: `0.75rem` (xl)
 - **Large**: `1rem` (2xl)
-- **Extreme**: `2rem` (for Cards)
+- **Card/Container**: `1.5rem` (3xl) - Mobile
+- **Card/Container (MD+)**: `2.5rem` ([2.5rem]) - Desktop
+- **Modal**: Standardized to match Card/Container rounding.
 
 ## Atomic Components
 

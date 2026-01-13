@@ -187,7 +187,7 @@ Jika AI melanggar aturan:
 - [System Architecture Overview](../01_architecture/system_overview.md)
 - [Core Features Specification](../03_product_features/core_features_spec.md)
 - [User Journey & Interaction Flows](../03_product_features/user_journey_and_flows.md)
-- [Analisis & Rencana Implementasi CopilotKit](<../00_foundation/Analisis%20&%20Rencana%20Implementasi%20%E2%80%94%20Lowyers-Hub%20%C3%97%20CopilotKit%20(agentic%20+%20UI%20+%20actions%20+%20shared%20state).md>)
+- [Analisis & Rencana Implementasi CopilotKit](<../00_foundation/Analisis%20&%20Rencana%20Implementasi%20%E2%80%94%20Lawyers-Hub%20%C3%97%20CopilotKit%20(agentic%20+%20UI%20+%20actions%20+%20shared%20state).md>)
 - Compliance & Audit Docs
 
 ---
