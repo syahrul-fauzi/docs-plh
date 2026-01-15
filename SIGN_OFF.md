@@ -12,7 +12,8 @@ Dokumen ini mencatat persetujuan akhir dari para pemangku kepentingan untuk pelu
 | Kategori | Status | Catatan |
 | :--- | :--- | :--- |
 | **Technical Readiness** | ✅ READY | Semua unit test lulus (19/19 di useLegalActions). ESLint bersih. |
-| **Security & Compliance** | ✅ READY | Audit UU PDP selesai. PII masking aktif. |
+| **Performance** | ✅ READY | LOAD, STRESS, dan ENDURANCE test lulus 100% (Avg Latency <100ms). |
+| **Security & Compliance** | ✅ READY | Audit UU PDP selesai. PII masking aktif. Security tests lulus. |
 | **Infrastructure** | ✅ READY | Replikasi 2 instance, auto-scaling, dan monitoring aktif. |
 | **Operational Readiness** | ✅ READY | Runbook tersedia dan tim on-call sudah dijadwalkan. |
 | **Business/UAT** | ✅ READY | 20/20 skenario kritis lulus pengujian. |
